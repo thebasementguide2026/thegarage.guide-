@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply antialiased;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    background-color: #F5F5F3;
+    color: #1C2833;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-block font-bold py-[10px] px-[22px] rounded-[6px] transition-colors;
+    background-color: #C45B3B;
+    color: white;
+  }
+  .btn-primary:hover {
+    background-color: #A84D32;
+  }
+
+  .btn-secondary {
+    @apply inline-block font-bold py-[10px] px-[22px] rounded-[6px] transition-colors;
+    background-color: #2B3A4A;
+    color: white;
+  }
+  .btn-secondary:hover {
+    background-color: #3D5166;
+  }
+
+  .btn-outline {
+    @apply inline-block font-bold py-[10px] px-[22px] rounded-[6px] transition-colors;
+    background-color: transparent;
+    border: 2px solid #2B3A4A;
+    color: #2B3A4A;
+  }
+  .btn-outline:hover {
+    background-color: #2B3A4A;
+    color: white;
+  }
+
+  .btn-ghost {
+    @apply inline-block font-bold py-[10px] px-[22px] rounded-[6px] transition-colors;
+    background-color: transparent;
+    border: 2px solid #C45B3B;
+    color: #C45B3B;
+  }
+  .btn-ghost:hover {
+    background-color: #C45B3B;
+    color: white;
+  }
+}
