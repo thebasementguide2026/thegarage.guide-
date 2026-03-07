@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import LeadForm from '@/components/LeadForm'
+import QuoteForm from '@/components/QuoteForm'
 
 export const metadata: Metadata = {
   title: 'Water Leaking Into Garage: Causes, Fixes, and Prevention | The Garage Guide',
@@ -297,7 +297,7 @@ export default function WaterLeakingIntoGarage() {
           <div className='bg-slate-50 rounded-xl p-8 mb-12'>
             <h2 className='text-2xl font-black text-slate-900 mb-2'>Get Free Quotes for Garage Water Repair</h2>
             <p className='text-slate-600 mb-6'>Connect with local contractors who specialize in garage drainage, waterproofing, and repair.</p>
-            <LeadForm />
+            <QuoteForm />
           </div>
 
         </div>
