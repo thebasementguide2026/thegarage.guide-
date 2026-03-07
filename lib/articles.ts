@@ -104,6 +104,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/garagedoor.jpg',
   },
+  {
+    title: 'Best Garage Door Openers 2026: Tested Picks for Every Garage',
+    description: 'The best garage door opener for most homeowners is a belt-drive model with WiFi and battery backup in the $200 to $400 range. We tested top picks from Chamberlain, Genie, and LiftMaster.',
+    slug: 'reviews/best-garage-door-openers',
+    category: 'Review',
+    readTime: '22 min read',
+    image: '/garageopeners.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
