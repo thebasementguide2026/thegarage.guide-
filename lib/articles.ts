@@ -78,7 +78,7 @@ export const articles: Article[] = [
     slug: 'problems/water-leaking-into-garage',
     category: 'Problem',
     readTime: '18 min read',
-    image: '/waterleak.jpg',
+        image: '/images/garage leak .jpg',
   },
   {
     title: 'Attached vs Detached Garage: Cost, Pros, Cons, and Resale Value',
