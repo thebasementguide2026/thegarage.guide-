@@ -57,12 +57,12 @@ export const articles: Article[] = [
     image: '/conversion.jpg',
   },
   {
-    title: 'Best Garage Floor Epoxy Kits 2026: Tested and Ranked',
-    description: 'We tested the top DIY garage floor epoxy kits. See which products deliver professional results, which ones peel, and what preparation actually matters.',
+    title: 'Best Garage Floor Epoxy Kits 2026: DIY Picks That Actually Last',
+    description: 'The best DIY garage floor epoxy kit for most homeowners is the Rust-Oleum RockSolid Polycuramine ($200 to $280). We tested and ranked 5 kits by durability, ease of use, and value.',
     slug: 'reviews/best-garage-floor-epoxy',
     category: 'Review',
     readTime: '20 min read',
-    image: '/epoxy.jpg',
+    image: '/images/epoxy kits.jpg',
   },
   {
     title: 'Garage Heater Guide: Best Ways to Heat Your Garage',
