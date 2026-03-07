@@ -46,7 +46,7 @@ export const articles: Article[] = [
     slug: 'problems/garage-door-opener-not-working',
     category: 'Problem',
     readTime: '18 min read',
-    image: '/dooropener.jpg',
+    image: '/images/brokengaragedoor.jpg',
   },
   {
     title: 'Garage Conversion Cost 2026: Turn Your Garage Into Living Space',
