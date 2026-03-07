@@ -94,7 +94,7 @@ export const articles: Article[] = [
     slug: 'reviews/best-garage-lighting',
     category: 'Review',
     readTime: '18 min read',
-    image: '/lighting.jpg',
+    image: '/images/bestgaragelighting.jpg',
   },
   {
     title: 'Garage Door Replacement Cost 2026: Complete Price Guide',
