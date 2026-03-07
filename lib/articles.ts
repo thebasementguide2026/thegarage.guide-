@@ -14,7 +14,7 @@ export const articles: Article[] = [
     slug: 'complete-garage-organization-guide',
     category: 'Guide',
     readTime: '25 min read',
-    image: '/garage1.jpg',
+    image: '/images/beststorage.jpg',
   },
   {
     title: 'Garage Floor Coating Cost 2026: Epoxy, Polyurea, and More',
