@@ -30,7 +30,7 @@ export const articles: Article[] = [
     slug: 'reviews/best-garage-storage-systems',
     category: 'Review',
     readTime: '22 min read',
-    image: '/storagesystems.jpg',
+    image: '/images/beststorage.jpg',
   },
   {
     title: 'How to Insulate Your Garage: Complete DIY Guide',
