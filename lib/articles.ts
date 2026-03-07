@@ -112,6 +112,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/garageopeners.jpg',
   },
+  {
+    title: 'Epoxy Garage Floor Cost 2026: DIY vs Professional',
+    description: 'A professionally installed epoxy garage floor costs $3 to $12 per square foot, or $1,500 to $5,000 for a standard two-car garage. DIY kits cost $100 to $300 but last 2 to 5 years vs 10 to 20 years for professional installation.',
+    slug: 'cost-guides/epoxy-garage-floor-cost',
+    category: 'Cost Guide',
+    readTime: '22 min read',
+    image: '/images/Epoxy Garage Floor Cost.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
