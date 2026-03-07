@@ -18,8 +18,41 @@ export default function QuoteForm() {
     firstName: '', lastName: '', email: '', phone: '', zip: '', projectType: '', description: '',
   })
   const [submitted, setSubmitted] = useState(false)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState('')
 
-  const handleSubmit = (e: React.FormEvent) => { e.preventDefault(); setSubmitted(true) }
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setLoading(true)
+    setError('')
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/thebasementguide@gmail.com', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          _subject: `New Garage Lead: ${formData.projectType} - ${formData.zip}`,
+          'First Name': formData.firstName,
+          'Last Name': formData.lastName,
+          'Email': formData.email,
+          'Phone': formData.phone,
+          'ZIP Code': formData.zip,
+          'Project Type': formData.projectType,
+          'Description': formData.description,
+          _template: 'table',
+        }),
+      })
+      if (res.ok) {
+        setSubmitted(true)
+      } else {
+        setError('Something went wrong. Please try again.')
+      }
+    } catch {
+      setError('Something went wrong. Please try again.')
+    } finally {
+      setLoading(false)
+    }
+  }
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
@@ -71,7 +104,10 @@ export default function QuoteForm() {
         <label className="block text-sm font-medium text-gray-700 mb-1">Brief Description (optional)</label>
         <textarea name="description" rows={3} value={formData.description} onChange={handleChange} className="w-full px-4 py-3 border border-[#D0D2CE] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C45B3B] focus:border-transparent" placeholder="Tell us about your garage project..." />
       </div>
-      <button type="submit" className="btn-primary w-full text-center py-3 text-lg">Get Free Quotes</button>
+      {error && <p className="text-red-600 text-sm">{error}</p>}
+      <button type="submit" disabled={loading} className="btn-primary w-full text-center py-3 text-lg disabled:opacity-50">
+        {loading ? 'Sending...' : 'Get Free Quotes'}
+      </button>
     </form>
   )
 }
