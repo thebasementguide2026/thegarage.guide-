@@ -22,7 +22,7 @@ export const articles: Article[] = [
     slug: 'cost-guides/garage-floor-coating-cost',
     category: 'Cost Guide',
     readTime: '20 min read',
-    image: '/floorcoating.jpg',
+    image: '/images/garagefloorcoating.jpg',
   },
   {
     title: 'Best Garage Storage Systems 2026: Wall, Ceiling, and Cabinet Options',
