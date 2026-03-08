@@ -128,6 +128,14 @@ export const articles: Article[] = [
     readTime: '25 min read',
     image: '/images/detatchedgarage.jpg',
   },
+  {
+    title: 'Garage Conversion Cost 2026: Turn Your Garage Into Living Space',
+    description: 'A garage conversion costs $6,000 to $50,000 depending on scope. Full cost breakdown for ADU, bedroom, home office, gym, and rental unit conversions.',
+    slug: 'cost-guides/garage-conversion-cost',
+    category: 'Cost Guide',
+    readTime: '25 min read',
+    image: '/images/garageconversion.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
