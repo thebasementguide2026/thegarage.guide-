@@ -128,6 +128,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/images/Epoxy Garage Floor Cost.jpg',
   },
+    {
+    title: 'Attached vs Detached Garage: Cost, Pros, Cons, and Resale Value 2026',
+    description: 'An attached garage costs $20,000 to $40,000. A detached garage costs $25,000 to $55,000. Compare fire safety, air quality, noise, convenience, and resale value.',
+    slug: 'comparisons/attached-vs-detached-garage',
+    category: 'Comparison',
+    readTime: '25 min read',
+    image: '/images/detatchedgarage.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
