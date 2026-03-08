@@ -112,6 +112,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/garageopeners.jpg',
     },
+    {
+    title: 'Best Garage Heaters 2026: Top Picks for Every Budget and Garage Size',
+    description: 'The best garage heater for most homeowners is a 240V electric forced-air unit in the $200 to $300 range. We reviewed 7 heaters across electric, propane, natural gas, and mini-split categories.',
+    slug: 'reviews/best-garage-heaters',
+    category: 'Review',
+    readTime: '25 min read',
+    image: '/images/garageheaters.jpg',
+  },
   {
     title: 'Epoxy Garage Floor Cost 2026: DIY vs Professional',
     description: 'A professionally installed epoxy garage floor costs $3 to $12 per square foot, or $1,500 to $5,000 for a standard two-car garage. DIY kits cost $100 to $300 but last 2 to 5 years vs 10 to 20 years for professional installation.',
