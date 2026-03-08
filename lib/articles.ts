@@ -9,12 +9,12 @@ export interface Article {
 
 export const articles: Article[] = [
   {
-    title: 'The Complete Guide to Garage Organization: Systems, Storage, and Setup',
+        title: 'The Complete Garage Organization Guide 2026: Zones, Systems, and Step-by-Step Plans',
     description: 'Transform your garage from a cluttered mess into an organized, functional space. Complete guide to storage systems, shelving, ceiling racks, and layout planning.',
-    slug: 'complete-garage-organization-guide',
+        slug: 'guides/complete-garage-organization-guide',
     category: 'Guide',
     readTime: '25 min read',
-    image: '/images/beststorage.jpg',
+    image: '/images/organized garage.jpg',
   },
   {
     title: 'Garage Floor Coating Cost 2026: Epoxy, Polyurea, and More',
@@ -30,7 +30,7 @@ export const articles: Article[] = [
     slug: 'reviews/best-garage-storage-systems',
     category: 'Review',
     readTime: '22 min read',
-    image: '/images/beststorage.jpg',
+    image: '/images/organized garage.jpg',
   },
   {
     title: 'How to Insulate Your Garage: Complete DIY Guide',
