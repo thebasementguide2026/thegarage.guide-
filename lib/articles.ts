@@ -70,7 +70,7 @@ export const articles: Article[] = [
     slug: 'guides/garage-heater-guide',
     category: 'Guide',
     readTime: '22 min read',
-    image: '/heater.jpg',
+    image: '/images/garageheater.jpg',
   },
   {
     title: 'Water Leaking Into Garage: Causes, Fixes, and Prevention',
