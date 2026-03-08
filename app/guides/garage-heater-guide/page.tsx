@@ -59,7 +59,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Garage Heater Guide 2026: Types, BTU Sizing, Costs, and Installation',
   description: 'Everything you need to know about garage heaters. Compare electric, infrared, propane, and natural gas options.',
-  image: 'https://thegarage.guide/images/garageheaters.jpg',
+  image: 'https://thegarage.guide/images/garageheater.jpg',
   datePublished: '2026-03-08',
   dateModified: '2026-03-08',
   author: { '@type': 'Organization', name: 'The Garage Guide', url: 'https://thegarage.guide' },
@@ -72,7 +72,7 @@ export default function GarageHeaterGuide() {
 
       {/* Hero Section */}
       <div className='relative h-64 md:h-80 w-full mb-8'>
-        <Image src='/images/garageheaters.jpg' alt='Garage heater guide' fill className='object-cover rounded-xl' />
+        <Image src='/images/garageheater.jpg' alt='Ceiling-mounted garage heater guide' fill className='object-cover rounded-xl' />
         <div className='absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-xl' />
         <div className='absolute bottom-4 left-4'>
           <span className='bg-amber-500 text-white text-xs font-bold px-2 py-1 rounded mr-2'>GG</span>
@@ -166,7 +166,7 @@ export default function GarageHeaterGuide() {
           {/* Infrared Radiant */}
           <div className='bg-slate-50 border border-slate-200 rounded-lg p-5 mb-6'>
             <h3 className='text-lg font-bold text-slate-900 mb-3'>Infrared Radiant Heaters</h3>
-            <p className='text-slate-700 text-sm leading-relaxed mb-3'>Infrared heaters warm objects and people directly through radiant energy rather than heating the air. Highly effective in drafty or poorly insulated garages where heated air escapes quickly. No fan means no dust movement.</p>
+            <p className='text-slate-700 text-sm leading-relaxed mb-3'>Infrared heaters warm objects and people directly through radiant energy rather than heating the air. Highly effective in drafty or poorly insulated garages. No fan means no dust movement.</p>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-3 mb-4'>
               <div><p className='text-slate-500 text-xs'>Purchase cost:</p><p className='text-slate-800 text-sm font-semibold'>$150-$800 (electric) / $500-$2,000 (gas)</p></div>
               <div><p className='text-slate-500 text-xs'>Installation:</p><p className='text-slate-800 text-sm font-semibold'>$0-$300 (electric) / $500-$1,500 (gas)</p></div>
@@ -183,7 +183,7 @@ export default function GarageHeaterGuide() {
           {/* Natural Gas */}
           <div className='bg-slate-50 border border-slate-200 rounded-lg p-5 mb-6'>
             <h3 className='text-lg font-bold text-slate-900 mb-3'>Natural Gas Forced-Air Heaters</h3>
-            <p className='text-slate-700 text-sm leading-relaxed mb-3'>Ceiling-mounted natural gas heaters are the workhorse of serious garage heating. The most cost-effective option for regular use in medium to large garages where a gas line is available. The Modine Hot Dawg is the industry standard at 45,000 BTU with a 15-25 year lifespan.</p>
+            <p className='text-slate-700 text-sm leading-relaxed mb-3'>Ceiling-mounted natural gas heaters are the workhorse of serious garage heating. The most cost-effective option for regular use in medium to large garages where a gas line is available.</p>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-3 mb-4'>
               <div><p className='text-slate-500 text-xs'>Purchase cost:</p><p className='text-slate-800 text-sm font-semibold'>$400-$2,000</p></div>
               <div><p className='text-slate-500 text-xs'>Installation:</p><p className='text-slate-800 text-sm font-semibold'>$500-$2,000 (existing gas) / $1,500-$4,000 (new line)</p></div>
@@ -200,7 +200,7 @@ export default function GarageHeaterGuide() {
           {/* Portable Propane */}
           <div className='bg-slate-50 border border-slate-200 rounded-lg p-5 mb-6'>
             <h3 className='text-lg font-bold text-slate-900 mb-3'>Portable Propane Heaters</h3>
-            <p className='text-slate-700 text-sm leading-relaxed mb-3'>Portable propane heaters require zero installation and work anywhere. Best for occasional weekend use, detached garages without electrical service, and power outages. The Mr. Heater Big Buddy (18,000 BTU) is the most popular option. All indoor-rated models include an oxygen depletion sensor that auto-shuts off if O2 levels drop.</p>
+            <p className='text-slate-700 text-sm leading-relaxed mb-3'>Portable propane heaters require zero installation and work anywhere. Best for occasional weekend use, detached garages without electrical service, and power outages.</p>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-3 mb-4'>
               <div><p className='text-slate-500 text-xs'>Purchase cost:</p><p className='text-slate-800 text-sm font-semibold'>$80-$300</p></div>
               <div><p className='text-slate-500 text-xs'>Installation:</p><p className='text-slate-800 text-sm font-semibold'>None required</p></div>
@@ -217,7 +217,7 @@ export default function GarageHeaterGuide() {
           {/* Mini-Split */}
           <div className='bg-slate-50 border border-slate-200 rounded-lg p-5 mb-6'>
             <h3 className='text-lg font-bold text-slate-900 mb-3'>Mini-Split Heat Pumps</h3>
-            <p className='text-slate-700 text-sm leading-relaxed mb-3'>Mini-split heat pumps are the most efficient electric heating option. They move heat from outside air into the garage rather than generating it, producing 2-3 BTUs of heat per BTU of electricity consumed. They also provide air conditioning in summer. The MrCool DIY line is designed for homeowner installation without an HVAC license.</p>
+            <p className='text-slate-700 text-sm leading-relaxed mb-3'>Mini-split heat pumps are the most efficient electric heating option. They move heat from outside air into the garage, producing 2-3 BTUs of heat per BTU of electricity consumed. They also provide air conditioning in summer.</p>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-3 mb-4'>
               <div><p className='text-slate-500 text-xs'>Purchase cost:</p><p className='text-slate-800 text-sm font-semibold'>$700-$2,500</p></div>
               <div><p className='text-slate-500 text-xs'>Installation:</p><p className='text-slate-800 text-sm font-semibold'>$0 (DIY) / $1,000-$3,000 (professional)</p></div>
@@ -232,124 +232,127 @@ export default function GarageHeaterGuide() {
           </div>
         </section>
 
-        {/* Operating Costs */}
-        <section className='mb-8'>
-          <h2 className='text-xl font-bold text-slate-900 mb-4'>Operating Cost Comparison</h2>
-          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Costs below assume 4 hours of use per day, 5 days per week, for 20 weeks (a typical heating season). Local energy prices significantly affect these numbers.</p>
-          <div className='overflow-x-auto mb-4'>
-            <table className='w-full text-sm border-collapse'>
-              <thead>
-                <tr className='bg-slate-100'>
-                  <th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Heater Type</th>
-                  <th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Cost Per Hour</th>
-                  <th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Season Total</th>
-                  <th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Notes</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className='border-b border-slate-200'>
-                  <td className='p-3 text-slate-700'>Natural gas (45,000 BTU)</td>
-                  <td className='p-3 text-slate-700'>~$0.49</td>
-                  <td className='p-3 text-slate-700'>~$196</td>
-                  <td className='p-3 text-slate-700'>Lowest cost, requires gas line</td>
-                </tr>
-                <tr className='border-b border-slate-200 bg-slate-50'>
-                  <td className='p-3 text-slate-700'>Mini-split heat pump</td>
-                  <td className='p-3 text-slate-700'>~$0.27</td>
-                  <td className='p-3 text-slate-700'>~$107</td>
-                  <td className='p-3 text-slate-700'>Most efficient electric, also cools</td>
-                </tr>
-                <tr className='border-b border-slate-200'>
-                  <td className='p-3 text-slate-700'>Propane portable (18,000 BTU)</td>
-                  <td className='p-3 text-slate-700'>~$0.69</td>
-                  <td className='p-3 text-slate-700'>~$276</td>
-                  <td className='p-3 text-slate-700'>No installation, needs ventilation</td>
-                </tr>
-                <tr className='border-b border-slate-200 bg-slate-50'>
-                  <td className='p-3 text-slate-700'>Electric 240V (5,000W)</td>
-                  <td className='p-3 text-slate-700'>~$0.80</td>
-                  <td className='p-3 text-slate-700'>~$320</td>
-                  <td className='p-3 text-slate-700'>At $0.16/kWh national average</td>
-                </tr>
-                <tr className='border-b border-slate-200'>
-                  <td className='p-3 text-slate-700'>Electric 120V (1,500W)</td>
-                  <td className='p-3 text-slate-700'>~$0.24</td>
-                  <td className='p-3 text-slate-700'>~$96</td>
-                  <td className='p-3 text-slate-700'>Low output, spot heating only</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
+                  {/* Operating Costs */}
+          <section className='mb-8'>
+            <h2 className='text-xl font-bold text-slate-900 mb-4'>Operating Cost Comparison</h2>
+            <p className='text-slate-700 text-sm leading-relaxed mb-4'>Costs below assume 4 hours of use per day, 5 days per week, for 20 weeks (a typical heating season). Local energy prices significantly affect these numbers.</p>
+            <div className='overflow-x-auto mb-4'>
+              <table className='w-full text-sm border-collapse'>
+                <thead>
+                  <tr className='border-b border-slate-300 bg-slate-100'>
+                    <th className='p-3 text-left text-slate-800 font-semibold'>Heater Type</th>
+                    <th className='p-3 text-left text-slate-800 font-semibold'>Cost Per Hour</th>
+                    <th className='p-3 text-left text-slate-800 font-semibold'>Season Total</th>
+                    <th className='p-3 text-left text-slate-800 font-semibold'>Notes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className='border-b border-slate-200 bg-slate-50'>
+                    <td className='p-3 text-slate-700'>Natural gas (45,000 BTU)</td>
+                    <td className='p-3 text-slate-700'>~$0.49</td>
+                    <td className='p-3 text-slate-700'>~$196</td>
+                    <td className='p-3 text-slate-700'>Lowest cost, requires gas line</td>
+                  </tr>
+                  <tr className='border-b border-slate-200'>
+                    <td className='p-3 text-slate-700'>Mini-split heat pump</td>
+                    <td className='p-3 text-slate-700'>~$0.27</td>
+                    <td className='p-3 text-slate-700'>~$107</td>
+                    <td className='p-3 text-slate-700'>Most efficient electric, also cools</td>
+                  </tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'>
+                    <td className='p-3 text-slate-700'>Propane portable (18,000 BTU)</td>
+                    <td className='p-3 text-slate-700'>~$0.69</td>
+                    <td className='p-3 text-slate-700'>~$276</td>
+                    <td className='p-3 text-slate-700'>No installation, needs ventilation</td>
+                  </tr>
+                  <tr className='border-b border-slate-200'>
+                    <td className='p-3 text-slate-700'>Electric 240V (5,000W)</td>
+                    <td className='p-3 text-slate-700'>~$0.80</td>
+                    <td className='p-3 text-slate-700'>~$320</td>
+                    <td className='p-3 text-slate-700'>At $0.16/kWh national average</td>
+                  </tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'>
+                    <td className='p-3 text-slate-700'>Electric 120V (1,500W)</td>
+                    <td className='p-3 text-slate-700'>~$0.24</td>
+                    <td className='p-3 text-slate-700'>~$96</td>
+                    <td className='p-3 text-slate-700'>Low output, spot heating only</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
 
-        {/* Safety */}
-        <section className='mb-8'>
-          <h2 className='text-xl font-bold text-slate-900 mb-4'>Garage Heater Safety</h2>
-          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Garage heaters involve high voltages, combustion, or both. These rules protect your family and property.</p>
-          <div className='space-y-4'>
-            <div className='border border-slate-200 rounded-lg p-4'>
+          {/* Safety */}
+          <section className='mb-8'>
+            <h2 className='text-xl font-bold text-slate-900 mb-4'>Garage Heater Safety</h2>
+            <p className='text-slate-700 text-sm leading-relaxed mb-4'>Garage heaters involve high voltages, combustion, or both. These rules protect your family and property.</p>
+
+            <div className='border border-slate-200 rounded-lg p-4 mb-4'>
               <h3 className='font-semibold text-slate-800 text-sm mb-2'>Carbon Monoxide Detection</h3>
               <p className='text-slate-700 text-sm leading-relaxed'>Any combustion heater (propane, natural gas) produces carbon monoxide. Install a battery-operated CO detector and test it monthly. Never run a combustion heater in a fully sealed garage.</p>
             </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
+
+            <div className='border border-slate-200 rounded-lg p-4 mb-4'>
               <h3 className='font-semibold text-slate-800 text-sm mb-2'>Electrical Safety</h3>
               <p className='text-slate-700 text-sm leading-relaxed'>240V heaters must be on dedicated circuits with properly rated wire gauge. A 5,000W heater draws 20.8 amps at 240V and needs a 30-amp breaker with 10-gauge wire minimum. Never use extension cords with high-wattage heaters. All hardwired installations should be performed by a licensed electrician.</p>
             </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
+
+            <div className='border border-slate-200 rounded-lg p-4 mb-4'>
               <h3 className='font-semibold text-slate-800 text-sm mb-2'>Clearance Requirements</h3>
               <p className='text-slate-700 text-sm leading-relaxed'>Maintain minimum clearances from combustible materials as specified by the manufacturer: typically 18-36 inches for gas units, 12-24 inches for electric. Never store gasoline, paint, solvents, or other flammables near any heater.</p>
             </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
+
+            <div className='border border-slate-200 rounded-lg p-4 mb-4'>
               <h3 className='font-semibold text-slate-800 text-sm mb-2'>Permits</h3>
               <p className='text-slate-700 text-sm leading-relaxed'>Most jurisdictions require a permit for hardwired 240V heaters, natural gas heaters, and propane heaters. Portable plug-in heaters typically do not require a permit. Check with your local building department before installation.</p>
             </div>
-          </div>
-        </section>
+          </section>
 
-        {/* FAQ */}
-        <section className='mb-8'>
-          <h2 className='text-xl font-bold text-slate-900 mb-4'>Frequently Asked Questions</h2>
-          <div className='space-y-4'>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-semibold text-slate-800 text-sm mb-2'>How many BTUs do I need to heat a two-car garage?</h3>
-              <p className='text-slate-700 text-sm leading-relaxed'>A well-insulated two-car garage (400-500 sq ft) needs approximately 10,000-20,000 BTU. A poorly insulated or uninsulated two-car garage in a cold climate may need 40,000-60,000 BTU.</p>
+          {/* FAQ */}
+          <section className='mb-8'>
+            <h2 className='text-xl font-bold text-slate-900 mb-4'>Frequently Asked Questions</h2>
+            <div className='space-y-4'>
+              <div className='border border-slate-200 rounded-lg p-4'>
+                <h3 className='font-semibold text-slate-800 text-sm mb-2'>How many BTUs do I need to heat a two-car garage?</h3>
+                <p className='text-slate-700 text-sm leading-relaxed'>A well-insulated two-car garage (400-500 sq ft) needs approximately 10,000-20,000 BTU. A poorly insulated or uninsulated two-car garage in a cold climate may need 40,000-60,000 BTU.</p>
+              </div>
+              <div className='border border-slate-200 rounded-lg p-4'>
+                <h3 className='font-semibold text-slate-800 text-sm mb-2'>Is it cheaper to heat a garage with gas or electric?</h3>
+                <p className='text-slate-700 text-sm leading-relaxed'>Natural gas costs roughly $0.20-$0.50 per hour for 45,000 BTU. Electric runs $0.50-$1.30 per hour for the same output. Mini-split heat pumps are the exception and are cost-competitive with gas in moderate climates.</p>
+              </div>
+              <div className='border border-slate-200 rounded-lg p-4'>
+                <h3 className='font-semibold text-slate-800 text-sm mb-2'>Are propane heaters safe in a garage?</h3>
+                <p className='text-slate-700 text-sm leading-relaxed'>Portable propane heaters rated for indoor use (with ODS sensors) are safe in garages with adequate ventilation. Never run any propane heater in a completely sealed garage. Keep a window cracked or door open 2-4 inches and install a carbon monoxide detector.</p>
+              </div>
+              <div className='border border-slate-200 rounded-lg p-4'>
+                <h3 className='font-semibold text-slate-800 text-sm mb-2'>Do I need a permit to install a garage heater?</h3>
+                <p className='text-slate-700 text-sm leading-relaxed'>Most jurisdictions require a permit for hardwired 240V electric heaters, natural gas heaters, and propane heaters. Portable plug-in heaters typically do not. Check with your local building department before installation.</p>
+              </div>
+              <div className='border border-slate-200 rounded-lg p-4'>
+                <h3 className='font-semibold text-slate-800 text-sm mb-2'>What is the most efficient way to heat a garage?</h3>
+                <p className='text-slate-700 text-sm leading-relaxed'>A mini-split heat pump is the most efficient electric option, producing 3+ BTUs per BTU of electricity. Natural gas is the most cost-effective combustion option. Insulating the garage first is the highest-leverage action before buying any heater.</p>
+              </div>
             </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-semibold text-slate-800 text-sm mb-2'>Is it cheaper to heat a garage with gas or electric?</h3>
-              <p className='text-slate-700 text-sm leading-relaxed'>Natural gas costs roughly $0.20-$0.50 per hour for 45,000 BTU. Electric runs $0.50-$1.30 per hour for the same output. Mini-split heat pumps are the exception and are cost-competitive with gas in moderate climates.</p>
-            </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-semibold text-slate-800 text-sm mb-2'>Are propane heaters safe in a garage?</h3>
-              <p className='text-slate-700 text-sm leading-relaxed'>Portable propane heaters rated for indoor use (with ODS sensors) are safe in garages with adequate ventilation. Never run any propane heater in a completely sealed garage. Keep a window cracked or door open 2-4 inches and install a carbon monoxide detector.</p>
-            </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-semibold text-slate-800 text-sm mb-2'>Do I need a permit to install a garage heater?</h3>
-              <p className='text-slate-700 text-sm leading-relaxed'>Most jurisdictions require a permit for hardwired 240V electric heaters, natural gas heaters, and propane heaters. Portable plug-in heaters typically do not. Check with your local building department before installation.</p>
-            </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-semibold text-slate-800 text-sm mb-2'>What is the most efficient way to heat a garage?</h3>
-              <p className='text-slate-700 text-sm leading-relaxed'>A mini-split heat pump is the most efficient electric option, producing 3+ BTUs per BTU of electricity. Natural gas is the most cost-effective combustion option. Insulating the garage first is the highest-leverage action before buying any heater.</p>
-            </div>
-          </div>
-        </section>
+          </section>
 
-        {/* Related */}
-        <section className='mb-8'>
-          <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Articles</h2>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-            <Link href='/reviews/best-garage-heaters' className='border border-slate-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
-              <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Review</span>
-              <p className='font-semibold text-slate-800 text-sm'>Best Garage Heaters 2026</p>
-              <p className='text-slate-500 text-xs mt-1'>Top picks for every budget and garage size.</p>
-            </Link>
-            <Link href='/problems/garage-door-opener-not-working' className='border border-slate-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
-              <span className='inline-block bg-slate-100 text-slate-600 text-xs font-semibold px-2 py-1 rounded mb-2'>Troubleshooting</span>
-              <p className='font-semibold text-slate-800 text-sm'>Garage Door Opener Not Working?</p>
-              <p className='text-slate-500 text-xs mt-1'>Complete troubleshooting guide for common issues.</p>
-            </Link>
-          </div>
-        </section>
+          {/* Related */}
+          <section className='mb-8'>
+            <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Articles</h2>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+              <Link href='/reviews/best-garage-heaters' className='border border-slate-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
+                <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Review</span>
+                <p className='font-semibold text-slate-800 text-sm'>Best Garage Heaters 2026</p>
+                <p className='text-slate-500 text-xs mt-1'>Top picks for every budget and garage size.</p>
+              </Link>
+              <Link href='/problems/garage-door-opener-not-working' className='border border-slate-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
+                <span className='inline-block bg-slate-100 text-slate-600 text-xs font-semibold px-2 py-1 rounded mb-2'>Troubleshooting</span>
+                <p className='font-semibold text-slate-800 text-sm'>Garage Door Opener Not Working?</p>
+                <p className='text-slate-500 text-xs mt-1'>Complete troubleshooting guide for common issues.</p>
+              </Link>
+            </div>
+          </section>
 
+        </div>
       </div>
 
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
