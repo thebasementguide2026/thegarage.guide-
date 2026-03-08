@@ -21,8 +21,8 @@ const getArticleHref = (slug: string) =>
   `/articles/${slug}`
 
 export default function HomePage() {
-  const featured = articles.find((a) => a.slug === 'complete-garage-organization-guide')
-  const sidebarArticles = articles.filter((a) => a.slug !== 'complete-garage-organization-guide')
+  const featured = articles.find((a) => a.slug === 'guides/complete-garage-organization-guide')
+  const sidebarArticles = articles.filter((a) => a.slug !== 'guides/complete-garage-organization-guide')
 
   return (
     <>
