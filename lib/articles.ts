@@ -81,14 +81,6 @@ export const articles: Article[] = [
         image: '/images/garage leak .jpg',
   },
   {
-    title: 'Attached vs Detached Garage: Cost, Pros, Cons, and Resale Value',
-    description: 'An attached garage costs $20,000 to $40,000 to build. A detached garage costs $25,000 to $55,000. Complete comparison of costs, convenience, safety, and home value.',
-    slug: 'comparisons/attached-vs-detached-garage',
-    category: 'Comparison',
-    readTime: '20 min read',
-    image: '/attachedvsdetached.jpg',
-  },
-  {
     title: 'Best Garage Lighting 2026: LED Options for Every Budget',
     description: 'The best garage lighting delivers 50+ lumens per square foot. We tested LED shop lights, wraparound fixtures, and panel lights to find the best options.',
     slug: 'reviews/best-garage-lighting',
