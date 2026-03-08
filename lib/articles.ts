@@ -49,14 +49,6 @@ export const articles: Article[] = [
     image: '/images/brokengaragedoor.jpg',
   },
   {
-    title: 'Garage Conversion Cost 2026: Turn Your Garage Into Living Space',
-    description: 'A garage conversion costs $10,000 to $50,000 depending on scope. Complete cost breakdown for converting to a bedroom, office, gym, or ADU.',
-    slug: 'cost-guides/garage-conversion-cost',
-    category: 'Cost Guide',
-    readTime: '22 min read',
-    image: '/conversion.jpg',
-  },
-  {
     title: 'Best Garage Floor Epoxy Kits 2026: DIY Picks That Actually Last',
     description: 'The best DIY garage floor epoxy kit for most homeowners is the Rust-Oleum RockSolid Polycuramine ($200 to $280). We tested and ranked 5 kits by durability, ease of use, and value.',
     slug: 'reviews/best-garage-floor-epoxy',
