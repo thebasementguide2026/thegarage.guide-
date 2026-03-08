@@ -352,9 +352,7 @@ export default function GarageHeaterGuide() {
             </div>
           </section>
 
-        </div>
       </div>
-
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
     </>
