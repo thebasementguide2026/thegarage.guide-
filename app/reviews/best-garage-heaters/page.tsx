@@ -477,5 +477,11 @@ export default function BestGarageHeaters() {
 
       </div>
     </div>
+
+          {/* Schema Scripts */}
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(comparisonTableSchema) }} />
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+    </>
   )
 }
