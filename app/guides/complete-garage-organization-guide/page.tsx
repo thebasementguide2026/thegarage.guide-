@@ -82,7 +82,7 @@ export default function CompleteGarageOrganizationGuide() {
         <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent' />
         <div className='container-custom relative z-10 pb-10'>
           <div className='flex items-center gap-3 mb-4'>
-            <Image src='/gg.svg' alt='GG' width={32} height={32} />
+            <div className='w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center'><span className='text-white text-xs font-bold'>GG</span></div>
             <span className='text-white/80 text-sm font-medium'>The Garage Guide</span>
           </div>
           <p className='text-white/70 text-sm mb-3'>Updated Mar 2026 &middot; 30 min read</p>
@@ -125,6 +125,7 @@ export default function CompleteGarageOrganizationGuide() {
           <p className='text-slate-700 mb-4'>
             Before you declutter a single item, measure your space. You need five numbers: width (wall to wall), depth (door to back wall), ceiling height (floor to lowest obstruction), door track clearance (floor to bottom of garage door track), and vehicle footprint.
           </p>
+
           <h3 className='text-xl font-bold text-slate-800 mb-3'>Standard Garage Dimensions</h3>
           <div className='overflow-x-auto mb-6'>
             <table className='w-full border-collapse text-sm'>
@@ -143,9 +144,11 @@ export default function CompleteGarageOrganizationGuide() {
               </tbody>
             </table>
           </div>
+
           <p className='text-slate-600 text-sm italic mb-4'>
             According to the <a href='https://www.nahb.org/' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>National Association of Home Builders</a>, 65% of new homes built in the U.S. include a two-car garage, making the 20 to 24 foot wide by 20 to 24 foot deep footprint the most common layout.
           </p>
+
           <div className='bg-blue-50 border-l-4 border-blue-500 p-4 mb-8'>
             <p className='text-slate-700'><strong>The depth calculation most people miss:</strong> Your parked vehicle needs roughly 2 to 3 feet of clearance on each side for opening doors. But the real opportunity is the space between the front of your parked car and the back wall. In a 22-foot-deep garage with a 16-foot-long vehicle, you have approximately 6 feet of usable depth behind the car. This rear zone is the most valuable storage real estate in the entire garage.</p>
           </div>
@@ -155,6 +158,7 @@ export default function CompleteGarageOrganizationGuide() {
           <p className='text-slate-700 mb-4'>
             Organizing clutter is just rearranging a problem. The declutter phase is the single highest-ROI step in the entire project because it is free, it reduces the amount of storage you need to buy, and it prevents you from investing in systems sized for things you should not keep.
           </p>
+
           <h3 className='text-xl font-bold text-slate-800 mb-3'>The Four-Sort Method</h3>
           <p className='text-slate-700 mb-4'>Pull everything out of the garage onto the driveway. Sort every item into one of four categories:</p>
           <ol className='list-decimal list-inside space-y-3 mb-6 text-slate-700'>
@@ -163,9 +167,11 @@ export default function CompleteGarageOrganizationGuide() {
             <li><strong>Sell or donate.</strong> Functional items you have not used in over a year. If you have not touched it in 12 months, the probability that you will use it in the next 12 months is near zero.</li>
             <li><strong>Trash or recycle.</strong> Broken items, expired chemicals, dried-out paint cans, mystery boxes. Be ruthless. Every item you keep costs you storage space and mental overhead.</li>
           </ol>
+
           <div className='bg-amber-50 border-l-4 border-amber-500 p-4 mb-6'>
             <p className='text-slate-700'><strong>The 20% rule:</strong> Most homeowners discover they can eliminate 20% to 40% of their garage contents during a thorough declutter. If your garage is packed, the first declutter alone may free enough space to park a car without buying a single storage product.</p>
           </div>
+
           <h3 className='text-xl font-bold text-slate-800 mb-3'>Disposal Tips for Common Problem Items</h3>
           <div className='overflow-x-auto mb-8'>
             <table className='w-full border-collapse text-sm'>
@@ -193,6 +199,7 @@ export default function CompleteGarageOrganizationGuide() {
           <p className='text-slate-700 mb-4'>
             Zones are the backbone of a garage that stays organized. Instead of treating the garage as one giant room, divide it into distinct areas based on function and access frequency. Items you use daily go in the most accessible spots. Items you use twice a year go in the hardest-to-reach areas.
           </p>
+
           <h3 className='text-xl font-bold text-slate-800 mb-3'>The Five-Zone System</h3>
           <div className='overflow-x-auto mb-6'>
             <table className='w-full border-collapse text-sm'>
@@ -229,6 +236,7 @@ export default function CompleteGarageOrganizationGuide() {
               <p className='text-slate-700 text-sm'>You have room for a dedicated workshop bay. Consider designating one full bay (the one farthest from the house door) as a combined workshop and active storage zone. The remaining two bays handle vehicles. The extra wall space allows for cabinet systems that create a finished, showroom-quality look.</p>
             </div>
           </div>
+
           <div className='bg-blue-50 border-l-4 border-blue-500 p-4 mb-8'>
             <p className='text-slate-700'><strong>The 18-Inch Rule:</strong> Keep the first 18 inches of floor space along every wall completely clear. This buffer zone prevents items from creeping into the driving and walking path, makes sweeping and cleaning possible, and ensures you can always access wall-mounted storage.</p>
           </div>
@@ -238,12 +246,13 @@ export default function CompleteGarageOrganizationGuide() {
           <p className='text-slate-700 mb-6'>Each zone has different requirements. Buying the wrong system for a zone is the second most common reason garage organization fails (after skipping the declutter).</p>
 
           <h3 className='text-xl font-bold text-slate-800 mb-3'>Transition Zone Storage</h3>
-          <p className='text-slate-700 mb-4'>The transition zone works like a mudroom. If your garage door is your family{"'"} primary entrance, this zone handles the daily chaos of shoes, jackets, backpacks, and keys.</p>
+          <p className='text-slate-700 mb-4'>The transition zone works like a mudroom. If your garage door is your family&apos;s primary entrance, this zone handles the daily chaos of shoes, jackets, backpacks, and keys.</p>
           <ul className='space-y-3 mb-6 text-slate-700'>
             <li>&bull; <strong>Wall-mounted locker systems or open cubbies ($100 to $400 per section)</strong> give each family member a dedicated slot</li>
             <li>&bull; <strong>A small bench with shoe storage underneath ($50 to $200)</strong> keeps footwear off the floor</li>
-            <li>&bull; <strong>Key hooks and a mail slot ($10 to $30)</strong> prevent the "where are my keys" problem</li>
+            <li>&bull; <strong>Key hooks and a mail slot ($10 to $30)</strong> prevent the &ldquo;where are my keys&rdquo; problem</li>
           </ul>
+
           <div className='bg-green-50 border-l-4 border-green-500 p-4 mb-6'>
             <p className='text-slate-700'><strong>Budget option:</strong> A simple coat rack with a shoe tray beneath it costs under $50 and handles 90% of the transition zone function.</p>
           </div>
@@ -294,12 +303,14 @@ export default function CompleteGarageOrganizationGuide() {
             <li>&bull; Maintain minimum 2-inch clearance between stored items and your tallest vehicle</li>
           </ul>
           <p className='text-slate-700 mb-4'>Our full ceiling rack recommendations are covered in the <Link href='/reviews/best-garage-storage-systems' className='text-blue-600 hover:underline'>garage storage systems review</Link>.</p>
+
           <div className='bg-blue-50 border-l-4 border-blue-500 p-4 mb-8'>
             <p className='text-slate-700'><strong>Pro tip for overhead storage:</strong> Use clear-sided or labeled bins exclusively. Label every bin on two sides (front and bottom) so you can read the contents whether standing next to the rack or looking up from below.</p>
           </div>
 
           <h3 className='text-xl font-bold text-slate-800 mb-3'>Hazardous Materials Zone</h3>
           <p className='text-slate-700 mb-4'>Every garage contains at least a few hazardous materials &mdash; gasoline, paint and stain, automotive fluids, fertilizers, pesticides, and cleaning solvents. Proper storage is not optional. Garage fires caused by improper chemical storage are a leading cause of residential fire damage.</p>
+
           <h4 className='font-bold text-slate-800 mb-3'>Safety Rules for Flammable Storage</h4>
           <ul className='space-y-2 mb-6 text-slate-700'>
             <li>&bull; Store gasoline in approved safety containers only (maximum 5 gallons per container per OSHA standards)</li>
@@ -309,6 +320,7 @@ export default function CompleteGarageOrganizationGuide() {
             <li>&bull; Maintain at least one rated fire extinguisher (minimum 2A:10B:C) near the garage exit door</li>
             <li>&bull; Keep a clear path to the exit at all times</li>
           </ul>
+
           <h4 className='font-bold text-slate-800 mb-3'>Chemical Storage Separation Rules</h4>
           <div className='overflow-x-auto mb-8'>
             <table className='w-full border-collapse text-sm'>
@@ -332,6 +344,7 @@ export default function CompleteGarageOrganizationGuide() {
           {/* Step 5: Workshop */}
           <h2 className='text-2xl md:text-3xl font-black text-slate-900 mb-4'>Step 5: Build a Workshop Zone</h2>
           <p className='text-slate-700 mb-4'>If you do any DIY work, car maintenance, or hobby projects, a dedicated workshop zone transforms your garage from a storage room into a functional workspace. The back wall of a two-car garage is the ideal location.</p>
+
           <h3 className='text-xl font-bold text-slate-800 mb-3'>Workbench Sizing</h3>
           <div className='overflow-x-auto mb-6'>
             <table className='w-full border-collapse text-sm'>
@@ -351,6 +364,7 @@ export default function CompleteGarageOrganizationGuide() {
             </table>
           </div>
           <p className='text-slate-700 mb-4'><strong>Recommended workbench dimensions:</strong> Width 60 to 72 inches (5 to 6 feet). Depth 24 to 30 inches. Material: 3/4-inch plywood top over a 2x4 frame is the most cost-effective option. A replaceable top is a feature, not a flaw.</p>
+
           <h3 className='text-xl font-bold text-slate-800 mb-3'>Workshop Electrical Needs</h3>
           <ul className='space-y-2 mb-4 text-slate-700'>
             <li>&bull; At least one dedicated 20-amp circuit for the workbench area</li>
@@ -360,11 +374,10 @@ export default function CompleteGarageOrganizationGuide() {
           </ul>
           <p className='text-slate-700 mb-4'>For complete guidance on electrical upgrades and lighting, see our <Link href='/reviews/best-garage-lighting' className='text-blue-600 hover:underline'>garage lighting guide</Link>.</p>
           <p className='text-slate-700 mb-8'>Workshop task lighting needs 75 to 100 lumens per square foot at the work surface. Mount a dedicated 4-foot LED shop light directly above the workbench, 36 to 42 inches above the work surface.</p>
-
           {/* Step 6: Floor */}
           <h2 className='text-2xl md:text-3xl font-black text-slate-900 mb-4'>Step 6: Address the Floor</h2>
           <p className='text-slate-700 mb-4'>Your garage floor affects everything above it. A cracked, dusty, oil-stained concrete floor makes organization harder. You do not need to coat your floor to organize your garage, but doing so before installing storage systems is dramatically easier and cheaper than doing it after.</p>
-          <div className='overflow-x-auto mb-8'>
+          <div className='overflow-x-auto mb-6'>
             <table className='w-full border-collapse text-sm'>
               <thead>
                 <tr className='bg-slate-100'>
@@ -525,36 +538,27 @@ export default function CompleteGarageOrganizationGuide() {
 
           {/* Related Articles */}
           <h2 className='text-2xl md:text-3xl font-black text-slate-900 mt-12 mb-6'>Related Articles</h2>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-12'>
-            <Link href='/reviews/best-garage-storage-systems' className='block bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md transition-shadow'>
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-12'>
+            <Link href='/reviews/best-garage-storage-systems' className='group block'>
+              <div className='relative h-48 rounded-lg overflow-hidden mb-3'>
+                <Image src='/images/organized garage.jpg' alt='Best Garage Storage Systems' fill className='object-cover group-hover:scale-105 transition-transform duration-300' />
+              </div>
               <span className='text-xs font-bold text-blue-600 mb-1 block'>REVIEW</span>
-              <h3 className='font-bold text-slate-900 mb-1'>Best Garage Storage Systems 2026</h3>
-              <p className='text-slate-600 text-sm'>Wall-mounted tracks, overhead ceiling racks, and modular cabinets reviewed and ranked.</p>
+              <h3 className='font-bold text-slate-900 group-hover:text-blue-600 transition-colors'>Best Garage Storage Systems 2026</h3>
             </Link>
-            <Link href='/cost-guides/garage-floor-coating-cost' className='block bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md transition-shadow'>
+            <Link href='/cost-guides/garage-floor-coating-cost' className='group block'>
+              <div className='relative h-48 rounded-lg overflow-hidden mb-3'>
+                <Image src='/images/garagefloorcoating.jpg' alt='Garage Floor Coating Cost' fill className='object-cover group-hover:scale-105 transition-transform duration-300' />
+              </div>
               <span className='text-xs font-bold text-green-600 mb-1 block'>COST GUIDE</span>
-              <h3 className='font-bold text-slate-900 mb-1'>Garage Floor Coating Cost 2026</h3>
-              <p className='text-slate-600 text-sm'>Compare epoxy, polyurea, and polyaspartic options with real pricing and pros and cons.</p>
+              <h3 className='font-bold text-slate-900 group-hover:text-blue-600 transition-colors'>Garage Floor Coating Cost 2026</h3>
             </Link>
-            <Link href='/reviews/best-garage-floor-epoxy' className='block bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md transition-shadow'>
-              <span className='text-xs font-bold text-blue-600 mb-1 block'>REVIEW</span>
-              <h3 className='font-bold text-slate-900 mb-1'>Best Garage Floor Epoxy Kits 2026</h3>
-              <p className='text-slate-600 text-sm'>We tested and ranked 5 DIY epoxy kits by durability, ease of use, and value.</p>
-            </Link>
-            <Link href='/guides/how-to-insulate-garage' className='block bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md transition-shadow'>
+            <Link href='/guides/how-to-insulate-garage' className='group block'>
+              <div className='relative h-48 rounded-lg overflow-hidden mb-3'>
+                <Image src='/images/insulate garage.jpg' alt='How to Insulate Your Garage' fill className='object-cover group-hover:scale-105 transition-transform duration-300' />
+              </div>
               <span className='text-xs font-bold text-purple-600 mb-1 block'>GUIDE</span>
-              <h3 className='font-bold text-slate-900 mb-1'>How to Insulate Your Garage</h3>
-              <p className='text-slate-600 text-sm'>Complete DIY guide including vapor barriers, R-values by climate zone, and step-by-step installation.</p>
-            </Link>
-            <Link href='/reviews/best-garage-lighting' className='block bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md transition-shadow'>
-              <span className='text-xs font-bold text-blue-600 mb-1 block'>REVIEW</span>
-              <h3 className='font-bold text-slate-900 mb-1'>Best Garage Lighting 2026</h3>
-              <p className='text-slate-600 text-sm'>LED options for every budget with lumen recommendations by garage size.</p>
-            </Link>
-            <Link href='/problems/water-leaking-into-garage' className='block bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md transition-shadow'>
-              <span className='text-xs font-bold text-red-600 mb-1 block'>PROBLEM</span>
-              <h3 className='font-bold text-slate-900 mb-1'>Water Leaking Into Garage</h3>
-              <p className='text-slate-600 text-sm'>Diagnose and fix the 6 most common causes of water intrusion in your garage.</p>
+              <h3 className='font-bold text-slate-900 group-hover:text-blue-600 transition-colors'>How to Insulate Your Garage: Complete DIY Guide</h3>
             </Link>
           </div>
 
