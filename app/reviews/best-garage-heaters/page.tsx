@@ -291,29 +291,7 @@ export default function BestGarageHeaters() {
             <a href='https://amzn.to/4uwEaH0' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
         </section>
-                  </div>
-        </section>
-
-        {/* Fahrenheat FUH54 */}
-        <section className='mb-8'>
-          <div className='bg-slate-50 border border-slate-200 rounded-lg p-5 mb-6'>
-            <span className='text-amber-700 font-bold text-xs uppercase tracking-wider'>Best Overall</span>
-            <h2 className='text-lg font-semibold text-slate-800 mt-1 mb-3'>Fahrenheat FUH54 240V Garage Heater</h2>
-            <div className='grid grid-cols-2 md:grid-cols-3 gap-2 mb-4'>
-              <div className='text-sm'><span className='text-slate-500'>Price:</span> <strong className='text-slate-800'>$120 - $180</strong></div>
-              <div className='text-sm'><span className='text-slate-500'>Type:</span> <strong className='text-slate-800'>Electric 240V ceiling-mount forced-air</strong></div>
-              <div className='text-sm'><span className='text-slate-500'>Heat output:</span> <strong className='text-slate-800'>2,500W - 5,000W (8,530 - 17,060 BTU)</strong></div>
-              <div className='text-sm'><span className='text-slate-500'>Coverage:</span> <strong className='text-slate-800'>Up to 600 sq ft insulated</strong></div>
-              <div className='text-sm'><span className='text-slate-500'>Voltage:</span> <strong className='text-slate-800'>240V hardwired</strong></div>
-              <div className='text-sm'><span className='text-slate-500'>Thermostat:</span> <strong className='text-slate-800'>Built-in adjustable</strong></div>
-            </div>
-            <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> The Fahrenheat FUH54 delivers reliable 240V forced-air heating at the lowest price point for a hardwired unit. The ceiling-mount design saves floor space and pushes warm air downward. The built-in thermostat simplifies installation since no separate thermostat wiring is needed. At 5,000W on the high setting, it provides legitimate heat for a standard two-car garage. The adjustable louvers let you direct airflow where you need it most.</p>
-            <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> The built-in thermostat is less accurate than wall-mounted models and harder to adjust since the unit is mounted on the ceiling. The fan is audible but not excessively loud. Build quality is adequate for the price but not as robust as the NewAir or King units. Some owners report the thermostat cycling frequently. For a more precise temperature control, consider adding a separate wall-mounted thermostat and bypassing the built-in one.</p>
-            <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Best for:</strong> Budget-minded homeowners who want a permanent 240V heating solution at the lowest possible cost. Good for standard two-car garages with reasonable insulation. If you need a simple, affordable ceiling-mounted heater and do not need smart features or multi-stage heating, this is the value pick.</p>
-            <a href='https://amzn.to/4jGOEhM' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
-          </div>
-        </section>
-
+                
         {/* How to Size a Garage Heater */}
         <section className='mb-8'>
           <h2 className='text-lg font-semibold text-slate-800 mb-4'>How to Size a Garage Heater</h2>
