@@ -136,6 +136,14 @@ export const articles: Article[] = [
     readTime: '25 min read',
     image: '/images/EV charging.jpg',
   },
+  {
+    title: 'Best Garage Cabinets 2026: Steel Systems, Freestanding, and Wall-Mount Picks',
+    description: 'The best garage cabinet for most homeowners is a steel freestanding locker in the $200 to $500 range. Compare complete systems, lockers, wall-mount, rolling, and budget picks.',
+    slug: 'reviews/best-garage-cabinets',
+    category: 'Review',
+    readTime: '25 min read',
+    image: '/images/garagecabinets.jpg',
+      },
 ]
 
 export function searchArticles(query: string): Article[] {
