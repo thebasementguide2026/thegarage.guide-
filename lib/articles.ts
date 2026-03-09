@@ -86,7 +86,7 @@ export const articles: Article[] = [
     slug: 'cost-guides/garage-door-replacement-cost',
     category: 'Cost Guide',
     readTime: '20 min read',
-    image: '/garagedoor.jpg',
+    image: '/images/brokengaragedoor.jpg',
   },
   {
     title: 'Best Garage Door Openers 2026: Tested Picks for Every Garage',
@@ -94,7 +94,7 @@ export const articles: Article[] = [
     slug: 'reviews/best-garage-door-openers',
     category: 'Review',
     readTime: '22 min read',
-    image: '/garageopeners.jpg',
+    image: '/images/garageopeners.jpg',
     },
     {
     title: 'Best Garage Heaters 2026: Top Picks for Every Budget and Garage Size',
