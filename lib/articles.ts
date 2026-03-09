@@ -128,6 +128,14 @@ export const articles: Article[] = [
     readTime: '25 min read',
     image: '/images/garageconversion.jpg',
   },
+  {
+    title: 'EV Charger Installation Guide 2026: Costs, Levels, and Tax Credits',
+    description: 'Installing a Level 2 EV charger at home costs $1,000 to $3,500 total. Complete guide to charging levels, electrical requirements, installation costs, and the Section 30C tax credit expiring June 30, 2026.',
+    slug: 'guides/ev-charger-installation',
+    category: 'Guide',
+    readTime: '25 min read',
+    image: '/images/EV charging.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
