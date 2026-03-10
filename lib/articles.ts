@@ -144,6 +144,14 @@ export const articles: Article[] = [
     readTime: '25 min read',
     image: '/images/garagecabinets.jpg',
       },
+  {
+      title: 'Best Garage Workbenches 2026: 7 Picks for Every Budget and Project',
+      description: 'The best garage workbench for most homeowners is a 48-inch adjustable-height bench with rubberwood top, built-in power, and 2,000 lb capacity. We reviewed 7 top picks.',
+      slug: 'reviews/best-garage-workbenches',
+      category: 'Review',
+      readTime: '25 min read',
+      image: '/images/bestworkbenches.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
