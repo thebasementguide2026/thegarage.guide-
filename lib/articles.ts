@@ -160,6 +160,14 @@ export const articles: Article[] = [
       readTime: '22 min read',
       image: '/images/hotgarage.jpg',
     },
+      {
+      title: 'Garage Door Won\'t Close? 10 Causes and How to Fix Each One',
+      description: 'Your garage door opens fine but won\'t close. Diagnose all 10 causes ranked easiest to hardest — sensors, limits, springs, gears, and more — with fix costs from $0 to $350.',
+      slug: 'problems/garage-door-wont-close',
+      category: 'Problem',
+      readTime: '20 min read',
+      image: '/images/garagestuckopen.jpg',
+    },
 ]
 
 export function searchArticles(query: string): Article[] {
