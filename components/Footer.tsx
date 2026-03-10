@@ -4,7 +4,7 @@ const footerSections = [
   {
     title: 'GUIDES',
     links: [
-      { label: 'Garage Organization', href: '/articles/complete-garage-organization-guide' },
+      { label: 'Garage Organization', href: '/guides/complete-garage-organization-guide' },
       { label: 'Insulation Guide', href: '/guides/how-to-insulate-garage' },
       { label: 'Heater Guide', href: '/guides/garage-heater-guide' },
     ],
@@ -22,7 +22,7 @@ const footerSections = [
     links: [
       { label: 'Door Opener Issues', href: '/problems/garage-door-opener-not-working' },
       { label: 'Water Leaks', href: '/problems/water-leaking-into-garage' },
-            { label: "Door Won't Close", href: '/problems/garage-door-wont-close' },
+      { label: "Door Won't Close", href: '/problems/garage-door-wont-close' },
     ],
   },
   {
@@ -37,43 +37,51 @@ const footerSections = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#2B3A4A] text-white mt-16">
-      <div className="container-custom py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+    <footer className="bg-slate-900 text-slate-300 mt-16">
+      <div className="container mx-auto px-4 max-w-6xl py-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {/* Brand Column */}
-          <div className="lg:col-span-1">
-            <div className="font-bold text-xl mb-3">
-              The <span className="text-[#C45B3B]">Garage</span> Guide
-            </div>
-            <p className="text-gray-400 text-sm leading-relaxed">
+          <div className="col-span-2 md:col-span-3 lg:col-span-1">
+            <Link href="/" className="text-white text-xl font-bold">
+              The <span className="text-orange-500">Garage</span> Guide
+            </Link>
+            <p className="mt-3 text-sm text-slate-400">
               Independent resource for garage organization, improvement, and maintenance. Written for homeowners, not contractors.
             </p>
           </div>
+
           {/* Link Columns */}
           {footerSections.map((section) => (
             <div key={section.title}>
-              <h4 className="font-bold text-xs tracking-wider text-gray-400 mb-3">{section.title}</h4>
+              <h4 className="text-xs font-semibold text-slate-400 tracking-wider mb-3">{section.title}</h4>
               <ul className="space-y-2">
                 {section.links.map((link) => (
                   <li key={link.href}>
-                    <Link href={link.href} className="text-sm text-gray-300 hover:text-white transition-colors">{link.label}</Link>
+                    <Link href={link.href} className="text-sm hover:text-white transition-colors">
+                      {link.label}
+                    </Link>
                   </li>
                 ))}
               </ul>
             </div>
           ))}
         </div>
+
         {/* Sister Sites */}
-        <div className="border-t border-gray-700 mt-8 pt-4 text-sm text-gray-400">
-          Our Network: <Link href="https://thebasement.guide/" className="text-gray-300 hover:text-white">The Basement Guide</Link> | <Link href="https://theseptic.guide/" className="text-gray-300 hover:text-white">The Septic Guide</Link>
+        <div className="border-t border-slate-800 mt-10 pt-6 text-sm text-slate-400">
+          Our Network:{' '}
+          <a href="https://thebasement.guide" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white">The Basement Guide</a>
+          {' | '}
+          <a href="https://theseptic.guide" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white">The Septic Guide</a>
         </div>
+
         {/* Bottom */}
-        <div className="border-t border-gray-700 mt-4 pt-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-sm text-gray-400">
-          <span>&copy; {new Date().getFullYear()} The Garage Guide. All rights reserved.</span>
-          <div className="flex gap-4">
-            <Link href="/privacy" className="hover:text-white">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-white">Terms of Use</Link>
-            <Link href="/affiliate-disclosure" className="hover:text-white">Affiliate Disclosure</Link>
+        <div className="border-t border-slate-800 mt-6 pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500">
+          <p>&copy; {new Date().getFullYear()} The Garage Guide. All rights reserved.</p>
+          <div className="flex gap-4 mt-3 sm:mt-0">
+            <Link href="/privacy" className="hover:text-slate-300">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-slate-300">Terms of Use</Link>
+            <Link href="/affiliate-disclosure" className="hover:text-slate-300">Affiliate Disclosure</Link>
           </div>
         </div>
       </div>
