@@ -63,6 +63,9 @@ export default function BestGarageWorkbenches() {
                             <div className='mb-16'>
                                         <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Buying Guide</span><div className='flex-1 h-px bg-slate-200'></div></div>
                                         <h2 className='text-2xl font-bold text-slate-900 mb-4'>What Features Actually Matter in a Garage Workbench</h2>
+                                          <div className='my-6 rounded-lg overflow-hidden'>
+                                                          <Image src='/images/bestworkbenches.jpg' alt='Garage workbench setup with tools organized' width={800} height={450} className='w-full h-auto rounded-lg' />
+                                                        </div>
                                         <div className='overflow-x-auto my-6'><table className='w-full text-xs border-collapse'>
                                                       <thead><tr className='bg-slate-900 text-white'><th className='p-2 text-left font-semibold'>Feature</th><th className='p-2 text-left font-semibold'>Why It Matters</th><th className='p-2 text-left font-semibold'>What to Look For</th></tr></thead>
                                                       <tbody>
