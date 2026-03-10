@@ -152,6 +152,14 @@ export const articles: Article[] = [
       readTime: '25 min read',
       image: '/images/bestworkbenches.jpg',
   },
+    {
+      title: 'Garage Too Hot in Summer? How to Cool a Garage Ranked by Cost and Effectiveness',
+      description: 'An uninsulated garage can reach 10 to 18 degrees hotter than outside. We ranked every cooling method by cost and effectiveness from free fixes to mini-split AC.',
+      slug: 'guides/garage-too-hot-in-summer',
+      category: 'Guide',
+      readTime: '22 min read',
+      image: '/images/hotgarage.jpg',
+    },
 ]
 
 export function searchArticles(query: string): Article[] {
