@@ -9,6 +9,7 @@ const problems = [
   { title: 'Garage Door Opener Not Working?', href: '/problems/garage-door-opener-not-working', description: 'Diagnose and fix common garage door opener problems including remote failures and sensor issues.' },
   { title: 'Water Leaking Into Garage', href: '/problems/water-leaking-into-garage', description: 'Learn the 6 most common causes of water in your garage and how to fix each one.' },
   { title: "Garage Door Won't Close?", href: '/problems/garage-door-wont-close', description: "Your garage door opens fine but won't close. Diagnose all 10 causes ranked easiest to hardest with fix costs from $0 to $350." },
+    { title: 'Cracked Garage Floor', href: '/problems/cracked-garage-floor', description: 'Every concrete garage floor cracks eventually. Learn which cracks are cosmetic vs structural, DIY repair steps, and when to resurface or replace.' },
 ]
 
 export default function ProblemsPage() {
