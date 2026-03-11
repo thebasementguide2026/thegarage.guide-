@@ -23,6 +23,7 @@ const footerSections = [
       { label: 'Door Opener Issues', href: '/problems/garage-door-opener-not-working' },
       { label: 'Water Leaks', href: '/problems/water-leaking-into-garage' },
       { label: "Door Won't Close", href: '/problems/garage-door-wont-close' },
+            { label: 'Cracked Floor', href: '/problems/cracked-garage-floor' },
     ],
   },
   {
