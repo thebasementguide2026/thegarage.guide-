@@ -76,7 +76,7 @@ export default function CrackedGarageFloor() {
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(repairCostSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(diagnosticSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-<main
+<main>
       {/* Hero Section */}
       <div className='relative w-full' style={{ minHeight: '420px' }}>
         <Image src='/images/crackedgarage.jpg' alt='Cracked concrete garage floor showing various crack types' fill className='object-cover' priority />
