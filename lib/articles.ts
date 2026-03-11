@@ -168,6 +168,14 @@ export const articles: Article[] = [
       readTime: '20 min read',
       image: '/images/garagestuckopen.jpg',
     },
+    {
+    title: 'Cracked Garage Floor: When to Worry, How to Fix It, and What It Costs',
+    description: 'Every concrete garage floor cracks eventually. Learn which cracks are cosmetic vs structural, DIY repair steps, and when to resurface or replace. Fix costs from $5 to $7,000.',
+    slug: 'problems/cracked-garage-floor',
+    category: 'Problem',
+    readTime: '22 min read',
+    image: '/images/crackedgarage.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
