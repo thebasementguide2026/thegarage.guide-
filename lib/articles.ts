@@ -46,7 +46,7 @@ export const articles: Article[] = [
     slug: 'problems/garage-door-opener-not-working',
     category: 'Problem',
     readTime: '18 min read',
-    image: '/images/brokengaragedoor.jpg',
+    image: '/images/garagedoornotworking.jpg',
   },
   {
     title: 'Best Garage Floor Epoxy Kits 2026: DIY Picks That Actually Last',
@@ -86,7 +86,7 @@ export const articles: Article[] = [
     slug: 'cost-guides/garage-door-replacement-cost',
     category: 'Cost Guide',
     readTime: '20 min read',
-    image: '/images/brokengaragedoor.jpg',
+    image: '/images/garagedoornotworking.jpg',
   },
   {
     title: 'Best Garage Door Openers 2026: Tested Picks for Every Garage',
