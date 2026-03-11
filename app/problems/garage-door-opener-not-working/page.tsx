@@ -85,7 +85,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Garage Door Opener Not Working? Troubleshooting Guide',
   description: 'Diagnose and fix common garage door opener problems including remote failures, sensor issues, grinding noises, and doors that reverse. Step-by-step troubleshooting with cost estimates.',
-  image: 'https://thegarage.guide/images/brokengaragedoor.jpg',
+  image: 'https://thegarage.guide/images/garagedoornotworking.jpg',
   datePublished: '2026-03-07',
   dateModified: '2026-03-07',
   author: { '@type': 'Organization', name: 'The Garage Guide', url: 'https://thegarage.guide' },
@@ -98,7 +98,7 @@ export default function GarageDoorOpenerNotWorking() {
       <article className='container-custom py-8 max-w-4xl mx-auto'>
         {/* Hero Section */}
         <div className='relative rounded-xl overflow-hidden mb-8' style={{ minHeight: '400px' }}>
-          <Image src='/images/brokengaragedoor.jpg' alt='Garage door opener not working troubleshooting guide' fill className='object-cover' priority />
+          <Image src='/images/garagedoornotworking.jpg' alt='Garage door opener not working troubleshooting guide' fill className='object-cover' priority />
           <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent' />
           <div className='absolute bottom-0 left-0 right-0 p-6 md:p-10'>
             <div className='flex items-center gap-3 mb-4'>
