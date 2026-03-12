@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
     title: 'Best Garage Workbenches 2026: 7 Picks for Every Budget and Project | The Garage Guide',

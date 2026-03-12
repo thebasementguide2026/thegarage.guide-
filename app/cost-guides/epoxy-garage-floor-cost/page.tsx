@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Epoxy Garage Floor Cost 2026: DIY vs Professional | The Garage Guide',

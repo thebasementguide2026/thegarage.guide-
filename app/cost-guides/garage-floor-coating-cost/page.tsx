@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Garage Floor Coating Cost 2026: Epoxy, Polyurea, Polyaspartic, Tiles, and More | The Garage Guide',
@@ -479,7 +480,9 @@ export default function GarageFloorCoatingCost() {
         </div>
       </section>
 
-      {/* Schema Scripts */}
+      <LeadForm />
+
+          {/* Schema Scripts */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(coatingComparisonSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(twentyYearCostSchema) }} />

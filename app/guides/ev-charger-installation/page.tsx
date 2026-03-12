@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'EV Charger Installation Guide 2026: Costs, Levels, and Tax Credits | The Garage Guide',

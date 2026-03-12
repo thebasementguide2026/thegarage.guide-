@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Best Garage Heaters 2026: Top Picks for Every Budget and Garage Size | The Garage Guide',
@@ -460,7 +461,9 @@ export default function BestGarageHeaters() {
 
       </article>
 
-      {/* Schema Scripts */}
+      <LeadForm />
+
+          {/* Schema Scripts */}
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(comparisonTableSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />

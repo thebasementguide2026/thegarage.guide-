@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Garage Too Hot in Summer? How to Cool a Garage Ranked by Cost and Effectiveness | The Garage Guide',
@@ -197,7 +198,9 @@ export default function GarageTooHotInSummer() {
         </div>
       </article>
 
-      {/* Schema Scripts */}
+      <LeadForm />
+
+          {/* Schema Scripts */}
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }} />

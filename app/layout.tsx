@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 import Script from 'next/script'
 import './globals.css'
 import Header from '@/components/Header'

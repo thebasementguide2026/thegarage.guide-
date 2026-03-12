@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Best Garage Cabinets 2026: Steel Systems, Freestanding, and Wall-Mount Picks | The Garage Guide',

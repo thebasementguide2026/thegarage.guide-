@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Garage Door Won\'t Close? 10 Causes and How to Fix Each One | The Garage Guide',
@@ -108,7 +109,9 @@ const articleSchema = {
 export default function GarageDoorWontClose() {
   return (
     <>
-      {/* Schema Scripts */}
+      <LeadForm />
+
+          {/* Schema Scripts */}
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(diagnosticTableSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(repairCostSchema) }} />

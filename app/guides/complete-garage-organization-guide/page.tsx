@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 import QuoteForm from '@/components/QuoteForm'
 export const metadata: Metadata = {
   title: 'The Complete Garage Organization Guide 2026: Zones, Systems, and Step-by-Step Plans | The Garage Guide',
@@ -541,7 +542,9 @@ export default function CompleteGarageOrganizationGuide() {
           <QuoteForm />
         </div>
       </article>
-      {/* Schema Scripts */}
+      <LeadForm />
+
+          {/* Schema Scripts */}
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(budgetSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />

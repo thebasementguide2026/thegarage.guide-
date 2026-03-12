@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Attached vs Detached Garage: Cost, Pros, Cons, and Resale Value 2026 | The Garage Guide',
