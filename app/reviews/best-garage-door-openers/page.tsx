@@ -350,9 +350,9 @@ export default function BestGarageDoorOpeners() {
                           </div>
             </div>
           </div>
-          </article>
+                  </article>
 
-          <LeadForm />
+                            <LeadForm />
         </>
   )
 }
