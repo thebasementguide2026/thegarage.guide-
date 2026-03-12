@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Best Garage Door Openers 2026: Tested Picks for Every Garage | The Garage Guide',
@@ -348,10 +347,12 @@ export default function BestGarageDoorOpeners() {
             <div className='pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>Battery backup</h3>
               <p className='text-slate-700 text-xs'>An integrated rechargeable battery that allows the garage door opener to operate during power outages. Most provide 20 to 50 open-close cycles on a full charge. Required by law in California under SB-969.</p>
+                          </div>
             </div>
           </div>
-        </div>
-      </article>
-    </>
+          </article>
+
+          <LeadForm />
+        </>
   )
 }

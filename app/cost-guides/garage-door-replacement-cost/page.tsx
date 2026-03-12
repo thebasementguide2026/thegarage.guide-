@@ -306,6 +306,8 @@ export default function GarageDoorReplacementCost() {
               <p className='text-slate-700 text-xs'>The visual attractiveness of a home as seen from the street. The garage door can occupy up to one-third of a home&apos;s street-facing facade, making it one of the most impactful elements of curb appeal and a primary driver of the high ROI for garage door replacement.</p>
             </div>
           </div>
+
+                    <LeadForm />
         </div>
       </article>
     </>

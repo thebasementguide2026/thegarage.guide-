@@ -254,6 +254,8 @@ export default function EpoxyGarageFloorCost() {
               <p className='text-slate-700 text-xs'>Colored vinyl or acrylic flakes broadcast onto wet epoxy to create a textured, multi-colored finish. The most popular decorative option for garage floors. Adds texture for slip resistance and hides minor imperfections. Costs $0.50 to $2 per square foot additional.</p>
             </div>
           </div>
+
+                    <LeadForm />
         </div>
       </article>
     </>
