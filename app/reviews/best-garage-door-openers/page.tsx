@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Best Garage Door Openers 2026: Tested Picks for Every Garage | The Garage Guide',
