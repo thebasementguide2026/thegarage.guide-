@@ -315,6 +315,8 @@ export default function BestGarageWorkbenches() {
         </div>
 
       </article>
+
+                <LeadForm />
     </>
   )
 }
