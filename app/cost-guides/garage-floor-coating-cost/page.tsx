@@ -381,7 +381,7 @@ export default function GarageFloorCoatingCost() {
         <p><strong>Choose epoxy if:</strong> You are on a tight budget and plan to DIY, your garage door stays closed most of the time (UV exposure is limited), or you want the widest range of decorative options.</p>
         <p><strong>Choose polyurea if:</strong> You live in a climate with extreme temperature swings, need the coating done quickly (one-day install), and your installer offers a polyurea system with a polyaspartic topcoat for UV protection.</p>
         <p><strong>Choose polyaspartic if:</strong> You want the longest-lasting coating with no UV yellowing, you can afford the higher upfront cost, and you want your garage back in service the same day.</p>
-        <p>For homeowners comparing coating chemistry beyond the garage, including polyurethane options for basement floors, our sister site has a detailed breakdown at <a href="https://thebasement.guide/articles/epoxy-vs-polyurethane" target="_blank" rel="noopener noreferrer" className="text-[#c45e3a] underline">The Basement Guide: Epoxy vs. Polyurethane Floor Coating</a>.</p>
+        <p>For homeowners comparing coating chemistry beyond the garage, including polyurethane options for basement floors, our sister site has a detailed breakdown at <a href="https://thebasement.guide/articles/epoxy-vs-polyurethane-floor-coating" target="_blank" rel="noopener noreferrer" className="text-[#c45e3a] underline">The Basement Guide: Epoxy vs. Polyurethane Floor Coating</a>.</p>
 
         {/* How to Hire */}
         <h2>How to Hire a Garage Floor Coating Contractor</h2>
