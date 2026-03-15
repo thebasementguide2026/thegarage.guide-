@@ -21,6 +21,11 @@ const navItems = [
       { label: 'Storage Systems', href: '/reviews/best-garage-storage-systems' },
       { label: 'Floor Epoxy', href: '/reviews/best-garage-floor-epoxy' },
       { label: 'Lighting', href: '/reviews/best-garage-lighting' },
+            { label: 'Door Openers', href: '/reviews/best-garage-door-openers' },
+      { label: 'Heaters', href: '/reviews/best-garage-heaters' },
+      { label: 'Cabinets', href: '/reviews/best-garage-cabinets' },
+      { label: 'Workbenches', href: '/reviews/best-garage-workbenches' },
+      { label: 'Door Keypads', href: '/reviews/best-garage-door-keypads' },
     ],
   },
   {
