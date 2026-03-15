@@ -39,6 +39,7 @@ const footerSections = [
       { label: 'Best Heaters', href: '/reviews/best-garage-heaters' },
       { label: 'Best Cabinets', href: '/reviews/best-garage-cabinets' },
       { label: 'Best Workbenches', href: '/reviews/best-garage-workbenches' },
+            { label: 'Best Door Keypads', href: '/reviews/best-garage-door-keypads' },
     ],
   },
   {
