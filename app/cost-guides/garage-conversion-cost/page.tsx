@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import LeadForm from '@/components/LeadForm'
+import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
   title: 'Garage Conversion Cost 2026: Turn Your Garage Into Living Space | The Garage Guide',
@@ -92,6 +93,7 @@ const datasetSchema = {
 export default function GarageConversionCost() {
   return (
     <>
+              <Breadcrumbs items={[{ label: 'Cost Guides', href: '/cost-guides' }, { label: 'Garage Conversion Cost' }]} />
       {/* Hero Section */}
       <div className='relative w-full h-[340px] md:h-[430px]'>
         <Image src='/images/garageconversion.jpg' alt='Garage Conversion Cost 2026 - Complete Guide' fill className='object-cover' priority />
