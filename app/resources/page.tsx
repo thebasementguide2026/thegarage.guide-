@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata = {
   title: 'Garage Resources | The Garage Guide',
@@ -8,6 +9,7 @@ export const metadata = {
 export default function ResourcesPage() {
   return (
     <main className="min-h-screen bg-white">
+              <Breadcrumbs items={[{ label: 'Resources' }]} />
       <section style={{ backgroundColor: '#2C3E50' }} className="text-white py-16">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Garage Resources</h1>
