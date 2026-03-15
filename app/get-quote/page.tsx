@@ -1,13 +1,15 @@
 import QuoteForm from '@/components/QuoteForm'
+import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata = {
   title: 'Get a Free Garage Quote | The Garage Guide',
-  description: 'Connect with qualified garage professionals in your area. Get free, no-obligation quotes for garage doors, floor coatings, organization, and more.',
+  description: 'Connect with qualified garage professionals in your area. Get free, no-obligation quotes for garage projects.',
 }
 
 export default function GetQuotePage() {
   return (
     <>
+      <Breadcrumbs items={[{ label: 'Get a Free Quote' }]} />
       <section style={{ backgroundColor: '#2C3E50' }} className="text-white py-16">
         <div className="container-custom text-center">
           <h1 className="text-4xl font-extrabold mb-4">Get Your Free Garage Quote</h1>
