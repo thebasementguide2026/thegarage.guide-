@@ -10,6 +10,7 @@ const reviews = [
   { title: 'Best Garage Floor Epoxy Kits 2026', href: '/reviews/best-garage-floor-epoxy', description: 'We tested the top DIY garage floor epoxy kits and ranked them.' },
   { title: 'Best Garage Lighting 2026', href: '/reviews/best-garage-lighting', description: 'LED shop lights, wraparound fixtures, and panel lights tested and compared.' },
   { title: 'Best Garage Cabinets 2026', href: '/reviews/best-garage-cabinets', description: 'Steel systems, freestanding lockers, and wall-mount picks compared.' },
+    { title: 'Best Garage Door Keypads 2026', href: '/reviews/best-garage-door-keypads', description: 'The best garage door keypads cost $25 to $80 with rolling code security. Top 6 picks for every opener brand.' },
   { title: 'Best Garage Workbenches 2026', href: '/reviews/best-garage-workbenches', description: '7 picks for every budget and project. Adjustable, heavy-duty, mobile, and budget options.' },
 ]
 
