@@ -176,6 +176,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/images/crackedgarage.jpg',
   },
+    {
+    title: 'Best Garage Door Keypads 2026: Top Wireless Picks for Every Opener Brand',
+    description: 'The best garage door keypads in 2026 cost $25 to $80 and use rolling code security. We review the top 6 keypads for LiftMaster, Chamberlain, Genie, Craftsman, and universal compatibility.',
+    slug: 'reviews/best-garage-door-keypads',
+    category: 'Review',
+    readTime: '20 min read',
+    image: '/images/garagekeypads.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
