@@ -1,3 +1,5 @@
+import Breadcrumbs from '@/components/Breadcrumbs';
+
 export const metadata = {
   title: 'Affiliate Disclosure | The Garage Guide',
   description: 'Affiliate disclosure for The Garage Guide website.',
@@ -6,6 +8,7 @@ export const metadata = {
 export default function AffiliateDisclosurePage() {
   return (
     <main className="min-h-screen bg-white">
+            <Breadcrumbs items={[{ label: 'Affiliate Disclosure' }]} />
       <section className="bg-slate-900 text-white py-16">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Affiliate Disclosure</h1>
