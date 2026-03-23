@@ -295,7 +295,7 @@ export default function CrackedGarageFloor() {
               <h3 className='font-bold text-slate-900 mb-1'>Best Garage Floor Epoxy Kits</h3>
               <p className='text-slate-600 text-sm'>Top-rated epoxy kits tested and reviewed.</p>
             </Link>
-            <Link href='/cost-guides/garage-floor-replacement-cost' className='block bg-white border border-slate-200 rounded-xl p-5 hover:shadow-md transition-shadow'>
+            <Link href='/cost-guides/garage-floor-coating-cost' className='block bg-white border border-slate-200 rounded-xl p-5 hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1'>Garage Floor Replacement Cost</h3>
               <p className='text-slate-600 text-sm'>Full breakdown of slab replacement pricing.</p>
             </Link>

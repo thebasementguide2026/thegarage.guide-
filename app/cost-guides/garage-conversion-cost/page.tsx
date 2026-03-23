@@ -321,7 +321,7 @@ export default function GarageConversionCost() {
         <section className='mb-12'>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Articles</h2>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-            <Link href='/guides/attached-vs-detached-garage' className='block border border-slate-200 rounded-lg p-4 hover:border-amber-300 transition-colors'>
+            <Link href='/comparisons/attached-vs-detached-garage' className='block border border-slate-200 rounded-lg p-4 hover:border-amber-300 transition-colors'>
               <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-0.5 rounded mb-2'>Guide</span>
               <h3 className='text-base font-semibold text-slate-900 mb-1'>Attached vs Detached Garage</h3>
               <p className='text-slate-600 text-sm'>Pros, cons, costs, and resale value compared.</p>

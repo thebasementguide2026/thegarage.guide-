@@ -451,7 +451,7 @@ export default function BestGarageHeaters() {
               <h3 className='font-semibold text-slate-800 text-sm mt-1'>Garage Door Opener Not Working?</h3>
               <p className='text-slate-500 text-xs mt-1'>Complete troubleshooting guide for common issues.</p>
             </Link>
-            <Link href='/guides/garage-insulation' className='block border border-slate-200 rounded-lg p-4 hover:border-amber-300 transition-colors'>
+            <Link href='/guides/how-to-insulate-garage' className='block border border-slate-200 rounded-lg p-4 hover:border-amber-300 transition-colors'>
               <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Guide</span>
               <h3 className='font-semibold text-slate-800 text-sm mt-1'>Garage Insulation Guide</h3>
               <p className='text-slate-500 text-xs mt-1'>How to insulate your garage for year-round comfort.</p>
