@@ -86,6 +86,8 @@ export default function Footer() {
           <a href="https://thebasement.guide" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white">The Basement Guide</a>
           {' | '}
           <a href="https://theseptic.guide" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white">The Septic Guide</a>
+          {' | '}
+          <a href="https://www.thewell.guide" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white">The Well Guide</a>
         </div>
         {/* Bottom */}
         <div className="border-t border-slate-800 mt-6 pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500">
