@@ -719,6 +719,11 @@ export default function CompleteGarageGuide() {
               <h3 className='font-semibold text-slate-900 text-sm mb-1'>Garage Conversion Cost</h3>
               <p className='text-slate-600 text-sm'>Full cost breakdown for ADU, bedroom, home office, gym, and rental unit conversions.</p>
             </Link>
+            <Link href='/cost-guides/garage-addition-cost' className='block border border-slate-200 rounded-lg p-4 hover:shadow-md transition-shadow'>
+              <span className='text-xs font-bold text-amber-700 mb-1 block'>COST GUIDE</span>
+              <h3 className='font-semibold text-slate-900 text-sm mb-1'>Garage Addition Cost</h3>
+              <p className='text-slate-600 text-sm'>Complete cost guide to building a garage from 1-car to 3-car, attached and detached.</p>
+            </Link>
             <Link href='/reviews/best-garage-storage-systems' className='block border border-slate-200 rounded-lg p-4 hover:shadow-md transition-shadow'>
               <span className='text-xs font-bold text-amber-700 mb-1 block'>REVIEW</span>
               <h3 className='font-semibold text-slate-900 text-sm mb-1'>Best Garage Storage Systems</h3>
