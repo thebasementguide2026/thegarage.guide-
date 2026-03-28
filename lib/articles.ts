@@ -81,6 +81,14 @@ export const articles: Article[] = [
     image: '/images/garageheater.jpg',
   },
   {
+    title: 'Garage Ventilation Guide: Carbon Monoxide Safety, CFM Calculations, and the Right Fan for Every Garage',
+    description: 'The complete garage ventilation guide covering carbon monoxide safety, CFM calculations for residential garages, exhaust fan selection, workshop ventilation requirements, CO detector placement, building code requirements, and ventilation solutions for every garage type.',
+    slug: 'guides/garage-ventilation-guide',
+    category: 'Guide',
+    readTime: '14 min read',
+    image: '/images/garage-ventilation-guide.jpg',
+  },
+  {
     title: 'Water Leaking Into Garage: Causes, Fixes, and Prevention',
     description: 'Water in your garage can come from the door seal, floor cracks, walls, or poor drainage. Learn the 6 most common causes and how to fix each one permanently.',
     slug: 'problems/water-leaking-into-garage',
