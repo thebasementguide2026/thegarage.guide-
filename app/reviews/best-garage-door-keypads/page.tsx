@@ -44,7 +44,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Best Garage Door Keypads 2026: Top Wireless Picks for Every Opener Brand',
   description: 'The best garage door keypads in 2026 cost $25 to $80 and use rolling code security. Reviews of the top 6 keypads for every opener brand.',
-  image: 'https://thegarage.guide/images/garagekeypads.jpg',
+  image: 'https://thegarage.guide/images/garageopeners.jpg',
   datePublished: '2026-03-14',
   dateModified: '2026-03-14',
   author: { '@type': 'Organization', name: 'The Garage Guide', url: 'https://thegarage.guide' },
@@ -57,7 +57,7 @@ export default function BestGarageDoorKeypads() {
       {/* Hero Section */}
       <div className='relative bg-slate-900 text-white py-16 mb-10'>
         <div className='max-w-3xl mx-auto px-4'>
-          <Image src='/images/garagekeypads.jpg' alt='Best garage door keypads 2026' fill className='object-cover opacity-20' priority />
+          <Image src='/images/garageopeners.jpg' alt='Best garage door keypads 2026' fill className='object-cover opacity-20' priority />
           <div className='relative z-10'>
             <div className='flex items-center space-x-3 mb-4'>
               <span className='text-amber-700 font-bold tracking-wider text-sm uppercase'>GG</span>
