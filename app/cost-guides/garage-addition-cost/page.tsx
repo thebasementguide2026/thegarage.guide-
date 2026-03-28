@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import LeadForm from '@/components/LeadForm'
+import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
   title: 'Cost to Build a Garage in 2026: Every Size, Every Type, Every Factor | The Garage Guide',
@@ -64,6 +65,8 @@ const constructionMethodSchema = {
 export default function GarageAdditionCost() {
   return (
     <>
+      <Breadcrumbs items={[{ label: 'Cost Guides', href: '/cost-guides' }, { label: 'Garage Addition Cost' }]} />
+
       {/* Hero Section */}
       <div className='relative bg-slate-900 text-white py-16 mb-10'>
         <div className='max-w-3xl mx-auto px-4'>
