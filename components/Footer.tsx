@@ -4,6 +4,7 @@ const footerSections = [
   {
     title: 'GUIDES',
     links: [
+      { label: 'Complete Garage Guide', href: '/guides/complete-garage-guide' },
       { label: 'Garage Organization', href: '/guides/complete-garage-organization-guide' },
       { label: 'Insulation Guide', href: '/guides/how-to-insulate-garage' },
       { label: 'Heater Guide', href: '/guides/garage-heater-guide' },
