@@ -198,7 +198,7 @@ export const articles: Article[] = [
     slug: 'reviews/best-garage-door-keypads',
     category: 'Review',
     readTime: '20 min read',
-    image: '/images/garagekeypads.jpg',
+    image: '/images/garageopeners.jpg',
   },
 ]
 
