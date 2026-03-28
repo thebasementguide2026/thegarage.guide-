@@ -332,8 +332,22 @@ export default function EVChargerInstallation() {
               </tbody>
             </table>
           </div>
-          <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-4'>
-            <p className='text-slate-700 font-medium text-sm'><strong>Annual savings:</strong> The average American drives 13,500 miles per year. At $0.05/mile for electricity versus $0.12/mile for gasoline ($3.50/gallon, 29 MPG average), an EV owner saves approximately $950 per year on fuel. A $1,500 charger installation pays for itself in roughly 18 months through fuel savings alone.</p>
+          <div className='bg-amber-50 border border-amber-300 rounded-xl p-6 mb-4 shadow-sm'>
+            <div className='flex items-center gap-2 mb-3'>
+              <span className='text-amber-700 text-lg'>💰</span>
+              <span className='text-amber-800 font-bold text-sm uppercase tracking-wider'>Annual Savings Snapshot</span>
+            </div>
+            <div className='grid grid-cols-2 gap-4 mb-4'>
+              <div className='bg-white rounded-lg p-4 text-center border border-amber-200'>
+                <p className='text-3xl font-extrabold text-amber-700'>$950</p>
+                <p className='text-slate-600 text-xs mt-1'>saved per year on fuel</p>
+              </div>
+              <div className='bg-white rounded-lg p-4 text-center border border-amber-200'>
+                <p className='text-3xl font-extrabold text-amber-700'>18 mo</p>
+                <p className='text-slate-600 text-xs mt-1'>charger payback period</p>
+              </div>
+            </div>
+            <p className='text-slate-700 text-sm leading-relaxed'>The average American drives 13,500 miles per year. At $0.05/mile for electricity versus $0.12/mile for gasoline ($3.50/gallon, 29 MPG average), an EV owner saves approximately $950 per year on fuel. A $1,500 charger installation pays for itself in roughly 18 months through fuel savings alone.</p>
           </div>
         </div>
 
