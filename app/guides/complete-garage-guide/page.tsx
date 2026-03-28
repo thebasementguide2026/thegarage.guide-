@@ -704,6 +704,11 @@ export default function CompleteGarageGuide() {
               <h3 className='font-semibold text-slate-900 text-sm mb-1'>Garage Too Hot in Summer</h3>
               <p className='text-slate-600 text-sm'>Complete ventilation and cooling strategy for hot-climate garages.</p>
             </Link>
+            <Link href='/guides/garage-ventilation-guide' className='block border border-slate-200 rounded-lg p-4 hover:shadow-md transition-shadow'>
+              <span className='text-xs font-bold text-amber-700 mb-1 block'>GUIDE</span>
+              <h3 className='font-semibold text-slate-900 text-sm mb-1'>Garage Ventilation Guide</h3>
+              <p className='text-slate-600 text-sm'>Carbon monoxide safety, CFM calculations, and the right fan for every garage.</p>
+            </Link>
             <Link href='/cost-guides/garage-floor-coating-cost' className='block border border-slate-200 rounded-lg p-4 hover:shadow-md transition-shadow'>
               <span className='text-xs font-bold text-amber-700 mb-1 block'>COST GUIDE</span>
               <h3 className='font-semibold text-slate-900 text-sm mb-1'>Garage Floor Coating Cost</h3>
