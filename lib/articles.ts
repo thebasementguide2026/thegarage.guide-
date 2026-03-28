@@ -33,6 +33,14 @@ export const articles: Article[] = [
     image: '/images/garagefloorcoating.jpg',
   },
   {
+    title: 'Cost to Build a Garage in 2026: Every Size, Every Type, Every Factor',
+    description: 'Building a garage costs $18,000 to $70,000 for most residential projects in 2026. Covers attached and detached garages by size, cost per square foot breakdown, permits, prefab vs. stick-built, and the 10 factors that move the price.',
+    slug: 'cost-guides/garage-addition-cost',
+    category: 'Cost Guide',
+    readTime: '15 min read',
+    image: '/images/garage cost guide.jpg',
+  },
+  {
     title: 'Best Garage Storage Systems 2026: Wall, Ceiling, and Cabinet Options',
     description: 'We reviewed the top garage storage systems including wall-mounted tracks, overhead ceiling racks, and modular cabinets. See which ones are worth the investment.',
     slug: 'reviews/best-garage-storage-systems',
