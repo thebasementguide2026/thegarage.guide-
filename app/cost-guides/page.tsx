@@ -7,6 +7,7 @@ export const metadata = {
 }
 
 const costGuides = [
+  { title: 'Garage Addition Cost 2026', href: '/cost-guides/garage-addition-cost', description: 'Building a garage costs $18,000 to $70,000 in 2026. Covers every size, construction method, and cost factor.' },
   { title: 'Garage Floor Coating Cost 2026', href: '/cost-guides/garage-floor-coating-cost', description: 'Garage floor coating costs $3 to $12 per square foot installed. Compare epoxy, polyurea, and DIY options.' },
   { title: 'Garage Conversion Cost 2026', href: '/cost-guides/garage-conversion-cost', description: 'A garage conversion costs $10,000 to $50,000. Complete cost breakdown by project type.' },
   { title: 'Garage Door Replacement Cost 2026', href: '/cost-guides/garage-door-replacement-cost', description: 'A new garage door costs $800 to $4,000 installed. Pricing by material, style, and size.' },
