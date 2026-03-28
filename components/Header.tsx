@@ -8,6 +8,7 @@ const navItems = [
     label: 'Guides',
     href: '/guides',
     dropdown: [
+      { label: 'Complete Garage Guide', href: '/guides/complete-garage-guide' },
       { label: 'Garage Organization', href: '/articles/complete-garage-organization-guide' },
       { label: 'Insulation Guide', href: '/guides/how-to-insulate-garage' },
       { label: 'Heater Guide', href: '/guides/garage-heater-guide' },
