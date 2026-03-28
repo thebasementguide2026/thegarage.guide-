@@ -9,6 +9,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    title: 'The Complete Garage Guide 2026: Every System, Every Decision, Every Cost',
+    description: 'The complete reference guide to your garage covering structure and fire separation, the garage door system, flooring, heating and cooling, lighting, storage and organization, electrical and EV charging, safety and ventilation, and maintenance.',
+    slug: 'guides/complete-garage-guide',
+    category: 'Guide',
+    readTime: '22 min read',
+    image: '/images/garageguide complete.jpg',
+  },
+  {
         title: 'The Complete Garage Organization Guide 2026: Zones, Systems, and Step-by-Step Plans',
     description: 'Transform your garage from a cluttered mess into an organized, functional space. Complete guide to storage systems, shelving, ceiling racks, and layout planning.',
         slug: 'guides/complete-garage-organization-guide',
