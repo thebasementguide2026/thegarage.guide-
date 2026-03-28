@@ -14,7 +14,17 @@ const navItems = [
       { label: 'Heater Guide', href: '/guides/garage-heater-guide' },
     ],
   },
-  { label: 'Cost Guides', href: '/cost-guides', dropdown: null },
+  {
+    label: 'Cost Guides',
+    href: '/cost-guides',
+    dropdown: [
+      { label: 'Garage Addition Cost', href: '/cost-guides/garage-addition-cost' },
+      { label: 'Floor Coating Cost', href: '/cost-guides/garage-floor-coating-cost' },
+      { label: 'Epoxy Floor Cost', href: '/cost-guides/epoxy-garage-floor-cost' },
+      { label: 'Conversion Cost', href: '/cost-guides/garage-conversion-cost' },
+      { label: 'Door Replacement Cost', href: '/cost-guides/garage-door-replacement-cost' },
+    ],
+  },
   {
     label: 'Reviews',
     href: '/reviews',
