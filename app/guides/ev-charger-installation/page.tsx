@@ -452,6 +452,16 @@ export default function EVChargerInstallation() {
               <h3 className='text-sm font-bold text-slate-900 mt-1'>How to Insulate Your Garage</h3>
               <p className='text-slate-600 text-xs mt-1'>Insulation helps regulate temperature for both your EV and garage space.</p>
             </a>
+            <a href='/guides/complete-garage-guide' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>
+              <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Guide</span>
+              <h3 className='text-sm font-bold text-slate-900 mt-1'>Complete Garage Guide 2026</h3>
+              <p className='text-slate-600 text-xs mt-1'>Every garage system covered in one place &mdash; structure, doors, flooring, heating, electrical, safety, and maintenance.</p>
+            </a>
+            <a href='/cost-guides/garage-addition-cost' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>
+              <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Cost Guide</span>
+              <h3 className='text-sm font-bold text-slate-900 mt-1'>Garage Addition Cost 2026</h3>
+              <p className='text-slate-600 text-xs mt-1'>How much it costs to build a new garage &mdash; by size, type, and every cost factor.</p>
+            </a>
           </div>
         </div>
 
