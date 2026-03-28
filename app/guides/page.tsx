@@ -6,6 +6,7 @@ export const metadata = {
 }
 
 const guides = [
+  { title: 'The Complete Garage Guide', href: '/guides/complete-garage-guide', description: 'The complete reference to every garage system: structure, doors, flooring, heating, lighting, storage, electrical, EV charging, safety, and maintenance.' },
   { title: 'Complete Guide to Garage Organization', href: '/articles/complete-garage-organization-guide', description: 'Transform your garage from a cluttered mess into an organized, functional space.' },
   { title: 'How to Insulate Your Garage', href: '/guides/how-to-insulate-garage', description: 'Complete DIY guide to insulating your garage walls, ceiling, and door.' },
   { title: 'Garage Heater Guide', href: '/guides/garage-heater-guide', description: 'Compare forced air, infrared, mini-split, and portable garage heaters for your setup.' },
