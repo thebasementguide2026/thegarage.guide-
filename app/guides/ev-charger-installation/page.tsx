@@ -396,35 +396,35 @@ export default function EVChargerInstallation() {
           <div className='space-y-4'>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>EVSE (Electric Vehicle Supply Equipment)</h3>
-              <p className='text-slate-700 text-xs'>The technical term for an EV charger. Includes the charger unit, cable, connector, and any associated control electronics.</p>
+              <p className='text-slate-700 text-xs'>The technical term for what is commonly called an EV charger. EVSE includes the charger unit, the cable, the connector that plugs into the vehicle, and all associated control electronics. The term is used in electrical codes, permit applications, and manufacturer documentation. Residential Level 2 EVSE requires a dedicated 240V circuit installed by a licensed electrician in most jurisdictions.</p>
             </div>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>NACS (North American Charging Standard)</h3>
-              <p className='text-slate-700 text-xs'>Tesla&apos;s charging connector, adopted as the North American standard by most major automakers starting in 2025. Replaces J1772 for new vehicles.</p>
+              <p className='text-slate-700 text-xs'>The charging connector originally developed by Tesla and adopted as the North American industry standard for new EVs starting in 2025. Major automakers including Ford, GM, Rivian, Honda, and Nissan have committed to NACS for new vehicle production. NACS connectors handle both AC Level 2 and DC fast charging through a single port. If your EV was manufactured after 2024 by most major brands, it likely uses NACS.</p>
             </div>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>J1772 (SAE J1772)</h3>
-              <p className='text-slate-700 text-xs'>The previous standard Level 1 and Level 2 charging connector used by non-Tesla EVs. Still in use on older vehicles and widely supported.</p>
+              <p className='text-slate-700 text-xs'>The previous standard Level 1 and Level 2 AC charging connector used by non-Tesla EVs from approximately 2010 through 2024. Still in use on many vehicles currently on the road and widely supported by public charging infrastructure. J1772 chargers are fully compatible with NACS vehicles through a simple adapter included with most new EVs. If you own a non-Tesla EV manufactured before 2025, your vehicle likely uses J1772.</p>
             </div>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>NEMA 14-50</h3>
-              <p className='text-slate-700 text-xs'>A 240V, 50-amp outlet commonly used for plug-in Level 2 EV chargers. The same outlet type used by many electric ranges and RV hookups.</p>
+              <p className='text-slate-700 text-xs'>A 240V, 50-amp receptacle outlet commonly used for plug-in Level 2 EV chargers, as well as electric ranges and RV hookups. The NEMA 14-50 is a four-prong outlet that provides two hot wires, a neutral, and a ground. Installing a NEMA 14-50 outlet allows the charger to be plugged in and unplugged rather than hardwired permanently. Installing one costs $150 to $400 in electrician labor and materials.</p>
             </div>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>Load Management Device</h3>
-              <p className='text-slate-700 text-xs'>An electrical device that shares circuit capacity between an EV charger and another large appliance, allowing both to exist on a panel that cannot support both running simultaneously.</p>
+              <p className='text-slate-700 text-xs'>An electrical device that monitors total household electrical load and automatically reduces the EV charger&apos;s output when other large appliances are drawing power simultaneously. A load management device allows a Level 2 charger to coexist on a panel that cannot support both the charger and other heavy loads &mdash; at a cost of $200 to $500 &mdash; rather than requiring a full panel upgrade at $1,000 to $3,000. Also called a smart load management system or energy management system.</p>
             </div>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>NEC (National Electrical Code)</h3>
-              <p className='text-slate-700 text-xs'>The standard for safe electrical installation in the United States. Article 625 specifically covers EV charging equipment requirements.</p>
+              <p className='text-slate-700 text-xs'>The standard for safe electrical design, installation, and inspection published by the National Fire Protection Association and adopted as law by most US jurisdictions. Article 625 of the NEC specifically covers electric vehicle charging system equipment. The NEC requires EV charger circuits to be rated at 125 percent of the charger&apos;s continuous load &mdash; meaning a 48-amp charger requires a 60-amp breaker. The NEC is updated every three years; the 2020 edition added GFCI protection requirements for EV circuits in some configurations.</p>
             </div>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>Section 30C</h3>
-              <p className='text-slate-700 text-xs'>The federal tax code section (26 U.S. Code &sect; 30C) that provides the Alternative Fuel Vehicle Refueling Property Credit for EV charger installations. Currently expires June 30, 2026.</p>
+              <p className='text-slate-700 text-xs'>The section of the US Tax Code that provides the Alternative Fuel Vehicle Refueling Property Credit. Under current law it provides a tax credit of 30 percent of equipment and installation costs up to $1,000 for qualifying residential EV charger installations. The credit applies to the charger hardware, labor, wiring, panel work, and permit costs. It is non-refundable and currently expires June 30, 2026 for residential installations.</p>
             </div>
             <div className='pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>Time-of-Use Rate</h3>
-              <p className='text-slate-700 text-xs'>A utility pricing structure that charges different electricity rates depending on the time of day. Off-peak rates (typically overnight) are 30% to 50% lower than peak rates, making scheduled overnight EV charging significantly cheaper.</p>
+              <p className='text-slate-700 text-xs'>A utility electricity pricing structure that charges different rates depending on the time of day. Off-peak rates &mdash; typically between 9 PM and 6 AM on weekdays &mdash; are 30 to 50 percent lower than on-peak daytime rates. Enrolling in a time-of-use rate plan and scheduling your EV charger to charge overnight can reduce annual charging costs by $150 to $300 compared to unmanaged daytime charging. Most smart Level 2 chargers include scheduling features that automate off-peak charging.</p>
             </div>
           </div>
         </div>
