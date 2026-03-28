@@ -12,6 +12,7 @@ const navItems = [
       { label: 'Garage Organization', href: '/articles/complete-garage-organization-guide' },
       { label: 'Insulation Guide', href: '/guides/how-to-insulate-garage' },
       { label: 'Heater Guide', href: '/guides/garage-heater-guide' },
+      { label: 'Garage Ventilation Guide', href: '/guides/garage-ventilation-guide' },
     ],
   },
   {
