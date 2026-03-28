@@ -10,6 +10,7 @@ const footerSections = [
       { label: 'Heater Guide', href: '/guides/garage-heater-guide' },
       { label: 'EV Charger Installation', href: '/guides/ev-charger-installation' },
       { label: 'Garage Too Hot', href: '/guides/garage-too-hot-in-summer' },
+      { label: 'Garage Ventilation Guide', href: '/guides/garage-ventilation-guide' },
     ],
   },
   {
