@@ -241,7 +241,7 @@ export default function EVChargerInstallation() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-4'>
             <p className='text-slate-700 font-medium text-sm'><strong>Important:</strong> The 30C credit was originally extended through December 2032 by the Inflation Reduction Act, but the One Big Beautiful Bill (enacted July 4, 2025) accelerated the expiration to June 30, 2026. Completing the project before this deadline saves up to $1,000.</p>
           </div>
-          <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Location eligibility:</strong> The credit is only available for installations in eligible census tracts (generally non-urban or low-income areas). Use the Department of Energy&apos;s 30C eligibility locator to check whether your address qualifies.</p>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Location eligibility:</strong> The credit is only available for installations in eligible census tracts (generally non-urban or low-income areas). Use the <a href='https://afdc.energy.gov/laws/ev_tax_credits' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-900'>Department of Energy&apos;s 30C eligibility locator</a> to check whether your address qualifies.</p>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>State and utility incentives:</strong> Many states and utility companies offer additional rebates of $200 to $1,000 for home EV charger installation. These stack with the federal credit. Check your state energy office and utility provider&apos;s website for current programs.</p>
         </div>
 
@@ -372,7 +372,7 @@ export default function EVChargerInstallation() {
             </div>
             <div className='border-b border-slate-200 pb-4'>
               <h3 className='text-base font-bold text-slate-900 mb-2'>Is the federal tax credit still available?</h3>
-              <p className='text-slate-700 text-sm'>The Section 30C credit &mdash; 30 percent of equipment and installation costs up to $1,000 &mdash; is available for chargers placed in service through June 30, 2026 in eligible census tracts. After that date, no federal residential charger credit exists under current law. The credit is non-refundable and claimed by filing IRS Form 8911 with your federal tax return. Check the Department of Energy&apos;s 30C eligibility locator to confirm your address qualifies before counting on this credit.</p>
+              <p className='text-slate-700 text-sm'>The Section 30C credit &mdash; 30 percent of equipment and installation costs up to $1,000 &mdash; is available for chargers placed in service through June 30, 2026 in eligible census tracts. After that date, no federal residential charger credit exists under current law. The credit is non-refundable and claimed by filing IRS Form 8911 with your federal tax return. Check the <a href='https://afdc.energy.gov/laws/ev_tax_credits' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-900'>Department of Energy&apos;s 30C eligibility locator</a> to confirm your address qualifies before counting on this credit.</p>
             </div>
           </div>
         </div>
