@@ -667,6 +667,11 @@ export default function CompleteGarageGuide() {
               <h3 className='font-semibold text-slate-900 text-sm mb-1'>The Complete Basement Waterproofing Guide</h3>
               <p className='text-slate-600 text-sm'>An attached garage shares foundation and drainage conditions with the adjacent basement. Water that enters the garage often finds its way to the basement through shared foundation elements.</p>
             </a>
+            <a href='https://www.thewell.guide/guides/complete-well-guide' target='_blank' rel='noopener noreferrer' className='block border border-slate-200 rounded-lg p-4 hover:shadow-md transition-shadow'>
+              <span className='text-xs font-bold text-slate-500 mb-1 block'>THE WELL GUIDE</span>
+              <h3 className='font-semibold text-slate-900 text-sm mb-1'>The Complete Well Guide</h3>
+              <p className='text-slate-600 text-sm'>If your property has a private well, any chemicals, motor oil, or solvents that reach the ground near a wellhead can contaminate the aquifer. This guide covers everything a well owner needs to know, including the setback and chemical storage practices that protect the well from garage-related contamination.</p>
+            </a>
           </div>
         </section>
 
