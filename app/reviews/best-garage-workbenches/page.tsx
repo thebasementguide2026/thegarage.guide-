@@ -286,30 +286,35 @@ export default function BestGarageWorkbenches() {
           </div>
         </div>
 
-        {/* Related Articles */}
+        {/* Related Guides */}
         <div className='mb-16'>
-          <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Related Articles</span><div className='flex-1 h-px bg-slate-200'></div></div>
+          <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Related Guides</span><div className='flex-1 h-px bg-slate-200'></div></div>
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>Related Guides</h2>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
             <a href='/reviews/best-garage-cabinets' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>
               <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Review</span>
               <h3 className='text-base font-bold text-slate-900 mt-1'>Best Garage Cabinets 2026</h3>
-              <p className='text-slate-600 text-xs mt-1'>Steel systems, freestanding, and wall-mount picks.</p>
+              <p className='text-slate-600 text-xs mt-1'>Steel storage systems to pair with your workbench</p>
             </a>
             <a href='/reviews/best-garage-storage-systems' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>
               <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Review</span>
               <h3 className='text-base font-bold text-slate-900 mt-1'>Best Garage Storage Systems 2026</h3>
-              <p className='text-slate-600 text-xs mt-1'>Wall, ceiling, and cabinet options compared.</p>
+              <p className='text-slate-600 text-xs mt-1'>Wall tracks, ceiling racks, and cabinet options</p>
             </a>
             <a href='/guides/complete-garage-organization-guide' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>
               <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Guide</span>
               <h3 className='text-base font-bold text-slate-900 mt-1'>Complete Garage Organization Guide 2026</h3>
-              <p className='text-slate-600 text-xs mt-1'>Zones, systems, and step-by-step plans.</p>
+              <p className='text-slate-600 text-xs mt-1'>Full planning guide for garage storage zones</p>
             </a>
             <a href='/reviews/best-garage-lighting' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>
               <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Review</span>
               <h3 className='text-base font-bold text-slate-900 mt-1'>Best Garage Lighting 2026</h3>
-              <p className='text-slate-600 text-xs mt-1'>LED options for every budget.</p>
+              <p className='text-slate-600 text-xs mt-1'>Proper lighting for your work surface</p>
+            </a>
+                          <a href='/guides/complete-garage-guide' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>
+              <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Guide</span>
+              <h3 className='text-base font-bold text-slate-900 mt-1'>Complete Garage Guide</h3>
+              <p className='text-slate-600 text-xs mt-1'>All 9 garage systems explained for homeowners</p>
             </a>
           </div>
         </div>
