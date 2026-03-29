@@ -130,7 +130,7 @@ export default function GarageDoorOpenerNotWorking() {
         {/* 5-Minute Checklist */}
         <section className='mb-8'>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>5-Minute Checklist: Try These First</h2>
-          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Run through these before anything else. They solve most opener problems instantly.</p>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Run through these before anything else. They solve most opener problems instantly. For full annual upkeep, see our <a href='/guides/garage-door-maintenance' className='text-amber-700 underline'>garage door maintenance guide</a>.</p>
           <div className='overflow-x-auto mb-4'>
             <table className='w-full text-sm border-collapse'>
               <thead>
@@ -268,7 +268,7 @@ export default function GarageDoorOpenerNotWorking() {
                 <tr className='bg-slate-50'>
                   <td className='border border-slate-300 px-3 py-2 text-slate-700 font-medium'>Keypad doesn't work</td>
                   <td className='border border-slate-300 px-3 py-2 text-slate-700'>Dead keypad battery or needs reprogramming</td>
-                  <td className='border border-slate-300 px-3 py-2 text-slate-700'>Replace the battery (usually a 9V or 12V). If that fails, reprogram the keypad by pressing the Learn button on the opener and entering a new code per your manual.</td>
+                  <td className='border border-slate-300 px-3 py-2 text-slate-700'>Replace the battery (usually a 9V or 12V). If that fails, reprogram the keypad by pressing the Learn button on the opener and entering a new code per your manual. For a full keypad comparison, see <a href='/reviews/best-garage-door-keypads' className='text-amber-700 underline'>best garage door keypads</a>.</td>
                   <td className='border border-slate-300 px-3 py-2 text-slate-700'>$5 - $15</td>
                 </tr>
               </tbody>
@@ -305,6 +305,7 @@ export default function GarageDoorOpenerNotWorking() {
             <li><strong>Loose or damaged wiring</strong> between the sensors and opener — inspect the wire for breaks, especially near the sensors where it connects to the terminal screws.</li>
           </ul>
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>According to the <a href='https://www.cpsc.gov/FAQ/Automatic-Residential-Garage-Door-Operators' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline'>Consumer Product Safety Commission</a>, safety sensors (also called photo eyes) have been required on all residential garage door openers sold in the United States since 1993. They prevent the door from closing on people, pets, and objects. <strong>Never bypass or disconnect the sensors, even temporarily.</strong></p>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>If sensors are working but the door still won&apos;t close, see our full guide to <a href='/problems/garage-door-wont-close' className='text-amber-700 underline'>garage door won&apos;t close</a> for additional causes.</p>
         </section>
 
         {/* When to Repair vs Replace */}
@@ -348,7 +349,7 @@ export default function GarageDoorOpenerNotWorking() {
                 <tr className='bg-slate-50'>
                   <td className='border border-slate-300 px-3 py-2 text-slate-700'>Opener is 15+ years old</td>
                   <td className='border border-slate-300 px-3 py-2 text-slate-700 font-medium text-red-700'>Replace</td>
-                  <td className='border border-slate-300 px-3 py-2 text-slate-700'>Modern openers are safer, quieter, and have smart features</td>
+                  <td className='border border-slate-300 px-3 py-2 text-slate-700'>Modern openers are safer, quieter, and have smart features. See <a href='/cost-guides/garage-door-replacement-cost' className='text-amber-700 underline'>garage door replacement cost</a> to budget your project.</td>
                 </tr>
                 <tr>
                   <td className='border border-slate-300 px-3 py-2 text-slate-700'>Motor burned out</td>
