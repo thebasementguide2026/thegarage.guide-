@@ -59,7 +59,7 @@ export default function BestGarageStorageSystems() {
       </section>
 
       <article className='max-w-4xl mx-auto px-4 py-12'>
-        <p className='text-base text-slate-700 leading-relaxed mb-6'>The best garage storage system depends on what you&apos;re storing and where you have space. Wall-mounted track systems ($100 to $300) are best for tools and frequently used gear. Overhead ceiling racks ($100 to $400) are best for seasonal items and bulk storage. Steel cabinet systems ($200 to $3,000) are best for workshops, valuable tools, and creating a finished look. Most well-organized garages use a combination of all three.</p>
+        <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-6'><p className='font-bold text-slate-900 text-sm mb-3'>TL;DR</p><p className='text-base text-slate-700 leading-relaxed mb-6'>The best garage storage system depends on what you&apos;re storing and where you have space. Wall-mounted track systems ($100 to $300) are best for tools and frequently used gear. Overhead ceiling racks ($100 to $400) are best for seasonal items and bulk storage. Steel cabinet systems ($200 to $3,000) are best for workshops, valuable tools, and creating a finished look. Most well-organized garages use a combination of all three.</p></div>
         <p className='text-slate-700 leading-relaxed mb-6 text-sm'>This guide covers the best products in each category, explains which type solves which problem, and helps you build a storage system that actually works for how you use your garage.</p>
 
         {/* Which Storage Type Do You Need */}
