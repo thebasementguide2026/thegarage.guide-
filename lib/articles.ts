@@ -216,6 +216,15 @@ export const articles: Article[] = [
     readTime: '14 min read',
     image: '/images/_garage-door-maintenance.jpg',
   },
+
+  {
+    title: 'Garage Floor Oil Stains: How to Remove Them for Good',
+    description: 'Remove garage floor oil stains with the right method for your stain's age. Fresh spills, set stains, and years-old patches all need different treatment. Step-by-step guide.',
+    slug: 'problems/garage-floor-oil-stains',
+    category: 'Problem',
+    readTime: '12 min read',
+    image: '/images/Garage Floor Oil Stain.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
