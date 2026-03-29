@@ -116,7 +116,10 @@ export default function GarageDoorOpenerNotWorking() {
         </div>
 
         {/* Intro */}
-        <p className='text-slate-700 text-sm leading-relaxed mb-4'>If your garage door opener isn't working, the most common causes are dead remote batteries, a tripped circuit breaker, misaligned safety sensors, or the opener being accidentally locked. These four issues account for roughly 80% of all garage door opener failures, and all four are free to fix in under five minutes.</p>
+        <div style={{ backgroundColor: '#E1F5EE', borderLeft: '4px solid #1D9E75', padding: '16px 20px' }} className='rounded-r-lg mb-4'>
+          <p style={{ color: '#1D9E75' }} className='text-sm font-bold mb-2'>TL;DR</p>
+          <p className='text-slate-700 text-sm leading-relaxed'>If your garage door opener isn&apos;t working, the most common causes are dead remote batteries, a tripped circuit breaker, misaligned safety sensors, or the opener being accidentally locked. These four issues account for roughly 80% of all garage door opener failures, and all four are free to fix in under five minutes.</p>
+        </div>
         <div className='bg-amber-50 border-l-4 border-amber-500 p-4 rounded mb-6'>
           <h3 className='font-semibold text-slate-800 text-sm mb-2'>Critical First Test</h3>
           <p className='text-slate-700 text-sm'>Before troubleshooting the opener, do this one critical test first: with the door closed, pull the red emergency release cord hanging from the trolley and manually lift the door. If the door opens and closes smoothly by hand, the problem is with the opener. If the door is extremely heavy, won't move, or gets stuck, the problem is a <strong>broken spring or damaged track</strong>, not the opener. Stop and call a professional because springs are under extreme tension and are genuinely dangerous.</p>
