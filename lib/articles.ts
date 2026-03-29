@@ -214,7 +214,7 @@ export const articles: Article[] = [
     slug: 'guides/garage-door-maintenance',
     category: 'Guide',
     readTime: '14 min read',
-    image: '/images/garage-door-maintenance.jpg',
+    image: '/images/_garage-door-maintenance.jpg',
   },
 ]
 
