@@ -18,6 +18,8 @@ const faqSchema = {
     { '@type': 'Question', name: 'How do I reset my garage door opener?', acceptedAnswer: { '@type': 'Answer', text: 'Most openers can be reset by unplugging the unit for 30 seconds and plugging it back in. To reset the remote programming, press and hold the Learn button on the opener unit for about 10 seconds until the indicator light turns off. Then reprogram your remotes and keypads by pressing Learn once and pressing the remote button within 30 seconds.' } },
     { '@type': 'Question', name: 'How much does it cost to repair a garage door opener?', acceptedAnswer: { '@type': 'Answer', text: 'Simple fixes (batteries, sensor alignment, lubrication) cost $0 to $20 DIY. Gear replacement costs $20 to $40 for the part or $150 to $250 professionally. A full professional service call averages $150 to $350. If the repair exceeds $200 and the opener is over 10 years old, replacement is usually the better investment.' } },
     { '@type': 'Question', name: 'Can LED light bulbs interfere with my garage door opener?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Some LED bulbs emit radio frequency interference that disrupts the opener\'s remote signal. Symptoms include remotes that only work at close range or intermittent opener operation. Replace standard LEDs with bulbs specifically rated as garage door opener compatible, or use incandescent bulbs in the opener fixture.' } },
+    { '@type': 'Question', name: 'How long do garage door openers last?', acceptedAnswer: { '@type': 'Answer', text: 'Most garage door openers last 10 to 15 years with basic maintenance. Belt-drive and direct-drive models tend to outlast chain-drive units because they have fewer moving parts subject to wear. Openers used multiple times per day wear faster than those on single-car garages with light use. If your opener is over 12 years old and requiring repeated repairs, replacement is usually the better financial decision.' } },
+    { '@type': 'Question', name: 'Can I install a garage door opener myself?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, for most homeowners with basic tools and a few hours. Opener manufacturers design residential units for DIY installation, and most include detailed instructions. The typical installation takes 2 to 4 hours and requires a drill, ladder, and basic hand tools. The one exception: if your existing springs need replacement as part of the project, hire a professional — springs are under extreme tension and are dangerous to work with without training.' } },
   ],
 }
 
@@ -424,6 +426,14 @@ export default function GarageDoorOpenerNotWorking() {
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm mb-2'>Can LED light bulbs interfere with my garage door opener?</h3>
               <p className='text-slate-700 text-sm'>Yes. Some LED bulbs emit radio frequency interference that disrupts the opener's remote signal. Symptoms include remotes that only work at close range or intermittent opener operation. Replace standard LEDs with bulbs specifically rated as garage door opener compatible, or use incandescent bulbs in the opener fixture.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-semibold text-slate-800 text-sm mb-2'>How long do garage door openers last?</h3>
+              <p className='text-slate-700 text-sm'>Most garage door openers last 10 to 15 years with basic maintenance. Belt-drive and direct-drive models tend to outlast chain-drive units because they have fewer moving parts subject to wear. Openers used multiple times per day wear faster than those on single-car garages with light use. If your opener is over 12 years old and requiring repeated repairs, replacement is usually the better financial decision.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-semibold text-slate-800 text-sm mb-2'>Can I install a garage door opener myself?</h3>
+              <p className='text-slate-700 text-sm'>Yes, for most homeowners with basic tools and a few hours. Opener manufacturers design residential units for DIY installation, and most include detailed instructions. The typical installation takes 2 to 4 hours and requires a drill, ladder, and basic hand tools. The one exception: if your existing springs need replacement as part of the project, hire a professional — springs are under extreme tension and are dangerous to work with without training.</p>
             </div>
           </div>
         </section>
