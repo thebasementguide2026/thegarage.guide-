@@ -39,7 +39,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Garage Door Maintenance: The Complete Annual Checklist',
   description: 'How to maintain your garage door: monthly safety tests, twice-yearly lubrication, annual balance check, and the exact signs that mean call a pro.',
-  image: 'https://thegarage.guide/images/garage-door-maintenance.jpg',
+  image: 'https://thegarage.guide/images/_garage-door-maintenance.jpg',
   datePublished: '2026-03-29',
   dateModified: '2026-03-29',
   url: 'https://thegarage.guide/guides/garage-door-maintenance',
@@ -54,7 +54,7 @@ export default function GarageDoorMaintenance() {
       <article className='container-custom py-8 max-w-4xl mx-auto'>
         {/* Hero Section */}
         <div className='relative rounded-xl overflow-hidden mb-8' style={{ minHeight: '400px' }}>
-          <Image src='/images/garage-door-maintenance.jpg' alt='Homeowner performing garage door maintenance' fill className='object-cover' priority />
+          <Image src='/images/_garage-door-maintenance.jpg' alt='Homeowner performing garage door maintenance' fill className='object-cover' priority />
           <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent' />
           <div className='absolute bottom-0 left-0 right-0 p-6 md:p-10'>
             <div className='flex items-center gap-3 mb-4'>
