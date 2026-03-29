@@ -299,7 +299,7 @@ export default function GarageDoorOpenerNotWorking() {
             <li><strong>Direct sunlight</strong> hitting the receiving sensor — install a small sun shade or cardboard tube over the sensor.</li>
             <li><strong>Loose or damaged wiring</strong> between the sensors and opener — inspect the wire for breaks, especially near the sensors where it connects to the terminal screws.</li>
           </ul>
-          <p className='text-slate-700 text-sm leading-relaxed mb-4'>According to the <a href='https://www.cpsc.gov/Safety-Education/Safety-Guides/Home/Garage-Door' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline'>Consumer Product Safety Commission</a>, safety sensors (also called photo eyes) have been required on all residential garage door openers sold in the United States since 1993. They prevent the door from closing on people, pets, and objects. <strong>Never bypass or disconnect the sensors, even temporarily.</strong></p>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>According to the <a href='https://www.cpsc.gov/FAQ/Automatic-Residential-Garage-Door-Operators' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline'>Consumer Product Safety Commission</a>, safety sensors (also called photo eyes) have been required on all residential garage door openers sold in the United States since 1993. They prevent the door from closing on people, pets, and objects. <strong>Never bypass or disconnect the sensors, even temporarily.</strong></p>
         </section>
 
         {/* When to Repair vs Replace */}
