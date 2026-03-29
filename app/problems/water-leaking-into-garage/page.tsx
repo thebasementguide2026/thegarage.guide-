@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import LeadForm from '@/components/LeadForm'
 import QuoteForm from '@/components/QuoteForm'
 
 export const metadata: Metadata = {
@@ -54,7 +53,6 @@ const articleSchema = {
 export default function WaterLeakingIntoGarage() {
   return (
     <>
-      <LeadForm />
 
           {/* Schema Scripts */}
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
