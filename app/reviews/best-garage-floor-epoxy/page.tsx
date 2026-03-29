@@ -227,6 +227,37 @@ export default function BestGarageFloorEpoxy() {
           </div>
         </div>
 
+        {/* Related Guides */}
+        <section className='mb-8'>
+          <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+            <Link href='/cost-guides/epoxy-garage-floor-cost' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
+              <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Cost Guide</span>
+              <p className='font-semibold text-slate-800 text-sm'>Epoxy Garage Floor Cost</p>
+              <p className='text-slate-500 text-xs mt-1'>Full breakdown of DIY vs professional epoxy costs in 2026</p>
+            </Link>
+            <Link href='/cost-guides/garage-floor-coating-cost' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
+              <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Cost Guide</span>
+              <p className='font-semibold text-slate-800 text-sm'>Garage Floor Coating Cost</p>
+              <p className='text-slate-500 text-xs mt-1'>All coating types compared by cost and durability</p>
+            </Link>
+            <Link href='/problems/garage-floor-oil-stains' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
+              <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Problem</span>
+              <p className='font-semibold text-slate-800 text-sm'>Garage Floor Oil Stains</p>
+              <p className='text-slate-500 text-xs mt-1'>Remove oil before coating or the floor will fail</p>
+            </Link>
+            <Link href='/problems/cracked-garage-floor' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
+              <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Problem</span>
+              <p className='font-semibold text-slate-800 text-sm'>Cracked Garage Floor</p>
+              <p className='text-slate-500 text-xs mt-1'>Assess and repair cracks before applying any coating</p>
+            </Link>
+            <Link href='/guides/complete-garage-guide' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
+              <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Guide</span>
+              <p className='font-semibold text-slate-800 text-sm'>Complete Garage Guide</p>
+              <p className='text-slate-500 text-xs mt-1'>All 9 garage systems explained for homeowners</p>
+            </Link>
+          </div>
+        </section>
       </article>
 
                 <LeadForm />
