@@ -364,7 +364,7 @@ export default function BestGarageCabinets() {
           </div>
         </div>
 
-        {/* Glossary */}
+        {/* Related Guides */}           <div className='mb-16'>             <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Related Guides</span><div className='flex-1 h-px bg-slate-200'></div></div>             <h2 className='text-2xl font-bold text-slate-900 mb-4'>Related Guides</h2>             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>               <a href='/reviews/best-garage-storage-systems' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>                 <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Review</span>                 <h3 className='text-base font-bold text-slate-900 mt-1'>Best Garage Storage Systems</h3>                 <p className='text-slate-600 text-xs mt-1'>Wall tracks, ceiling racks, and cabinets compared</p>               </a>               <a href='/reviews/best-garage-workbenches' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>                 <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Review</span>                 <h3 className='text-base font-bold text-slate-900 mt-1'>Best Garage Workbenches</h3>                 <p className='text-slate-600 text-xs mt-1'>Pair your cabinets with the right work surface</p>               </a>               <a href='/guides/complete-garage-organization-guide' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>                 <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Guide</span>                 <h3 className='text-base font-bold text-slate-900 mt-1'>Complete Garage Organization Guide</h3>                 <p className='text-slate-600 text-xs mt-1'>Full planning guide for garage storage zones</p>               </a>               <a href='/cost-guides/garage-addition-cost' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>                 <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Cost Guide</span>                 <h3 className='text-base font-bold text-slate-900 mt-1'>Garage Addition Cost</h3>                 <p className='text-slate-600 text-xs mt-1'>Budgeting for a bigger garage to fit your storage needs</p>               </a>               <a href='/guides/complete-garage-guide' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>                 <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Guide</span>                 <h3 className='text-base font-bold text-slate-900 mt-1'>Complete Garage Guide</h3>                 <p className='text-slate-600 text-xs mt-1'>All 9 garage systems explained for homeowners</p>               </a>             </div>           </div>            {/* Glossary */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Glossary</span><div className='flex-1 h-px bg-slate-200'></div></div>
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>Glossary</h2>
@@ -377,34 +377,6 @@ export default function BestGarageCabinets() {
             <div className='border-b border-slate-100 pb-4'><h3 className='text-sm font-bold text-slate-900 mb-1'>French cleat</h3><p className='text-slate-700 text-xs'>A wall-mounting system using interlocking angled strips. Some cabinet brands (NewAge, Gladiator) use french cleat-style brackets that allow cabinets to be repositioned on a wall-mounted rail.</p></div>
             <div className='border-b border-slate-100 pb-4'><h3 className='text-sm font-bold text-slate-900 mb-1'>Slatwall compatibility</h3><p className='text-slate-700 text-xs'>The ability to mount directly onto a slatwall panel system. Gladiator GearBox cabinets integrate with Gladiator&apos;s GearWall slatwall panels.</p></div>
             <div className='pb-4'><h3 className='text-sm font-bold text-slate-900 mb-1'>Anti-tip hardware</h3><p className='text-slate-700 text-xs'>Brackets and straps that anchor tall freestanding cabinets to the wall to prevent forward tipping. Essential safety feature for tall, heavily loaded cabinets.</p></div>
-          </div>
-        </div>
-
-        {/* Related Articles */}
-        <div className='mb-16'>
-          <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Related Articles</span><div className='flex-1 h-px bg-slate-200'></div></div>
-          <h2 className='text-2xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-            <a href='/reviews/best-garage-storage-systems' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>
-              <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Review</span>
-              <h3 className='text-base font-bold text-slate-900 mt-1'>Best Garage Storage Systems 2026</h3>
-              <p className='text-slate-600 text-xs mt-1'>Wall, ceiling, and cabinet options compared.</p>
-            </a>
-            <a href='/guides/complete-garage-organization-guide' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>
-              <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Guide</span>
-              <h3 className='text-base font-bold text-slate-900 mt-1'>Complete Garage Organization Guide 2026</h3>
-              <p className='text-slate-600 text-xs mt-1'>Zones, systems, and step-by-step plans.</p>
-            </a>
-            <a href='/reviews/best-garage-lighting' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>
-              <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Review</span>
-              <h3 className='text-base font-bold text-slate-900 mt-1'>Best Garage Lighting 2026</h3>
-              <p className='text-slate-600 text-xs mt-1'>LED options for every budget.</p>
-            </a>
-            <a href='/reviews/best-garage-floor-epoxy' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>
-              <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Review</span>
-              <h3 className='text-base font-bold text-slate-900 mt-1'>Best Garage Floor Epoxy Kits 2026</h3>
-              <p className='text-slate-600 text-xs mt-1'>DIY picks that actually last.</p>
-            </a>
           </div>
         </div>
 
