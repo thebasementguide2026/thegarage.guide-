@@ -209,7 +209,7 @@ export default function GarageDoorWontClose() {
               <li><strong>Check for sunlight interference.</strong> Direct sunlight hitting the receiving sensor can overwhelm the infrared beam. This typically happens only at specific times of day when the sun angle is low. A cardboard tube taped around the sensor as a shade solves this. Commercial sensor shades are available for $5 to $10.</li>
               <li><strong>Replace the sensors.</strong> If cleaning, aligning, and checking wires does not fix it, the sensor itself may have failed. Replacement sensors cost $15 to $50 depending on brand and are a straightforward swap &mdash; two screws and two wire connections per sensor.</li>
             </ol>
-            <p className='mt-3 text-sm text-slate-600'>According to the <a href='https://www.cpsc.gov/Safety-Education/Safety-Guides/Home/Garage-Door' target='_blank' rel='noopener noreferrer' className='text-orange-600 hover:underline'>Consumer Product Safety Commission</a>, safety sensors have been required on all residential garage door openers since 1993. Never bypass them permanently.</p>
+            <p className='mt-3 text-sm text-slate-600'>According to the <a href='https://www.cpsc.gov/FAQ/Automatic-Residential-Garage-Door-Operators' target='_blank' rel='noopener noreferrer' className='text-orange-600 hover:underline'>Consumer Product Safety Commission</a>, safety sensors have been required on all residential garage door openers since 1993. Never bypass them permanently.</p>
           </div>
           
           {/* Cause 2 */}
@@ -433,7 +433,7 @@ export default function GarageDoorWontClose() {
             </details>
             <details className='bg-white border border-slate-200 rounded-xl p-5 group'>
               <summary className='font-semibold text-slate-900 cursor-pointer list-none flex justify-between items-center'>Can I bypass the safety sensors permanently?<span className='text-slate-400 text-xl'>+</span></summary>
-              <p className='mt-3 text-slate-700'>Technically yes, but you should never do this. Safety sensors (photo eyes) are a federal requirement under <a href='https://www.ul.com/resources/ul-325' target='_blank' rel='noopener noreferrer' className='text-orange-600 hover:underline'>UL 325</a> that prevent the door from closing on people, pets, and objects. Bypassing them creates a serious injury risk and may void your homeowner&apos;s insurance. Fix or replace the sensors instead.</p>
+              <p className='mt-3 text-slate-700'>Technically yes, but you should never do this. Safety sensors (photo eyes) are a federal requirement under <a href='https://www.ul.com/news/ul-325-50th-anniversary-key-safety-issues' target='_blank' rel='noopener noreferrer' className='text-orange-600 hover:underline'>UL 325</a> that prevent the door from closing on people, pets, and objects. Bypassing them creates a serious injury risk and may void your homeowner&apos;s insurance. Fix or replace the sensors instead.</p>
             </details>
             <details className='bg-white border border-slate-200 rounded-xl p-5 group'>
               <summary className='font-semibold text-slate-900 cursor-pointer list-none flex justify-between items-center'>Why won&apos;t my garage door close in cold weather?<span className='text-slate-400 text-xl'>+</span></summary>
