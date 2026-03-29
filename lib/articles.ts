@@ -208,6 +208,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/images/garageopeners.jpg',
   },
+  {
+    title: 'Garage Door Maintenance: The Complete Annual Checklist',
+    description: 'How to maintain your garage door: monthly safety tests, twice-yearly lubrication, annual balance check, and the exact signs that mean call a pro.',
+    slug: 'guides/garage-door-maintenance',
+    category: 'Guide',
+    readTime: '14 min read',
+    image: '/images/garage-door-maintenance.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
