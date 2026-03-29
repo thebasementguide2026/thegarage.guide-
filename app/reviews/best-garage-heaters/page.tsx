@@ -409,6 +409,38 @@ export default function BestGarageHeaters() {
           </div>
         </section>
 
+
+                {/* Related Guides */}
+                <section className='mb-8'>
+                            <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
+                            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                                          <Link href='/guides/garage-ventilation-guide' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
+                                                          <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Guide</span>
+                                                          <p className='font-semibold text-slate-800 text-sm'>Garage Ventilation Guide</p>
+                                                          <p className='text-slate-500 text-xs mt-1'>CFM requirements, depressurization risks, and ventilation solutions</p>
+                                                        </Link>
+                                          <Link href='/guides/how-to-insulate-garage' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
+                                                          <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Guide</span>
+                                                          <p className='font-semibold text-slate-800 text-sm'>How to Insulate a Garage</p>
+                                                          <p className='text-slate-500 text-xs mt-1'>Wall, ceiling, and door insulation to cut heating costs</p>
+                                                        </Link>
+                                          <Link href='/guides/garage-too-hot-in-summer' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
+                                                          <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Guide</span>
+                                                          <p className='font-semibold text-slate-800 text-sm'>Garage Too Hot in Summer</p>
+                                                          <p className='text-slate-500 text-xs mt-1'>The cooling side of the equation</p>
+                                                        </Link>
+                                          <Link href='/guides/complete-garage-guide' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
+                                                          <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Guide</span>
+                                                          <p className='font-semibold text-slate-800 text-sm'>Complete Garage Guide</p>
+                                                          <p className='text-slate-500 text-xs mt-1'>All 9 garage systems explained for homeowners</p>
+                                                        </Link>
+                                          <Link href='/guides/ev-charger-installation' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
+                                                          <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Guide</span>
+                                                          <p className='font-semibold text-slate-800 text-sm'>EV Charger Installation</p>
+                                                          <p className='text-slate-500 text-xs mt-1'>Electrical upgrades that pair with a 240V heater install</p>
+                                                        </Link>
+                                        </div>
+                          </section>
         {/* Glossary */}
         <section className='mb-8'>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Garage Heater Glossary</h2>
