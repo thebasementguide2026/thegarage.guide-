@@ -81,7 +81,7 @@ export default function BestGarageHeaters() {
                 <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-6'>
                             <p className='font-bold text-slate-900 text-sm mb-3'>TL;DR</p>
         <p className='text-slate-700 text-sm leading-relaxed mb-4'>The best garage heater for most homeowners is a 240V electric forced-air unit in the $200 to $500 range. It provides enough heat for a well-insulated two-car garage, requires no gas line or venting, and can be installed in an afternoon with a dedicated circuit.</p>
-                          -slate-700 text-sm leading-relaxed mb-4'>For larger garages or colder climates where electric cannot keep up, a ceiling-mounted natural gas heater like the Modine Hot Dawg ($400 to $700) is the long-term winner on operating costs. And for homeowners who want both heating and cooling year-round, a ductless mini-split heat pump is the premium play.</p>
+                          <p className='text-slate-700 text-sm leading-relaxed mb-4'>For larger garages or colder climates where electric cannot keep up, a ceiling-mounted natural gas heater like the Modine Hot Dawg ($400 to $700) is the long-term winner on operating costs. And for homeowners who want both heating and cooling year-round, a ductless mini-split heat pump is the premium play.</p>
                 </div>
         <p className='text-slate-700 text-sm leading-relaxed mb-8'>We evaluated garage heaters across five categories: electric forced-air, electric infrared, propane portable, natural gas permanent, and mini-split heat pump. Below are our top picks for each use case, with honest notes on what each model does well, where it falls short, and who should buy it.</p>
 
