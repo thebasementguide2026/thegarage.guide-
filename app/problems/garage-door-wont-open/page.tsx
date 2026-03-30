@@ -375,6 +375,11 @@ export default function GarageDoorWontOpen() {
               <p className='font-semibold text-slate-800 text-sm'>Garage Door Replacement Cost</p>
               <p className='text-slate-500 text-xs mt-1'>What a new door costs installed in 2026.</p>
             </Link>
+            <Link href='/problems/garage-door-spring-replacement' className='border border-slate-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
+              <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Problem</span>
+              <p className='font-semibold text-slate-800 text-sm'>Garage Door Spring Replacement</p>
+              <p className='text-slate-500 text-xs mt-1'>Cost, signs of failure, and what to expect from a pro.</p>
+            </Link>
           </div>
         </section>
 
