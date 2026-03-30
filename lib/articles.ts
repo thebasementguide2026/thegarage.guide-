@@ -225,10 +225,7 @@ export const articles: Article[] = [
     readTime: '12 min read',
     image: '/images/Garage Floor Oil Stain.jpg',
   },
-]
 
-export function searchArticles(query: string): Article[] {
-  if (!query.trim()) return [
   {
     title: 'Garage Door Won\'t Open: Diagnosis and Fix Guide',
     description: 'Garage door won\'t open? Diagnose the cause in 60 seconds with this symptom-by-symptom guide. Broken springs, dead openers, frozen doors, and more.',
@@ -238,6 +235,9 @@ export function searchArticles(query: string): Article[] {
     image: '/images/garagedoorwontopen.jpg',
   },
 ]
+
+export function searchArticles(query: string): Article[] {
+  if (!query.trim()) return []
   const terms = query.toLowerCase().split(/\s+/)
   return articles.filter((article) => {
     const searchText = `${article.title} ${article.description} ${article.category}`.toLowerCase()
