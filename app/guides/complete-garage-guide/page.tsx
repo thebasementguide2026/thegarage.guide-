@@ -404,6 +404,7 @@ export default function CompleteGarageGuide() {
           <h3 className='text-lg font-semibold text-slate-800 mb-2'>Cabinets</h3>
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>Garage-specific cabinets provide closed storage for tools, chemicals, and items that benefit from being out of sight or protected from dust. Steel cabinets are more durable than wood in the garage environment where humidity fluctuates significantly. See the <Link href='/reviews/best-garage-storage-systems' className='text-amber-700 underline'>best garage storage systems review</Link> and the <Link href='/reviews/best-garage-cabinets' className='text-amber-700 underline'>best garage cabinets review</Link> for specific recommendations.</p>
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>See the <Link href='/guides/complete-garage-organization-guide' className='text-amber-700 underline'>complete garage organization guide</Link> for the full zone-based organization system.</p>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>For homeowners turning their garage into a dedicated workspace, see our <Link href='/guides/garage-workshop-setup' className='text-amber-700 underline'>complete garage workshop setup guide</Link> for zone planning, electrical requirements, and tool storage.</p>
         </div>
 
         {/* ========== SECTION 7 ========== */}
