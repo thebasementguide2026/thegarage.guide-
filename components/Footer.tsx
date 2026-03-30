@@ -11,6 +11,7 @@ const footerSections = [
       { label: 'EV Charger Installation', href: '/guides/ev-charger-installation' },
       { label: 'Garage Too Hot', href: '/guides/garage-too-hot-in-summer' },
       { label: 'Garage Ventilation Guide', href: '/guides/garage-ventilation-guide' },
+              { label: 'Workshop Setup', href: '/guides/garage-workshop-setup' },
       { label: 'Door Maintenance', href: '/guides/garage-door-maintenance' },
     ],
   },
