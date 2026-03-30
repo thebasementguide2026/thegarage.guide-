@@ -228,7 +228,16 @@ export const articles: Article[] = [
 ]
 
 export function searchArticles(query: string): Article[] {
-  if (!query.trim()) return []
+  if (!query.trim()) return [
+  {
+    title: 'Garage Door Won\'t Open: Diagnosis and Fix Guide',
+    description: 'Garage door won\'t open? Diagnose the cause in 60 seconds with this symptom-by-symptom guide. Broken springs, dead openers, frozen doors, and more.',
+    slug: 'problems/garage-door-wont-open',
+    category: 'Problem',
+    readTime: '13 min read',
+    image: '/images/garagedoorwontopen.jpg',
+  },
+]
   const terms = query.toLowerCase().split(/\s+/)
   return articles.filter((article) => {
     const searchText = `${article.title} ${article.description} ${article.category}`.toLowerCase()
