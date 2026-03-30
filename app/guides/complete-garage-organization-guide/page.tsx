@@ -68,6 +68,7 @@ export default function CompleteGarageOrganizationGuide() {
         <p className='text-slate-700 text-sm leading-relaxed mb-4'>Roughly 25% of homeowners with two-car garages cannot park even one car inside because of accumulated clutter. The U.S. garage storage market hit $3.46 billion in 2024 and is growing at nearly 8% annually — more products exist than ever, but more products without a plan just creates expensive clutter.</p>
         <p className='text-slate-700 text-sm leading-relaxed mb-4'>This guide walks you through the entire process: assessing your garage, creating a zone-based layout, choosing the right storage systems for each zone, building a workbench area, handling hazardous materials safely, and maintaining the system year-round.</p>
         <p className='text-slate-700 text-sm leading-relaxed mb-6'>Every recommendation connects to a deeper guide or product review elsewhere on this site so you can go as deep as you need on any single topic.</p>
+        <p className='text-slate-700 text-sm leading-relaxed mb-6'>If you are setting up a dedicated workshop rather than general storage, see our <Link href='/guides/garage-workshop-setup' className='text-amber-700 underline'>garage workshop setup guide</Link> for a full planning walkthrough including electrical, lighting, and zone design.</p>
         {/* Why Most Projects Fail */}
         <section className='mb-8'>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Why Most Garage Organization Projects Fail</h2>
