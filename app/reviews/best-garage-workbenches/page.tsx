@@ -316,6 +316,11 @@ export default function BestGarageWorkbenches() {
               <h3 className='text-base font-bold text-slate-900 mt-1'>Complete Garage Guide</h3>
               <p className='text-slate-600 text-xs mt-1'>All 9 garage systems explained for homeowners</p>
             </a>
+            <a href='/guides/garage-workshop-setup' className='block bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-amber-700 transition-colors'>
+              <span className='text-amber-700 text-xs font-bold uppercase tracking-wider'>Guide</span>
+              <h3 className='text-base font-bold text-slate-900 mt-1'>Garage Workshop Setup</h3>
+              <p className='text-slate-600 text-xs mt-1'>Complete planning guide for turning your garage into a working shop</p>
+            </a>
           </div>
         </div>
 
