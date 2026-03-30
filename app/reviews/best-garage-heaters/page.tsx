@@ -439,6 +439,11 @@ export default function BestGarageHeaters() {
                                                           <p className='font-semibold text-slate-800 text-sm'>EV Charger Installation</p>
                                                           <p className='text-slate-500 text-xs mt-1'>Electrical upgrades that pair with a 240V heater install</p>
                                                         </Link>
+                                          <Link href='/guides/garage-workshop-setup' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
+                                                          <span className='inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded mb-2'>Guide</span>
+                                                          <p className='font-semibold text-slate-800 text-sm'>Garage Workshop Setup</p>
+                                                          <p className='text-slate-500 text-xs mt-1'>Complete planning guide for turning your garage into a working shop</p>
+                                                        </Link>
                                         </div>
                           </section>
         {/* Glossary */}
