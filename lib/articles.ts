@@ -217,6 +217,14 @@ export const articles: Article[] = [
     image: '/images/_garage-door-maintenance.jpg',
   },
 
+    {
+    title: 'How to Set Up a Garage Workshop: The Complete Planning Guide',
+    description: 'How to set up a garage workshop from scratch. Zone planning, electrical circuits, lighting, workbench placement, flooring, ventilation, and tool storage.',
+    slug: 'guides/garage-workshop-setup',
+    category: 'Guide',
+    readTime: '16 min read',
+    image: '/images/garageworkshop.jpg',
+  },
   {
     title: 'Garage Floor Oil Stains: How to Remove Them for Good',
     description: 'Remove garage floor oil stains with the right method for your stain\'s age. Fresh spills, set stains, and years-old patches all need different treatment. Step-by-step guide.',
