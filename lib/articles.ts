@@ -234,6 +234,15 @@ export const articles: Article[] = [
     readTime: '13 min read',
     image: '/images/garagedoorwontopen.jpg',
   },
+
+  {
+    title: 'Garage Door Spring Replacement: Cost, Signs, and What to Expect',
+    description: 'Garage door spring replacement costs $150 to $350 professionally. Learn the signs your spring is failing, what type you have, and why this is never a DIY repair.',
+    slug: 'problems/garage-door-spring-replacement',
+    category: 'Problem',
+    readTime: '13 min read',
+    image: '/images/herogaragespringbroken.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
