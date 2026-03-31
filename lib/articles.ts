@@ -259,6 +259,14 @@ export const articles: Article[] = [
     readTime: '13 min read',
     image: '/images/winterizegarage.jpg',
   },
+  {
+    title: 'The Complete Garage Maintenance Checklist: Every Season, Every System',
+    description: 'The complete garage maintenance checklist by season. Every system covered: door, opener, floor, lighting, ventilation, heating, storage, electrical, and security.',
+    slug: 'maintenance',
+    category: 'Guide',
+    readTime: '15 min read',
+    image: '/images/garagemaintence.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
