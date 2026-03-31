@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import type { Metadata } from 'next'
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 const contactSchema = {
