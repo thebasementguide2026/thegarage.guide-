@@ -8,49 +8,29 @@ export const metadata: Metadata = {
   title: 'How to Winterize Your Garage: The Complete Fall Checklist | The Garage Guide',
   description: 'How to winterize your garage before winter. Seals, insulation R-values, lubrication, pipe protection, heater safety, and the full fall checklist.',
   alternates: { canonical: 'https://thegarage.guide/guides/how-to-winterize-your-garage' },
-  openGraph: {
-    title: 'How to Winterize Your Garage: The Complete Fall Checklist | The Garage Guide',
-    description: 'How to winterize your garage before winter. Seals, insulation R-values, lubrication, pipe protection, heater safety, and the full fall checklist.',
-    url: 'https://thegarage.guide/guides/how-to-winterize-your-garage',
-    siteName: 'The Garage Guide',
-    type: 'article',
-  },
+  openGraph: { title: 'How to Winterize Your Garage: The Complete Fall Checklist | The Garage Guide', description: 'How to winterize your garage before winter. Seals, insulation R-values, lubrication, pipe protection, heater safety, and the full fall checklist.', url: 'https://thegarage.guide/guides/how-to-winterize-your-garage', siteName: 'The Garage Guide', type: 'article' },
 }
 
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    { '@type': 'Question', name: 'When should I winterize my garage?', acceptedAnswer: { '@type': 'Answer', text: 'The ideal window is mid-October to early November, after the heat of summer has passed but before the first hard freeze. Most winterization tasks cannot be done effectively in freezing temperatures — caulk does not cure below 40°F, sealers need 50°F minimum, and lubricants apply poorly when it is already cold. Aim to complete everything before your first forecast night below 32°F.' } },
-    { '@type': 'Question', name: 'How do I stop my garage door from freezing to the ground?', acceptedAnswer: { '@type': 'Answer', text: 'Apply silicone spray to the bottom door seal every fall. Silicone prevents the rubber from bonding to ice on the concrete floor. If the door has already frozen, do not press the opener button repeatedly — this burns out the motor. Instead, disconnect the opener, chip away the ice from outside with a scraper, apply warm (not boiling) water to melt residual ice, then lift the door manually. See our garage door won\'t open guide for the full frozen door procedure.' } },
-    { '@type': 'Question', name: 'What R-value should a garage door have for winter?', acceptedAnswer: { '@type': 'Answer', text: 'For a garage that is occasionally heated or attached to the house, target R-8 minimum on the door. This is achievable with a $50 to $100 DIY foam board kit. For a heated workshop garage, target R-12 to R-16, which requires either a high-quality insulated door or multiple layers of foam board. An uninsulated single-layer steel door has an effective R-value of 0 to 2, which is essentially no thermal barrier at all.' } },
-    { '@type': 'Question', name: 'Should I insulate my garage walls for winter?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, if the walls are unfinished (exposed studs with no existing insulation). R-13 fiberglass batts in 2x4 stud bays are the standard. They cost $0.30 to $0.50 per square foot and install in a few hours. The ceiling has more impact on heat retention than the walls because heat rises, so if you can only do one surface, prioritize the ceiling at R-30.' } },
-    { '@type': 'Question', name: 'What products should not be stored in an unheated garage over winter?', acceptedAnswer: { '@type': 'Answer', text: 'Latex paint, water-based stains and finishes, caulk and adhesives, and most car care products cannot survive freezing temperatures without damage. Move these inside before the first freeze. Lithium-ion batteries in cordless tools lose capacity and age faster when stored in freezing temperatures. Charge them and bring them inside if possible. Most metal tools, hardware, and petroleum-based products are fine in an unheated garage.' } },
-    { '@type': 'Question', name: 'Is it safe to use a propane heater in a closed garage?', acceptedAnswer: { '@type': 'Answer', text: 'No. Unvented propane heaters produce carbon monoxide as a combustion byproduct. In an enclosed or poorly ventilated garage, CO can build to dangerous concentrations quickly. If you must use a portable propane heater, crack the garage door 2 to 4 inches to provide fresh air, install a battery-operated CO detector at 5 feet off the floor, and never leave the heater running unattended. A permanently vented electric or gas heater is significantly safer for regular workshop use.' } },
-    { '@type': 'Question', name: 'How do I protect pipes in my garage from freezing?', acceptedAnswer: { '@type': 'Answer', text: 'Wrap exposed pipes in foam pipe insulation sleeves ($1 to $3 per linear foot), shut off and drain any outdoor hose bibs, and allow a slow drip from any sink on an exterior wall when temperatures drop below 20°F. For pipes in very cold or uninsulated garages, a self-regulating heat cable wrapped around the pipe and plugged into an outlet provides continuous protection for $20 to $60. A burst pipe repair costs $500 to $5,000. Prevention is the obvious investment.' } },
-    { '@type': 'Question', name: 'What is the most important thing to winterize in a garage?', acceptedAnswer: { '@type': 'Answer', text: 'The bottom door seal is the highest-impact single item. A failed bottom seal lets in cold air, water, snow, and insects, causes the door to freeze to the ground and tear the seal off when the opener tries to open it, and costs $20 to $45 to fix before failure versus $150 or more to fix after the seal tears, the opener strains, and the concrete gets soaked. Do the seal test first every fall before anything else.' } },
-  ],
-}
+const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [
+{ '@type': 'Question', name: 'When should I winterize my garage?', acceptedAnswer: { '@type': 'Answer', text: 'The ideal window is mid-October to early November. Most tasks cannot be done in freezing temps. Caulk needs 40°F+, sealers need 50°F+. Complete everything before your first forecast night below 32°F.' } },
+{ '@type': 'Question', name: 'How do I stop my garage door from freezing to the ground?', acceptedAnswer: { '@type': 'Answer', text: 'Apply silicone spray to the bottom door seal every fall. If frozen, do not press the opener button repeatedly. Disconnect the opener, chip ice away, apply warm water, then lift manually.' } },
+{ '@type': 'Question', name: 'What R-value should a garage door have for winter?', acceptedAnswer: { '@type': 'Answer', text: 'Target R-8 minimum with a $50-$100 DIY foam board kit. For a heated workshop, target R-12 to R-16. An uninsulated steel door has R-0 to R-2.' } },
+{ '@type': 'Question', name: 'Should I insulate my garage walls for winter?', acceptedAnswer: { '@type': 'Answer', text: 'Yes if unfinished. R-13 fiberglass batts cost $0.30-$0.50/sqft. Prioritize the ceiling at R-30 — heat rises.' } },
+{ '@type': 'Question', name: 'What products should not be stored in an unheated garage over winter?', acceptedAnswer: { '@type': 'Answer', text: 'Latex paint, water-based stains, caulk, adhesives, and most car care products. Move inside before the first freeze. Lithium-ion batteries lose capacity in cold — charge and store inside.' } },
+{ '@type': 'Question', name: 'Is it safe to use a propane heater in a closed garage?', acceptedAnswer: { '@type': 'Answer', text: 'No. Unvented propane heaters produce CO. Crack the door 2-4 inches, install a CO detector at 5 feet, and never leave unattended. Vented electric or gas heaters are safer.' } },
+{ '@type': 'Question', name: 'How do I protect pipes in my garage from freezing?', acceptedAnswer: { '@type': 'Answer', text: 'Foam insulation sleeves ($1-$3/ft), drain outdoor hose bibs, slow drip below 20°F. Heat cable ($20-$60) for extreme cold. Burst pipe repair costs $500-$5,000.' } },
+{ '@type': 'Question', name: 'What is the most important thing to winterize in a garage?', acceptedAnswer: { '@type': 'Answer', text: 'The bottom door seal. A failed seal costs $20-$45 to fix before failure vs $150+ after. Do the seal test first every fall.' } },
+] }
 
-const articleSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Article',
-  headline: 'How to Winterize Your Garage: The Complete Fall Checklist',
-  description: 'How to winterize your garage before winter. Seals, insulation R-values, lubrication, pipe protection, heater safety, and the full fall checklist.',
-  url: 'https://thegarage.guide/guides/how-to-winterize-your-garage',
-  publisher: { '@type': 'Organization', name: 'The Garage Guide', url: 'https://thegarage.guide' },
-}
+const articleSchema = { '@context': 'https://schema.org', '@type': 'Article', headline: 'How to Winterize Your Garage: The Complete Fall Checklist', description: 'How to winterize your garage before winter. Seals, insulation R-values, lubrication, pipe protection, heater safety, and the full fall checklist.', url: 'https://thegarage.guide/guides/how-to-winterize-your-garage', publisher: { '@type': 'Organization', name: 'The Garage Guide', url: 'https://thegarage.guide' } }
 
 export default function HowToWinterizeYourGarage() {
   return (
     <>
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-
       <section style={{ maxWidth: 800, margin: '0 auto', padding: '0 1rem' }}>
         <Breadcrumbs />
-
-        {/* Hero */}
         <div style={{ position: 'relative', borderRadius: 12, overflow: 'hidden', marginBottom: 32 }}>
           <Image src='/images/winterizegarage.jpg' alt='Residential garage exterior on a winter morning with snow on the ground and warm light from inside' width={800} height={450} priority style={{ width: '100%', height: 'auto', display: 'block' }} />
           <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '2rem', background: 'linear-gradient(transparent, rgba(0,0,0,0.85))' }}>
@@ -73,7 +53,17 @@ export default function HowToWinterizeYourGarage() {
           <p style={{ margin: 0, fontSize: 15, lineHeight: 1.7 }}>Winterize your garage in one fall weekend: replace the bottom door seal if the gap exceeds 1/4 inch, re-lubricate all moving parts with silicone spray, test the auto-reverse and battery backup on your opener, insulate the door to at least R-8 if it is not already, caulk any visible gaps around windows and walls, and protect any water lines from freezing. Do all of this before the first freeze. Everything on this list costs under $200 total and takes under 4 hours.</p>
         </div>
 
-        {/* BODY_PLACEHOLDER */}
+        <p style={{ fontSize: 16, lineHeight: 1.8, color: '#23272F', marginBottom: 16 }}>October is the best month to own a garage. The summer heat is gone, the projects are winding down, and you have a clear two-day window before the first freeze to do the one maintenance session that determines how your garage performs for the next five months.</p>
+        <p style={{ fontSize: 16, lineHeight: 1.8, color: '#23272F', marginBottom: 16 }}>Miss that window and you spend winter dealing with a door frozen to the ground, a bottom seal that tore off on a cold morning, an opener straining against stiff hinges, and a can of paint that turned to lumps while you were not looking.</p>
+        <p style={{ fontSize: 16, lineHeight: 1.8, color: '#23272F', marginBottom: 32 }}>This guide uses that window. Everything here fits in one fall weekend &mdash; two hours Saturday, two hours Sunday &mdash; and costs under $200 in materials. Do it once, properly, and your garage runs through winter without a single cold-weather failure.</p>
+
+        <h2 style={{ fontSize: 22, fontWeight: 700, color: '#23272F', marginBottom: 12 }}>The One Weekend Rule</h2>
+        <p style={{ fontSize: 16, lineHeight: 1.8, color: '#23272F', marginBottom: 16 }}>Everything in this guide can be completed in a single fall weekend before the first freeze. The tasks split naturally into two sessions:</p>
+        <p style={{ fontSize: 16, lineHeight: 1.8, color: '#23272F', marginBottom: 8 }}><strong>Saturday (2 to 3 hours):</strong> Door seal inspection and replacement, weatherstripping inspection, caulking, gap sealing, pipe protection.</p>
+        <p style={{ fontSize: 16, lineHeight: 1.8, color: '#23272F', marginBottom: 16 }}><strong>Sunday (1 to 2 hours):</strong> Full lubrication of all moving parts, opener safety tests, battery backup test, heating system check, chemical and finishing product storage.</p>
+        <p style={{ fontSize: 16, lineHeight: 1.8, color: '#23272F', marginBottom: 32 }}><strong>Total materials cost:</strong> $50 to $200 depending on what needs replacing. <strong>Total time:</strong> 3 to 5 hours. <strong>Total benefit:</strong> a garage that runs reliably all winter with no frozen seals, no dead openers, no burst pipes, and no ruined materials.</p>
+
+        {/* BODY_PART_2 */}
 
         <LeadForm />
       </section>
