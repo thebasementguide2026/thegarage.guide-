@@ -251,6 +251,14 @@ export const articles: Article[] = [
     readTime: '13 min read',
     image: '/images/herogaragespringbroken.jpg',
   },
+    {
+    title: 'How to Winterize Your Garage: The Complete Fall Checklist',
+    description: 'How to winterize your garage before winter. Seals, insulation R-values, lubrication, pipe protection, heater safety, and the full fall checklist.',
+    slug: 'guides/how-to-winterize-your-garage',
+    category: 'Guide',
+    readTime: '13 min read',
+    image: '/images/winterizegarage.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
