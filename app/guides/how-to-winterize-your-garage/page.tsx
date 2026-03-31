@@ -30,7 +30,7 @@ export default function HowToWinterizeYourGarage() {
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <section style={{ maxWidth: 800, margin: '0 auto', padding: '0 1rem' }}>
-        <Breadcrumbs />
+          <Breadcrumbs items={[{ label: 'Guides', href: '/guides' }, { label: 'How to Winterize Your Garage' }]} />
         <div style={{ position: 'relative', borderRadius: 12, overflow: 'hidden', marginBottom: 32 }}>
           <Image src='/images/winterizegarage.jpg' alt='Residential garage exterior on a winter morning with snow on the ground and warm light from inside' width={800} height={450} priority style={{ width: '100%', height: 'auto', display: 'block' }} />
           <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '2rem', background: 'linear-gradient(transparent, rgba(0,0,0,0.85))' }}>
