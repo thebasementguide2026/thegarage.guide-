@@ -12,6 +12,7 @@ const footerSections = [
       { label: 'Garage Too Hot', href: '/guides/garage-too-hot-in-summer' },
       { label: 'Garage Ventilation Guide', href: '/guides/garage-ventilation-guide' },
               { label: 'Workshop Setup', href: '/guides/garage-workshop-setup' },
+            { label: 'Winterize Your Garage', href: '/guides/how-to-winterize-your-garage' },
       { label: 'Door Maintenance', href: '/guides/garage-door-maintenance' },
     ],
   },
