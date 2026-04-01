@@ -83,6 +83,7 @@ export default function GarageDoorReplacementCost() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-4'>
             <p className='text-slate-700 font-medium text-sm'><strong>The 50% rule:</strong> If repair costs exceed 50% of what a new door would cost, replace it. You get a full warranty, better energy efficiency, improved curb appeal, and modern safety features for a marginal cost difference.</p>
           </div>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>If the door is structurally sound but cosmetically worn, painting is a cost-effective alternative to replacement. See our <Link href='/guides/how-to-paint-a-garage-door' className='text-amber-700 underline'>garage door painting guide</Link> for materials, prep, and what to expect.</p>
         </div>
 
         {/* Cost by Door Size */}
