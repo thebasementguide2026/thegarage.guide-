@@ -275,6 +275,14 @@ export const articles: Article[] = [
     readTime: '14 min read',
     image: '/images/how-to-paint-garage-door.jpg',
   },
+  {
+    title: 'Garage Door Weather Stripping: When to Replace It and How to Do It Right',
+    description: 'Garage door weather stripping replacement guide. Signs it has failed, which of the 4 seals to replace, costs, and step-by-step DIY installation for each type.',
+    slug: 'problems/garage-door-weather-stripping',
+    category: 'Problem',
+    readTime: '12 min read',
+    image: '/images/garage-door-weather-stripping.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
