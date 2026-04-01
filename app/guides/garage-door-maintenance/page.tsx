@@ -304,6 +304,7 @@ export default function GarageDoorMaintenance() {
             <li><strong>Side and top seals:</strong> Run your finger along the full length of each seal. They should be supple, not brittle or cracked. Brittle seals let in cold air, moisture, insects, and light.</li>
             <li><strong>Door sections:</strong> Check the rubber or vinyl seal between door panels. If sections no longer compress against each other when the door is closed, air and moisture are getting through.</li>
           </ul>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>For a complete guide to identifying which of the four seals has failed and how to replace each type, see our <Link href='/problems/garage-door-weather-stripping' className='text-amber-700 underline'>garage door weather stripping guide</Link>.</p>
 
           <h3 className='text-lg font-bold text-slate-900 mb-2'>Inspect Panels and Paint</h3>
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>For steel doors, check for surface rust where paint has chipped or scratched. Sand the affected area, apply a rust-inhibiting primer, and repaint. Untreated rust spreads rapidly and can weaken the panel structure over time.</p>
