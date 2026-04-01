@@ -433,6 +433,11 @@ export default function HowToWinterizeYourGarage() {
             <p style={{ fontWeight: 600, color: '#1e293b', fontSize: 14, margin: '0 0 4px 0' }}>Garage Workshop Setup</p>
             <p style={{ color: '#64748b', fontSize: 12, margin: 0 }}>If you use the garage as a workshop, this expands on year-round comfort.</p>
           </Link>
+          <Link href='/guides/garage-maintenance-checklist' style={{ border: '1px solid #e2e8f0', borderRadius: 8, padding: 16, textDecoration: 'none', display: 'block' }}>
+            <span style={{ display: 'inline-block', background: '#fef3c7', color: '#b45309', fontSize: 12, fontWeight: 600, padding: '2px 8px', borderRadius: 4, marginBottom: 8 }}>Guide</span>
+            <p style={{ fontWeight: 600, color: '#1e293b', fontSize: 14, margin: '0 0 4px 0' }}>Complete Garage Maintenance Checklist</p>
+            <p style={{ color: '#64748b', fontSize: 12, margin: 0 }}>Every system, every season — the full annual maintenance schedule.</p>
+          </Link>
         </div>
 
         {/* Glossary */}
