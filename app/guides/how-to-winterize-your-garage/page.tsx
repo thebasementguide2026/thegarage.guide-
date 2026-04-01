@@ -79,6 +79,7 @@ export default function HowToWinterizeYourGarage() {
           <li style={{ marginBottom: 8 }}>Trim any excess with a utility knife.</li>
           <li style={{ marginBottom: 8 }}>Apply a thin coat of silicone spray to the seal after installation. This prevents the seal from bonding to ice on the concrete floor in freezing temperatures.</li>
         </ol>
+        <p style={{ fontSize: 16, lineHeight: 1.8, color: '#23272F', marginBottom: 32 }}>See our <Link href='/problems/garage-door-weather-stripping' style={{ color: '#b45309', textDecoration: 'underline' }}>garage door weather stripping guide</Link> for profile types, material selection, and full replacement instructions for all four seals.</p>
 
         {/* Section 1: Sealing and Air Gaps */}
         <h2 style={{ fontSize: 22, fontWeight: 700, color: '#23272F', marginBottom: 12 }}>Section 1: Sealing and Air Gaps</h2>
