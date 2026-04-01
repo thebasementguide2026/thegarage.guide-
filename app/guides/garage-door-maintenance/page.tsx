@@ -308,6 +308,7 @@ export default function GarageDoorMaintenance() {
           <h3 className='text-lg font-bold text-slate-900 mb-2'>Inspect Panels and Paint</h3>
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>For steel doors, check for surface rust where paint has chipped or scratched. Sand the affected area, apply a rust-inhibiting primer, and repaint. Untreated rust spreads rapidly and can weaken the panel structure over time.</p>
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>For wood doors, look for soft spots or swelling, particularly along the bottom panel where moisture exposure is highest. A soft or swollen bottom panel requires either repair or full panel replacement.</p>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>If the surface is faded, chalky, or showing peeling paint, see our <Link href='/guides/how-to-paint-a-garage-door' className='text-amber-700 underline'>complete guide to painting a garage door</Link> for prep, primer selection, and a finish that lasts.</p>
 
           <h3 className='text-lg font-bold text-slate-900 mb-2'>Inspect the Opener for Age and Function</h3>
           <p className='text-slate-700 text-sm leading-relaxed mb-2'>Note how old your opener is. Most residential openers last 10 to 15 years with basic maintenance. If your opener is approaching or past 15 years old, start budgeting for replacement even if it is currently working. Signs that replacement is closer than you think:</p>
