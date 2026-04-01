@@ -247,7 +247,8 @@ export default function GarageDoorWontOpen() {
             <li className='text-slate-700 text-sm leading-relaxed'>Try lifting the door manually. Push gently up from the bottom corners. If the ice bond breaks, the door should lift freely.</li>
             <li className='text-slate-700 text-sm leading-relaxed'>If the door remains stuck, use a hair dryer or heat gun on a low setting along the bottom edge for 2 to 3 minutes, then try again.</li>
           </ol>
-          <p className='text-slate-700 text-sm leading-relaxed'><strong>Prevention:</strong> Apply silicone spray to the bottom seal in October before freeze season. A treated seal does not bond to ice as readily as a dry or damaged one.</p>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Prevention:</strong> Apply silicone spray to the bottom seal in October before freeze season. A treated seal does not bond to ice as readily as a dry or damaged one.</p>
+          <p className='text-slate-700 text-sm leading-relaxed'>To prevent the seal from bonding to ice in the first place, see our <Link href='/problems/garage-door-weather-stripping' className='text-amber-700 underline'>garage door weather stripping guide</Link> for the silicone spray treatment and seal replacement process.</p>
         </section>
 
         {/* Cause 7: Off Tracks */}
