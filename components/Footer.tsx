@@ -15,6 +15,7 @@ const footerSections = [
             { label: 'Winterize Your Garage', href: '/guides/how-to-winterize-your-garage' },
       { label: 'Door Maintenance', href: '/guides/garage-door-maintenance' },
       { label: 'Maintenance Checklist', href: '/guides/garage-maintenance-checklist' },
+      { label: 'Paint a Garage Door', href: '/guides/how-to-paint-a-garage-door' },
     ],
   },
   {
