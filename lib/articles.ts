@@ -267,6 +267,14 @@ export const articles: Article[] = [
     readTime: '15 min read',
     image: '/images/garagemaintence.jpg',
   },
+  {
+    title: 'How to Paint a Garage Door: A Complete Guide to Prep, Paint, and a Finish That Lasts',
+    description: 'How to paint a garage door the right way. Material-specific prep, primer selection, brush vs roller vs sprayer, color and heat warnings, and how long it lasts.',
+    slug: 'guides/how-to-paint-a-garage-door',
+    category: 'Guide',
+    readTime: '14 min read',
+    image: '/images/how-to-paint-garage-door.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
