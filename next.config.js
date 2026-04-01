@@ -8,6 +8,11 @@ const nextConfig = {
         destination: '/guides/complete-garage-organization-guide',
         permanent: true,
       },
+      {
+        source: '/maintenance',
+        destination: '/guides/garage-maintenance-checklist',
+        permanent: true,
+      },
     ]
   },
 }
