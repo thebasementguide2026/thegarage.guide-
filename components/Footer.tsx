@@ -105,6 +105,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-slate-800 mt-6 pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500">
           <p>© {new Date().getFullYear()} The Garage Guide. All rights reserved.</p>
+          <p>Part of <a href="https://thehome.guide" className="hover:text-slate-300">The Home Guide Network</a></p>
           <div className="flex gap-4 mt-3 sm:mt-0">
             <Link href="/privacy" className="hover:text-slate-300">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-slate-300">Terms of Use</Link>
