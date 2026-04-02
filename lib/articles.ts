@@ -289,7 +289,7 @@ export const articles: Article[] = [
     slug: 'guides/detached-garage-electrical',
     category: 'Guide',
     readTime: '15 min read',
-    image: '/images/garage_electrical.jpg',
+    image: '/images/garage electrical.jpg',
   },
 ]
 
