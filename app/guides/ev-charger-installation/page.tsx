@@ -162,6 +162,7 @@ export default function EVChargerInstallation() {
             </table>
           </div>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Wire run distance matters enormously. A 20-foot run from the panel to the charger location might cost $100 to $200 in wire. A 100-foot run to a detached garage could cost $500 to $1,000 in wire alone, before trenching and conduit. This is the single biggest variable in installation cost.</p>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'>If your EV charger is in a detached garage that does not yet have adequate power, see our <a href='/guides/detached-garage-electrical' className='text-amber-700 underline'>detached garage electrical guide</a> for subpanel sizing and feeder run planning.</p>
 
           <h3 className='text-lg font-bold text-slate-900 mb-3'>Plug-In vs. Hardwired</h3>
           <div className='overflow-x-auto my-6'>
