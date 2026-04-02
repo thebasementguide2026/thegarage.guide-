@@ -283,6 +283,14 @@ export const articles: Article[] = [
     readTime: '12 min read',
     image: '/images/garage-door-weather-stripping.jpg',
   },
+  {
+    title: 'How to Run Electricity to a Detached Garage: The Complete Planning Guide',
+    description: 'How to run electricity to a detached garage. Load calculations, subpanel sizing, underground vs overhead, wire gauge, permits, and what requires a licensed electrician.',
+    slug: 'guides/detached-garage-electrical',
+    category: 'Guide',
+    readTime: '15 min read',
+    image: '/images/garage_electrical.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
