@@ -83,7 +83,7 @@ export default function DetachedGarageElectricalPage() {
       <article className='container-custom py-8 max-w-4xl mx-auto'>
         {/* Hero Section */}
         <div className='relative rounded-xl overflow-hidden mb-8' style={{ minHeight: '400px' }}>
-          <Image src='/images/garage_electrical.jpg' alt='Electrician working on a residential subpanel installation in a detached garage' fill className='object-cover' priority />
+          <Image src='/images/garage electrical.jpg' alt='Electrician working on a residential subpanel installation in a detached garage' fill className='object-cover' priority />
           <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent' />
           <div className='absolute bottom-0 left-0 right-0 p-6 md:p-10'>
             <span className='text-amber-700 font-bold text-xs uppercase tracking-wider'>Guide</span>
