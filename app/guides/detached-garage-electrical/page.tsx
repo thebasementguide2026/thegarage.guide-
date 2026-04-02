@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import LeadForm from '@/components/LeadForm'
+import AuthorBio from '@/components/AuthorBio'
 import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
@@ -610,6 +611,9 @@ export default function DetachedGarageElectricalPage() {
             </div>
           </div>
         </section>
+
+        {/* Author Bio */}
+        <AuthorBio />
 
         {/* Get Quote Form */}
         <LeadForm />
