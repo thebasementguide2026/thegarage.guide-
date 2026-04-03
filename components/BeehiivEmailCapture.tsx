@@ -3,11 +3,13 @@ import Script from 'next/script'
 export default function BeehiivEmailCapture() {
   return (
     <section className='my-10'>
-      <div style={{ backgroundColor: '#F0F4F8', borderLeft: '4px solid #2B3A4A', padding: '24px 20px' }} className='rounded-r-lg'>
-        <p style={{ color: '#2B3A4A' }} className='text-lg font-bold mb-1'>Get Homeowner Tips in Your Inbox</p>
-        <p className='text-slate-600 text-sm leading-relaxed mb-4'>
-          Seasonal maintenance reminders, repair guides, and money-saving tips from The Garage Guide — delivered free to your inbox.
-        </p>
+      <div className='bg-slate-50 rounded-xl py-10 px-6'>
+        <div className='text-center max-w-xl mx-auto mb-6'>
+          <p className='text-lg font-bold text-slate-900 mb-2'>Get Homeowner Tips in Your Inbox</p>
+          <p className='text-slate-600 text-sm leading-relaxed'>
+            Seasonal maintenance reminders, repair guides, and money-saving tips from The Garage Guide — delivered free to your inbox.
+          </p>
+        </div>
         <iframe
           src='https://subscribe-forms.beehiiv.com/d7389f65-77c3-4b1f-bbff-c04470ac4ae4'
           className='beehiiv-embed'
