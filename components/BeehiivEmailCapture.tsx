@@ -2,7 +2,7 @@ import Script from 'next/script'
 
 export default function BeehiivEmailCapture() {
   return (
-    <section className='mt-10 mb-2'>
+    <section className='mt-10 -mb-6'>
       <div className='bg-slate-50 rounded-xl py-10 px-6'>
         <div className='text-center max-w-xl mx-auto mb-6'>
           <p className='text-lg font-bold text-slate-900 mb-2'>Get Homeowner Tips in Your Inbox</p>
