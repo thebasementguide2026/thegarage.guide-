@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import LeadForm from '@/components/LeadForm'
+import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
@@ -483,7 +484,9 @@ export default function HowToWinterizeYourGarage() {
         </div>
 
 
-        <LeadForm />
+        <BeehiivEmailCapture />
+
+      <LeadForm />
       </section>
     </>
   )
