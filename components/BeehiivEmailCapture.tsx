@@ -18,6 +18,10 @@ export default function BeehiivEmailCapture() {
           scrolling='no'
           style={{ width: '100%', maxWidth: '600px', height: '831px', margin: '0 auto', display: 'block', borderRadius: '0px', backgroundColor: 'transparent', boxShadow: '0 0 #0000' }}
         />
+        <p className='text-xs text-slate-400 text-center mt-3 leading-relaxed'>
+          By subscribing you agree to receive emails from The Home Guide Network. We respect your privacy. Unsubscribe anytime.{' '}
+          <a href='https://thehome.guide/privacy' target='_blank' rel='noopener noreferrer' className='underline hover:text-slate-500'>Privacy Policy</a>
+        </p>
       </div>
       <Script async src='https://subscribe-forms.beehiiv.com/embed.js' strategy='afterInteractive' />
       <Script async src='https://subscribe-forms.beehiiv.com/attribution.js' strategy='afterInteractive' />
