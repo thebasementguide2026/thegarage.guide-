@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import LeadForm from '@/components/LeadForm'
+import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 
 export const metadata: Metadata = {
   title: 'Garage Door Replacement Cost 2026: Complete Price Breakdown | The Garage Guide',
@@ -309,7 +310,9 @@ export default function GarageDoorReplacementCost() {
             </div>
           </div>
 
-                    <LeadForm />
+                    <BeehiivEmailCapture />
+
+      <LeadForm />
         </div>
       </article>
     </>
