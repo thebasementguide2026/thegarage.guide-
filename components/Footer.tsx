@@ -67,6 +67,21 @@ export default function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-300 mt-16">
       <div className="container mx-auto px-4 max-w-6xl py-12">
+
+        {/* Email Signup Row */}
+        <div className='border-b border-white/10 pb-6 mb-6'>
+          <div className='flex flex-col sm:flex-row items-center justify-center gap-3'>
+            <p className='font-semibold text-white text-sm'>Get free homeowner tips</p>
+            <a
+              href='https://thehomeservicesguide.beehiiv.com/subscribe'
+              className='inline-block px-5 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white text-sm font-medium transition-colors'
+            >
+              Subscribe Free &rarr;
+            </a>
+          </div>
+          <p className='text-white/30 text-[10px] text-center mt-2'>No spam. Unsubscribe anytime.</p>
+        </div>
+
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
           {/* Brand Column */}
           <div className="col-span-2 md:col-span-3 lg:col-span-1">
