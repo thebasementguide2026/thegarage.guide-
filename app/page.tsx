@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { articles } from '@/lib/articles'
 import QuoteForm from '@/components/QuoteForm'
 
+import Script from 'next/script'
 const categories = [
   { label: '\ud83d\udee0\ufe0f Organization', href: '/guides/complete-garage-organization-guide' },
   { label: '\ud83d\udcb0 Cost Guides', href: '/cost-guides' },
@@ -114,6 +115,29 @@ export default function HomePage() {
           <QuoteForm />
         </div>
       </section>
+
+      {/* Email Signup */}
+      <section style={{ backgroundColor: '#2B3A4A' }} className='py-16'>
+        <div className='container-custom text-center'>
+          <h2 className='text-2xl md:text-3xl font-bold text-white mb-3'>Stay on Top of Your Garage</h2>
+          <p className='text-white/70 max-w-lg mx-auto mb-8'>Seasonal maintenance reminders, repair guides, and money-saving tips — free to your inbox.</p>
+          <iframe
+            src='https://subscribe-forms.beehiiv.com/d7389f65-77c3-4b1f-bbff-c04470ac4ae4'
+            className='beehiiv-embed'
+            data-test-id='beehiiv-embed'
+            frameBorder='0'
+            scrolling='no'
+            style={{ width: '100%', maxWidth: '600px', height: '520px', margin: '0 auto', display: 'block', borderRadius: '0px', backgroundColor: 'transparent', boxShadow: '0 0 #0000' }}
+          />
+          <p className='text-white/40 text-xs mt-2'>
+            By subscribing you agree to receive emails from The Home Guide Network. We respect your privacy. Unsubscribe anytime.{' '}
+            <a href='https://thehome.guide/privacy' target='_blank' rel='noopener noreferrer' className='underline hover:text-white/60'>Privacy Policy</a>
+          </p>
+        </div>
+      </section>
+    
+      <Script async src='https://subscribe-forms.beehiiv.com/embed.js' strategy='afterInteractive' />
+      <Script async src='https://subscribe-forms.beehiiv.com/attribution.js' strategy='afterInteractive' />
     </>
   )
 }
