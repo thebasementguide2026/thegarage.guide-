@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
-  title: 'Attached vs Detached Garage: Cost, Pros, Cons, and Resale Value 2026 | The Garage Guide',
-  description: 'An attached garage costs $20,000 to $40,000. A detached garage costs $25,000 to $55,000. Compare cost, convenience, fire safety, noise, air quality, design flexibility, and resale value.',
+  title: 'Attached vs Detached Garage: Cost, Resale Value, and Which Is Right for You | The Garage Guide',
+  description: 'Attached vs detached garage compared on cost, resale value, zoning rules, and everyday practicality. Detached garages cost $28,000 to $50,000. Attached garages run 20 to 25 percent less. Which adds more value depends on your property.',
 }
 
 const faqSchema = {
@@ -102,7 +102,7 @@ const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: 'Attached vs Detached Garage: Cost, Pros, Cons, and Resale Value 2026',
-  description: 'An attached garage costs $20,000 to $40,000. A detached garage costs $25,000 to $55,000. Compare cost, convenience, fire safety, noise, air quality, design flexibility, and resale value.',
+  description: 'Attached vs detached garage compared on cost, resale value, zoning rules, and everyday practicality. Detached garages cost $28,000 to $50,000. Attached garages run 20 to 25 percent less. Which adds more value depends on your property.',
   image: 'https://thegarage.guide/images/detatchedgarage.jpg',
   datePublished: '2026-03-08',
   dateModified: '2026-03-08',
