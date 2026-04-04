@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
-  title: 'EV Charger Installation Guide 2026: Costs, Levels, and Tax Credits | The Garage Guide',
-  description: 'Installing a Level 2 EV charger at home costs $1,000 to $3,500 total. Complete guide to charging levels, electrical requirements, installation costs, and the Section 30C tax credit expiring June 30, 2026.',
+  title: 'Level 2 EV Charger Installation Cost 2026: What You\'ll Actually Pay | The Garage Guide',
+  description: 'Level 2 EV charger installation costs $400 to $1,200 for most homeowners. Covers NEMA 14-50 outlet costs, electrician labor, panel upgrades, and how to claim the federal tax credit.',
 }
 
 const faqSchema = {
