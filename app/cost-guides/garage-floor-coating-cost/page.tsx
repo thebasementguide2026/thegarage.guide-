@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
-  title: 'Garage Floor Coating Cost 2026: Epoxy, Polyurea, Polyaspartic, Tiles, and More | The Garage Guide',
-  description: 'A professionally installed garage floor coating costs $3 to $12 per square foot, or $1,200 to $6,000 for a standard two-car garage. Compare epoxy, polyurea, polyaspartic, tiles, and more.',
+  title: 'Polyurea & Polyaspartic Garage Floor Coating Cost 2026: Full Price Breakdown | The Garage Guide',
+  description: 'Polyurea garage floor coating costs $4 to $8 per square foot installed. Polyaspartic runs $5 to $10. Compare both against epoxy with real cost breakdowns, pros and cons, and what contractors actually charge.',
 }
 
 const faqSchema = {
