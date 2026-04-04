@@ -104,7 +104,7 @@ export default function GarageWorkshopSetup() {
             <li>Existing outlet locations and breaker panel location</li>
             <li>Any fixed obstructions: columns, water heaters, HVAC equipment</li>
           </ul>
-          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Leave at least 36 inches of walkway clearance around all work areas. The <a href='https://www.nfpa.org/education-and-research/home-fire-safety/garage' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline'>National Fire Protection Association</a> recommends 36-inch minimum clear paths to exits in workshop spaces, both for safety and for sanity when you are moving long stock.</p>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Leave at least 36 inches of walkway clearance around all work areas. The <a href='https://www.nfpa.org/education-and-research/home-fire-safety' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline'>National Fire Protection Association</a> recommends 36-inch minimum clear paths to exits in workshop spaces, both for safety and for sanity when you are moving long stock.</p>
         </section>
 
         {/* Step 2: Electrical */}
