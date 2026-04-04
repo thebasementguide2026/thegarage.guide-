@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
-  title: 'Best Garage Storage Systems 2026: Wall, Ceiling, and Cabinet Options | The Garage Guide',
-  description: 'The best garage storage system depends on what you are storing and where you have space. Wall-mounted tracks ($100 to $300), overhead ceiling racks ($100 to $400), and steel cabinets ($200 to $3,000) reviewed.',
+  title: 'Best Garage Storage Systems, Cabinets & Organizers 2026: Top Picks Reviewed | The Garage Guide',
+  description: 'The best garage storage systems, wall cabinets, ceiling racks, and organizers tested and compared. Picks for every budget from under $500 to full custom systems, with what to buy first.',
 }
 
 const faqSchema = {
