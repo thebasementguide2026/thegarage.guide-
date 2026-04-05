@@ -166,10 +166,10 @@ export default function BestGarageDoorKeypads() {
             <a href='https://amzn.to/4cOpigD' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 text-white text-sm font-bold px-6 py-3 rounded hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
 
-                    {/* Chamberlain KLIK5U-SS */}
+                    {/* Overhead Door OUK-BX */}
           <div className='border border-slate-200 rounded-lg p-6 mb-8'>
             <span className='inline-block bg-amber-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 mb-4'>Best Universal Alternative</span>
-            <h3 className='text-xl font-bold text-slate-900 mb-4'>Chamberlain KLIK5U-SS Universal Wireless Keypad</h3>
+            <h3 className='text-xl font-bold text-slate-900 mb-4'>Overhead Door OUK-BX Wireless Universal Keypad</h3>
             <div className='grid grid-cols-2 gap-4 mb-4 text-sm'>
               <div><span className='text-slate-500'>Price:</span> <strong>$30 – $40</strong></div>
               <div><span className='text-slate-500'>Compatibility:</span> <strong>Universal (most brands since 1993)</strong></div>
@@ -178,10 +178,10 @@ export default function BestGarageDoorKeypads() {
               <div><span className='text-slate-500'>Battery:</span> <strong>9V (included)</strong></div>
               <div><span className='text-slate-500'>Backlit:</span> <strong>Yes</strong></div>
             </div>
-            <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Why it's great:</strong> The Chamberlain KLIK5U-SS is manufactured by Chamberlain Group, the same company that makes LiftMaster and Craftsman openers, but it is designed to work with virtually any garage door opener brand. It operates on multiple frequencies (310, 315, and 390 MHz) to ensure compatibility with openers from Genie, LiftMaster, Chamberlain, Craftsman, Linear, Wayne Dalton, and more. It includes a temporary PIN feature and has a sturdy weather-resistant design with a protective flip cover.</p>
-            <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>What to know:</strong> The KLIK5U-SS costs slightly more than the Genie GUK-R for similar universal functionality. It programs up to 2 doors compared to the GUK-R's 3. The multi-frequency design means it can sometimes take an extra step during programming to sync to the correct frequency for your opener. Some users report that the temporary PIN setup is slightly less intuitive than the LiftMaster 878MAX.</p>
-            <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Best for:</strong> Homeowners who prefer a Chamberlain Group product but need universal compatibility beyond just LiftMaster, Chamberlain, and Craftsman openers.</p>
-            <a href='https://amzn.to/4rAH371' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 text-white text-sm font-bold px-6 py-3 rounded hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
+            <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Why it's great:</strong> The Overhead Door OUK-BX is built by one of the most established names in the garage door industry and designed to work with virtually every major opener brand sold in the US since 1993. It is compatible with LiftMaster, Chamberlain, Craftsman, Genie, Wayne Dalton, Linear, Marantec, Stanley, Ryobi, and more &mdash; including both rolling code and fixed code dip switch systems. It controls up to three different garage door opener brands with a single PIN, includes a temporary PIN feature for guests and service workers, and features backlit buttons for visibility at night. Weather-resistant housing and a protective flip cover make it a durable long-term installation.</p>
+            <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>What to know:</strong> The OUK-BX uses the same Auto-Seek frequency technology as the Genie GUK-R since both are made by the same parent company. If you already have the Genie GUK-R as your primary pick, the OUK-BX gives you the same core compatibility in a different housing. Priced at $35 to $45 on Amazon.</p>
+            <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Best for:</strong> Homeowners with a less common opener brand or anyone who wants a genuine brand-name universal keypad that is not made by Chamberlain Group.</p>
+            <a href='https://amzn.to/4tl3wWE' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 text-white text-sm font-bold px-6 py-3 rounded hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
 
                     {/* myQ Smart Video Keypad */}
