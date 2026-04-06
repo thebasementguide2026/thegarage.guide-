@@ -291,6 +291,14 @@ export const articles: Article[] = [
     readTime: '15 min read',
     image: '/images/garage electrical.jpg',
   },
+  {
+    title: 'Garage Door Off Track: Causes, How to Fix It, and When to Call a Pro',
+    description: 'Garage door off track? Diagnose the cause, fix minor derailments safely, and know when to call a pro. Covers bent tracks, broken cables, worn rollers, and repair costs.',
+    slug: 'problems/garage-door-off-track',
+    category: 'Problem',
+    readTime: '12 min read',
+    image: '/images/garagetrack.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
