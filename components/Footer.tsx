@@ -39,6 +39,7 @@ const footerSections = [
       { label: 'Oil Stains', href: '/problems/garage-floor-oil-stains' },
       { label: "Door Won't Open", href: '/problems/garage-door-wont-open' },
       { label: 'Spring Replacement', href: '/problems/garage-door-spring-replacement' },
+      { label: 'Door Off Track', href: '/problems/garage-door-off-track' },
       { label: 'Weather Stripping', href: '/problems/garage-door-weather-stripping' },
     ],
   },
