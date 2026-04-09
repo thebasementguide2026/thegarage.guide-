@@ -299,6 +299,14 @@ export const articles: Article[] = [
     readTime: '12 min read',
     image: '/images/garagetrack.jpg',
   },
+  {
+    title: 'Garage Door Cable Broke: Causes, What to Do Right Now, and Repair Costs',
+    description: 'Garage door cable broke? Find out what caused it, what to do right now, whether you can fix it yourself, and what professional repair costs in 2026.',
+    slug: 'problems/garage-door-cable-broke',
+    category: 'Problem',
+    readTime: '11 min read',
+    image: '/images/garagecablebroke.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
