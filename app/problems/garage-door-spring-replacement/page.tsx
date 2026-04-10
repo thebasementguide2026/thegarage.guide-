@@ -187,8 +187,8 @@ export default function GarageDoorSpringReplacement() {
             <li className='text-slate-700 text-sm'>The door will not open, or opens only 2 to 4 inches before the opener strains and stops</li>
             <li className='text-slate-700 text-sm'>The door feels extremely heavy when you try to lift it manually after disconnecting the opener</li>
             <li className='text-slate-700 text-sm'>A visible gap of 2 to 3 inches in the torsion spring coil above the door</li>
-            <li className='text-slate-700 text-sm'>The lift cables on one or both sides appear slack or have fallen off their drums</li>
-            <li className='text-slate-700 text-sm'>The door appears crooked or lopsided (more common with extension spring failure on one side)</li>
+            <li className='text-slate-700 text-sm'>The lift cables on one or both sides appear slack or have fallen off their drums. A broken spring frequently causes the lift cable to go slack or snap under the uneven load. If your cable also failed, see our <Link href='/problems/garage-door-cable-broke' className='text-amber-700 underline'>garage door cable broke guide</Link> for what to do next.</li>
+            <li className='text-slate-700 text-sm'>The door appears crooked or lopsided (more common with extension spring failure on one side). A broken spring can also cause the door to come off its tracks. See our <Link href='/problems/garage-door-off-track' className='text-amber-700 underline'>garage door off track guide</Link> for diagnosis and repair steps.</li>
           </ul>
         </section>
 
