@@ -28,7 +28,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Garage Door Replacement Cost 2026: Complete Price Breakdown',
   description: 'A new garage door costs $1,200 to $4,500 installed for a standard single or double door.',
-  image: 'https://thegarage.guide/1.jpg',
+  image: 'https://thegarage.guide/images/1.jpg',
   datePublished: '2026-03-06',
   dateModified: '2026-03-06',
   author: { '@type': 'Organization', name: 'The Garage Guide', url: 'https://thegarage.guide' },
@@ -40,7 +40,7 @@ export default function GarageDoorReplacementCost() {
     <>
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
-        <Image src='/1.jpg' alt='New garage door installed on residential home' fill className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100' priority />
+        <Image src='/images/1.jpg' alt='New garage door installed on residential home' fill className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100' priority />
         <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
         <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
           <div className='flex items-center space-x-3 mb-8'>

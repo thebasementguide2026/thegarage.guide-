@@ -71,7 +71,7 @@ export default function WaterLeakingIntoGarage() {
         <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent' />
         <div className='container-custom relative z-10 pb-10'>
           <div className='flex items-center gap-3 mb-4'>
-            <Image src='/gg.svg' alt='GG' width={32} height={32} />
+            <div className='w-8 h-8 bg-amber-700 rounded-full flex items-center justify-center text-white font-bold text-xs'>GG</div>
             <span className='text-white/80 text-sm font-medium'>The Garage Guide</span>
           </div>
           <p className='text-white/70 text-sm mb-3'>Updated Mar 2026 · 18 min read</p>
