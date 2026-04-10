@@ -519,7 +519,7 @@ export default function GarageDoorCableBroke() {
         <p className='text-slate-600 text-sm mb-8'>
           For official garage door safety information, see the{' '}
           <a
-            href='https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Garage-Door-Safety'
+            href='https://www.cpsc.gov/FAQ/Automatic-Residential-Garage-Door-Operators'
             target='_blank'
             rel='noopener noreferrer'
             className='text-amber-700 underline'
