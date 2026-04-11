@@ -42,6 +42,7 @@ const footerSections = [
       { label: 'Door Off Track', href: '/problems/garage-door-off-track' },
       { label: 'Weather Stripping', href: '/problems/garage-door-weather-stripping' },
       { label: 'Cable Broke', href: '/problems/garage-door-cable-broke' },
+      { label: 'Door Makes Noise', href: '/problems/garage-door-makes-noise' },
     ],
   },
   {
