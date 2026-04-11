@@ -307,6 +307,14 @@ export const articles: Article[] = [
     readTime: '11 min read',
     image: '/images/garagecablebroke.jpg',
   },
+  {
+    title: 'Garage Door Making Noise? Diagnose the Sound and Fix It',
+    description: 'Garage door making noise? Diagnose grinding, squeaking, banging, rattling, and popping sounds by component. Fixes for each noise type and when to call a pro.',
+    slug: 'problems/garage-door-makes-noise',
+    category: 'Problem',
+    readTime: '14 min read',
+    image: '/images/garagetrack2.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
