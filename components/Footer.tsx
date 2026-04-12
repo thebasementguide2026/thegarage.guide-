@@ -27,6 +27,7 @@ const footerSections = [
       { label: 'Conversion Cost', href: '/cost-guides/garage-conversion-cost' },
       { label: 'Door Replacement Cost', href: '/cost-guides/garage-door-replacement-cost' },
       { label: 'Garage Addition Cost', href: '/cost-guides/garage-addition-cost' },
+      { label: 'Insulation Cost', href: '/cost-guides/garage-insulation-cost' },
     ],
   },
   {
