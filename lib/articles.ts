@@ -323,6 +323,14 @@ export const articles: Article[] = [
     readTime: '12 min read',
     image: '/images/garage-insulation.jpg',
   },
+  {
+    title: 'NEMA 14-50 Outlet Installation Cost 2026: Garage EV Charging Circuit Prices',
+    description: 'NEMA 14-50 outlet installation costs $300 to $1,000 for most garages in 2026. Covers outlet types, wire run length, panel upgrade costs, permits, and NEMA 14-50 vs 6-50 vs hardwired.',
+    slug: 'cost-guides/nema-14-50-outlet-installation-cost',
+    category: 'Cost Guide',
+    readTime: '11 min read',
+    image: '/images/NEMA 14-50.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
