@@ -316,6 +316,14 @@ export const articles: Article[] = [
     image: '/images/garagetrack2.jpg',
   },
   {
+    title: 'Garage Door Opens By Itself: Causes, Fixes, and How to Stop It',
+    description: 'Garage door opener opens by itself? Diagnose the exact cause — stuck button, frequency interference, wiring short, bad logic board, or sensor issue — and fix it step by step.',
+    slug: 'problems/garage-door-opens-by-itself',
+    category: 'Problem',
+    readTime: '12 min read',
+    image: '/images/garagedooropening.jpg',
+  },
+  {
     title: 'Garage Insulation Cost 2026: Door, Walls, Ceiling, and Whole Garage Prices',
     description: 'Garage insulation costs $800 to $5,100 for a 2-car garage professionally installed. Garage door insulation kits cost $50 to $200 DIY. Full breakdown by type, surface, and garage size.',
     slug: 'cost-guides/garage-insulation-cost',
