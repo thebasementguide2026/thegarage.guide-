@@ -17,47 +17,47 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'Do I need to replace my garage door opener to make it smart?',
-      acceptedAnswer: { '@type': 'Answer', text: 'No. A $36 to $220 retrofit hub adds WiFi control, smartphone access, real-time alerts, and voice control to almost any existing garage door opener. You only need to replace the opener if the motor or mechanical components are failing, not for smart features.' }
+      acceptedAnswer: { '@type': 'Answer', text: 'No, you do not need to replace your garage door opener to add smart features. A smart garage door retrofit hub costs $36 to $220 and adds WiFi control, smartphone access, real-time open and close alerts, and voice control to almost any existing garage door opener manufactured after 1993. You only need to replace the garage door opener if the motor, belt, chain, or mechanical components are failing. Adding smart features alone is not a reason to replace a working opener.' }
     },
     {
       '@type': 'Question',
-      name: 'Does myQ require a monthly subscription?',
-      acceptedAnswer: { '@type': 'Answer', text: 'No. The free myQ tier handles open and close from the app, alerts, scheduling, and voice control through Google and Alexa. The paid Smart Access Pass ($1 per month) adds Amazon Key in-garage delivery and IFTTT integration. Most homeowners do not need the paid tier.' }
+      name: 'Does the Chamberlain myQ app require a monthly subscription?',
+      acceptedAnswer: { '@type': 'Answer', text: 'No, the Chamberlain myQ app does not require a monthly subscription for basic smart garage door features. The free myQ tier handles opening and closing the garage door from the app, real-time alerts, scheduling, family member sharing, and voice control through Google Assistant and Amazon Alexa. Chamberlain offers a paid Smart Access Pass at $1 per month or $10 per year that adds Amazon Key in-garage delivery and IFTTT integration, but most homeowners do not need the paid tier. Note that Chamberlain myQ does not support Apple HomeKit at any price.' }
     },
     {
       '@type': 'Question',
-      name: 'Can I control my garage door with Apple HomeKit without buying a new opener?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Yes. The Meross MSG100HK, Konnected blaQ, and iSmartgate PRO all add HomeKit support to existing garage door openers. Meross works on any brand starting at $42 for a single door. The blaQ works only on Chamberlain and LiftMaster openers with Security+ 2.0 but adds local control on top of HomeKit. iSmartgate PRO handles multiple doors and includes camera integration.' }
+      name: 'Can I control my garage door with Apple HomeKit without buying a new garage door opener?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Yes, you can add Apple HomeKit control to an existing garage door opener by installing a smart retrofit hub that natively supports HomeKit. Three products add HomeKit to existing garage door openers in 2026: the Meross MSG100HK works on any brand of opener starting at around $42 for a single door, the Konnected blaQ works only on Chamberlain and LiftMaster openers with Security+ 2.0 (non-white learn buttons) and adds local control on top of HomeKit, and the iSmartgate PRO handles up to three doors from a single hub and includes IP camera integration. The Chamberlain myQ app does not support HomeKit at any price tier.' }
     },
     {
       '@type': 'Question',
-      name: 'What is the learn button on my garage door opener?',
-      acceptedAnswer: { '@type': 'Answer', text: 'The learn button is a small colored button on the back of the opener motor unit, usually near the antenna wire. It pairs new remotes, keypads, and smart hubs with the opener. The color tells you which communication protocol your opener uses. Yellow is Security+ 2.0, white (2025 and newer) is Security+ 3.0, and other colors are older versions.' }
+      name: 'What is the learn button on a garage door opener?',
+      acceptedAnswer: { '@type': 'Answer', text: 'The learn button on a garage door opener is a small colored button on the back of the opener motor unit, usually near the antenna wire, used to pair new remotes, keypads, and smart hubs with the opener. The color of the learn button identifies which communication protocol the opener uses, which determines retrofit compatibility. Yellow learn buttons indicate Security+ 2.0 (most common on Chamberlain, LiftMaster, and Craftsman openers from 2011 to 2024). White learn buttons indicate Security+ 3.0 (2025 and newer Chamberlain openers). Red, orange, purple, brown, or blue learn buttons indicate Security+ 1.0 or 2.0 (1997 to 2011). Green learn buttons indicate pre-1997 rolling code systems.' }
     },
     {
       '@type': 'Question',
-      name: 'Does a smart garage hub work without internet?',
-      acceptedAnswer: { '@type': 'Answer', text: 'It depends on the hub. Konnected blaQ with Home Assistant keeps control fully local and works without internet. Meross and iSmartgate HomeKit modes work locally for HomeKit commands but lose remote access. Chamberlain MYQ-G0401 requires internet for most functions.' }
+      name: 'Does a smart garage door hub work without internet?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Whether a smart garage door hub works without internet depends on the specific product. The Konnected blaQ paired with Home Assistant keeps control fully local and continues to work without any internet connection. The Meross MSG100HK and iSmartgate PRO work locally for Apple HomeKit commands when used with an Apple home hub, but lose remote access outside the home network. The Chamberlain MYQ-G0401 requires an active internet connection for nearly all smart features. Regardless of which hub you install, the garage door physical wall button and original remote always continue to work during internet outages.' }
     },
     {
       '@type': 'Question',
-      name: 'Will the myQ hub work on my opener with a yellow learn button?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Not always. Chamberlain Group openers with a yellow learn button manufactured between 2010 and 2021 are specifically excluded from MYQ-G0401 compatibility. For these openers, the Konnected blaQ or a universal contact-closure kit like the Meross MSG100HK (with switch adaptor) is the better choice.' }
+      name: 'Will the Chamberlain myQ hub work on a garage door opener with a yellow learn button?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Not always. The Chamberlain MYQ-G0401 Smart Garage Hub does not work with Chamberlain Group openers (Chamberlain, LiftMaster, and Craftsman branded) that have a yellow learn button and were manufactured between 2010 and 2021. This is a specific compatibility exclusion documented by the manufacturer. For garage door openers in that 2010 to 2021 yellow learn button window, the Konnected blaQ or a universal contact-closure kit such as the Meross MSG100HK (used with the included switch adaptor accessory) is the correct retrofit option. Yellow learn button Chamberlain openers made before 2010 or after 2021 are typically compatible with the myQ hub.' }
     },
     {
       '@type': 'Question',
-      name: 'Can I use one smart hub for two or three garage doors?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Yes, with the iSmartgate PRO. It controls up to three doors from a single hub by adding extra wireless tilt sensors (sold separately). The Chamberlain MYQ-G0401, Meross MSG100HK, and Konnected blaQ each support only one door per hub, so a two-door garage needs two of those units.' }
+      name: 'Can one smart hub control two or three garage doors?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Yes, the iSmartgate PRO smart garage door hub can control up to three garage doors from a single hub by adding extra wireless tilt sensors (sold separately by the manufacturer). The Chamberlain MYQ-G0401, Meross MSG100HK, and Konnected blaQ each support only one garage door per hub, so a two-door garage using those products requires two separate hubs. For homes with two or three garage doors and a preference to consolidate control in one app, the iSmartgate PRO is the only option in the under-$250 price range that handles multi-door setups from a single unit.' }
     },
     {
       '@type': 'Question',
-      name: 'Will a smart garage retrofit work on my 20-year-old opener?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Probably yes, if the opener was made after 1993 and has a learn button. Older Chamberlain and LiftMaster openers work with universal contact-closure hubs like Meross or iSmartgate regardless of learn button color. The one exception is openers with a green learn button, which work with universal hubs but not with myQ or Konnected blaQ.' }
+      name: 'Will a smart garage retrofit work on a 20-year-old garage door opener?',
+      acceptedAnswer: { '@type': 'Answer', text: 'A smart garage retrofit will probably work on a 20-year-old garage door opener, provided the opener was manufactured after 1993 and has a learn button. Garage door openers made before 1993 lack modern safety sensors required by current building code and should be replaced rather than retrofitted. For older openers that do qualify, universal contact-closure retrofit hubs like the Meross MSG100HK or iSmartgate PRO work regardless of learn button color because they wire into the same terminals as the wall button. The Chamberlain myQ hub and Konnected blaQ do not work with green learn button openers (pre-1997), but universal hubs do.' }
     },
     {
       '@type': 'Question',
-      name: 'What happens if my WiFi goes down?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Your wall button and remote still work normally. The smart features (app control, voice control, alerts) are unavailable until WiFi returns. Konnected blaQ in Home Assistant mode continues to work for local commands as long as your Home Assistant server is running, because no internet is required.' }
+      name: 'What happens to a smart garage door opener when WiFi goes down?',
+      acceptedAnswer: { '@type': 'Answer', text: 'When WiFi goes down, the garage door original wall button and handheld remote continue to work normally because they use radio frequency signaling that does not depend on internet or WiFi. The smart features of the retrofit hub (app control, voice control through Alexa or Google, automatic open and close alerts) become unavailable until WiFi returns. One exception: the Konnected blaQ in Home Assistant mode continues to work for local smart home commands as long as the Home Assistant server on the local network is running, because the blaQ does not require internet to function.' }
     },
   ]
 }
@@ -540,43 +540,43 @@ export default function SmartGarageRetrofitPage() {
         {/* FAQ */}
         <div className='mb-8'>
           <h2 className='text-2xl font-bold text-slate-900 mb-6'>Frequently Asked Questions</h2>
-          <div className='space-y-3'>
-            <details className='border border-slate-200 rounded-lg group'>
-              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Do I need to replace my garage door opener to make it smart?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>No. A $36 to $220 retrofit hub adds WiFi control, smartphone access, real-time alerts, and voice control to almost any existing garage door opener. You only need to replace the opener if the motor or mechanical components are failing, not for smart features.</div>
-            </details>
-            <details className='border border-slate-200 rounded-lg group'>
-              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Does myQ require a monthly subscription?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>No. The free myQ tier handles open and close from the app, alerts, scheduling, and voice control through Google and Alexa. The paid Smart Access Pass ($1 per month) adds Amazon Key in-garage delivery and IFTTT integration. Most homeowners do not need the paid tier.</div>
-            </details>
-            <details className='border border-slate-200 rounded-lg group'>
-              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Can I control my garage door with Apple HomeKit without buying a new opener?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes. The Meross MSG100HK, Konnected blaQ, and iSmartgate PRO all add HomeKit support to existing garage door openers. Meross works on any brand starting at $42 for a single door. The blaQ works only on Chamberlain and LiftMaster openers with Security+ 2.0 (non-white learn buttons) but adds local control on top of HomeKit. iSmartgate PRO handles multiple doors and includes camera integration.</div>
-            </details>
-            <details className='border border-slate-200 rounded-lg group'>
-              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What is the learn button on my garage door opener?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>The learn button is a small colored button on the back of the opener motor unit, usually near the antenna wire. It pairs new remotes, keypads, and smart hubs with the opener. The color tells you which communication protocol your opener uses. Yellow is Security+ 2.0, white (2025 and newer) is Security+ 3.0, and other colors are older versions.</div>
-            </details>
-            <details className='border border-slate-200 rounded-lg group'>
-              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Does a smart garage hub work without internet?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>It depends on the hub. Konnected blaQ with Home Assistant keeps control fully local and works without internet. Meross and iSmartgate HomeKit modes work locally for HomeKit commands but lose remote access. Chamberlain MYQ-G0401 requires internet for most functions.</div>
-            </details>
-            <details className='border border-slate-200 rounded-lg group'>
-              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Will the myQ hub work on my opener with a yellow learn button?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Not always. Chamberlain Group openers with a yellow learn button manufactured between 2010 and 2021 are specifically excluded from MYQ-G0401 compatibility. For these openers, the Konnected blaQ or a universal contact-closure kit like the Meross MSG100HK (with switch adaptor) is the better choice.</div>
-            </details>
-            <details className='border border-slate-200 rounded-lg group'>
-              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Can I use one smart hub for two or three garage doors?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, with the iSmartgate PRO. It controls up to three doors from a single hub by adding extra wireless tilt sensors (sold separately). The Chamberlain MYQ-G0401, Meross MSG100HK, and Konnected blaQ each support only one door per hub, so a two-door garage needs two of those units.</div>
-            </details>
-            <details className='border border-slate-200 rounded-lg group'>
-              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Will a smart garage retrofit work on my 20-year-old opener?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Probably yes, if the opener was made after 1993 and has a learn button. Older Chamberlain and LiftMaster openers work with universal contact-closure hubs like Meross or iSmartgate regardless of learn button color. The one exception is openers with a green learn button, which work with universal hubs but not with myQ or Konnected blaQ.</div>
-            </details>
-            <details className='border border-slate-200 rounded-lg group'>
-              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What happens if my WiFi goes down?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Your wall button and remote still work normally. The smart features (app control, voice control, alerts) are unavailable until WiFi returns. Konnected blaQ in Home Assistant mode continues to work for local commands as long as your Home Assistant server is running, because no internet is required.</div>
-            </details>
+          <div className='space-y-4'>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>Do I need to replace my garage door opener to make it smart?</h3>
+              <p className='text-slate-700 text-sm leading-relaxed'>No, you do not need to replace your garage door opener to add smart features. A smart garage door retrofit hub costs $36 to $220 and adds WiFi control, smartphone access, real-time open and close alerts, and voice control to almost any existing garage door opener manufactured after 1993. You only need to replace the garage door opener if the motor, belt, chain, or mechanical components are failing. Adding smart features alone is not a reason to replace a working opener.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>Does the Chamberlain myQ app require a monthly subscription?</h3>
+              <p className='text-slate-700 text-sm leading-relaxed'>No, the Chamberlain myQ app does not require a monthly subscription for basic smart garage door features. The free myQ tier handles opening and closing the garage door from the app, real-time alerts, scheduling, family member sharing, and voice control through Google Assistant and Amazon Alexa. Chamberlain offers a paid Smart Access Pass at $1 per month or $10 per year that adds Amazon Key in-garage delivery and IFTTT integration, but most homeowners do not need the paid tier. Note that Chamberlain myQ does not support Apple HomeKit at any price.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>Can I control my garage door with Apple HomeKit without buying a new garage door opener?</h3>
+              <p className='text-slate-700 text-sm leading-relaxed'>Yes, you can add Apple HomeKit control to an existing garage door opener by installing a smart retrofit hub that natively supports HomeKit. Three products add HomeKit to existing garage door openers in 2026: the Meross MSG100HK works on any brand of opener starting at around $42 for a single door, the Konnected blaQ works only on Chamberlain and LiftMaster openers with Security+ 2.0 (non-white learn buttons) and adds local control on top of HomeKit, and the iSmartgate PRO handles up to three doors from a single hub and includes IP camera integration. The Chamberlain myQ app does not support HomeKit at any price tier.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>What is the learn button on a garage door opener?</h3>
+              <p className='text-slate-700 text-sm leading-relaxed'>The learn button on a garage door opener is a small colored button on the back of the opener motor unit, usually near the antenna wire, used to pair new remotes, keypads, and smart hubs with the opener. The color of the learn button identifies which communication protocol the opener uses, which determines retrofit compatibility. Yellow learn buttons indicate Security+ 2.0 (most common on Chamberlain, LiftMaster, and Craftsman openers from 2011 to 2024). White learn buttons indicate Security+ 3.0 (2025 and newer Chamberlain openers). Red, orange, purple, brown, or blue learn buttons indicate Security+ 1.0 or 2.0 (1997 to 2011). Green learn buttons indicate pre-1997 rolling code systems.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>Does a smart garage door hub work without internet?</h3>
+              <p className='text-slate-700 text-sm leading-relaxed'>Whether a smart garage door hub works without internet depends on the specific product. The Konnected blaQ paired with Home Assistant keeps control fully local and continues to work without any internet connection. The Meross MSG100HK and iSmartgate PRO work locally for Apple HomeKit commands when used with an Apple home hub, but lose remote access outside the home network. The Chamberlain MYQ-G0401 requires an active internet connection for nearly all smart features. Regardless of which hub you install, the garage door&apos;s physical wall button and original remote always continue to work during internet outages.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>Will the Chamberlain myQ hub work on a garage door opener with a yellow learn button?</h3>
+              <p className='text-slate-700 text-sm leading-relaxed'>Not always. The Chamberlain MYQ-G0401 Smart Garage Hub does not work with Chamberlain Group openers (Chamberlain, LiftMaster, and Craftsman branded) that have a yellow learn button and were manufactured between 2010 and 2021. This is a specific compatibility exclusion documented by the manufacturer. For garage door openers in that 2010 to 2021 yellow learn button window, the Konnected blaQ or a universal contact-closure kit such as the Meross MSG100HK (used with the included switch adaptor accessory) is the correct retrofit option. Yellow learn button Chamberlain openers made before 2010 or after 2021 are typically compatible with the myQ hub.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>Can one smart hub control two or three garage doors?</h3>
+              <p className='text-slate-700 text-sm leading-relaxed'>Yes, the iSmartgate PRO smart garage door hub can control up to three garage doors from a single hub by adding extra wireless tilt sensors (sold separately by the manufacturer). The Chamberlain MYQ-G0401, Meross MSG100HK, and Konnected blaQ each support only one garage door per hub, so a two-door garage using those products requires two separate hubs. For homes with two or three garage doors and a preference to consolidate control in one app, the iSmartgate PRO is the only option in the under-$250 price range that handles multi-door setups from a single unit.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>Will a smart garage retrofit work on a 20-year-old garage door opener?</h3>
+              <p className='text-slate-700 text-sm leading-relaxed'>A smart garage retrofit will probably work on a 20-year-old garage door opener, provided the opener was manufactured after 1993 and has a learn button. Garage door openers made before 1993 lack modern safety sensors required by current building code and should be replaced rather than retrofitted. For older openers that do qualify, universal contact-closure retrofit hubs like the Meross MSG100HK or iSmartgate PRO work regardless of learn button color because they wire into the same terminals as the wall button. The Chamberlain myQ hub and Konnected blaQ do not work with green learn button openers (pre-1997), but universal hubs do.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>What happens to a smart garage door opener when WiFi goes down?</h3>
+              <p className='text-slate-700 text-sm leading-relaxed'>When WiFi goes down, the garage door&apos;s original wall button and handheld remote continue to work normally because they use radio frequency signaling that does not depend on internet or WiFi. The smart features of the retrofit hub (app control, voice control through Alexa or Google, automatic open and close alerts) become unavailable until WiFi returns. One exception: the Konnected blaQ in Home Assistant mode continues to work for local smart home commands as long as the Home Assistant server on the local network is running, because the blaQ does not require internet to function.</p>
+            </div>
           </div>
         </div>
 
@@ -586,39 +586,39 @@ export default function SmartGarageRetrofitPage() {
           <div className='space-y-3'>
             <div className='border-b border-slate-200 pb-3'>
               <h3 className='font-semibold text-slate-800 text-sm'>Learn button</h3>
-              <p className='text-slate-700 text-sm'>A small colored button on the back of a garage door opener motor unit, used to pair new remotes, keypads, or smart hubs. The color identifies the communication protocol and determines retrofit compatibility. Yellow is the most common Security+ 2.0 color.</p>
+              <p className='text-slate-700 text-sm'>The learn button on a garage door opener is a small colored button on the back of the opener motor unit, typically located near the antenna wire, used to pair new remotes, keypads, and smart retrofit hubs with the opener. The color of the learn button identifies the communication protocol and determines which smart garage retrofit products are compatible. Yellow is the most common color and indicates Chamberlain Group&apos;s Security+ 2.0 protocol. Pressing the learn button puts the opener into pairing mode for a short window (typically 30 seconds) during which a new device can be added.</p>
             </div>
             <div className='border-b border-slate-200 pb-3'>
               <h3 className='font-semibold text-slate-800 text-sm'>Security+ 2.0</h3>
-              <p className='text-slate-700 text-sm'>A rolling-code wireless protocol used by Chamberlain, LiftMaster, and Craftsman openers from 2011 to 2024. Compatible with myQ (with exceptions), Konnected blaQ, and most universal retrofit hubs.</p>
+              <p className='text-slate-700 text-sm'>Security+ 2.0 is a rolling-code wireless protocol developed by the Chamberlain Group and used in Chamberlain, LiftMaster, and Craftsman garage door openers manufactured from 2011 to 2024. Garage door openers using Security+ 2.0 are identified by a yellow learn button on the back of the motor unit. The protocol encrypts communication between the opener and its remotes, keypads, and smart hubs. Smart garage retrofit products compatible with Security+ 2.0 include Chamberlain&apos;s own myQ hub (with compatibility exceptions for 2010 to 2021 models), the Konnected blaQ, and universal contact-closure hubs like the Meross MSG100HK and iSmartgate PRO (when paired with a switch adaptor accessory).</p>
             </div>
             <div className='border-b border-slate-200 pb-3'>
               <h3 className='font-semibold text-slate-800 text-sm'>Security+ 3.0</h3>
-              <p className='text-slate-700 text-sm'>The newest Chamberlain protocol used in 2025 and newer openers with white learn buttons. Currently compatible only with universal contact-closure kits (with a switch adaptor). Not compatible with myQ MYQ-G0401 or Konnected blaQ.</p>
+              <p className='text-slate-700 text-sm'>Security+ 3.0 is the newest wireless protocol from Chamberlain Group, introduced in 2025 on Chamberlain and LiftMaster garage door openers with a white learn button. Security+ 3.0 openers block most third-party smart retrofit hubs because the protocol&apos;s encryption prevents external devices from triggering the opener wirelessly. As of 2026, the only smart garage retrofit option for Security+ 3.0 openers is a universal contact-closure kit used with a compatible switch adaptor accessory. The Konnected blaQ and standard Chamberlain myQ hub are not compatible with Security+ 3.0 openers.</p>
             </div>
             <div className='border-b border-slate-200 pb-3'>
               <h3 className='font-semibold text-slate-800 text-sm'>Contact closure</h3>
-              <p className='text-slate-700 text-sm'>A wiring method where a smart hub connects to the same two terminals as the wall button and briefly closes the circuit to trigger the door. Works on virtually any opener regardless of brand or age.</p>
+              <p className='text-slate-700 text-sm'>Contact closure is a wiring method for smart garage door retrofit hubs where the hub connects to the same two terminals on the opener motor unit that power the wall button. When the hub receives a command from the smartphone app, it briefly closes the electrical circuit between those terminals, which simulates a wall button press and triggers the garage door to open or close. Contact closure retrofit products work on virtually any garage door opener with standard wall button terminals, regardless of brand, age, or protocol. Examples include the Meross MSG100HK and iSmartgate PRO.</p>
             </div>
             <div className='border-b border-slate-200 pb-3'>
               <h3 className='font-semibold text-slate-800 text-sm'>Switch adaptor</h3>
-              <p className='text-slate-700 text-sm'>A small accessory that sits between a universal contact-closure hub and a Chamberlain, LiftMaster, or Craftsman opener with a yellow learn button. Required because these openers block direct contact-closure triggering. Meross and iSmartgate both ship this accessory free on request.</p>
+              <p className='text-slate-700 text-sm'>A switch adaptor is a small accessory that sits between a universal contact-closure smart garage hub and a Chamberlain, LiftMaster, or Craftsman garage door opener with a yellow learn button. The switch adaptor is required for these specific openers because Chamberlain Group&apos;s Security+ 2.0 protocol blocks direct contact-closure triggering. Meross and iSmartgate both ship their switch adaptor accessories free on request when customers contact support with the learn button color of their opener. Setup time adds approximately 3 to 5 days to the installation timeline while waiting for the accessory to ship.</p>
             </div>
             <div className='border-b border-slate-200 pb-3'>
               <h3 className='font-semibold text-slate-800 text-sm'>Tilt sensor</h3>
-              <p className='text-slate-700 text-sm'>A small device mounted on the garage door that detects whether the door is open, closed, or in between. Required for any universal retrofit hub to accurately report door status in the app.</p>
+              <p className='text-slate-700 text-sm'>A tilt sensor is a small wireless device mounted on the top panel of a garage door that detects whether the door is open, closed, or partially in between by measuring the door&apos;s angle. Universal contact-closure smart garage retrofit hubs (such as the Meross MSG100HK and iSmartgate PRO) require a tilt sensor to accurately report door status to the smartphone app. The tilt sensor reports an &quot;open&quot; status when the door is horizontal (rolled up against the ceiling) and a &quot;closed&quot; status when the door is vertical (fully lowered). Incorrect sensor placement or mounting angle is the most common cause of inaccurate status reporting in smart garage retrofit installations.</p>
             </div>
             <div className='border-b border-slate-200 pb-3'>
               <h3 className='font-semibold text-slate-800 text-sm'>Rolling code</h3>
-              <p className='text-slate-700 text-sm'>A security technology where the remote generates a different code every time you press the button, preventing thieves from capturing and replaying the signal. Standard on all Chamberlain openers since 1997.</p>
+              <p className='text-slate-700 text-sm'>Rolling code is a wireless security technology used in garage door openers where the remote control generates a new cryptographic code every time the button is pressed, instead of transmitting the same fixed code each time. This prevents thieves from capturing the signal with a radio scanner and replaying it later to open the garage (known as a &quot;code grabbing&quot; attack). Rolling code has been standard on all Chamberlain Group openers since 1997 and on most other major brands since the early 2000s. Rolling code is the reason smart garage retrofit products must use specific protocols (Security+ 2.0, Security+ 3.0) rather than simply broadcasting radio signals.</p>
             </div>
             <div className='border-b border-slate-200 pb-3'>
               <h3 className='font-semibold text-slate-800 text-sm'>myQ</h3>
-              <p className='text-slate-700 text-sm'>Chamberlain Group&apos;s cloud-based smart garage platform. Used by Chamberlain, LiftMaster, and Craftsman openers. Provides a free tier with open and close control and a paid Smart Access Pass with additional integrations.</p>
+              <p className='text-slate-700 text-sm'>myQ is Chamberlain Group&apos;s cloud-based smart garage platform, used in Chamberlain, LiftMaster, and Craftsman garage door openers. The myQ service includes a smartphone app for iOS and Android that controls garage doors, receives alerts, schedules open and close times, and shares access with family members. Chamberlain offers myQ in a free tier (which covers most homeowner use cases) and a paid Smart Access Pass tier ($1 per month or $10 per year) that adds Amazon Key in-garage delivery and IFTTT integration. myQ does not natively support Apple HomeKit at any price tier. Third-party retrofit products like the Konnected blaQ can bypass the myQ cloud service entirely while still using the Security+ 2.0 protocol to communicate with the opener.</p>
             </div>
             <div className='border-b border-slate-200 pb-3'>
               <h3 className='font-semibold text-slate-800 text-sm'>HomeKit bridge</h3>
-              <p className='text-slate-700 text-sm'>Software or hardware that adds Apple HomeKit compatibility to smart home devices that do not natively support it. HomeBridge (free, open source) is the most common example.</p>
+              <p className='text-slate-700 text-sm'>A HomeKit bridge is software or hardware that adds Apple HomeKit compatibility to smart home devices that do not natively support the HomeKit protocol. HomeBridge (an open-source software project) is the most common example and is typically installed on a Raspberry Pi, a dedicated home server, or a Home Assistant installation. In the context of smart garage door retrofits, a HomeKit bridge is required to expose the Konnected blaQ to Apple HomeKit, because the blaQ speaks to smart home platforms like Home Assistant and SmartThings natively but does not have built-in HomeKit support. Products like the Meross MSG100HK and iSmartgate PRO include native HomeKit support and do not require a bridge.</p>
             </div>
           </div>
         </section>
