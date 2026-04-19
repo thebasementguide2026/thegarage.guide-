@@ -292,6 +292,14 @@ export const articles: Article[] = [
     image: '/images/garage electrical.jpg',
   },
   {
+    title: 'How to Make Your Garage Door Opener Smart: 2026 Retrofit Guide',
+    description: 'Make your existing garage door opener smart for $36 to $220. Compare myQ, Meross, iSmartgate, and Konnected blaQ for WiFi, HomeKit, and local control.',
+    slug: 'guides/smart-garage-door-opener-retrofit',
+    category: 'Guide',
+    readTime: '15 min read',
+    image: '/images/smartgarageretrofit.jpg',
+  },
+  {
     title: 'Garage Door Off Track: Causes, How to Fix It, and When to Call a Pro',
     description: 'Garage door off track? Diagnose the cause, fix minor derailments safely, and know when to call a pro. Covers bent tracks, broken cables, worn rollers, and repair costs.',
     slug: 'problems/garage-door-off-track',
