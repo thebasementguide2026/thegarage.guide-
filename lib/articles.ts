@@ -297,7 +297,7 @@ export const articles: Article[] = [
     slug: 'guides/smart-garage-door-opener-retrofit',
     category: 'Guide',
     readTime: '15 min read',
-    image: '/images/smartgarageretrofit.jpg',
+    image: '/images/smartgaragedoors.jpg',
   },
   {
     title: 'Garage Door Off Track: Causes, How to Fix It, and When to Call a Pro',
