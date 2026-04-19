@@ -67,7 +67,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'How to Make Your Garage Door Opener Smart: 2026 Retrofit Guide',
   description: 'Make your existing garage door opener smart for $36 to $220. Compare myQ, Meross, iSmartgate, and Konnected blaQ for WiFi, HomeKit, and local control.',
-  image: 'https://thegarage.guide/images/smartgarageretrofit.jpg',
+  image: 'https://thegarage.guide/images/smartgaragedoors.jpg',
   datePublished: '2026-04-19',
   dateModified: '2026-04-19',
   author: { '@type': 'Organization', name: 'The Garage Guide Editorial Team', url: 'https://thegarage.guide' },
@@ -109,7 +109,7 @@ const itemListSchema = {
       item: {
         '@type': 'Product',
         name: 'Chamberlain MYQ-G0401 Smart Garage Control',
-        image: 'https://thegarage.guide/images/smartgarageretrofit.jpg',
+        image: 'https://thegarage.guide/images/smartgaragedoors.jpg',
         offers: { '@type': 'AggregateOffer', lowPrice: '36', highPrice: '60', priceCurrency: 'USD' }
       }
     },
@@ -119,7 +119,7 @@ const itemListSchema = {
       item: {
         '@type': 'Product',
         name: 'Konnected blaQ',
-        image: 'https://thegarage.guide/images/smartgarageretrofit.jpg',
+        image: 'https://thegarage.guide/images/smartgaragedoors.jpg',
         offers: { '@type': 'AggregateOffer', lowPrice: '90', highPrice: '120', priceCurrency: 'USD' }
       }
     },
@@ -129,7 +129,7 @@ const itemListSchema = {
       item: {
         '@type': 'Product',
         name: 'Meross MSG100HK Smart Garage Door Opener',
-        image: 'https://thegarage.guide/images/smartgarageretrofit.jpg',
+        image: 'https://thegarage.guide/images/smartgaragedoors.jpg',
         offers: { '@type': 'AggregateOffer', lowPrice: '42', highPrice: '72', priceCurrency: 'USD' }
       }
     },
@@ -139,7 +139,7 @@ const itemListSchema = {
       item: {
         '@type': 'Product',
         name: 'iSmartgate PRO',
-        image: 'https://thegarage.guide/images/smartgarageretrofit.jpg',
+        image: 'https://thegarage.guide/images/smartgaragedoors.jpg',
         offers: { '@type': 'AggregateOffer', lowPrice: '150', highPrice: '220', priceCurrency: 'USD' }
       }
     },
@@ -152,7 +152,7 @@ export default function SmartGarageRetrofitPage() {
       <article className='container-custom py-8 max-w-4xl mx-auto'>
         {/* Hero Section */}
         <div className='relative rounded-xl overflow-hidden mb-8' style={{ minHeight: '400px' }}>
-          <Image src='/images/smartgarageretrofit.jpg' alt='Garage door opener motor unit with smart retrofit hub attached and smartphone showing door status' fill className='object-cover' priority />
+          <Image src='/images/smartgaragedoors.jpg' alt='Garage door opener motor unit with smart retrofit hub attached and smartphone showing door status' fill className='object-cover' priority />
           <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent' />
           <div className='absolute bottom-0 left-0 right-0 p-6 md:p-10'>
             <div className='flex items-center gap-3 mb-4'>
