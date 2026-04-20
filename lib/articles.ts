@@ -300,6 +300,14 @@ export const articles: Article[] = [
     image: '/images/smartgaragedoors.jpg',
   },
   {
+    title: 'How to Soundproof a Garage: Complete DIY Guide 2026',
+    description: 'Soundproof your garage for a home studio, workshop, or band practice space. STC ratings explained, material comparison, and step-by-step DIY instructions for walls, ceiling, and garage door.',
+    slug: 'guides/how-to-soundproof-garage',
+    category: 'Guide',
+    readTime: '18 min read',
+    image: '/images/garagesoundproofing.jpg',
+  },
+  {
     title: 'Garage Door Off Track: Causes, How to Fix It, and When to Call a Pro',
     description: 'Garage door off track? Diagnose the cause, fix minor derailments safely, and know when to call a pro. Covers bent tracks, broken cables, worn rollers, and repair costs.',
     slug: 'problems/garage-door-off-track',
