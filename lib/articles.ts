@@ -332,6 +332,14 @@ export const articles: Article[] = [
     image: '/images/garagedooropening.jpg',
   },
   {
+    title: 'Garage Door Keypad Not Working? Troubleshooting Guide 2026',
+    description: 'Garage door keypad not responding? Diagnose and fix the 10 most common keypad problems in 5 minutes. Step-by-step guide for Chamberlain, LiftMaster, Genie, and universal keypads.',
+    slug: 'problems/garage-door-keypad-not-working',
+    category: 'Problem',
+    readTime: '14 min read',
+    image: '/images/garagekeypadbroken.jpg',
+  },
+  {
     title: 'Garage Insulation Cost 2026: Door, Walls, Ceiling, and Whole Garage Prices',
     description: 'Garage insulation costs $800 to $5,100 for a 2-car garage professionally installed. Garage door insulation kits cost $50 to $200 DIY. Full breakdown by type, surface, and garage size.',
     slug: 'cost-guides/garage-insulation-cost',
