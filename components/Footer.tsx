@@ -47,6 +47,7 @@ const footerSections = [
       { label: 'Cable Broke', href: '/problems/garage-door-cable-broke' },
       { label: 'Door Makes Noise', href: '/problems/garage-door-makes-noise' },
       { label: 'Door Opens By Itself', href: '/problems/garage-door-opens-by-itself' },
+      { label: 'Keypad Not Working', href: '/problems/garage-door-keypad-not-working' },
     ],
   },
   {
