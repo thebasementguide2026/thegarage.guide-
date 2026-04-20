@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import LeadForm from '@/components/LeadForm'
 import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
+import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
   title: 'Garage Door Keypad Not Working? Troubleshooting Guide 2026 | The Garage Guide',
@@ -95,6 +96,7 @@ const howToSchema = {
 export default function GarageDoorKeypadNotWorkingPage() {
   return (
     <>
+      <Breadcrumbs items={[{ label: 'Problems', href: '/problems' }, { label: 'Keypad Not Working' }]} />
       <article className='container-custom py-8 max-w-4xl mx-auto'>
         {/* Hero Section */}
         <div className='relative rounded-xl overflow-hidden mb-8' style={{ minHeight: '400px' }}>
