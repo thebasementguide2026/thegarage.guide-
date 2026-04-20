@@ -18,6 +18,7 @@ const footerSections = [
       { label: 'Paint a Garage Door', href: '/guides/how-to-paint-a-garage-door' },
       { label: 'Detached Garage Electrical', href: '/guides/detached-garage-electrical' },
       { label: 'Smart Garage Retrofit', href: '/guides/smart-garage-door-opener-retrofit' },
+      { label: 'Soundproof a Garage', href: '/guides/how-to-soundproof-garage' },
     ],
   },
   {
