@@ -316,6 +316,7 @@ export default function HowToInsulateGarage() {
 
           <h3 className='text-lg font-semibold text-slate-800 mb-2'>Step 6: Cover with Drywall</h3>
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>Most building codes require exposed insulation on garage walls to be covered with 1/2-inch drywall or another fire-rated barrier. This is especially important on the wall shared with the house (fire separation requirement). Check your local code for specific requirements.</p>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Dense fiberglass or mineral wool insulation in the wall cavity also provides meaningful sound reduction, which matters if you use your garage as a workshop or music space. For a complete approach to garage noise reduction including mass-loaded vinyl and decoupling techniques, see our <Link href='/guides/how-to-soundproof-garage' className='text-amber-700 underline hover:text-amber-800'>garage soundproofing guide</Link>.</p>
         </section>
 
         {/* How to Insulate Garage Ceiling */}
