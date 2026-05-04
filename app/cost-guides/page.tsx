@@ -11,6 +11,7 @@ const costGuides = [
   { title: 'Garage Floor Coating Cost 2026', href: '/cost-guides/garage-floor-coating-cost', description: 'Garage floor coating costs $3 to $12 per square foot installed. Compare epoxy, polyurea, and DIY options.' },
   { title: 'Garage Conversion Cost 2026', href: '/cost-guides/garage-conversion-cost', description: 'A garage conversion costs $10,000 to $50,000. Complete cost breakdown by project type.' },
   { title: 'Garage Door Replacement Cost 2026', href: '/cost-guides/garage-door-replacement-cost', description: 'A new garage door costs $800 to $4,000 installed. Pricing by material, style, and size.' },
+  { title: 'Garage Door Replacement Cost Calculator', href: '/cost-guides/garage-door-replacement-cost-calculator', description: 'Free interactive calculator. Get an installed price range based on door type, size, insulation, opener, and region.' },
 ]
 
 export default function CostGuidesPage() {
