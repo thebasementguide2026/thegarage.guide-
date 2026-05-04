@@ -89,6 +89,24 @@ export default function LeadForm({ taskIds }: LeadFormProps) {
 
       if (response.ok) {
         setSubmitted(true)
+        try {
+          const projectLabel = PROJECT_TYPE_OPTIONS.find((opt) => opt.value === formData.projectType)?.label || ''
+          const leadParams = {
+            currency: 'USD',
+            value: 35,
+            form_location: pathname || '',
+            project_type: projectLabel,
+          }
+          if (typeof window !== 'undefined') {
+            const w = window as unknown as { gtag?: (...args: unknown[]) => void; dataLayer?: unknown[] }
+            if (typeof w.gtag === 'function') {
+              w.gtag('event', 'generate_lead', leadParams)
+            }
+            if (Array.isArray(w.dataLayer)) {
+              w.dataLayer.push({ event: 'generate_lead', ...leadParams })
+            }
+          }
+        } catch {}
       } else {
         setError('Something went wrong. Please try again.')
       }
