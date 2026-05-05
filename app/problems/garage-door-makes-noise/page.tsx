@@ -476,6 +476,7 @@ export default function GarageDoorMakesNoise() {
               </tbody>
             </table>
           </div>
+          <p className='text-slate-700 text-sm leading-relaxed mt-4'>If your old door is becoming noisy or unreliable, our <Link href='/cost-guides/garage-door-replacement-cost-calculator' className='text-amber-700 underline'>replacement cost calculator</Link> can help you budget the next step before calling installers.</p>
         </section>
 
         {/* When to Call a Pro */}
