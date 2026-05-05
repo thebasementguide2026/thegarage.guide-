@@ -9,7 +9,7 @@ import CtaLink from './CtaLink'
 
 export const metadata: Metadata = {
   title: 'Garage Door Replacement Cost Calculator 2026 | The Garage Guide',
-  description: 'Free 2026 garage door replacement cost calculator. Get an installed price range based on door type, size, insulation, opener, and region. No premium unlock, no email required.',
+  description: 'Estimate garage door replacement cost by door type, size, insulation, opener, labor complexity, and region. See what a new door might cost installed before you call a pro.',
   alternates: { canonical: 'https://thegarage.guide/cost-guides/garage-door-replacement-cost-calculator' },
   openGraph: {
     title: 'Garage Door Replacement Cost Calculator 2026',
@@ -49,13 +49,14 @@ const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
-    { '@type': 'Question', name: 'How accurate is this garage door replacement cost calculator?', acceptedAnswer: { '@type': 'Answer', text: 'The calculator uses 2026 national pricing data and gives a realistic installed cost range for the configuration you choose. Actual quotes from local installers vary by manufacturer, hardware grade, and site conditions, so treat the range as a starting point, not a final quote.' } },
-    { '@type': 'Question', name: 'Does the estimate include installation labor?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Every estimate is fully installed and includes the door, hardware, professional labor, and removal of the old door if you select haul-away. Labor scales with door size, install complexity, and your region.' } },
-    { '@type': 'Question', name: 'Why does region matter so much?', acceptedAnswer: { '@type': 'Answer', text: 'Labor rates and overhead vary widely by market. The same insulated steel door installed in a lower-cost rural market can be 20 to 30 percent cheaper than the same door in a high-cost coastal metro. We adjust the estimate for three broad regional bands.' } },
-    { '@type': 'Question', name: 'Should I replace the opener at the same time?', acceptedAnswer: { '@type': 'Answer', text: 'If your opener is over 10 to 15 years old or noisy, replacing it during the door install saves a second service call and often nets a small bundle discount. Belt-drive and smart Wi-Fi openers cost more up front but are quieter and add convenience features.' } },
-    { '@type': 'Question', name: 'Is a permit required to replace a garage door?', acceptedAnswer: { '@type': 'Answer', text: 'A like-for-like swap (same size, same opening) usually does not require a permit. If you change the rough-opening size, modify the framing, or add electrical work, your municipality may require a permit. Confirm with your local building department.' } },
-    { '@type': 'Question', name: 'What is the cheapest way to replace a garage door?', acceptedAnswer: { '@type': 'Answer', text: 'Choose a standard non-insulated steel sectional in a single-car size, keep your existing opener, skip windows, and dispose of the old door yourself. That configuration typically lands between $900 and $1,800 installed in average markets.' } },
-    { '@type': 'Question', name: 'Do you sell or store the data I enter?', acceptedAnswer: { '@type': 'Answer', text: 'No. The calculator runs entirely in your browser. None of your selections are stored or sold. The optional quote form below the calculator is separate and only sends your information to local pros if you submit it.' } },
+    { '@type': 'Question', name: 'How much does it cost to replace a garage door?', acceptedAnswer: { '@type': 'Answer', text: 'Many homeowners pay between about $1,000 and $3,500 to replace a garage door, including the door, standard hardware, and basic installation. Higher-end doors, double doors, new openers, and complex installs can push that total higher.' } },
+    { '@type': 'Question', name: 'How much more does an insulated garage door cost?', acceptedAnswer: { '@type': 'Answer', text: 'An insulated steel door usually costs a few hundred to more than $1,000 more than a basic non-insulated door, depending on the size and R-value. The extra cost often makes sense in hot or cold climates where the garage is used as a workspace, storage area, or buffer space next to the house.' } },
+    { '@type': 'Question', name: 'Does a double garage door cost more than two single doors?', acceptedAnswer: { '@type': 'Answer', text: 'A double garage door usually costs more than one single door, but it can cost less than installing two separate single doors with two opener systems. Exact pricing depends on width, hardware, opener setup, and local labor rates.' } },
+    { '@type': 'Question', name: 'How much does a new garage door opener add to the price?', acceptedAnswer: { '@type': 'Answer', text: 'A new opener commonly adds about $200 to $700 to the project, depending on the drive type, horsepower, and smart features. Belt-drive and smart Wi-Fi models usually sit at the higher end.' } },
+    { '@type': 'Question', name: 'Why do carriage-house and wood garage doors cost more?', acceptedAnswer: { '@type': 'Answer', text: 'Carriage-house and wood garage doors cost more because they use more expensive materials and more complex construction than a standard steel door. They may also require upgraded hardware and more installation time.' } },
+    { '@type': 'Question', name: 'How accurate is this calculator?', acceptedAnswer: { '@type': 'Answer', text: 'This calculator uses current pricing ranges and adjusts for your door type, size, upgrades, opener needs, and install difficulty. It is designed as a planning tool, not a contractor quote, so local estimates may still vary.' } },
+    { '@type': 'Question', name: 'Does the estimate include labor?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. The calculator is meant to reflect an installed range, not just the price of the door itself. That means labor and standard hardware are included, while selected add-ons like haul-away or opener replacement also affect the result.' } },
+    { '@type': 'Question', name: 'Should I replace the opener at the same time?', acceptedAnswer: { '@type': 'Answer', text: 'If your opener is old, noisy, or struggling, replacing it during the same project can save time and reduce the chance of paying for another service visit later. It is often the most efficient time to upgrade to a quieter or smarter opener.' } },
   ],
 }
 
@@ -98,9 +99,11 @@ export default function GarageDoorCostCalculator() {
         <p className='text-base text-slate-700 leading-relaxed mb-8'>This calculator uses the same pricing logic that drives our full <Link href='/cost-guides/garage-door-replacement-cost' className='text-amber-700 underline'>Garage Door Replacement Cost guide</Link>. The estimate factors door type, size, insulation upgrades, windows, opener, install complexity (like-for-like vs. framing changes), regional cost of living, and haul-away. There is no premium version, no unlock screen, and no email gate &mdash; everything runs in your browser.</p>
 
         {/* Calculator */}
-        <div className='mb-12'>
+        <div className='mb-8'>
           <Calculator />
         </div>
+
+        <p className='text-slate-700 text-sm leading-relaxed mb-12'>For most homeowners, the biggest garage door replacement cost drivers are door type, width, insulation, opener replacement, and whether the installation is a simple swap or requires framing, spring, or track work.</p>
 
         {/* Post-result CTA */}
         <div className='bg-slate-900 rounded-xl p-6 md:p-8 mb-16 text-center'>
@@ -110,6 +113,13 @@ export default function GarageDoorCostCalculator() {
           <CtaLink href='#get-quotes' ctaText='Get Free Local Quotes' placement='post_result' className='inline-block px-8 py-3 bg-amber-700 hover:bg-amber-800 text-white font-bold rounded-lg transition-colors text-sm tracking-wide uppercase'>
             Get Free Local Quotes
           </CtaLink>
+        </div>
+
+        {/* Average by Style summary */}
+        <div className='mb-10'>
+          <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Average by Style</span><div className='flex-1 h-px bg-slate-200'></div></div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-4'>Average Garage Door Replacement Cost by Style</h2>
+          <p className='text-slate-700 text-sm leading-relaxed'>For a simple one-car steel door, prices often start around $1,000 to $2,000 installed. Insulated and double-wide steel doors commonly run from about $1,800 to $3,500. Carriage-house and wood doors sit higher, often in the $2,000 to $6,000 range once you add windows, insulation, and upgraded hardware.</p>
         </div>
 
         {/* Cost by Door Type */}
@@ -199,32 +209,36 @@ export default function GarageDoorCostCalculator() {
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>Frequently Asked Questions</h2>
           <div className='space-y-3'>
             <details className='bg-slate-50 border border-slate-200 rounded-lg p-4'>
+              <summary className='font-semibold text-slate-900 cursor-pointer text-sm'>How much does it cost to replace a garage door?</summary>
+              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>Many homeowners pay between about $1,000 and $3,500 to replace a garage door, including the door, standard hardware, and basic installation. Higher-end doors, double doors, new openers, and complex installs can push that total higher.</p>
+            </details>
+            <details className='bg-slate-50 border border-slate-200 rounded-lg p-4'>
+              <summary className='font-semibold text-slate-900 cursor-pointer text-sm'>How much more does an insulated garage door cost?</summary>
+              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>An insulated steel door usually costs a few hundred to more than $1,000 more than a basic non-insulated door, depending on the size and R-value. The extra cost often makes sense in hot or cold climates where the garage is used as a workspace, storage area, or buffer space next to the house.</p>
+            </details>
+            <details className='bg-slate-50 border border-slate-200 rounded-lg p-4'>
+              <summary className='font-semibold text-slate-900 cursor-pointer text-sm'>Does a double garage door cost more than two single doors?</summary>
+              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>A double garage door usually costs more than one single door, but it can cost less than installing two separate single doors with two opener systems. Exact pricing depends on width, hardware, opener setup, and local labor rates.</p>
+            </details>
+            <details className='bg-slate-50 border border-slate-200 rounded-lg p-4'>
+              <summary className='font-semibold text-slate-900 cursor-pointer text-sm'>How much does a new garage door opener add to the price?</summary>
+              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>A new opener commonly adds about $200 to $700 to the project, depending on the drive type, horsepower, and smart features. Belt-drive and smart Wi-Fi models usually sit at the higher end.</p>
+            </details>
+            <details className='bg-slate-50 border border-slate-200 rounded-lg p-4'>
+              <summary className='font-semibold text-slate-900 cursor-pointer text-sm'>Why do carriage-house and wood garage doors cost more?</summary>
+              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>Carriage-house and wood garage doors cost more because they use more expensive materials and more complex construction than a standard steel door. They may also require upgraded hardware and more installation time.</p>
+            </details>
+            <details className='bg-slate-50 border border-slate-200 rounded-lg p-4'>
               <summary className='font-semibold text-slate-900 cursor-pointer text-sm'>How accurate is this calculator?</summary>
-              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>It uses 2026 national pricing data and gives a realistic installed range for the configuration you select. Real local quotes vary by manufacturer, hardware grade, and site conditions, so treat the range as a starting point.</p>
+              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>This calculator uses current pricing ranges and adjusts for your door type, size, upgrades, opener needs, and install difficulty. It is designed as a planning tool, not a contractor quote, so local estimates may still vary.</p>
             </details>
             <details className='bg-slate-50 border border-slate-200 rounded-lg p-4'>
               <summary className='font-semibold text-slate-900 cursor-pointer text-sm'>Does the estimate include labor?</summary>
-              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>Yes. Every estimate is fully installed and includes the door, hardware, and professional labor. Haul-away of the old door is added when you select that option.</p>
-            </details>
-            <details className='bg-slate-50 border border-slate-200 rounded-lg p-4'>
-              <summary className='font-semibold text-slate-900 cursor-pointer text-sm'>Why does region matter so much?</summary>
-              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>Labor rates and overhead vary widely. The same door in a rural Midwest market can be 20 to 30 percent cheaper than in a high-cost coastal metro. We adjust for three broad regional bands.</p>
+              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>Yes. The calculator is meant to reflect an installed range, not just the price of the door itself. That means labor and standard hardware are included, while selected add-ons like haul-away or opener replacement also affect the result.</p>
             </details>
             <details className='bg-slate-50 border border-slate-200 rounded-lg p-4'>
               <summary className='font-semibold text-slate-900 cursor-pointer text-sm'>Should I replace the opener at the same time?</summary>
-              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>If your opener is over 10 to 15 years old or noisy, doing both at once saves a second service call and often nets a small bundle discount. Belt-drive and smart Wi-Fi openers cost more up front but are quieter and add convenience features.</p>
-            </details>
-            <details className='bg-slate-50 border border-slate-200 rounded-lg p-4'>
-              <summary className='font-semibold text-slate-900 cursor-pointer text-sm'>Do I need a permit?</summary>
-              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>A like-for-like swap usually does not require a permit. Changing the rough-opening size or modifying framing may. Check with your local building department.</p>
-            </details>
-            <details className='bg-slate-50 border border-slate-200 rounded-lg p-4'>
-              <summary className='font-semibold text-slate-900 cursor-pointer text-sm'>What is the cheapest way to replace a garage door?</summary>
-              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>Standard non-insulated steel sectional in a single-car size, keep your existing opener, no windows, dispose of the old door yourself. That configuration typically lands between $900 and $1,800 installed in average markets.</p>
-            </details>
-            <details className='bg-slate-50 border border-slate-200 rounded-lg p-4'>
-              <summary className='font-semibold text-slate-900 cursor-pointer text-sm'>Do you sell or store the data I enter?</summary>
-              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>No. The calculator runs entirely in your browser. None of your selections are stored or sold. The optional quote form below is separate and only sends information to local pros if you submit it.</p>
+              <p className='text-slate-700 text-sm mt-3 leading-relaxed'>If your opener is old, noisy, or struggling, replacing it during the same project can save time and reduce the chance of paying for another service visit later. It is often the most efficient time to upgrade to a quieter or smarter opener.</p>
             </details>
           </div>
         </div>
