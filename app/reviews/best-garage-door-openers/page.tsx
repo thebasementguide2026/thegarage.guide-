@@ -277,6 +277,7 @@ export default function BestGarageDoorOpeners() {
             <li className='flex items-start gap-3'><span className='text-amber-700 font-bold text-base mt-0.5'>&#8226;</span><div><strong>Hire a pro for first-time installations.</strong> If there is no existing opener, a professional needs to install the header bracket, run electrical wiring, and ensure proper alignment. This typically costs $150 to $300 for labor.</div></li>
             <li className='flex items-start gap-3'><span className='text-amber-700 font-bold text-base mt-0.5'>&#8226;</span><div><strong>Never touch garage door springs.</strong> Springs are under extreme tension and have caused serious injuries and deaths. Opener installation does not require spring work.</div></li>
           </ul>
+          <p className='text-slate-700 text-sm leading-relaxed mt-6'>If you are also looking at replacing the door itself, run the numbers with our <Link href='/cost-guides/garage-door-replacement-cost-calculator' className='text-amber-700 underline'>garage door replacement cost calculator</Link> before calling installers.</p>
         </div>
 
         {/* FAQ */}
