@@ -377,6 +377,7 @@ export default function GarageDoorOpenerNotWorking() {
           <div className='bg-amber-50 border-l-4 border-amber-500 p-4 rounded mb-4'>
             <h3 className='font-semibold text-slate-800 text-sm mb-2'>The $200 Rule</h3>
             <p className='text-slate-700 text-sm'>If a repair estimate exceeds $200 and the opener is over 10 years old, replacement is almost always the better investment. A new belt-drive opener with WiFi and battery backup costs $200 to $400 and comes with a fresh warranty, modern safety features, and significantly quieter operation.</p>
+            <p className='text-slate-700 text-sm mt-3'>If the door itself may need replacement, use our <a href='/cost-guides/garage-door-replacement-cost-calculator' className='text-amber-700 underline'>garage door replacement cost calculator</a> to see what a new setup may cost.</p>
           </div>
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>If you've decided it's time for a new unit, see our <Link href='/reviews/best-garage-door-openers' className='text-amber-700 underline'>best garage door openers 2026 guide</Link> for tested picks at every price point.</p>
         </section>
