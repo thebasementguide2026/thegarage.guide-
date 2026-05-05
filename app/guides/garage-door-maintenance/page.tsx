@@ -451,6 +451,7 @@ export default function GarageDoorMaintenance() {
             <li>Auto-reverse test fails and cannot be corrected by adjusting the force setting</li>
             <li>Any grinding noise coming from the spring or cable system during operation</li>
           </ul>
+          <p className='text-slate-700 text-sm leading-relaxed'>When your door reaches end of life (typically 15 to 30 years depending on material and use), use our <Link href='/cost-guides/garage-door-replacement-cost-calculator' className='text-amber-700 underline'>garage door cost calculator</Link> to estimate replacement cost based on your specific door type, size, and region.</p>
         </section>
 
         {/* FAQ Section */}
