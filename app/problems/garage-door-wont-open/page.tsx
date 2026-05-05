@@ -306,6 +306,7 @@ export default function GarageDoorWontOpen() {
             <li className='text-slate-700 text-sm leading-relaxed'>Your springs are 7 or more years old. Budget for proactive replacement before a failure</li>
             <li className='text-slate-700 text-sm leading-relaxed'>The door passes the manual lift test but feels heavier than usual (springs losing tension)</li>
           </ul>
+          <p className='text-slate-700 text-sm leading-relaxed'>When repair costs add up across multiple aging components, full replacement often makes more sense. Use our <Link href='/cost-guides/garage-door-replacement-cost-calculator' className='text-amber-700 underline'>garage door cost calculator</Link> to compare repair against replacement pricing.</p>
         </section>
 
         {/* FAQ */}
