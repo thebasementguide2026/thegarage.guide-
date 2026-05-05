@@ -393,6 +393,7 @@ export default function GarageDoorWontClose() {
               </tbody>
             </table>
           </div>
+          <p className='text-slate-700 text-sm leading-relaxed mt-6'>For doors with multiple recurring issues that suggest end-of-life, use our <Link href='/cost-guides/garage-door-replacement-cost-calculator' className='text-orange-600 hover:underline font-medium'>garage door replacement cost calculator</Link> to estimate the cost of replacing the full door system.</p>
         </section>
 
         {/* Emergency Section */}
