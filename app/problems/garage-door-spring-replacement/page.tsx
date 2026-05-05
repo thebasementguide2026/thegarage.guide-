@@ -323,6 +323,8 @@ export default function GarageDoorSpringReplacement() {
           <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Labor breakdown:</strong> Labor typically runs $75 to $150 per hour. Spring replacement takes 45 to 90 minutes for a standard job. The technician also performs a full balance test, adjusts the opener&apos;s force settings to match the new spring tension, and lubricates all moving parts.</p>
 
           <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Getting a fair quote:</strong> Call at least two companies. Be specific: tell them you have a broken torsion spring (or extension spring), your door size (single or double, height), and whether your car is trapped. Most reputable companies give a price range over the phone. Be wary of companies that refuse to quote without an in-person inspection for a standard spring replacement.</p>
+
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>If your spring repair quotes are pushing past 50 percent of new door replacement cost, replacement is usually the smarter financial decision. Use our <Link href='/cost-guides/garage-door-replacement-cost-calculator' className='text-amber-700 underline'>garage door cost calculator</Link> to get a quick installed estimate so you can compare against the repair quote and decide.</p>
         </section>
 
         {/* Manual Opening */}
