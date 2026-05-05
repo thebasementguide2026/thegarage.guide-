@@ -398,6 +398,7 @@ export default function GarageDoorOffTrack() {
               </tbody>
             </table>
           </div>
+          <p className='text-slate-700 text-sm leading-relaxed mt-4'>For severely damaged doors where panel replacement is no longer cost-effective, use our <Link href='/cost-guides/garage-door-replacement-cost-calculator' className='text-amber-700 underline'>garage door replacement cost calculator</Link> to estimate the full replacement project.</p>
         </section>
 
         {/* Emergency Situation */}
