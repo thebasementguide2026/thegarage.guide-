@@ -357,6 +357,7 @@ export default function GarageDoorCableBroke() {
               </tbody>
             </table>
           </div>
+          <p className='text-slate-700 text-sm leading-relaxed mt-4'>If cable damage is paired with other door wear (worn rollers, dented panels, aging opener), use our <Link href='/cost-guides/garage-door-replacement-cost-calculator' className='text-amber-700 underline'>garage door cost calculator</Link> to compare full replacement against multiple individual repairs.</p>
         </section>
 
         {/* What It Costs */}
