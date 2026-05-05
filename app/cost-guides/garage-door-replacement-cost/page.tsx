@@ -59,6 +59,10 @@ export default function GarageDoorReplacementCost() {
       <article className='max-w-4xl mx-auto px-4 py-12'>
         <p className='text-base text-slate-700 leading-relaxed mb-6'>Garage door replacement is the <strong>#1 ROI home improvement project in the country</strong>. According to the 2025 Cost vs. Value Report by Zonda, it returns 268% of the investment at resale. For every $1,000 you invest, approximately $2,680 is added to your home&apos;s value. This guide breaks down every cost component so you know exactly what you&apos;re paying for, where you can save money, and whether you actually need a full replacement or just a repair.</p>
 
+        <div className='bg-amber-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-10'>
+          <p className='text-slate-800 text-sm leading-relaxed'><strong>Quick estimate:</strong> Use our <Link href='/cost-guides/garage-door-replacement-cost-calculator' className='text-amber-700 underline font-semibold'>garage door replacement cost calculator</Link> to get an instant installed price range based on your door type, size, insulation, opener, and region. The calculator pulls from the same 2026 cost ranges discussed in this guide.</p>
+        </div>
+
         {/* Repair vs Replace */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Repair vs Replace</span><div className='flex-1 h-px bg-slate-200'></div></div>
@@ -232,6 +236,7 @@ export default function GarageDoorReplacementCost() {
             <li className='flex items-start gap-3'><span className='text-amber-700 font-bold text-base mt-0.5'>&#8226;</span><div><strong>Consider keeping your opener.</strong> If your current garage door opener is under 10 years old and working well, it may be compatible with your new door. Keeping a functional opener saves $200 to $500.</div></li>
             <li className='flex items-start gap-3'><span className='text-amber-700 font-bold text-base mt-0.5'>&#8226;</span><div><strong>Don&apos;t DIY the installation.</strong> Garage door springs are under extreme tension and have caused serious injuries and deaths. Professional installation includes spring balancing, safety testing, opener calibration, and a warranty. The $200 to $500 labor cost is well worth the safety and peace of mind.</div></li>
           </ul>
+          <p className='text-slate-700 text-sm leading-relaxed mt-6'>For a personalized cost estimate based on your specific door and region, use our <Link href='/cost-guides/garage-door-replacement-cost-calculator' className='text-amber-700 underline font-semibold'>garage door cost calculator</Link> before requesting installer quotes.</p>
         </div>
 
         {/* FAQ */}
