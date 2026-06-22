@@ -6,11 +6,11 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'The Garage Guide \u2014 Expert Garage Improvement Advice for Homeowners',
+  title: 'The Garage Guide — Expert Garage Improvement Advice for Homeowners',
   description: 'Independent resource for garage organization, improvement, and maintenance. Written for homeowners, not contractors.',
   keywords: 'garage organization, garage storage, garage floor, garage door, garage insulation, garage heater, garage conversion',
   openGraph: {
-    title: 'The Garage Guide \u2014 Expert Garage Improvement Advice for Homeowners',
+    title: 'The Garage Guide — Expert Garage Improvement Advice for Homeowners',
     description: 'Independent resource for garage organization, improvement, and maintenance. Written for homeowners, not contractors.',
     siteName: 'The Garage Guide',
     type: 'website',
@@ -44,6 +44,23 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        {/* TrustedForm Certify Script */}
+        <Script
+          id="trustedform"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var tf = document.createElement('script');
+                tf.type = 'text/javascript';
+                tf.async = true;
+                tf.src = ("https:" == document.location.protocol ? 'https' : 'http') + '://api.trustedform.com/trustedform.js?field=xxTrustedFormCertUrl&use_tagged_consent=true&l=' + new Date().getTime() + Math.random();
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(tf, s);
+              })();
+            `,
+          }}
+        />
       </body>
     </html>
   )
