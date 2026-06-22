@@ -37,22 +37,27 @@ export async function POST(request: Request) {
         phone: phone.replace(/\D/g, ''),
         zipcode: zipCode,
         task_id: taskId.toString(),
-        description: description || '',
-        trusted_form_cert_url: trustedFormCertUrl || '',
+        comments: description || '',
+        source_id: 'thegarage.guide',
       })
 
-      const response = await fetch(
-        `https://api.networx.com/lead/add?${params.toString()}`,
-        { method: 'GET' }
-      )
+      if (trustedFormCertUrl) {
+        params.append('cert_url', trustedFormCertUrl)
+      }
 
-      const result = await response.text()
-      results.push({ taskId, result })
+      try {
+        const response = await fetch('https://api.networx.com/?' + params.toString(), {
+          method: 'GET',
+        })
+        const result = await response.text()
+        results.push({ taskId, result })
+      } catch (err) {
+        results.push({ taskId, error: 'Failed to submit' })
+      }
     }
 
     return NextResponse.json({ success: true, results })
   } catch (error) {
-    console.error('Lead submission error:', error)
     return NextResponse.json(
       { error: 'Internal server error' },
       { status: 500 }
