@@ -108,6 +108,12 @@ export default function LeadForm({ taskIds }: LeadFormProps) {
       })
 
       if (response.ok) {
+        // Parse body to read outcome — both success and duplicate are user-facing thank-you flows
+        let outcome = 'success'
+        try {
+          const data = await response.json()
+          if (data && typeof data.outcome === 'string') outcome = data.outcome
+        } catch {}
         setSubmitted(true)
         try {
           const projectLabel = PROJECT_TYPE_OPTIONS.find((opt) => opt.value === formData.projectType)?.label || ''
@@ -116,6 +122,7 @@ export default function LeadForm({ taskIds }: LeadFormProps) {
             value: 35,
             form_location: pathname || '',
             project_type: projectLabel,
+            lead_outcome: outcome,
           }
           if (typeof window !== 'undefined') {
             const w = window as unknown as { gtag?: (...args: unknown[]) => void; dataLayer?: unknown[] }
@@ -134,6 +141,22 @@ export default function LeadForm({ taskIds }: LeadFormProps) {
           if (data && data.fields && typeof data.fields === 'object') {
             const firstField = Object.values(data.fields)[0]
             if (typeof firstField === 'string') msg = firstField
+          } else if (data && typeof data.outcome === 'string') {
+            const outcome = data.outcome as string
+            const rawMsg = typeof data.errorMessage === 'string' && data.errorMessage ? data.errorMessage : ''
+            if (outcome === 'missing_cert') {
+              msg = 'Form security check failed. Please refresh the page and try again.'
+            } else if (outcome === 'invalid') {
+              msg = 'Some of your contact info could not be verified. Please double-check your email, phone, and ZIP code, then try again.'
+            } else if (outcome === 'refused') {
+              msg = 'Our partner is not accepting submissions for this service in your area right now. Please try a different project type or try again later.'
+            } else if (outcome === 'network_error') {
+              msg = 'We had trouble reaching our partner. Please try again in a moment.'
+            } else if (rawMsg) {
+              msg = rawMsg
+            } else if (typeof data.error === 'string') {
+              msg = data.error
+            }
           } else if (data && typeof data.error === 'string') {
             msg = data.error
           }
