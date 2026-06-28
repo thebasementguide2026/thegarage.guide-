@@ -32,6 +32,8 @@ const PROJECT_TYPE_OPTIONS = [
   { value: '40', label: 'Closets/Built-in Furniture' },
 ]
 
+const TCPA_TEXT = `By clicking "Get Free Quotes," I consent to be contacted by home service professionals at the phone number and/or email address I provided, including via automated calls, texts, and prerecorded messages, even if my number is on a Do Not Call list. I understand this consent is not a condition of purchase. I also agree to The Garage Guide's Terms of Service and Privacy Policy.`
+
 interface LeadFormProps {
   taskIds?: number[]
 }
@@ -101,6 +103,7 @@ export default function LeadForm({ taskIds }: LeadFormProps) {
           ...formData,
           taskIds: finalTaskIds,
           trustedFormCertUrl,
+          tcpaComplianceText: TCPA_TEXT,
         }),
       })
 
