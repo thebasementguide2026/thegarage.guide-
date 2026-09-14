@@ -2,3 +2,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://thegarage.guide/sitemap.xml
+
+# AI / LLM discovery
+# LLM-friendly site index: https://thegarage.guide/llms.txt
+# Full content archive:    https://thegarage.guide/llms-full.txt

@@ -136,6 +136,7 @@ export default function Footer() {
             <Link href="/terms" className="hover:text-slate-300">Terms of Use</Link>
             <Link href="/contact" className="hover:text-slate-300">Contact Us</Link>
             <Link href="/affiliate-disclosure" className="hover:text-slate-300">Affiliate Disclosure</Link>
+            <a href="/llms.txt" className="hover:text-slate-300" title="LLM/AI-friendly site index">AI/LLMs</a>
           </div>
         </div>
       </div>
