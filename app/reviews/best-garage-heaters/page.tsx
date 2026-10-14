@@ -178,7 +178,7 @@ export default function BestGarageHeaters() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> The Fahrenheat FUH54 is the most recommended electric garage heater across professional review sites. It mounts to the ceiling keeping floor space clear, delivers 5,000 watts on the high setting, includes adjustable louvers to direct airflow, and has a built-in thermostat that maintains your target temperature automatically.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> This unit must be hardwired into a 240V circuit. It does not come with a plug or power cord. If you do not already have a 240V outlet in your garage, budget $200 to $500 for an electrician to run a dedicated circuit. The 5,000W output handles a well-insulated two-car garage but may struggle in an uninsulated space or during extreme cold.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Homeowners who want a permanent, set-and-forget heating solution for a standard two-car garage.</p>
-            <a href='https://amzn.to/4d9eLN6' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B00r2aNeG' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
         </section>
 
@@ -198,7 +198,7 @@ export default function BestGarageHeaters() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> The King ECO2S is the most powerful residential electric garage heater available. Its two-stage heating (5,000W and 10,000W) lets you run efficiently on the low setting during mild weather and blast the full 10,000W when temperatures drop. The ECO2S smart heating mode automatically adjusts output to maintain temperature with minimal energy waste.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> At 10,000W on the high setting, this heater draws 41.7 amps at 240V. It requires a dedicated 50-amp circuit. Verify your electrical panel has capacity before purchasing. Installation should be done by a licensed electrician.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Three-car garages, poorly insulated spaces, and homeowners in cold climates who need serious electric heating power without running a gas line.</p>
-            <a href='https://amzn.to/4szwsdj' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B0ie6rmg1' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
         </section>
 
@@ -218,7 +218,7 @@ export default function BestGarageHeaters() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> The DR-988 combines infrared radiant heating with a fan-forced air system in one portable unit. The infrared element heats objects and people directly while the fan distributes heat more broadly. It is one of the few 240V garage heaters that comes with a power cord and plug (NEMA 6-30P), meaning no hardwiring is required.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> The NEMA 6-30P plug requires a matching 240V outlet. If your garage does not have one, you will need an electrician to install a 30-amp 240V outlet ($150 to $300).</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Woodworking shops and garages where air quality matters. The infrared component provides immediate warmth without blowing sawdust and debris around.</p>
-            <a href='https://amzn.to/46KQR6J' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B06zHvSn9' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
         </section>
 
@@ -238,7 +238,7 @@ export default function BestGarageHeaters() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> The Big Buddy is the most popular portable garage heater in America. It delivers up to 18,000 BTU with zero electrical requirements. Runs on cheap, widely available propane. The oxygen depletion sensor (ODS) automatically shuts the unit off if oxygen levels drop.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> This is a combustion heater. It produces carbon monoxide and moisture as byproducts. You must maintain ventilation and install a battery-operated carbon monoxide detector. Propane costs approximately $0.69 per hour at 18,000 BTU.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Homeowners who want heat immediately with no installation, no electrician, and no gas line work. Also the only viable option during power outages.</p>
-            <a href='https://amzn.to/4rYfVj1' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B0bmtYatq' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
         </section>
 
@@ -258,7 +258,7 @@ export default function BestGarageHeaters() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> The Hot Dawg is the industry standard for permanent garage heating. At 45,000 BTU, it heats even large, moderately insulated three-car garages. Operating cost is the lowest of any heater type at approximately $0.49 per hour on natural gas. Build quality is commercial-grade with an expected lifespan of 15 to 25 years.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> This is not a DIY installation. You need a licensed HVAC technician or plumber. Total installation cost runs $500 to $1,500 if your garage already has a gas line, or $1,500 to $4,000 if a new gas line needs to be run.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Homeowners who use their garage regularly and have natural gas available. This is the buy-it-once heater that runs for decades at the lowest per-hour cost.</p>
-            <a href='https://amzn.to/40TebvA' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B02FlNduy' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
         </section>
 
@@ -278,7 +278,7 @@ export default function BestGarageHeaters() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> The DR-968 is the best option for homeowners who want immediate warmth at a workbench without any installation work. Plug it into any standard outlet and it runs instantly. The digital thermostat and included remote control are unusual at this price point.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> At 1,500W, this heater maxes out the capacity of a standard 120V outlet. It will provide personal warmth within a 5 to 8 foot radius but will not heat a full two-car garage.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Budget-conscious homeowners, renters, and anyone who just wants warmth at the workbench for weekend projects.</p>
-            <a href='https://amzn.to/4aYIneQ' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B00BIyfNN' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
         </section>
 
@@ -298,7 +298,7 @@ export default function BestGarageHeaters() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> The MrCool DIY line is the only mini-split system designed for homeowner installation without an HVAC license. The pre-charged line set connects with quick-connect fittings. At 18,000 BTU, it provides serious heating while also delivering air conditioning in summer. The heat pump design produces roughly 3 BTUs of heat for every 1 BTU of electricity consumed.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> You still need to mount the indoor and outdoor units, drill a 3-inch hole through the exterior wall, run the line set and wiring, and connect a 240V circuit. Heating capacity drops in extreme cold (below approximately 0 F).</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Homeowners who use the garage year-round and want both heating and cooling from a single system.</p>
-            <a href='https://amzn.to/4uwEaH0' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/A09X42UPM' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
         </section>
 

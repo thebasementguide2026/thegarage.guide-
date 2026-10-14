@@ -100,7 +100,7 @@ export default function BestGarageFloorEpoxy() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'>The burst-pouch mixing system eliminates measuring and mixing errors. You knead the pouch for three minutes, cut the corner, and pour. The self-leveling formula settles into a smooth, glossy finish that hides minor roller marks.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> Real-world coverage is closer to 375 to 425 sq ft per kit, not the 500 sq ft marketed. Buy two single-car kits for a standard 2-car garage to ensure adequate thickness. The coating is slippery when wet. The citric acid etch included in the kit is adequate for clean, bare concrete but won&apos;t penetrate previously sealed or painted floors. For those situations, rent a diamond grinder ($150 to $200/day).</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Most homeowners wanting the best DIY result possible on a standard residential garage.</p>
-            <a href='https://amzn.to/4builQI' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B00a6zfQd' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* Best Budget */}
@@ -117,7 +117,7 @@ export default function BestGarageFloorEpoxy() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it&apos;s the budget pick:</strong> EpoxyShield has been the entry-level garage floor coating for nearly 30 years. At $80 to $130 for a 2-car kit, it&apos;s roughly half the price of RockSolid. The 2-part formula is significantly more durable than 1-part epoxy paint. It seals the concrete, resists oil and chemical stains, and gives the garage a clean, finished appearance.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> This is a water-based epoxy with 55% solids, meaning 45% of what you apply evaporates during curing. The resulting coating is thin (2 to 3 mils) and less durable than RockSolid&apos;s polycuramine. Expect 2 to 4 years of life with regular vehicle traffic. Hot tire pickup is a real issue with this product.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Lightly used garages, budget-first projects, or homeowners who want a step up from bare concrete without a major investment.</p>
-            <a href='https://amzn.to/3OMca1J' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B03aSkakR' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* Best for Heavy Use */}
@@ -134,7 +134,7 @@ export default function BestGarageFloorEpoxy() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it&apos;s the heavy-use pick:</strong> ArmorPoxy is the closest thing to a professional-grade system available as a DIY kit. The 100% solids formulation lays down a significantly thicker coating than RockSolid or EpoxyShield. The included clear topcoat adds UV protection and abrasion resistance that the other kits lack. This is the kit for garages that function as workshops, home gyms, or hobby spaces.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> More expensive than the other options and more complex to apply (three separate layers: primer, color coat, topcoat). Total application time is 2 to 3 days. ArmorPoxy strongly recommends diamond grinding over acid etching.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Workshops, home gyms, heavy-use garages where maximum durability justifies the higher price and longer application process.</p>
-            <a href='https://amzn.to/4rgdKGw' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B01wY0Mjj' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* Best One-Day Finish */}
@@ -151,7 +151,7 @@ export default function BestGarageFloorEpoxy() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it stands out:</strong> If aesthetics are your priority, nothing else in the DIY category comes close to the metallic finish. The metallic pigments create a swirling, three-dimensional effect that mimics high-end commercial installations. Same polycuramine durability as the standard RockSolid but with a dramatically more striking appearance.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> The metallic finish requires more technique than a standard solid-color application. You use a manipulation tool to swirl the metallic pigments while the coating is still wet. You need two kits for a 2-car garage ($500 to $700 total), making this the most expensive DIY option. Color consistency between kits can vary slightly.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Homeowners who want a showroom-quality appearance and are willing to pay more and practice the application technique.</p>
-            <a href='https://amzn.to/4rn5xjT' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B0bBmhq5X' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* Best Bare-Minimum */}
@@ -168,7 +168,7 @@ export default function BestGarageFloorEpoxy() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it exists:</strong> Sometimes the budget is $70 and the goal is just to make the concrete look better than bare gray. KILZ 1-part is essentially a tough garage floor paint with some epoxy resin blended in. It applies like paint (no mixing two parts), covers well in one to two coats, and gives the floor a clean, uniform finish.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> This is paint with epoxy added, not a true 2-part epoxy coating. It will not resist chemical spills, hot tire pickup, or heavy abrasion the way RockSolid or ArmorPoxy will. Expect 1 to 3 years of life with vehicle traffic. No decorative flakes included. No topcoat. This is a stopgap, not a long-term solution.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Extremely tight budgets, rental properties, or garages where appearance matters more than long-term durability.</p>
-            <a href='https://amzn.to/4rW2e4j' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B06fSmkWm' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
         </div>
 

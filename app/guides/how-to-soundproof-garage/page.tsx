@@ -287,12 +287,12 @@ export default function HowToSoundproofGaragePage() {
 
           <h3 className='text-lg font-semibold text-slate-800 mb-2'>Tools and materials you need</h3>
           <ul className='list-disc pl-5 text-slate-700 text-sm space-y-1 mb-4'>
-            <li><a href='https://amzn.to/4tjf5hD' target='_blank' rel='nofollow sponsored noopener' className='text-amber-700 underline hover:text-amber-800'>Mass-loaded vinyl, 1 pound per square foot</a> (a 4&apos; x 25&apos; roll, 100 sq ft, covers a standard two-car door with margin). Common brands: Noise Grabber, Soundsulate, Trademark Soundproofing. Cheaper 0.5 lb MLV is less effective and not worth the savings.</li>
+            <li><a href='https://link.amazon/B02eS9NPR' target='_blank' rel='nofollow sponsored noopener' className='text-amber-700 underline hover:text-amber-800'>Mass-loaded vinyl, 1 pound per square foot</a> (a 4&apos; x 25&apos; roll, 100 sq ft, covers a standard two-car door with margin). Common brands: Noise Grabber, Soundsulate, Trademark Soundproofing. Cheaper 0.5 lb MLV is less effective and not worth the savings.</li>
             <li>MLV seam tape for joining MLV sections</li>
             <li>Acrylic vinyl tape or pressure-sensitive adhesive</li>
             <li>Acoustic door bottom seal (replaces existing garage door bottom seal)</li>
             <li>Side and top acoustic weatherstripping kit</li>
-            <li><a href='https://amzn.to/4n0hWtH' target='_blank' rel='nofollow sponsored noopener' className='text-amber-700 underline hover:text-amber-800'>Acoustic caulk</a> (1 to 2 tubes)</li>
+            <li><a href='https://link.amazon/B0eddJfZS' target='_blank' rel='nofollow sponsored noopener' className='text-amber-700 underline hover:text-amber-800'>Acoustic caulk</a> (1 to 2 tubes)</li>
             <li>Utility knife with fresh blades</li>
             <li>Tape measure</li>
             <li>Caulk gun</li>
@@ -337,7 +337,7 @@ export default function HowToSoundproofGaragePage() {
           <ol className='list-decimal pl-5 text-slate-700 text-sm space-y-2 mb-4'>
             <li>Fill the stud cavities with fiberglass batts (R-13 for 2x4 walls, R-19 for 2x6 walls). Dense fiberglass absorbs mid-frequency sound inside the wall cavity. Mineral wool (Rockwool Safe&apos;n&apos;Sound) is denser and performs noticeably better than fiberglass for acoustic purposes, at roughly 30% higher cost.</li>
             <li>Install a single layer of 5/8-inch drywall over the studs. The extra 1/8 inch of thickness compared to standard 1/2-inch drywall adds roughly STC 2-3.</li>
-            <li>Seal every seam, electrical box penetration, and sill plate gap with <a href='https://amzn.to/4n0hWtH' target='_blank' rel='nofollow sponsored noopener' className='text-amber-700 underline hover:text-amber-800'>acoustic caulk</a>. Regular drywall compound and latex caulk do not block sound the same way. Acoustic caulk stays flexible permanently and maintains the seal through thermal expansion.</li>
+            <li>Seal every seam, electrical box penetration, and sill plate gap with <a href='https://link.amazon/B0eddJfZS' target='_blank' rel='nofollow sponsored noopener' className='text-amber-700 underline hover:text-amber-800'>acoustic caulk</a>. Regular drywall compound and latex caulk do not block sound the same way. Acoustic caulk stays flexible permanently and maintains the seal through thermal expansion.</li>
           </ol>
           <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Expected result:</strong> STC 45-49, enough to reduce loud conversation to a murmur next door.</p>
 
@@ -345,7 +345,7 @@ export default function HowToSoundproofGaragePage() {
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>This approach adds damping and decoupling to the Good approach for roughly double the material cost.</p>
           <ol className='list-decimal pl-5 text-slate-700 text-sm space-y-2 mb-4'>
             <li>Fill stud cavities with mineral wool batts (Rockwool Safe&apos;n&apos;Sound specifically) rather than fiberglass.</li>
-            <li>Install <a href='https://amzn.to/491RyJR' target='_blank' rel='nofollow sponsored noopener' className='text-amber-700 underline hover:text-amber-800'>resilient sound isolation clips (RSIC-1 or equivalent)</a> on the studs. These clips are metal brackets with rubber isolators that screw into the studs. Snap 25-gauge aluminum hat channel into the clips.</li>
+            <li>Install <a href='https://link.amazon/B03BO15WW' target='_blank' rel='nofollow sponsored noopener' className='text-amber-700 underline hover:text-amber-800'>resilient sound isolation clips (RSIC-1 or equivalent)</a> on the studs. These clips are metal brackets with rubber isolators that screw into the studs. Snap 25-gauge aluminum hat channel into the clips.</li>
             <li>Install 5/8-inch drywall over the hat channel. The drywall is now mechanically separated from the studs by the clips and channel, which breaks the vibration path.</li>
             <li>Seal all edges and penetrations with acoustic caulk.</li>
           </ol>
@@ -356,7 +356,7 @@ export default function HowToSoundproofGaragePage() {
           <ol className='list-decimal pl-5 text-slate-700 text-sm space-y-2 mb-4'>
             <li>Follow steps 1 and 2 of the Better approach (mineral wool in cavities, RSIC-1 clips with hat channel).</li>
             <li>Install first layer of 5/8-inch drywall over the hat channel.</li>
-            <li>Apply <a href='https://amzn.to/3QRSo5C' target='_blank' rel='nofollow sponsored noopener' className='text-amber-700 underline hover:text-amber-800'>Green Glue Noiseproofing Compound</a> to the entire back surface of the second drywall layer. Coverage is 2 tubes per 4x8 sheet applied in a random zigzag pattern. Green Glue is viscoelastic and stays permanently tacky; it converts vibration to heat instead of transmitting it.</li>
+            <li>Apply <a href='https://link.amazon/B0cld6eOY' target='_blank' rel='nofollow sponsored noopener' className='text-amber-700 underline hover:text-amber-800'>Green Glue Noiseproofing Compound</a> to the entire back surface of the second drywall layer. Coverage is 2 tubes per 4x8 sheet applied in a random zigzag pattern. Green Glue is viscoelastic and stays permanently tacky; it converts vibration to heat instead of transmitting it.</li>
             <li>Install the second layer of 5/8-inch drywall over the Green Glue layer within 15 minutes of application. Use standard drywall screws. Stagger the seams so they do not align with the first layer.</li>
             <li>Seal all edges and penetrations with acoustic caulk.</li>
           </ol>

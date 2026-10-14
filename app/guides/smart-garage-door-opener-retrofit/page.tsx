@@ -300,7 +300,7 @@ export default function SmartGarageRetrofitPage() {
             </div>
             <p className='text-slate-700 text-sm leading-relaxed mb-2'><strong>Pros:</strong> Cheapest compatible option. Native manufacturer support. No wiring required. Works with existing myQ remotes and keypads. Compact modern design.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Cons:</strong> No HomeKit support at any price. Cloud-dependent (needs internet to function). Some advanced integrations require the paid Smart Access Pass. Has significant compatibility exclusions including the 2010 to 2021 yellow learn button gap.</p>
-            <a href='https://amzn.to/4cTUIBK' target='_blank' rel='nofollow sponsored noopener' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B05EWqgOX' target='_blank' rel='nofollow sponsored noopener' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
           </div>
 
           {/* Product 2: Konnected blaQ */}
@@ -326,7 +326,7 @@ export default function SmartGarageRetrofitPage() {
             </div>
             <p className='text-slate-700 text-sm leading-relaxed mb-2'><strong>Pros:</strong> Fully local control without a cloud dependency. Works with Home Assistant natively. Open-source-friendly firmware based on ESPHome. No subscription. Bypasses myQ entirely while using the same underlying Security+ 2.0 protocol. Works with the exact Chamberlain openers the myQ hub excludes. Detects partial open states (not just open or closed).</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Cons:</strong> Most expensive of the Chamberlain-only options. Best experience requires a Home Assistant or compatible hub (not ideal for complete beginners). Does not work with Security+ 3.0. HomeKit support requires a bridge.</p>
-            <a href='https://amzn.to/4tvSiiH' target='_blank' rel='nofollow sponsored noopener' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B0bZvDKjH' target='_blank' rel='nofollow sponsored noopener' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
           </div>
 
           {/* Product 3: Meross MSG100HK */}
@@ -352,7 +352,7 @@ export default function SmartGarageRetrofitPage() {
             </div>
             <p className='text-slate-700 text-sm leading-relaxed mb-2'><strong>Pros:</strong> Native HomeKit support at the lowest price of any option with HomeKit. Works on the broadest range of opener brands. Includes door position sensor. No subscription. Supports geofencing for automatic open on arrival. Works with Siri and Apple CarPlay.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Cons:</strong> Requires wiring to opener terminals (20 minutes of light DIY work). Tilt sensor is visible on the door. Only supports one door per hub. Does not support Security+ 3.0 openers.</p>
-            <a href='https://amzn.to/3OoN6hn' target='_blank' rel='nofollow sponsored noopener' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B07F7RD6s' target='_blank' rel='nofollow sponsored noopener' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
           </div>
 
           {/* Product 4: iSmartgate PRO */}
@@ -378,7 +378,7 @@ export default function SmartGarageRetrofitPage() {
             </div>
             <p className='text-slate-700 text-sm leading-relaxed mb-2'><strong>Pros:</strong> Only option in this roundup that handles multiple doors from one hub. Native HomeKit without requiring a bridge. Integrates with up to three existing IP cameras for visual confirmation of door status in the app. Supports multiple user accounts with time and location restrictions. GPS-based automatic open and close through IFTTT. Supports sectional and tilt garage doors.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Cons:</strong> Most expensive option in this roundup. Higher complexity setup. Yellow learn button Chamberlain openers require a separate switch adaptor that ships free on request but adds 3 to 5 days to your installation timeline. IFTTT integration was discontinued on October 1, 2025, so some automation scenes may need to be rebuilt using HomeKit or SmartThings.</p>
-            <a href='https://amzn.to/4cu00nD' target='_blank' rel='nofollow sponsored noopener' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B08X4MRhg' target='_blank' rel='nofollow sponsored noopener' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
           </div>
         </div>
 

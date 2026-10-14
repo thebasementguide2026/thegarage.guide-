@@ -152,7 +152,7 @@ export default function BestGarageDoorOpeners() {
                 </tbody>
               </table>
             </div>
-            <a href='https://amzn.to/4lbXDrY' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-8 rounded-lg text-sm transition-colors duration-200 mt-2'>Check Price on Amazon</a>
+            <a href='https://link.amazon/A0g9PWhxb' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-8 rounded-lg text-sm transition-colors duration-200 mt-2'>Check Price on Amazon</a>
           </div>
 
           {/* Chamberlain B2405 */}
@@ -171,7 +171,7 @@ export default function BestGarageDoorOpeners() {
                 </tbody>
               </table>
             </div>
-            <a href='https://amzn.to/4rXFotd' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-8 rounded-lg text-sm transition-colors duration-200 mt-2'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B079ApTk0' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-8 rounded-lg text-sm transition-colors duration-200 mt-2'>Check Price on Amazon</a>
           </div>
 
           {/* Genie StealthDrive 7155-TKV */}
@@ -190,7 +190,7 @@ export default function BestGarageDoorOpeners() {
                 </tbody>
               </table>
             </div>
-            <a href='https://amzn.to/4sxedFn' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-8 rounded-lg text-sm transition-colors duration-200 mt-2'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B0e9cRXXw' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-8 rounded-lg text-sm transition-colors duration-200 mt-2'>Check Price on Amazon</a>
           </div>
 
           {/* Genie Chain Drive 550 */}
@@ -209,7 +209,7 @@ export default function BestGarageDoorOpeners() {
                 </tbody>
               </table>
             </div>
-            <a href='https://amzn.to/3N4yBi4' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-8 rounded-lg text-sm transition-colors duration-200 mt-2'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B0g16ZQ51' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-8 rounded-lg text-sm transition-colors duration-200 mt-2'>Check Price on Amazon</a>
           </div>
         </div>
 

@@ -121,12 +121,12 @@ export default function BestGarageCabinets() {
             <table className='w-full text-xs border-collapse'>
               <thead><tr className='bg-slate-900 text-white'><th className='p-2 text-left font-semibold'>Pick</th><th className='p-2 text-left font-semibold'>Model</th><th className='p-2 text-left font-semibold'>Type</th><th className='p-2 text-left font-semibold'>Material</th><th className='p-2 text-left font-semibold'>Capacity</th><th className='p-2 text-left font-semibold'>Price</th></tr></thead>
               <tbody>
-                <tr className='border-b border-slate-200'><td className='p-2 font-medium'>Best System</td><td className='p-2'><a href='https://amzn.to/4liwnrR' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>NewAge Bold Series 6-Piece</a></td><td className='p-2'>Complete modular set</td><td className='p-2'>24-gauge steel</td><td className='p-2'>800 lbs/locker</td><td className='p-2'>$1,400 &ndash; $1,800</td></tr>
-                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-medium'>Best Premium</td><td className='p-2'><a href='https://amzn.to/4s6s59W' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>NewAge Pro Series 7-Piece</a></td><td className='p-2'>Complete modular set</td><td className='p-2'>18-gauge welded steel</td><td className='p-2'>200 lbs/shelf</td><td className='p-2'>$2,500 &ndash; $3,500</td></tr>
+                <tr className='border-b border-slate-200'><td className='p-2 font-medium'>Best System</td><td className='p-2'><a href='https://link.amazon/B0bliJ0HE' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>NewAge Bold Series 6-Piece</a></td><td className='p-2'>Complete modular set</td><td className='p-2'>24-gauge steel</td><td className='p-2'>800 lbs/locker</td><td className='p-2'>$1,400 &ndash; $1,800</td></tr>
+                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-medium'>Best Premium</td><td className='p-2'><a href='https://link.amazon/B03GHUiCO' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>NewAge Pro Series 7-Piece</a></td><td className='p-2'>Complete modular set</td><td className='p-2'>18-gauge welded steel</td><td className='p-2'>200 lbs/shelf</td><td className='p-2'>$2,500 &ndash; $3,500</td></tr>
                 <tr className='border-b border-slate-200'><td className='p-2 font-medium'>Best Locker</td><td className='p-2'>Husky Freestanding Garage Cabinet</td><td className='p-2'>Tall locker</td><td className='p-2'>Steel, powder-coated</td><td className='p-2'>200 lbs/shelf</td><td className='p-2'>$300 &ndash; $400</td></tr>
-                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-medium'>Best Wall</td><td className='p-2'><a href='https://amzn.to/4sttuqz' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>Gladiator Full-Door Wall GearBox</a></td><td className='p-2'>Wall-mount</td><td className='p-2'>Heavy-duty steel</td><td className='p-2'>150 lbs total</td><td className='p-2'>$100 &ndash; $170</td></tr>
+                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-medium'>Best Wall</td><td className='p-2'><a href='https://link.amazon/B0hivuuJ6' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>Gladiator Full-Door Wall GearBox</a></td><td className='p-2'>Wall-mount</td><td className='p-2'>Heavy-duty steel</td><td className='p-2'>150 lbs total</td><td className='p-2'>$100 &ndash; $170</td></tr>
                 <tr className='border-b border-slate-200'><td className='p-2 font-medium'>Best Rolling</td><td className='p-2'>Husky 46&quot; 9-Drawer Mobile Workbench</td><td className='p-2'>Rolling tool cabinet</td><td className='p-2'>Steel, wood top</td><td className='p-2'>100 lbs/drawer</td><td className='p-2'>$400 &ndash; $550</td></tr>
-                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-medium'>Best Budget</td><td className='p-2'><a href='https://amzn.to/4lfl3g9' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>Yizosh 75&quot; Rolling Metal Cabinet</a></td><td className='p-2'>Freestanding with wheels</td><td className='p-2'>Steel</td><td className='p-2'>200 lbs/shelf</td><td className='p-2'>$150 &ndash; $250</td></tr>
+                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-medium'>Best Budget</td><td className='p-2'><a href='https://link.amazon/B08lkYdFu' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>Yizosh 75&quot; Rolling Metal Cabinet</a></td><td className='p-2'>Freestanding with wheels</td><td className='p-2'>Steel</td><td className='p-2'>200 lbs/shelf</td><td className='p-2'>$150 &ndash; $250</td></tr>
                 <tr className='bg-amber-50'><td className='p-2 font-medium'>Best for Renters</td><td className='p-2'>Sterilite 4-Shelf Cabinet 2-Pack</td><td className='p-2'>Freestanding plastic</td><td className='p-2'>Heavy-duty resin</td><td className='p-2'>Light&ndash;moderate</td><td className='p-2'>$200 &ndash; $280</td></tr>
               </tbody>
             </table>
@@ -154,7 +154,7 @@ export default function BestGarageCabinets() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-4'>
             <p className='text-slate-700 font-medium text-sm'><strong>Best for:</strong> Homeowners who want a showroom-quality garage transformation on a mid-range budget. The 6-piece set handles the storage needs of most two-car garages. Add individual pieces later since the Bold Series has an extensive lineup of compatible add-ons.</p>
           </div>
-          <a href='https://amzn.to/4liwnrR' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
+          <a href='https://link.amazon/B0bliJ0HE' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
         </div>
 
         {/* Best Premium System - NewAge Pro */}
@@ -178,7 +178,7 @@ export default function BestGarageCabinets() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-4'>
             <p className='text-slate-700 font-medium text-sm'><strong>Best for:</strong> Serious workshop owners, car enthusiasts, and homeowners who consider the garage a showpiece. If you plan to keep these cabinets for 15+ years and load them heavily, the Pro Series is the buy-it-once choice.</p>
           </div>
-          <a href='https://amzn.to/4s6s59W' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
+          <a href='https://link.amazon/B03GHUiCO' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
         </div>
 
         {/* Best Freestanding Locker - Husky */}
@@ -225,7 +225,7 @@ export default function BestGarageCabinets() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-4'>
             <p className='text-slate-700 font-medium text-sm'><strong>Best for:</strong> Any homeowner who wants enclosed, dust-free storage above a workbench or alongside a wall track system. Excellent paired with the Gladiator GearTrack for a complete wall organization system.</p>
           </div>
-          <a href='https://amzn.to/4sttuqz' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
+          <a href='https://link.amazon/B0hivuuJ6' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
         </div>
 
         {/* Best Rolling Cabinet - Husky 46 */}
@@ -272,7 +272,7 @@ export default function BestGarageCabinets() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-4'>
             <p className='text-slate-700 font-medium text-sm'><strong>Best for:</strong> Budget-conscious homeowners, first-time garage organizers, and anyone who needs a lockable steel cabinet under $250.</p>
           </div>
-          <a href='https://amzn.to/4lfl3g9' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
+          <a href='https://link.amazon/B08lkYdFu' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
         </div>
 
         {/* Best for Renters - Sterilite */}

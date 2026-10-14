@@ -106,7 +106,7 @@ export default function BestGarageStorageSystems() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> Gladiator&apos;s GearTrack is the most versatile wall storage system on the market. The steel channel mounts to wall studs, and every accessory clicks in and slides along the track for instant repositioning. Need to move the bike hook three inches to the left? Slide it. Want to swap the shelf for a basket? Click it out, click the new one in. No remounting, no new holes. The accessory ecosystem is enormous: garden tool hooks, sports gear cradles, shelf brackets, magnetic tool bars, and more.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> The tracks themselves are affordable, but the accessories add up. A full wall of GearTrack with hooks, baskets, and shelves can easily reach $200 to $400. Mount into studs, not just drywall. Budget $100 to $300 for a well-equipped single wall.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Homeowners who want flexibility to reorganize as needs change. The track system grows with you.</p>
-            <a href='https://amzn.to/3OUfDLK' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B09LKG1pi' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* Wall Control Pegboard */}
@@ -122,7 +122,7 @@ export default function BestGarageStorageSystems() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it&apos;s great:</strong> Wall Control pegboards are made from 20-gauge steel, which is roughly ten times stronger than traditional fiberboard pegboard. They accept both standard pegs (so your existing accessories work) and Wall Control&apos;s proprietary slotted hooks that lock into place and won&apos;t fall out when you remove a tool. Available in multiple colors (black, white, red, blue, galvanized) to match your garage aesthetic. The metal surface is also magnetic, so you can add magnetic tool holders and containers.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> The metal panels can vibrate slightly when tools are removed aggressively. Use all recommended wall anchors or mount directly into studs. The starter kit includes a basic accessory assortment. You&apos;ll likely want to add specialty hooks ($5 to $15 each) for your specific tools.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Homeowners who want every tool visible and accessible.</p>
-            <a href='https://amzn.to/4bctnJ5' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B0aKkefwM' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
         </div>
 
@@ -145,7 +145,7 @@ export default function BestGarageStorageSystems() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> The Fleximounts 4x8 is the best-selling overhead rack for good reason. It holds 600 lbs across 32 square feet of platform space, which is enough for 10 to 15 large storage bins. The ceiling drop height is adjustable from 22 to 40 inches, letting you maximize storage depth without interfering with your garage door tracks or car clearance. All hardware is included for mounting into ceiling joists.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> Installation requires drilling into ceiling joists (not just drywall). You need a drill, a stud finder, and a helper to hold the frame during mounting. The rack itself weighs about 70 lbs. Verify your ceiling joist spacing (16 or 24 inches on center) before ordering. If your joists run the wrong direction, you&apos;ll need unistrut channels ($30 to $50) to span between joists.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Seasonal storage (holiday decorations, camping gear, luggage) and bulk items you access a few times per year.</p>
-            <a href='https://amzn.to/4bui5kF' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B01zLhbFc' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* SafeRacks */}
@@ -161,7 +161,7 @@ export default function BestGarageStorageSystems() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it&apos;s the budget pick:</strong> Nearly identical functionality to the Fleximounts at a lower price point. The 500 lb capacity is more than adequate for most residential use &mdash; a standard 27-gallon storage bin weighs 30 to 50 lbs fully loaded. Slightly narrower height adjustment range than Fleximounts but sufficient for most garages.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> Some users report that the installation hardware is adequate but not premium. Consider upgrading the lag bolts to 3/8-inch by 3-inch for added security, especially if loading near the weight limit.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Budget-conscious homeowners who want overhead storage without the premium price.</p>
-            <a href='https://amzn.to/3OREJLa' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/A05zCJUg4' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
         </div>
 
@@ -183,7 +183,7 @@ export default function BestGarageStorageSystems() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> NewAge is the most popular garage cabinet brand for a reason. The Bold Series offers the best balance of build quality, aesthetics, and price in the modular cabinet market. The 24-gauge steel is sturdy enough for garage use without the premium price of 18-gauge. Everything locks, everything adjusts, and the powder-coated finish looks professional for years. Sets are modular, so you can start with a 6-piece configuration and add cabinets later as budget allows.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> These are not cheap. A full 10-piece set with bamboo worktop can exceed $3,500. Assembly takes 3 to 5 hours for a multi-piece set. Wall mounting is required for upper cabinets (anchoring into studs). The 24-gauge steel is thinner than the Pro Series (18-gauge) and may flex slightly if overloaded. For heavy workshop use, step up to the NewAge Pro Series ($2,500 to $5,000).</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Homeowners who want a complete, professional-looking garage transformation with locked storage for tools and valuables.</p>
-            <a href='https://amzn.to/4llkIc8' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B05Az64gT' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* Gladiator Flex */}
@@ -200,7 +200,7 @@ export default function BestGarageStorageSystems() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it&apos;s the value pick:</strong> Gladiator&apos;s Flex cabinets offer serious build quality at a lower price than NewAge. The Premier line comes pre-assembled &mdash; just mount and use, which saves hours of labor. The cabinets integrate with the GearTrack wall system, so you can build a unified wall of tracks, hooks, and cabinets from one brand. Individual cabinets start around $300, letting you buy one at a time instead of committing to a $2,000+ set all at once.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> The Flex system is less configurable than NewAge&apos;s modular approach. You&apos;re buying individual cabinets rather than designing a custom layout from a parts catalog. Gladiator&apos;s color options are limited (mostly silver/gray). Available at Lowe&apos;s and Home Depot, which means you can see them in person before buying.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Homeowners who want to build their storage system one piece at a time without a large upfront investment.</p>
-            <a href='https://amzn.to/3MSeTGi' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B02876M9d' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* Yizosh Budget */}
@@ -216,7 +216,7 @@ export default function BestGarageStorageSystems() {
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it works on a budget:</strong> Yizosh delivers the most cabinet for the money on Amazon. The 75-inch height with five adjustable shelves provides substantial vertical storage. Locking doors secure tools and chemicals. The rolling casters let you reposition the cabinet without unloading it, which is a feature that premium brands charge significantly more for. Each shelf holds 180 lbs, which is more than enough for tools, paint cans, and hardware. At $150 to $250, it&apos;s a fraction of the cost of a single NewAge or Gladiator unit.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> This is a ready-to-assemble (RTA) cabinet that requires setup time (about 1 to 2 hours). The steel is thinner than Gladiator or NewAge, so it won&apos;t withstand heavy abuse the way premium brands will. Secure it to the wall with an anchor strap to prevent tipping if you have children in the home. The rolling feature is convenient but means the cabinet isn&apos;t as rock-solid as a wall-mounted unit.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Tight budgets, renters who need portable storage, or first-time garage organizers testing whether cabinets work for their space.</p>
-            <a href='https://amzn.to/3P6a7FE' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B08lkYdFu' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
         </div>
 

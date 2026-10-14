@@ -50,13 +50,13 @@ export default function BestGarageWorkbenches() {
                                         <div className='overflow-x-auto my-6'><table className='w-full text-xs border-collapse'>
                                                       <thead><tr className='bg-slate-900 text-white'><th className='p-2 text-left font-semibold'>Pick</th><th className='p-2 text-left font-semibold'>Product</th><th className='p-2 text-left font-semibold'>Work Surface</th><th className='p-2 text-left font-semibold'>Capacity</th><th className='p-2 text-left font-semibold'>Key Feature</th><th className='p-2 text-left font-semibold'>Price</th></tr></thead>
                                                       <tbody>
-                                                                      <tr className='border-b border-slate-200'><td className='p-2 font-medium'>Best Overall</td><td className='p-2'><a href='https://amzn.to/4rXNkKL' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>WORKPRO 48" Adjustable</a></td><td className='p-2'>48x24" rubberwood</td><td className='p-2'>2,000 lbs</td><td className='p-2'>Power outlets + USB, adjustable height</td><td className='p-2'>$180 &ndash; $250</td></tr>
-                                                                      <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-medium'>Best Heavy-Duty</td><td className='p-2'><a href='https://amzn.to/4aZPKTc' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>VEVOR 60" Adjustable</a></td><td className='p-2'>61x20" rubberwood</td><td className='p-2'>2,000 lbs</td><td className='p-2'>60" work surface, power outlets, foot pads</td><td className='p-2'>$200 &ndash; $280</td></tr>
-                                                                      <tr className='border-b border-slate-200'><td className='p-2 font-medium'>Best with Storage</td><td className='p-2'><a href='https://amzn.to/3P11qMT' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>WEN WB4723T 48"</a></td><td className='p-2'>48x22" rubberwood</td><td className='p-2'>800 lbs</td><td className='p-2'>Drawers, shelves, pegboard, LED light, outlets</td><td className='p-2'>$250 &ndash; $350</td></tr>
-                                                                      <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-medium'>Best Budget</td><td className='p-2'><a href='https://amzn.to/4bbdoLf' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>Keter Folding Work Table</a></td><td className='p-2'>33.5x21.6" resin</td><td className='p-2'>1,000 lbs</td><td className='p-2'>Folds flat, 12 clamps, no assembly</td><td className='p-2'>$80 &ndash; $110</td></tr>
+                                                                      <tr className='border-b border-slate-200'><td className='p-2 font-medium'>Best Overall</td><td className='p-2'><a href='https://link.amazon/B0f3yIWgO' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>WORKPRO 48" Adjustable</a></td><td className='p-2'>48x24" rubberwood</td><td className='p-2'>2,000 lbs</td><td className='p-2'>Power outlets + USB, adjustable height</td><td className='p-2'>$180 &ndash; $250</td></tr>
+                                                                      <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-medium'>Best Heavy-Duty</td><td className='p-2'><a href='https://link.amazon/B08jFzkgE' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>VEVOR 60" Adjustable</a></td><td className='p-2'>61x20" rubberwood</td><td className='p-2'>2,000 lbs</td><td className='p-2'>60" work surface, power outlets, foot pads</td><td className='p-2'>$200 &ndash; $280</td></tr>
+                                                                      <tr className='border-b border-slate-200'><td className='p-2 font-medium'>Best with Storage</td><td className='p-2'><a href='https://link.amazon/B02erKlHo' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>WEN WB4723T 48"</a></td><td className='p-2'>48x22" rubberwood</td><td className='p-2'>800 lbs</td><td className='p-2'>Drawers, shelves, pegboard, LED light, outlets</td><td className='p-2'>$250 &ndash; $350</td></tr>
+                                                                      <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-medium'>Best Budget</td><td className='p-2'><a href='https://link.amazon/B0exqlhVV' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>Keter Folding Work Table</a></td><td className='p-2'>33.5x21.6" resin</td><td className='p-2'>1,000 lbs</td><td className='p-2'>Folds flat, 12 clamps, no assembly</td><td className='p-2'>$80 &ndash; $110</td></tr>
                                                                       <tr className='border-b border-slate-200'><td className='p-2 font-medium'>Best Mobile</td><td className='p-2'>Husky 46" Mobile Workbench</td><td className='p-2'>46x24" hardwood</td><td className='p-2'>1,200 lbs</td><td className='p-2'>9 ball-bearing drawers, locking casters</td><td className='p-2'>$400 &ndash; $550</td></tr>
-                                                                      <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-medium'>Best Compact</td><td className='p-2'><a href='https://amzn.to/40icqbc' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>WORX Pegasus WX051</a></td><td className='p-2'>31x25" composite</td><td className='p-2'>300/1,000 lbs</td><td className='p-2'>2-in-1 workbench/sawhorse, folds flat</td><td className='p-2'>$100 &ndash; $140</td></tr>
-                                                                      <tr className='bg-amber-50'><td className='p-2 font-medium'>Best for Woodworking</td><td className='p-2'><a href='https://amzn.to/4s34yGT' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>CAMMOO 60" with Pegboard</a></td><td className='p-2'>60x22" rubberwood</td><td className='p-2'>2,000 lbs</td><td className='p-2'>Dual pegboards, LED, power strip, adjustable</td><td className='p-2'>$220 &ndash; $300</td></tr>
+                                                                      <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-medium'>Best Compact</td><td className='p-2'><a href='https://link.amazon/B02KxSwAF' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>WORX Pegasus WX051</a></td><td className='p-2'>31x25" composite</td><td className='p-2'>300/1,000 lbs</td><td className='p-2'>2-in-1 workbench/sawhorse, folds flat</td><td className='p-2'>$100 &ndash; $140</td></tr>
+                                                                      <tr className='bg-amber-50'><td className='p-2 font-medium'>Best for Woodworking</td><td className='p-2'><a href='https://link.amazon/B04Ygf8Xc' target='_blank' rel='noopener noreferrer nofollow' className='text-amber-700 underline'>CAMMOO 60" with Pegboard</a></td><td className='p-2'>60x22" rubberwood</td><td className='p-2'>2,000 lbs</td><td className='p-2'>Dual pegboards, LED, power strip, adjustable</td><td className='p-2'>$220 &ndash; $300</td></tr>
                                                                     </tbody></table></div>
                                       </div>
 
@@ -103,7 +103,7 @@ export default function BestGarageWorkbenches() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-4'>
             <p className='text-slate-700 font-medium text-sm'><strong>Best for:</strong> Most homeowners. If you do general DIY, automotive work, woodworking, or electronics and want one bench that handles everything, this is the pick.</p>
           </div>
-          <a href='https://amzn.to/4rXNkKL' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
+          <a href='https://link.amazon/B0f3yIWgO' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
         </div>
 
         {/* Best Heavy-Duty - VEVOR 60 */}
@@ -127,7 +127,7 @@ export default function BestGarageWorkbenches() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-4'>
             <p className='text-slate-700 font-medium text-sm'><strong>Best for:</strong> Homeowners who need maximum work surface length for large projects, automotive work, or multi-tool setups. If your garage wall can accommodate 60 inches, this gives you more workspace per dollar than any other option.</p>
           </div>
-          <a href='https://amzn.to/4aZPKTc' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
+          <a href='https://link.amazon/B08jFzkgE' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
         </div>
 
         {/* Best with Storage - WEN */}
@@ -151,7 +151,7 @@ export default function BestGarageWorkbenches() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-4'>
             <p className='text-slate-700 font-medium text-sm'><strong>Best for:</strong> DIYers who want an all-in-one workstation with integrated storage and lighting. Especially good for electronics, small engine repair, and craft projects where you need tools and parts organized at arm&apos;s length.</p>
           </div>
-          <a href='https://amzn.to/3P11qMT' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
+          <a href='https://link.amazon/B02erKlHo' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
         </div>
 
         {/* Best Budget - Keter */}
@@ -175,7 +175,7 @@ export default function BestGarageWorkbenches() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-4'>
             <p className='text-slate-700 font-medium text-sm'><strong>Best for:</strong> Budget buyers, renters, homeowners with limited space, and anyone who needs a bench they can set up and tear down quickly. Also excellent as a second portable bench for outdoor projects.</p>
           </div>
-          <a href='https://amzn.to/4bbdoLf' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
+          <a href='https://link.amazon/B0exqlhVV' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
         </div>
 
         {/* Best Mobile - Husky 46 */}
@@ -222,7 +222,7 @@ export default function BestGarageWorkbenches() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-4'>
             <p className='text-slate-700 font-medium text-sm'><strong>Best for:</strong> Woodworkers, carpenters, and DIYers who need a portable bench/sawhorse combo. Excellent as a secondary bench for outdoor projects, job sites, or garages with very limited space.</p>
           </div>
-          <a href='https://amzn.to/40icqbc' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
+          <a href='https://link.amazon/B02KxSwAF' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
         </div>
 
         {/* Best for Woodworking - CAMMOO */}
@@ -246,7 +246,7 @@ export default function BestGarageWorkbenches() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-4'>
             <p className='text-slate-700 font-medium text-sm'><strong>Best for:</strong> Woodworkers, serious hobbyists, and anyone setting up a dedicated workshop area. The all-in-one design means you do not need to buy a separate light, pegboard system, or power strip.</p>
           </div>
-          <a href='https://amzn.to/4s34yGT' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
+          <a href='https://link.amazon/B04Ygf8Xc' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-800 transition-colors text-sm'>Check Current Price on Amazon</a>
         </div>
 
         {/* FAQ */}
