@@ -32,6 +32,7 @@ const navItems = [
     dropdown: [
       { label: 'Storage Systems', href: '/reviews/best-garage-storage-systems' },
       { label: 'Floor Epoxy', href: '/reviews/best-garage-floor-epoxy' },
+      { label: 'Floor Containment Mats', href: '/reviews/best-garage-floor-containment-mats' },
       { label: 'Lighting', href: '/reviews/best-garage-lighting' },
             { label: 'Door Openers', href: '/reviews/best-garage-door-openers' },
       { label: 'Heaters', href: '/reviews/best-garage-heaters' },

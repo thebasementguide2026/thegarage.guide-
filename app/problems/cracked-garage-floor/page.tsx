@@ -242,6 +242,7 @@ export default function CrackedGarageFloor() {
               <div><h3 className='font-bold text-slate-900'>Use de-icing products carefully</h3><p className='text-slate-700 text-sm'>Avoid calcium chloride and rock salt on garage floors — they accelerate surface spalling and can worsen existing cracks. Use sand for traction instead, or apply a sealer before winter.</p></div>
             </div>
           </div>
+          <p className='text-slate-700 text-sm mt-4'>In snowy climates, a <Link href='/reviews/best-garage-floor-containment-mats' className='text-orange-600 hover:underline font-medium'>garage containment mat</Link> keeps salty meltwater off the slab.</p>
         </section>
 
                 {/* FAQ Section */}

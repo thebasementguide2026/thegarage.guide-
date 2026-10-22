@@ -18,9 +18,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/garage-services`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ]
 
+  const articleDates: Record<string, string> = {
+  "reviews/best-garage-floor-containment-mats": "2026-10-22",
+  "guides/how-to-winterize-your-garage": "2026-10-22",
+  "problems/cracked-garage-floor": "2026-10-22"
+}
+
   const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({
     url: `${baseUrl}/${article.slug.startsWith('problems/') || article.slug.startsWith('cost-guides/') || article.slug.startsWith('reviews/') || article.slug.startsWith('comparisons/') || article.slug.startsWith('guides/') ? article.slug : `articles/${article.slug}`}`,
-    lastModified: new Date(),
+    lastModified: articleDates[article.slug] ?? new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }))

@@ -57,6 +57,7 @@ const footerSections = [
     links: [
       { label: 'Best Storage Systems', href: '/reviews/best-garage-storage-systems' },
       { label: 'Best Floor Epoxy', href: '/reviews/best-garage-floor-epoxy' },
+      { label: 'Best Floor Containment Mats', href: '/reviews/best-garage-floor-containment-mats' },
       { label: 'Best Lighting', href: '/reviews/best-garage-lighting' },
       { label: 'Best Door Openers', href: '/reviews/best-garage-door-openers' },
       { label: 'Best Heaters', href: '/reviews/best-garage-heaters' },

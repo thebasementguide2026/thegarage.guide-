@@ -23,6 +23,7 @@ const TASK_ID_MAP: Record<string, number[]> = {
   'cracked-garage-floor': [75, 77, 74, 82, 144],
 
   // Reviews
+  'best-garage-floor-containment-mats': [77, 75, 74, 82, 144],
   'best-garage-storage-systems': [38, 40, 56, 226, 144],
   'best-garage-floor-epoxy': [77, 74, 75, 82, 144],
   'best-garage-lighting': [188, 177, 178, 226, 144],

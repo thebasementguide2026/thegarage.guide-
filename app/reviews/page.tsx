@@ -6,6 +6,7 @@ export const metadata = {
 }
 
 const reviews = [
+  {"title":"Best Garage Floor Containment Mats for Snow and Salt (2026)","href":"/reviews/best-garage-floor-containment-mats","description":"How garage containment mats protect concrete from snowmelt and road salt, how to size one, and our four picks for cars, trucks, and tight budgets."},
   { title: 'Best Garage Storage Systems 2026', href: '/reviews/best-garage-storage-systems', description: 'We reviewed wall-mounted tracks, overhead ceiling racks, and modular cabinets.' },
   { title: 'Best Garage Floor Epoxy Kits 2026', href: '/reviews/best-garage-floor-epoxy', description: 'We tested the top DIY garage floor epoxy kits and ranked them.' },
   { title: 'Best Garage Lighting 2026', href: '/reviews/best-garage-lighting', description: 'LED shop lights, wraparound fixtures, and panel lights tested and compared.' },

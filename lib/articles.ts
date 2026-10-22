@@ -8,6 +8,7 @@ export interface Article {
 }
 
 export const articles: Article[] = [
+  {"title":"Best Garage Floor Containment Mats for Snow and Salt (2026)","description":"How garage containment mats protect concrete from snowmelt and road salt, how to size one, and our four picks for cars, trucks, and tight budgets.","slug":"reviews/best-garage-floor-containment-mats","category":"Review","readTime":"10 min read","image":"/images/garage-floor-containment-mats.jpg"},
   {
     title: 'The Complete Garage Guide 2026: Every System, Every Decision, Every Cost',
     description: 'The complete reference guide to your garage covering structure and fire separation, the garage door system, flooring, heating and cooling, lighting, storage and organization, electrical and EV charging, safety and ventilation, and maintenance.',
