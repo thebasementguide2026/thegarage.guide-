@@ -6,22 +6,102 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
   title: 'Cost to Build a Garage in 2026: Every Size, Every Type, Every Factor | The Garage Guide',
-  description: 'The complete cost guide to building a garage in 2026. Covers attached and detached garages by size from 1-car to 3-car, cost per square foot breakdown by component, permit costs and timeline, site preparation, prefab vs. stick-built, the 10 factors that move the price, ROI at resale, financing options, and what to ask contractors before hiring.',
+  description: 'A 2-car garage costs $12,000 to $30,000 attached or $28,000 to $50,000 detached in 2026. Costs by size and dimensions, per square foot, permits, and prefab vs. stick-built.',
 }
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    { '@type': 'Question', name: 'How much does it cost to build a 2-car garage?', acceptedAnswer: { '@type': 'Answer', text: 'A standard 2-car detached garage (20x20 to 24x24 feet) costs $28,000 to $50,000 fully installed in 2026, including foundation, framing, roofing, siding, garage doors, and basic electrical. An attached 2-car garage of the same size costs $17,000 to $30,000. Finish upgrades like insulation, drywall, epoxy floor, and EV charger can add $5,000 to $15,000.' } },
-    { '@type': 'Question', name: 'How much does it cost to build a 1-car garage?', acceptedAnswer: { '@type': 'Answer', text: 'A 1-car detached garage costs $18,000 to $35,000 installed. A 1-car attached garage costs $7,000 to $18,000. The cost per square foot is higher at small sizes because fixed costs like permits, site preparation, and electrical hookup do not shrink proportionally with the structure size.' } },
-    { '@type': 'Question', name: 'How much do permits cost to build a garage?', acceptedAnswer: { '@type': 'Answer', text: 'Permits for a garage addition typically cost $500 to $2,000 total, including the building permit and electrical permit. Permit review adds 2 to 8 weeks to the project start date. Skipping permits creates significant legal and financial liability at resale and may result in the structure being required to be removed.' } },
-    { '@type': 'Question', name: 'How long does it take to build a garage?', acceptedAnswer: { '@type': 'Answer', text: 'The construction itself takes 4 to 8 weeks for a standard 2-car detached garage. Permit review adds 2 to 8 weeks before construction can begin. A realistic total timeline from contractor selection to move-in is 3 to 5 months. Prefab and steel building kits reduce the construction phase to 1 to 2 weeks but require the same permit timeline.' } },
-    { '@type': 'Question', name: 'Does adding a garage increase home value?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, typically by 64 to 81 percent of the project cost. A $40,000 garage addition adds approximately $26,000 to $32,000 in resale value nationally. The ROI is highest in markets where most comparable homes have garages and the subject property lacks one. The non-financial value of daily usability and storage is not captured in resale calculations.' } },
-    { '@type': 'Question', name: 'What is the cheapest way to add a garage?', acceptedAnswer: { '@type': 'Answer', text: 'An attached garage is 20 to 25 percent cheaper than detached. A prefab kit reduces labor costs versus custom stick-built. A steel building kit is the cheapest per square foot at sizes above 576 square feet. Leaving interior walls unfinished saves $3,000 to $8,000. The cheapest all-in option is a pre-engineered steel building on a simple slab at $18,000 to $28,000 for a 2-car structure.' } },
-    { '@type': 'Question', name: 'Do I need an architect or engineer to build a garage?', acceptedAnswer: { '@type': 'Answer', text: 'Most standard residential garages do not require an architect. Many jurisdictions accept standard pre-engineered plans for common garage sizes. A structural engineer may be required for non-standard designs, unusual site conditions, or if local code requires a stamped plan. A structural engineering review costs $500 to $2,000.' } },
-    { '@type': 'Question', name: 'What size garage should I build?', acceptedAnswer: { '@type': 'Answer', text: 'Build one size larger than you think you need. A 2-car garage always fills faster than expected with storage, bikes, and lawn equipment. The 24x24 two-car full size is the recommended standard for a family home. The marginal cost of 24x24 versus 20x20 is $5,000 to $10,000 with significantly higher daily usability.' } },
-  ],
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does it cost to build a 2-car garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A standard 2-car detached garage (20x20 to 24x24 feet) costs $28,000 to $50,000 fully installed in 2026, including foundation, framing, roofing, siding, garage doors, windows, a man door, and basic electrical. An attached 2-car garage of the same size costs $17,000 to $30,000 because one wall and utility access are shared with the house. Finish upgrades (insulation, drywall, epoxy floor, EV charger, subpanel, workshop lighting) can add $5,000 to $15,000 to either figure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to build a 1-car garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 1-car detached garage (12x20 to 14x24 feet) costs $18,000 to $35,000 installed. A 1-car attached garage costs $7,000 to $18,000. The cost per square foot is higher at small sizes because fixed costs (permits, site preparation, electrical hookup) do not shrink proportionally with the structure. A homeowner who needs a 1-car garage and has the lot space should consider building a 2-car instead: the marginal cost of the extra bay is often only $8,000 to $12,000 and the added utility and resale value is significantly higher."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do permits cost to build a garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permits for a garage addition typically cost $500 to $2,000 total, including the building permit, electrical permit, and any other required permits. Permit fees are set by local jurisdictions and vary significantly: a rural county may charge $300 while a large city may charge $1,500 for the same project. Permit review adds 2 to 8 weeks to the project start date. Skipping permits to save money creates significant legal and financial liability at resale and may result in the unpermitted structure being required to be removed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to build a garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The construction itself (from breaking ground to a finished, inspected garage) takes 4 to 8 weeks for a standard 2-car detached garage. The permit review phase adds 2 to 8 weeks before construction can begin. A realistic total timeline from contractor selection to move-in is 3 to 5 months. Projects in jurisdictions with slow permit review, on sloped or difficult lots, or with complex rooflines take longer. Prefab and steel building kits reduce the construction phase to as little as 1 to 2 weeks but still require the same permit timeline."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does adding a garage increase home value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, typically by 64 to 81 percent of the project cost according to Remodeling Magazine's Cost vs. Value data. A $40,000 garage addition adds approximately $26,000 to $32,000 in resale value nationally. The ROI is highest in markets where most comparable homes have garages and the subject property is at a competitive disadvantage without one. The ROI is lower in urban markets where covered parking is less valued. The non-financial value of daily usability, covered parking, and additional storage is not captured in resale calculations and is significant for most homeowners over the ownership period."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the cheapest way to add a garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cheapest path to covered parking depends on the situation. An attached garage addition usually costs less than a detached garage of the same size, often $15,000 to $20,000 less for a 2-car garage. A prefab kit reduces labor costs versus custom stick-built. A steel building kit is the cheapest per square foot at sizes above 576 square feet. Finishing only the exterior and basic electrical while leaving interior walls unfinished reduces cost by $3,000 to $8,000 versus a finished garage. The cheapest detached option (a pre-engineered steel building on a simple slab) can provide a 2-car structure for $18,000 to $28,000 all-in in a straightforward installation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need an architect or engineer to build a garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most standard residential garages do not require an architect. Many jurisdictions accept standard pre-engineered plans that contractors use routinely for common garage sizes and designs. A structural engineer may be required if the design is non-standard, the lot presents unusual conditions (steep slope, poor soil), or if local code requires a stamped structural engineering plan for any new structure. A structural engineer review costs $500 to $2,000. For attached garages that involve modifications to the existing house structure, a structural assessment is recommended even if not required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What size garage should I build?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Build one size larger than you think you need. A 2-car garage always fills up faster than expected with storage, a workbench, bikes, lawn equipment, and seasonal items. If the budget allows and the lot supports it, the 24x24 two-car full size is the recommended standard for a family home: it parks two full-size vehicles with room for wall storage on both sides. The marginal cost of building 24x24 versus 20x20 is $5,000 to $10,000. The difference in daily usability is significant. See the complete garage guide for the full garage planning framework."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to build a 3-car garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 3-car garage typically costs $45,000 to $70,000 or more detached and $20,000 to $47,000 attached. A standard 30 x 22-foot 3-car garage sits at the lower end of those ranges, and a full 36 x 24-foot garage at the higher end. Adding a third bay to an existing 2-car garage can cost less than building new, but it depends on whether the roofline and foundation can be extended cleanly. Get a contractor to look at the existing structure before you budget."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to add a garage to a house?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An attached 2-car garage addition typically costs $12,000 to $30,000, and an attached 1-car garage $7,000 to $18,000. Attached additions cost less than detached garages because they share a wall, part of the foundation, and the electrical panel with the house. Budget for fire separation on the shared wall (drywall and a fire-rated, self-closing door into the house), permits, and any work needed to tie the roofline into the house. A sloped lot or a roofline that's hard to match can push costs higher."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a garage cost per square foot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An attached garage typically costs $30 to $55 per square foot, and a detached garage $50 to $100 per square foot, with standard finishes and basic electrical. Smaller garages cost more per square foot because permits, site prep, and the electrical hookup cost about the same at any size. Finishing the interior (insulation, drywall, epoxy floor) and higher-end siding or roofing push costs toward the top of the range."
+      }
+    }
+  ]
 }
 
 const articleSchema = {
@@ -31,8 +111,8 @@ const articleSchema = {
   description: 'The complete cost guide to building a garage in 2026 covering attached and detached garages by size, cost per square foot by component, permit costs and timeline, site preparation, prefab vs. stick-built, the 10 factors that move the price, ROI, and financing.',
   image: 'https://thegarage.guide/images/garage cost guide.jpg',
   datePublished: '2026-03-28',
-  dateModified: '2026-03-28',
-  author: { '@type': 'Organization', name: 'The Garage Guide', url: 'https://thegarage.guide' },
+  dateModified: '2026-10-29',
+  author: { '@type': 'Organization', name: 'The Garage Guide Editorial Team', url: 'https://thegarage.guide' },
   publisher: { '@type': 'Organization', name: 'The Garage Guide', url: 'https://thegarage.guide' },
 }
 
@@ -74,20 +154,22 @@ export default function GarageAdditionCost() {
           <div className='relative z-10'>
             <div className='flex items-center space-x-3 mb-4'>
               <span className='text-amber-700 font-bold tracking-wider text-sm uppercase'>GG</span>
-              <span className='text-slate-400 text-sm'>The Garage Guide</span>
+              <span className='text-slate-400 text-sm'>By The Garage Guide Editorial Team</span>
             </div>
-            <p className='text-slate-400 text-sm mb-4'>Updated Mar 2026 &middot; 15 min read</p>
+            <p className='text-slate-400 text-sm mb-4'>Updated October 2026 &middot; 15 min read</p>
             <span className='inline-block bg-amber-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 mb-4'>Cost Guide</span>
             <h1 className='text-3xl md:text-4xl font-bold leading-tight mb-4'>Cost to Build a Garage in 2026:<br />Every Size, Every Type, Every Factor</h1>
-            <p className='text-lg text-slate-300'>Building a garage costs $18,000 to $70,000 for most residential projects in 2026.</p>
+            <p className='text-lg text-slate-300'>Building a garage costs $7,000 to $70,000 or more in 2026, depending on size and whether it's attached or detached.</p>
           </div>
         </div>
       </div>
 
+      <div className='max-w-7xl mx-auto lg:grid lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-8'>
+      <div className='min-w-0'>
       {/* TL;DR */}
       <div className='max-w-3xl mx-auto px-4 mb-16'>
         <div className='bg-amber-50 border-l-4 border-amber-500 p-4 mb-6'>
-          <p className='text-slate-700 text-sm leading-relaxed'><strong>Quick answer:</strong> Building a garage costs $18,000 to $70,000 for most residential projects in 2026. A basic 1-car detached garage starts around $18,000. A standard 2-car detached garage runs $28,000 to $50,000. A large 3-car garage costs $45,000 to $70,000 or more. Attached garages cost 20 to 25 percent less than detached garages of the same size because one wall and part of the foundation are shared with the house. The three biggest cost drivers are size, attached vs. detached, and finish level. Permits are required in virtually every jurisdiction and add $500 to $2,000 to the budget and 2 to 8 weeks to the timeline.</p>
+          <p className='text-slate-700 text-sm leading-relaxed'><strong>Quick answer:</strong> Building a garage costs $7,000 to $70,000 or more in 2026, depending on size and whether it's attached or detached. A 2-car garage, the most common project, runs $12,000 to $30,000 attached and $28,000 to $50,000 detached. A 1-car garage costs $7,000 to $18,000 attached or $18,000 to $35,000 detached. A 3-car garage costs $20,000 to $47,000 attached or $45,000 to $70,000 or more detached. Attached garages cost less because they share a wall and utilities with the house, often $15,000 to $20,000 less for a 2-car garage. Permits are required almost everywhere and add $500 to $2,000 and 2 to 8 weeks.</p>
         </div>
       </div>
 
@@ -96,8 +178,8 @@ export default function GarageAdditionCost() {
         <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-wider text-sm uppercase'>Attached vs. Detached</span></div>
         <h2 className='text-2xl font-bold text-slate-900 mb-4'>Attached vs. Detached: The First Decision That Affects Everything</h2>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Before any other cost calculation, the attached vs. detached decision sets the baseline for the entire project. The difference is significant and affects more than just price.</p>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Attached garage costs $30 to $55 per square foot</strong> installed. The lower cost per square foot reflects the shared wall with the house, the ability to connect to the existing foundation in some configurations, and easier access to the home&apos;s electrical panel. The tradeoff is that attached garage construction is more complex from a permitting standpoint &mdash; it requires fire separation compliance (drywall on the shared wall, fire-rated self-closing door between garage and house), and in some cases requires structural modifications to the existing house.</p>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Detached garage costs $40 to $70 per square foot</strong> installed. The higher cost reflects the need for four exterior walls, a fully independent foundation, and a separate electrical feed from the main panel. The practical run of electrical conduit from the main panel to a detached garage adds $800 to $3,000 depending on distance and whether trenching through landscaping is required.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Attached garage costs $30 to $55 per square foot</strong> installed. The lower cost per square foot reflects the shared wall with the house, the ability to connect to the existing foundation in some configurations, and easier access to the home&apos;s electrical panel. The tradeoff is that attached garage construction is more complex from a permitting standpoint: it requires fire separation compliance (drywall on the shared wall, fire-rated self-closing door between garage and house), and in some cases requires structural modifications to the existing house.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Detached garage costs $50 to $100 per square foot</strong> installed. The higher cost reflects the need for four exterior walls, a fully independent foundation, and a separate electrical feed from the main panel. The practical run of electrical conduit from the main panel to a detached garage adds $800 to $3,000 depending on distance and whether trenching through landscaping is required.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'>For a detailed breakdown of electrical planning including load calculations, subpanel sizing, and underground vs overhead run options, see our <Link href='/guides/detached-garage-electrical' className='text-amber-700 underline'>detached garage electrical guide</Link>.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>When to choose attached:</strong> Adding parking and direct house access is the priority. The property layout allows the addition without blocking windows or requiring complex grade changes.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>When to choose detached:</strong> The property layout does not support an attachment, the homeowner wants the garage to function as a workshop or hobby space with its own heating and ventilation system, or keeping noise, fumes, and fire risk separated from the living space is a priority.</p>
@@ -114,9 +196,14 @@ export default function GarageAdditionCost() {
               <tr className='border-b border-slate-200'><td className='p-2'>1-car standard</td><td className='p-2'>12 x 20 ft</td><td className='p-2'>240 sq ft</td><td className='p-2'>$7,000 &ndash; $13,000</td><td className='p-2'>$18,000 &ndash; $28,000</td></tr>
               <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>1-car full</td><td className='p-2'>14 x 24 ft</td><td className='p-2'>336 sq ft</td><td className='p-2'>$10,000 &ndash; $18,000</td><td className='p-2'>$22,000 &ndash; $35,000</td></tr>
               <tr className='border-b border-slate-200'><td className='p-2'>2-car standard</td><td className='p-2'>20 x 20 ft</td><td className='p-2'>400 sq ft</td><td className='p-2'>$12,000 &ndash; $22,000</td><td className='p-2'>$28,000 &ndash; $40,000</td></tr>
+              <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>2-car deep</td><td className='p-2'>20 x 24 ft</td><td className='p-2'>480 sq ft</td><td className='p-2'>$14,000 &ndash; $26,000</td><td className='p-2'>$29,000 &ndash; $41,000</td></tr>
               <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-semibold'>2-car full</td><td className='p-2 font-semibold'>24 x 24 ft</td><td className='p-2 font-semibold'>576 sq ft</td><td className='p-2 font-semibold'>$17,000 &ndash; $30,000</td><td className='p-2 font-semibold'>$35,000 &ndash; $50,000</td></tr>
+              <tr className='border-b border-slate-200'><td className='p-2'>2-car oversized</td><td className='p-2'>24 x 30 ft</td><td className='p-2'>720 sq ft</td><td className='p-2'>$22,000 &ndash; $40,000</td><td className='p-2'>$43,000 &ndash; $61,000</td></tr>
+              <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>2-car with shop space</td><td className='p-2'>24 x 32 ft</td><td className='p-2'>768 sq ft</td><td className='p-2'>$23,000 &ndash; $42,000</td><td className='p-2'>$46,000 &ndash; $65,000</td></tr>
               <tr className='border-b border-slate-200'><td className='p-2'>3-car standard</td><td className='p-2'>30 x 22 ft</td><td className='p-2'>660 sq ft</td><td className='p-2'>$20,000 &ndash; $36,000</td><td className='p-2'>$45,000 &ndash; $65,000</td></tr>
               <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>3-car full</td><td className='p-2'>36 x 24 ft</td><td className='p-2'>864 sq ft</td><td className='p-2'>$26,000 &ndash; $47,000</td><td className='p-2'>$55,000 &ndash; $70,000+</td></tr>
+              <tr className='border-b border-slate-200'><td className='p-2'>3-car or 2-car with shop</td><td className='p-2'>30 x 30 ft</td><td className='p-2'>900 sq ft</td><td className='p-2'>$27,000 &ndash; $50,000</td><td className='p-2'>$54,000 &ndash; $77,000</td></tr>
+              <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>Large garage or shop</td><td className='p-2'>30 x 40 ft</td><td className='p-2'>1,200 sq ft</td><td className='p-2'>Rarely attached</td><td className='p-2'>$72,000 &ndash; $102,000</td></tr>
             </tbody>
           </table>
         </div>
@@ -128,6 +215,7 @@ export default function GarageAdditionCost() {
         <div className='bg-amber-50 border-l-4 border-amber-500 p-4 mb-4'>
           <p className='text-slate-700 text-sm leading-relaxed'><strong>Note on the 1-car small (12x20):</strong> The cost per square foot is highest at small sizes. You still pay for permits, a foundation, site preparation, and electrical service regardless of size. A 240-square-foot garage carries similar fixed costs to a 576-square-foot garage but has fewer square feet to distribute them over.</p>
         </div>
+        <p className='text-slate-700 text-sm leading-relaxed'>The added sizes are estimates based on the per-square-foot costs of comparable garages in this table. Above about 800 square feet, a pre-engineered steel building or pole barn often costs much less than stick-built, which is why quotes for a 30 x 40 can vary widely.</p>
       </div>
 
       {/* Cost Per Square Foot by Component */}
@@ -154,7 +242,7 @@ export default function GarageAdditionCost() {
             </tbody>
           </table>
         </div>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Total typical range:</strong> $35 to $70 per square foot for a stick-built garage with standard finishes, full electrical, and basic insulation.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Total typical range:</strong> $40 to $100 per square foot for a stick-built garage with standard finishes, full electrical, and basic insulation.</p>
       </div>
 
       {/* Permit Costs and Timeline */}
@@ -177,7 +265,7 @@ export default function GarageAdditionCost() {
 
         {/* Unpermitted liability warning callout */}
         <div className='bg-red-50 border-l-4 border-red-600 p-4 mb-4'>
-          <p className='text-slate-700 text-sm leading-relaxed'><strong>Why permits matter beyond compliance:</strong> An unpermitted garage is a liability when the property is sold. Most home buyers&apos; attorneys will flag an unpermitted structure. Some lenders will not finance a property with unpermitted improvements. Insurance claims related to an unpermitted structure may be denied. The cost of retroactive permitting &mdash; if even possible &mdash; is typically higher than original permitting and may require demolishing finished work for inspection.</p>
+          <p className='text-slate-700 text-sm leading-relaxed'><strong>Why permits matter beyond compliance:</strong> An unpermitted garage is a liability when the property is sold. Most home buyers&apos; attorneys will flag an unpermitted structure. Some lenders will not finance a property with unpermitted improvements. Insurance claims related to an unpermitted structure may be denied. The cost of retroactive permitting (if even possible) is typically higher than original permitting and may require demolishing finished work for inspection.</p>
         </div>
       </div>
 
@@ -211,7 +299,7 @@ export default function GarageAdditionCost() {
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Three distinct construction methods exist for a new garage, each with different cost profiles, timelines, and tradeoffs.</p>
 
         <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>Stick-Built (Site-Built)</h3>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The traditional method &mdash; a contractor frames the garage on site from dimensional lumber. Fully customizable in size, roofline, materials, and layout. Matches the appearance of the existing house most easily. The most labor-intensive and most expensive construction method per square foot.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The traditional method: a contractor frames the garage on site from dimensional lumber. Fully customizable in size, roofline, materials, and layout. Matches the appearance of the existing house most easily. The most labor-intensive and most expensive construction method per square foot.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Cost:</strong> $35 to $70 per square foot installed, all-in.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Timeline:</strong> 4 to 12 weeks from site prep completion to move-in, excluding permit review time.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Best for:</strong> Attached garages, garages that need to match house architecture, garages in neighborhoods with aesthetic requirements or HOA standards.</p>
@@ -252,12 +340,12 @@ export default function GarageAdditionCost() {
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>2. Frost depth.</strong> Northern climate zones require deeper footings. A frost depth of 48 inches versus 12 inches adds several thousand dollars to foundation cost.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>3. Distance from the main electrical panel.</strong> Every additional 10 feet of conduit run from the main panel to a detached garage adds $200 to $400. A garage 100 feet from the panel costs $2,000 to $4,000 more in electrical alone than a garage attached to the house.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>4. Roofline complexity.</strong> A simple gable roof is the least expensive. A hip roof, gambrel roof, or any design with dormers, valleys, or multiple pitches adds $3,000 to $8,000 in framing and roofing labor.</p>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>5. HOA and neighborhood requirements.</strong> Some HOAs require the garage to match the house exterior &mdash; specific siding material, trim colors, roofing material, door style. Matching premium brick siding or a standing seam metal roof to an existing house adds $5,000 to $20,000 over a standard garage specification.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>5. HOA and neighborhood requirements.</strong> Some HOAs require the garage to match the house exterior: specific siding material, trim colors, roofing material, door style. Matching premium brick siding or a standing seam metal roof to an existing house adds $5,000 to $20,000 over a standard garage specification.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>6. Finish level.</strong> A basic garage with bare stud walls, a single light fixture, two outlets, and an uninsulated door is at the low end of the range. A finished garage with drywall, insulation, epoxy floor, LED shop lighting, multiple circuits, a subpanel, and an EV charger is at the high end.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>7. Heating system.</strong> Adding a gas unit heater adds $1,000 to $3,000. Adding a mini-split for year-round conditioning adds $2,000 to $5,000. Both require additional electrical or gas line work.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>8. Plumbing.</strong> A utility sink adds $1,500 to $3,000 including rough-in. A full bathroom (for a garage apartment or ADU) adds $8,000 to $20,000 and triggers additional permit requirements.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>9. Structural engineer requirement.</strong> Some jurisdictions require a stamped structural engineering plan for any new structure over a certain size. A structural engineering review costs $500 to $2,000 and is required in addition to permit fees.</p>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>10. Local labor rates.</strong> Labor costs vary dramatically by region. The same garage project that costs $35,000 in a rural Midwest market can cost $55,000 in a high-cost coastal market. Get three quotes from local contractors &mdash; not national averages &mdash; for a project in your area.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>10. Local labor rates.</strong> Labor costs vary dramatically by region. The same garage project that costs $35,000 in a rural Midwest market can cost $55,000 in a high-cost coastal market. Get three quotes from local contractors, not national averages, for a project in your area.</p>
       </div>
 
       {/* Does Adding a Garage Increase Home Value? */}
@@ -280,7 +368,7 @@ export default function GarageAdditionCost() {
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>HELOC (Home Equity Line of Credit):</strong> A revolving line of credit secured by home equity. Draw funds as needed during construction, pay interest only on amounts drawn. More flexible than a home equity loan for projects where costs may vary. Variable rate introduces payment uncertainty.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Cash-out refinance:</strong> Refinancing the first mortgage to a higher balance and taking the difference in cash. Only makes sense when refinance rates are at or below the existing mortgage rate. In a high-rate environment (2026), a cash-out refi at current rates may not be advantageous if the existing mortgage was originated at lower rates.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Construction loan:</strong> A short-term loan that funds construction draws as work is completed, then converts to a permanent mortgage. Typically required for larger projects ($75,000+) or when the existing equity is insufficient for a home equity product. More complex to obtain and administer than a home equity loan.</p>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>For projects under $25,000:</strong> A personal loan or home equity loan is typically the simplest path. Shop multiple lenders &mdash; credit union rates are often meaningfully below bank rates for home improvement loans.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>For projects under $25,000:</strong> A personal loan or home equity loan is typically the simplest path. Shop multiple lenders: credit union rates are often meaningfully below bank rates for home improvement loans.</p>
       </div>
 
       {/* Project Timeline */}
@@ -315,13 +403,13 @@ export default function GarageAdditionCost() {
         <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-wider text-sm uppercase'>Hiring</span></div>
         <h2 className='text-2xl font-bold text-slate-900 mb-4'>Questions to Ask Contractors Before Hiring</h2>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Before signing any contract, confirm the following with every contractor you are considering:</p>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>1. What is included in the quote?</strong> Get a line-item breakdown &mdash; foundation, framing, roofing, siding, doors, electrical, and any exclusions. Quotes that list a single lump sum without itemization are difficult to compare and hide surprises.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>1. What is included in the quote?</strong> Get a line-item breakdown: foundation, framing, roofing, siding, doors, electrical, and any exclusions. Quotes that list a single lump sum without itemization are difficult to compare and hide surprises.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>2. Who pulls the permits?</strong> The contractor should pull all permits. A contractor who asks you to pull your own permits is either unlicensed or trying to avoid being on record as the builder. Decline.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>3. What is the payment schedule?</strong> Standard practice is a deposit (10 to 20 percent) at contract signing, progress payments tied to completion milestones (foundation complete, framing complete, etc.), and a final payment at completion and inspection. Contractors who demand more than 30 percent upfront are a risk.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>4. Are you licensed and insured?</strong> Verify the contractor&apos;s license number with your state licensing board online. Confirm general liability and workers&apos; compensation insurance are current. Ask for certificates.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>5. What subcontractors will you use?</strong> Most general contractors subcontract electrical and sometimes concrete. Know who they are and whether they are also licensed.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>6. What is the warranty on labor and materials?</strong> Standard is 1 year on labor. Materials are covered by manufacturer warranties. Get the labor warranty in writing.</p>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>7. Have you done fire separation work for attached garages?</strong> If the project is an attached garage, confirm the contractor is familiar with and compliant with IRC fire separation requirements &mdash; drywall on the garage side, fire-rated self-closing door between garage and house.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>7. Have you done fire separation work for attached garages?</strong> If the project is an attached garage, confirm the contractor is familiar with and compliant with IRC fire separation requirements: drywall on the garage side, fire-rated self-closing door between garage and house.</p>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>8. What is the project timeline and what could delay it?</strong> A contractor who gives a definitive timeline without acknowledging permit review times, material lead times, or weather is not being realistic. A good contractor builds in contingency.</p>
       </div>
 
@@ -331,22 +419,22 @@ export default function GarageAdditionCost() {
         <h2 className='text-2xl font-bold text-slate-900 mb-4'>Frequently Asked Questions</h2>
 
         <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>How much does it cost to build a 2-car garage?</h3>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>A standard 2-car detached garage (20x20 to 24x24 feet) costs $28,000 to $50,000 fully installed in 2026, including foundation, framing, roofing, siding, garage doors, windows, a man door, and basic electrical. An attached 2-car garage of the same size costs $17,000 to $30,000 because one wall and utility access are shared with the house. Finish upgrades &mdash; insulation, drywall, epoxy floor, EV charger, subpanel, workshop lighting &mdash; can add $5,000 to $15,000 to either figure.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>A standard 2-car detached garage (20x20 to 24x24 feet) costs $28,000 to $50,000 fully installed in 2026, including foundation, framing, roofing, siding, garage doors, windows, a man door, and basic electrical. An attached 2-car garage of the same size costs $17,000 to $30,000 because one wall and utility access are shared with the house. Finish upgrades (insulation, drywall, epoxy floor, EV charger, subpanel, workshop lighting) can add $5,000 to $15,000 to either figure.</p>
 
         <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>How much does it cost to build a 1-car garage?</h3>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>A 1-car detached garage (12x20 to 14x24 feet) costs $18,000 to $35,000 installed. A 1-car attached garage costs $7,000 to $18,000. The cost per square foot is higher at small sizes because fixed costs (permits, site preparation, electrical hookup) do not shrink proportionally with the structure. A homeowner who needs a 1-car garage and has the lot space should consider building a 2-car instead &mdash; the marginal cost of the extra bay is often only $8,000 to $12,000 and the added utility and resale value is significantly higher.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>A 1-car detached garage (12x20 to 14x24 feet) costs $18,000 to $35,000 installed. A 1-car attached garage costs $7,000 to $18,000. The cost per square foot is higher at small sizes because fixed costs (permits, site preparation, electrical hookup) do not shrink proportionally with the structure. A homeowner who needs a 1-car garage and has the lot space should consider building a 2-car instead: the marginal cost of the extra bay is often only $8,000 to $12,000 and the added utility and resale value is significantly higher.</p>
 
         <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>How much do permits cost to build a garage?</h3>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Permits for a garage addition typically cost $500 to $2,000 total, including the building permit, electrical permit, and any other required permits. Permit fees are set by local jurisdictions and vary significantly &mdash; a rural county may charge $300 while a large city may charge $1,500 for the same project. Permit review adds 2 to 8 weeks to the project start date. Skipping permits to save money creates significant legal and financial liability at resale and may result in the unpermitted structure being required to be removed.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Permits for a garage addition typically cost $500 to $2,000 total, including the building permit, electrical permit, and any other required permits. Permit fees are set by local jurisdictions and vary significantly: a rural county may charge $300 while a large city may charge $1,500 for the same project. Permit review adds 2 to 8 weeks to the project start date. Skipping permits to save money creates significant legal and financial liability at resale and may result in the unpermitted structure being required to be removed.</p>
 
         <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>How long does it take to build a garage?</h3>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The construction itself &mdash; from breaking ground to a finished, inspected garage &mdash; takes 4 to 8 weeks for a standard 2-car detached garage. The permit review phase adds 2 to 8 weeks before construction can begin. A realistic total timeline from contractor selection to move-in is 3 to 5 months. Projects in jurisdictions with slow permit review, on sloped or difficult lots, or with complex rooflines take longer. Prefab and steel building kits reduce the construction phase to as little as 1 to 2 weeks but still require the same permit timeline.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The construction itself (from breaking ground to a finished, inspected garage) takes 4 to 8 weeks for a standard 2-car detached garage. The permit review phase adds 2 to 8 weeks before construction can begin. A realistic total timeline from contractor selection to move-in is 3 to 5 months. Projects in jurisdictions with slow permit review, on sloped or difficult lots, or with complex rooflines take longer. Prefab and steel building kits reduce the construction phase to as little as 1 to 2 weeks but still require the same permit timeline.</p>
 
         <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>Does adding a garage increase home value?</h3>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Yes, typically by 64 to 81 percent of the project cost according to Remodeling Magazine&apos;s Cost vs. Value data. A $40,000 garage addition adds approximately $26,000 to $32,000 in resale value nationally. The ROI is highest in markets where most comparable homes have garages and the subject property is at a competitive disadvantage without one. The ROI is lower in urban markets where covered parking is less valued. The non-financial value of daily usability, covered parking, and additional storage is not captured in resale calculations and is significant for most homeowners over the ownership period.</p>
 
         <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>What is the cheapest way to add a garage?</h3>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The cheapest path to covered parking depends on the situation. An attached garage addition is 20 to 25 percent cheaper than a detached garage of the same size. A prefab kit reduces labor costs versus custom stick-built. A steel building kit is the cheapest per square foot at sizes above 576 square feet. Finishing only the exterior and basic electrical while leaving interior walls unfinished reduces cost by $3,000 to $8,000 versus a finished garage. The absolute cheapest option &mdash; a pre-engineered steel building on a simple slab &mdash; can provide a 2-car structure for $18,000 to $28,000 all-in in a straightforward installation.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The cheapest path to covered parking depends on the situation. An attached garage addition usually costs less than a detached garage of the same size, often $15,000 to $20,000 less for a 2-car garage. A prefab kit reduces labor costs versus custom stick-built. A steel building kit is the cheapest per square foot at sizes above 576 square feet. Finishing only the exterior and basic electrical while leaving interior walls unfinished reduces cost by $3,000 to $8,000 versus a finished garage. The cheapest detached option (a pre-engineered steel building on a simple slab) can provide a 2-car structure for $18,000 to $28,000 all-in in a straightforward installation.</p>
 
         <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>Do I need an architect or engineer to build a garage?</h3>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Most standard residential garages do not require an architect. Many jurisdictions accept standard pre-engineered plans that contractors use routinely for common garage sizes and designs. A structural engineer may be required if the design is non-standard, the lot presents unusual conditions (steep slope, poor soil), or if local code requires a stamped structural engineering plan for any new structure. A structural engineer review costs $500 to $2,000. For attached garages that involve modifications to the existing house structure, a structural assessment is recommended even if not required.</p>
@@ -354,8 +442,14 @@ export default function GarageAdditionCost() {
         <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>What size garage should I build?</h3>
         {/* "Build one size larger" tip callout */}
         <div className='bg-amber-50 border-l-4 border-amber-500 p-4 mb-4'>
-          <p className='text-slate-700 text-sm leading-relaxed'><strong>Build one size larger than you think you need.</strong> A 2-car garage always fills up faster than expected with storage, a workbench, bikes, lawn equipment, and seasonal items. If the budget allows and the lot supports it, the 24x24 two-car full size is the recommended standard for a family home &mdash; it parks two full-size vehicles with room for wall storage on both sides. The marginal cost of building 24x24 versus 20x20 is $5,000 to $10,000. The difference in daily usability is significant. See the <Link href='/guides/complete-garage-guide' className='text-amber-700 underline'>complete garage guide</Link> for the full garage planning framework.</p>
+          <p className='text-slate-700 text-sm leading-relaxed'><strong>Build one size larger than you think you need.</strong> A 2-car garage always fills up faster than expected with storage, a workbench, bikes, lawn equipment, and seasonal items. If the budget allows and the lot supports it, the 24x24 two-car full size is the recommended standard for a family home: it parks two full-size vehicles with room for wall storage on both sides. The marginal cost of building 24x24 versus 20x20 is $5,000 to $10,000. The difference in daily usability is significant. See the <Link href='/guides/complete-garage-guide' className='text-amber-700 underline'>complete garage guide</Link> for the full garage planning framework.</p>
         </div>
+        <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>How much does it cost to build a 3-car garage?</h3>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>A 3-car garage typically costs $45,000 to $70,000 or more detached and $20,000 to $47,000 attached. A standard 30 x 22-foot 3-car garage sits at the lower end of those ranges, and a full 36 x 24-foot garage at the higher end. Adding a third bay to an existing 2-car garage can cost less than building new, but it depends on whether the roofline and foundation can be extended cleanly. Get a contractor to look at the existing structure before you budget.</p>
+        <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>How much does it cost to add a garage to a house?</h3>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>An attached 2-car garage addition typically costs $12,000 to $30,000, and an attached 1-car garage $7,000 to $18,000. Attached additions cost less than detached garages because they share a wall, part of the foundation, and the electrical panel with the house. Budget for fire separation on the shared wall (drywall and a fire-rated, self-closing door into the house), permits, and any work needed to tie the roofline into the house. A sloped lot or a roofline that's hard to match can push costs higher.</p>
+        <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>How much does a garage cost per square foot?</h3>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>An attached garage typically costs $30 to $55 per square foot, and a detached garage $50 to $100 per square foot, with standard finishes and basic electrical. Smaller garages cost more per square foot because permits, site prep, and the electrical hookup cost about the same at any size. Finishing the interior (insulation, drywall, epoxy floor) and higher-end siding or roofing push costs toward the top of the range.</p>
       </div>
 
       {/* Glossary */}
@@ -363,9 +457,9 @@ export default function GarageAdditionCost() {
         <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-wider text-sm uppercase'>Reference</span></div>
         <h2 className='text-2xl font-bold text-slate-900 mb-4'>Glossary</h2>
         <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>Concrete Slab Foundation</h3>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The poured concrete base that supports a residential garage structure. A standard residential garage slab is 4 inches thick, reinforced with wire mesh or rebar, and slopes slightly toward the garage door opening for drainage. In cold climates with deep frost lines, the perimeter of the slab must rest on footings that extend below the frost depth to prevent heaving. Thickened-edge slabs &mdash; where the perimeter is poured thicker (typically 12 inches) to serve as the footing &mdash; are standard in moderate climates. Sloped or unstable lots may require poured concrete perimeter footings or a stem wall foundation rather than a simple slab.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The poured concrete base that supports a residential garage structure. A standard residential garage slab is 4 inches thick, reinforced with wire mesh or rebar, and slopes slightly toward the garage door opening for drainage. In cold climates with deep frost lines, the perimeter of the slab must rest on footings that extend below the frost depth to prevent heaving. Thickened-edge slabs (where the perimeter is poured thicker (typically 12 inches) to serve as the footing) are standard in moderate climates. Sloped or unstable lots may require poured concrete perimeter footings or a stem wall foundation rather than a simple slab.</p>
         <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>Fire Separation</h3>
-        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The assembly required by the International Residential Code between an attached garage and the living space of a home, including a minimum of 1/2-inch drywall on the garage side of shared walls, 5/8-inch Type X drywall on the ceiling if living space is above the garage, and a solid-core or fire-rated self-closing door between the garage and house. Fire separation compliance is a cost item in attached garage construction &mdash; the drywall, fire-rated door, and proper framing of the assembly add to the project cost but are required by code and are a life safety requirement.</p>
+        <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The assembly required by the International Residential Code between an attached garage and the living space of a home, including a minimum of 1/2-inch drywall on the garage side of shared walls, 5/8-inch Type X drywall on the ceiling if living space is above the garage, and a solid-core or fire-rated self-closing door between the garage and house. Fire separation compliance is a cost item in attached garage construction: the drywall, fire-rated door, and proper framing of the assembly add to the project cost but are required by code and are a life safety requirement.</p>
         <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>Stick-Built Construction</h3>
         <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The traditional method of on-site garage construction in which a contractor frames walls and roof from dimensional lumber delivered to the site. Stick-built garages are fully customizable in size, layout, roofline, and materials and most easily match the architecture of the existing house. They are more labor-intensive and expensive per square foot than prefab or steel building alternatives but offer the greatest design flexibility and are the standard for attached garages and garages in neighborhoods with aesthetic requirements.</p>
         <h3 className='text-xl font-bold text-slate-900 mt-2 mb-4'>Pre-Engineered Steel Building</h3>
@@ -425,6 +519,15 @@ export default function GarageAdditionCost() {
       {/* Lead Form */}
       <div className='max-w-3xl mx-auto px-4 mb-16'>
         <LeadForm />
+      </div>
+
+      </div>
+        <aside className='hidden lg:block px-4 pb-12'>
+          <div className='sticky top-24 rounded-2xl bg-slate-50 p-5'>
+            <p className='text-xl font-bold text-slate-900 mb-4'>Get Free Quotes</p>
+            <LeadForm />
+          </div>
+        </aside>
       </div>
 
       {/* Schema Scripts */}
