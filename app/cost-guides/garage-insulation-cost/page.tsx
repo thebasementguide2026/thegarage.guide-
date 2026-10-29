@@ -6,23 +6,103 @@ import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 
 export const metadata: Metadata = {
   title: 'Garage Insulation Cost 2026: Door, Walls, Ceiling, and Whole Garage Prices | The Garage Guide',
-  description: 'Garage insulation costs $800 to $5,100 for a 2-car garage professionally installed. Garage door insulation kits cost $50 to $200 DIY. Full breakdown by type, surface, and garage size.',
+  description: 'Insulating a 2-car garage costs $1,500 to $3,800 with fiberglass batts installed, or $3,500 to $8,500 with spray foam. Door kits run $50 to $300. Costs by size, surface, and type, plus insulate and drywall.',
   alternates: { canonical: 'https://thegarage.guide/cost-guides/garage-insulation-cost' },
 }
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    { '@type': 'Question', name: 'How much does it cost to insulate a garage door?', acceptedAnswer: { '@type': 'Answer', text: 'A DIY retrofit insulation kit for a 1-car garage door costs $50 to $150 and takes 1 to 3 hours to install. A 2-car door kit costs $90 to $300. Professional installation of a retrofit kit adds $150 to $300 in labor. Replacing an existing door with a factory-insulated model costs $750 to $1,500 installed for a single door or $1,500 to $4,200 installed for a double door.' } },
-    { '@type': 'Question', name: 'How much does it cost to insulate a 2-car garage?', acceptedAnswer: { '@type': 'Answer', text: 'Insulating the walls and ceiling of a standard 2-car garage costs $1,500 to $3,800 professionally installed with fiberglass batts, or $3,500 to $8,500 with spray foam. A DIY fiberglass batt project for the same garage costs $400 to $1,200 in materials. These figures cover walls and ceiling only. Add $90 to $300 for a garage door retrofit kit or $1,500 to $4,200 for a replacement insulated door.' } },
-    { '@type': 'Question', name: 'What is the cheapest way to insulate a garage?', acceptedAnswer: { '@type': 'Answer', text: 'The cheapest approach is DIY fiberglass batt insulation in open stud walls and ceiling, combined with a foam panel retrofit kit for the garage door. Materials for a complete 2-car garage DIY project run $400 to $1,500 depending on garage size and target R-value. The labor savings from DIY versus professional installation are $1,000 to $3,000 on a typical 2-car garage project.' } },
-    { '@type': 'Question', name: 'Is it worth insulating a detached garage?', acceptedAnswer: { '@type': 'Answer', text: 'It depends on how you use the garage. If it is used only for car storage in a mild climate, the payback period is long. If you use the garage as a workshop, gym, or hobby space, or if you are in a cold climate, insulation delivers clear value. For a detached garage, prioritize the ceiling first, then exterior walls, then the door.' } },
-    { '@type': 'Question', name: 'Does garage insulation require a permit?', acceptedAnswer: { '@type': 'Answer', text: 'Insulation alone without drywall work typically does not require a permit in most jurisdictions. Adding drywall over insulation in a garage typically does require a permit because it affects the fire separation between the garage and living space. Always check with your local building department before starting.' } },
-    { '@type': 'Question', name: 'What R-value do I need for my garage?', acceptedAnswer: { '@type': 'Answer', text: 'For garage walls, R-13 to R-21 covers most residential situations depending on stud depth and climate. For the ceiling, R-38 to R-49 is appropriate for most climates. For the garage door, R-6 to R-13 covers most residential applications. In very cold climates, maximize R-value in every surface.' } },
-    { '@type': 'Question', name: 'How long does garage insulation last?', acceptedAnswer: { '@type': 'Answer', text: 'Fiberglass batts last 80 to 100 years under normal conditions without moisture damage. Rigid foam boards last 25 to 50 years. Spray foam lasts 80 to 100 years if properly installed. The primary threat to garage insulation lifespan is moisture. Proper vapor barriers and air sealing during installation protect insulation from moisture damage.' } },
-    { '@type': 'Question', name: 'Can I insulate my garage myself?', acceptedAnswer: { '@type': 'Answer', text: 'Yes for fiberglass batts and garage door retrofit kits. No for spray foam. Fiberglass batt installation in open stud walls and ceilings is a straightforward project with a low skill floor. Garage door retrofit kits install in 1 to 3 hours with no special tools. Spray foam requires specialized equipment and correct chemical mixing ratios that make DIY impractical for most homeowners.' } },
-  ],
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does it cost to insulate a garage door?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A DIY retrofit insulation kit for a 1-car garage door costs $50 to $150 and takes 1 to 3 hours to install. A 2-car door kit costs $90 to $300. Professional installation of a retrofit kit adds $100 to $300 in labor. Replacing an existing door with a factory-insulated model costs $750 to $1,500 installed for a single door or $1,100 to $4,200 installed for a double door."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to insulate a 2-car garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Insulating the walls and ceiling of a standard 2-car garage (20x24) costs $1,500 to $3,800 professionally installed with fiberglass batts, or $3,500 to $8,500 with spray foam. A DIY fiberglass batt project for the same garage costs $400 to $1,200 in materials. These figures cover walls and ceiling only. Add $90 to $300 for a garage door retrofit kit or $1,100 to $4,200 for a replacement insulated door. A full 24x24 garage runs about $1,800 to $4,500 with fiberglass batts installed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the cheapest way to insulate a garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cheapest approach is DIY fiberglass batt insulation in open stud walls and ceiling, combined with a foam panel retrofit kit for the garage door. Materials for a complete 2-car garage DIY project run $400 to $1,500 depending on garage size and target R-value. The labor savings from DIY versus professional installation are $1,000 to $3,000 on a typical 2-car garage project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it worth insulating a detached garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on how you use the garage. If it is used only for car storage in a mild climate, the payback period is long. If you use the garage as a workshop, gym, or hobby space, or if you are in a cold climate, insulation delivers clear value. For a detached garage, prioritize the ceiling first, then exterior walls, then the door."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does garage insulation require a permit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Insulation alone without drywall work typically does not require a permit in most jurisdictions. Adding drywall over insulation in a garage typically does require a permit because it affects the fire separation between the garage and living space. Always check with your local building department before starting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What R-value do I need for my garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For garage walls, R-13 to R-21 covers most residential situations depending on stud depth and climate. For the ceiling, R-38 to R-49 is appropriate for most climates. For the garage door, R-6 to R-13 covers most residential applications. In very cold climates, maximize R-value in every surface."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does garage insulation last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fiberglass batts last 80 to 100 years under normal conditions without moisture damage. Rigid foam boards last 25 to 50 years. Spray foam lasts 80 to 100 years if properly installed. The primary threat to garage insulation lifespan is moisture. Proper vapor barriers and air sealing during installation protect insulation from moisture damage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I insulate my garage myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes for fiberglass batts and garage door retrofit kits. No for spray foam. Fiberglass batt installation in open stud walls and ceilings is a straightforward project with a low skill floor. Garage door retrofit kits install in 1 to 3 hours with no special tools. Spray foam requires specialized equipment and correct chemical mixing ratios that make DIY impractical for most homeowners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to insulate and drywall a garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Insulating and drywalling the walls and ceiling of a 2-car garage typically costs $3,000 to $7,500 professionally installed with fiberglass batts. Drywall adds about $1.50 to $3 per square foot hung, taped, and finished, or roughly $1,500 to $3,500 for a 2-car garage. Code usually requires at least 1/2-inch drywall on a wall shared with the house and 5/8-inch Type X fire-rated drywall on the ceiling if there are living spaces above. Drywall work in a garage usually needs a permit, so check with your local building department before you start."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to spray foam a garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Spray foaming the walls and ceiling of a 2-car garage costs $3,500 to $8,500 professionally installed. Open-cell foam runs about $1.00 to $2.00 per square foot on walls, and closed-cell foam $1.50 to $5.00. Spraying just the ceiling of a 2-car garage costs about $600 to $2,900. Closed-cell foam costs more but delivers R-6 to R-7 per inch and acts as a vapor barrier, which makes it the better choice for a damp garage or 2x4 walls where you want the most R-value. Spray foam is a professional-only job."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to insulate a 24x24 garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 24x24 garage costs about $1,800 to $4,500 to insulate with fiberglass batts professionally installed, $4,200 to $10,000 with spray foam, or $500 to $1,400 in materials for a DIY fiberglass job. That covers the walls and ceiling. With 8-foot walls and a 16 x 7-foot door, you're insulating roughly 650 square feet of wall and 576 square feet of ceiling. Add $90 to $300 for a garage door retrofit kit."
+      }
+    }
+  ]
 }
 
 const articleSchema = {
@@ -31,6 +111,8 @@ const articleSchema = {
   headline: 'Garage Insulation Cost 2026: Door, Walls, Ceiling, and Whole Garage Prices',
   description: 'Garage insulation costs $800 to $5,100 for a 2-car garage professionally installed. Garage door insulation kits cost $50 to $200 DIY. Full breakdown by type, surface, and garage size.',
   url: 'https://thegarage.guide/cost-guides/garage-insulation-cost',
+  dateModified: '2026-10-29',
+  author: { '@type': 'Organization', name: 'The Garage Guide Editorial Team', url: 'https://thegarage.guide' },
   publisher: { '@type': 'Organization', name: 'The Garage Guide', url: 'https://thegarage.guide' },
 }
 
@@ -46,8 +128,8 @@ export default function GarageInsulationCost() {
             <div className='flex items-center gap-3 mb-4'>
               <div className='w-10 h-10 bg-amber-700 rounded-full flex items-center justify-center text-white font-bold text-sm'>GG</div>
               <div>
-                <p className='text-white font-semibold text-sm'>The Garage Guide</p>
-                <p className='text-gray-300 text-xs'>Updated Apr 2026 · 12 min read</p>
+                <p className='text-white font-semibold text-sm'>By The Garage Guide Editorial Team</p>
+                <p className='text-gray-300 text-xs'>Updated October 2026 · 12 min read</p>
               </div>
             </div>
             <span className='text-amber-700 font-bold text-xs uppercase tracking-wider'>Cost Guide</span>
@@ -59,7 +141,7 @@ export default function GarageInsulationCost() {
         {/* TL;DR */}
         <div style={{ backgroundColor: '#E1F5EE', borderLeft: '4px solid #1D9E75', padding: '16px 20px' }} className='rounded-r-lg mb-4'>
           <p style={{ color: '#1D9E75' }} className='text-sm font-bold mb-2'>TL;DR</p>
-          <p className='text-slate-700 text-sm leading-relaxed'>Garage door insulation kits cost $50 to $200 DIY or $150 to $400 installed. A new insulated garage door costs $1,100 to $4,200 installed. Insulating the full garage (walls and ceiling) costs $800 to $5,100 for a standard 2-car garage professionally installed, or $300 to $1,500 in materials for a complete DIY job. The biggest cost variable is insulation type: fiberglass batts are cheapest at $0.50 to $1.50 per square foot installed, spray foam is most expensive at $1.50 to $5.00 per square foot. For most homeowners, the highest return on investment comes from insulating the garage door first, then the shared wall between the garage and living space, then the ceiling.</p>
+          <p className='text-slate-700 text-sm leading-relaxed'>Garage door insulation kits cost $50 to $300 DIY or $150 to $600 installed, depending on door size and kit type. A new insulated garage door costs $750 to $4,200 installed. Insulating the walls and ceiling of a 2-car garage (20x24) costs $1,500 to $3,800 with fiberglass batts professionally installed, $3,500 to $8,500 with spray foam, or $400 to $1,200 in materials for a DIY fiberglass job. The biggest cost variable is insulation type: fiberglass batts are cheapest at $0.50 to $1.50 per square foot installed, and spray foam is most expensive at $1.00 to $5.00 per square foot. For most homeowners, the highest return on investment comes from insulating the garage door first, then the shared wall between the garage and living space, then the ceiling.</p>
         </div>
 
         {/* Opening Paragraphs */}
@@ -82,6 +164,7 @@ export default function GarageInsulationCost() {
         {/* Garage Door Insulation Cost */}
         <section className='mb-8'>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Garage Door Insulation Cost</h2>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Insulating a garage door costs $50 to $300 with a DIY kit, $150 to $600 with a kit professionally installed, or $750 to $4,200 to replace it with a factory-insulated door.</p>
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>The garage door is the largest single opening in the building envelope and typically the least insulated surface. There are two approaches: retrofit an existing door with an insulation kit, or replace the door with a factory-insulated model.</p>
 
           {/* Callout Box */}
@@ -279,11 +362,23 @@ export default function GarageInsulationCost() {
                   <td className='border border-slate-300 px-3 py-2 text-slate-700'>$2,000 to $5,500</td>
                   <td className='border border-slate-300 px-3 py-2 text-slate-700'>$300 to $800</td>
                 </tr>
+                <tr>
+                  <td className='border border-slate-300 px-3 py-2 text-slate-700 font-medium'>2-car garage (20x20)</td>
+                  <td className='border border-slate-300 px-3 py-2 text-slate-700'>$1,300 to $3,200</td>
+                  <td className='border border-slate-300 px-3 py-2 text-slate-700'>$3,000 to $7,000</td>
+                  <td className='border border-slate-300 px-3 py-2 text-slate-700'>$350 to $1,000</td>
+                </tr>
                 <tr className='bg-slate-50'>
                   <td className='border border-slate-300 px-3 py-2 text-slate-700 font-medium'>2-car garage (20x24)</td>
                   <td className='border border-slate-300 px-3 py-2 text-slate-700'>$1,500 to $3,800</td>
                   <td className='border border-slate-300 px-3 py-2 text-slate-700'>$3,500 to $8,500</td>
                   <td className='border border-slate-300 px-3 py-2 text-slate-700'>$400 to $1,200</td>
+                </tr>
+                <tr>
+                  <td className='border border-slate-300 px-3 py-2 text-slate-700 font-medium'>2-car garage (24x24)</td>
+                  <td className='border border-slate-300 px-3 py-2 text-slate-700'>$1,800 to $4,500</td>
+                  <td className='border border-slate-300 px-3 py-2 text-slate-700'>$4,200 to $10,000</td>
+                  <td className='border border-slate-300 px-3 py-2 text-slate-700'>$500 to $1,400</td>
                 </tr>
                 <tr>
                   <td className='border border-slate-300 px-3 py-2 text-slate-700 font-medium'>3-car garage (30x24)</td>
@@ -300,6 +395,7 @@ export default function GarageInsulationCost() {
               </tbody>
             </table>
           </div>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>The 20x20 and 24x24 rows are estimates scaled from the 20x24 row by floor area. Whole-garage quotes usually run higher than the per-square-foot figures above multiplied out, because they include prep, air sealing, cleanup, and the contractor's minimum charge.</p>
           <p className='text-slate-700 text-sm leading-relaxed'>For electrical needs during garage projects, see our <Link href='/guides/detached-garage-electrical' className='text-amber-700 underline'>detached garage electrical guide</Link>.</p>
         </section>
 
@@ -381,11 +477,11 @@ export default function GarageInsulationCost() {
           <div className='space-y-4'>
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm mb-2'>How much does it cost to insulate a garage door?</h3>
-              <p className='text-slate-700 text-sm leading-relaxed'>A DIY retrofit insulation kit for a 1-car garage door costs $50 to $150 and takes 1 to 3 hours to install. A 2-car door kit costs $90 to $300. Professional installation of a retrofit kit adds $150 to $300 in labor. Replacing an existing door with a factory-insulated model costs $750 to $1,500 installed for a single door or $1,500 to $4,200 installed for a double door.</p>
+              <p className='text-slate-700 text-sm leading-relaxed'>A DIY retrofit insulation kit for a 1-car garage door costs $50 to $150 and takes 1 to 3 hours to install. A 2-car door kit costs $90 to $300. Professional installation of a retrofit kit adds $100 to $300 in labor. Replacing an existing door with a factory-insulated model costs $750 to $1,500 installed for a single door or $1,100 to $4,200 installed for a double door.</p>
             </div>
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm mb-2'>How much does it cost to insulate a 2-car garage?</h3>
-              <p className='text-slate-700 text-sm leading-relaxed'>Insulating the walls and ceiling of a standard 2-car garage costs $1,500 to $3,800 professionally installed with fiberglass batts, or $3,500 to $8,500 with spray foam. A DIY fiberglass batt project for the same garage costs $400 to $1,200 in materials. These figures cover walls and ceiling only. Add $90 to $300 for a garage door retrofit kit or $1,500 to $4,200 for a replacement insulated door.</p>
+              <p className='text-slate-700 text-sm leading-relaxed'>Insulating the walls and ceiling of a standard 2-car garage (20x24) costs $1,500 to $3,800 professionally installed with fiberglass batts, or $3,500 to $8,500 with spray foam. A DIY fiberglass batt project for the same garage costs $400 to $1,200 in materials. These figures cover walls and ceiling only. Add $90 to $300 for a garage door retrofit kit or $1,100 to $4,200 for a replacement insulated door. A full 24x24 garage runs about $1,800 to $4,500 with fiberglass batts installed.</p>
             </div>
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm mb-2'>What is the cheapest way to insulate a garage?</h3>
@@ -410,6 +506,18 @@ export default function GarageInsulationCost() {
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm mb-2'>Can I insulate my garage myself?</h3>
               <p className='text-slate-700 text-sm leading-relaxed'>Yes for fiberglass batts and garage door retrofit kits. No for spray foam. Fiberglass batt installation in open stud walls and ceilings is a straightforward project with a low skill floor. Garage door retrofit kits install in 1 to 3 hours with no special tools. Spray foam requires specialized equipment and correct chemical mixing ratios that make DIY impractical for most homeowners.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-semibold text-slate-800 text-sm mb-2'>How much does it cost to insulate and drywall a garage?</h3>
+              <p className='text-slate-700 text-sm leading-relaxed'>Insulating and drywalling the walls and ceiling of a 2-car garage typically costs $3,000 to $7,500 professionally installed with fiberglass batts. Drywall adds about $1.50 to $3 per square foot hung, taped, and finished, or roughly $1,500 to $3,500 for a 2-car garage. Code usually requires at least 1/2-inch drywall on a wall shared with the house and 5/8-inch Type X fire-rated drywall on the ceiling if there are living spaces above. Drywall work in a garage usually needs a permit, so check with your local building department before you start.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-semibold text-slate-800 text-sm mb-2'>How much does it cost to spray foam a garage?</h3>
+              <p className='text-slate-700 text-sm leading-relaxed'>Spray foaming the walls and ceiling of a 2-car garage costs $3,500 to $8,500 professionally installed. Open-cell foam runs about $1.00 to $2.00 per square foot on walls, and closed-cell foam $1.50 to $5.00. Spraying just the ceiling of a 2-car garage costs about $600 to $2,900. Closed-cell foam costs more but delivers R-6 to R-7 per inch and acts as a vapor barrier, which makes it the better choice for a damp garage or 2x4 walls where you want the most R-value. Spray foam is a professional-only job.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-semibold text-slate-800 text-sm mb-2'>How much does it cost to insulate a 24x24 garage?</h3>
+              <p className='text-slate-700 text-sm leading-relaxed'>A 24x24 garage costs about $1,800 to $4,500 to insulate with fiberglass batts professionally installed, $4,200 to $10,000 with spray foam, or $500 to $1,400 in materials for a DIY fiberglass job. That covers the walls and ceiling. With 8-foot walls and a 16 x 7-foot door, you're insulating roughly 650 square feet of wall and 576 square feet of ceiling. Add $90 to $300 for a garage door retrofit kit.</p>
             </div>
           </div>
         </section>
