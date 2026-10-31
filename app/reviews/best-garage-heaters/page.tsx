@@ -9,16 +9,74 @@ export const metadata: Metadata = {
 }
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    { '@type': 'Question', name: 'What is the best electric garage heater for a two-car garage?', acceptedAnswer: { '@type': 'Answer', text: 'The Fahrenheat FUH54 (5,000W, 240V) is the best option for a well-insulated two-car garage up to 500 sq ft. For poorly insulated or larger two-car garages, step up to the King KB2410-1-B2-ECO (10,000W, 240V), which has the power to handle difficult heating conditions.' } },
-    { '@type': 'Question', name: 'Is propane or electric cheaper for garage heating?', acceptedAnswer: { '@type': 'Answer', text: 'Electric is cheaper per hour at lower BTU outputs (under 20,000 BTU). Propane becomes more cost-effective at higher BTU outputs in very cold conditions where you need 30,000+ BTU. Natural gas is the cheapest fuel source overall. Mini-split heat pumps are the cheapest electric option because they multiply electricity by their COP.' } },
-    { '@type': 'Question', name: 'Can I install a garage heater myself?', acceptedAnswer: { '@type': 'Answer', text: '120V plug-in heaters require no installation. Portable propane heaters require no installation. 240V hardwired heaters require a dedicated electrical circuit - hire an electrician unless you are licensed. Natural gas heaters require professional installation (gas line, venting, electrical). MrCool DIY mini-splits are designed for homeowner installation but still require 240V electrical work.' } },
-    { '@type': 'Question', name: 'Are garage heaters safe to leave on overnight?', acceptedAnswer: { '@type': 'Answer', text: 'Permanently installed, thermostat-controlled heaters (natural gas, hardwired electric, mini-split) are designed for continuous operation and can safely run overnight. Portable heaters (propane, 120V plug-in) should never be left running unattended or overnight. Always install a carbon monoxide detector if using any combustion heater.' } },
-    { '@type': 'Question', name: 'How much does it cost to run a garage heater all winter?', acceptedAnswer: { '@type': 'Answer', text: 'A 5,000W electric heater used 4 hours/day, 5 days/week, for 20 weeks costs approximately $300 to $450 per winter at $0.15/kWh. A 45,000 BTU natural gas heater on the same schedule costs approximately $100 to $200. A mini-split on the same schedule costs approximately $75 to $150. Insulation level significantly affects these numbers.' } },
-    { '@type': 'Question', name: 'Do I need to vent my garage heater?', acceptedAnswer: { '@type': 'Answer', text: 'Electric heaters and mini-splits produce no combustion byproducts and do not require venting. Natural gas and permanently installed propane heaters must be vented to the outside through a wall or roof pipe. Portable propane heaters require ventilation (an open window or cracked garage door) and a carbon monoxide detector.' } },
-  ],
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best electric garage heater for a two-car garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Fahrenheat FUH54 (5,000W, 240V) is the best option for a well-insulated two-car garage up to 500 sq ft. For poorly insulated or larger two-car garages, step up to the King KB2410-1-B2-ECO or the VEVOR 10,000W (both 10,000W, 240V)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is propane or electric cheaper for garage heating?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Propane is usually a little cheaper than electric per unit of heat. At $3.50 per gallon, the Mr. Heater Big Buddy costs about $0.69 an hour to produce 18,000 BTU, and at $0.15 per kWh a 5,000W electric heater costs about $0.75 an hour to produce about 17,000 BTU. Natural gas costs about half as much as either, and a mini-split heat pump is the cheapest electric option. Local prices can flip the result, so check your own rates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I install a garage heater myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "120V plug-in heaters require no installation. 240V hardwired heaters require a dedicated electrical circuit. Hire an electrician unless you are licensed. Natural gas heaters require professional installation. MrCool DIY mini-splits are designed for homeowner installation but still require 240V electrical work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are garage heaters safe to leave on overnight?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permanently installed, thermostat-controlled heaters (natural gas, hardwired electric, mini-split) are designed for continuous operation and can safely run overnight. Portable heaters (propane, 120V plug-in) should never be left running unattended or overnight."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to run a garage heater all winter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a two-car garage that needs about 17,000 BTU (5,000 watts) of heat, run 4 hours a day, 5 days a week, for 20 weeks, expect about $300 a winter with an electric heater at $0.15 per kWh, about $260 with propane at $3.50 per gallon, about $130 with natural gas at $1.50 per therm, and about $90 to $120 with a mini-split. Those figures assume the heater runs the whole time. A thermostat that cycles the heater off, or a well-insulated garage, brings them down."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to vent my garage heater?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Electric heaters and mini-splits do not require venting. Natural gas heaters must be vented to the outside. Portable propane heaters require ventilation (an open window or cracked garage door) and a carbon monoxide detector."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What size heater do I need for a 2-car garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most insulated two-car garages need about 4,000 to 5,800 watts (13,600 to 19,800 BTU), so a 5,000W heater like the Fahrenheat FUH54 is the right size. An uninsulated two-car garage needs roughly double: a 10,000W electric heater or a 45,000 BTU natural gas heater. Size up in very cold climates or if your ceilings are over 10 feet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the safest garage heater?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Heaters that don't burn fuel are the safest: hardwired electric heaters and mini-splits produce no carbon monoxide. Put them on a dedicated circuit and keep the clearances listed in the manual. A vented natural gas heater installed by a pro is also safe. Portable propane heaters carry the most risk in a closed garage because they release carbon monoxide and moisture into the space. If you use one, crack the door, run a carbon monoxide detector, and never leave it on unattended. On any portable heater, look for tip-over and overheat shutoff."
+      }
+    }
+  ]
 }
 
 const comparisonTableSchema = {
@@ -29,9 +87,10 @@ const comparisonTableSchema = {
   variableMeasured: [
     { '@type': 'PropertyValue', name: 'Fahrenheat FUH54 - Best Overall', value: 'Electric 240V forced-air, 17,065 BTU / 5,000W, Most two-car garages, $180-$250' },
     { '@type': 'PropertyValue', name: 'King KB2410-1-B2-ECO - Best Heavy Duty', value: 'Electric 240V forced-air, 34,130 BTU / 10,000W, Large or poorly insulated garages, $350-$500' },
+    { '@type': 'PropertyValue', name: 'VEVOR 10,000W Electric Garage Heater - Best Budget Heavy Duty', value: 'Electric 240V forced-air, 34,120 BTU / 10,000W, Big or uninsulated garages on a budget, $200 - $250' },
     { '@type': 'PropertyValue', name: 'Dr. Infrared Heater DR-988 - Best Infrared', value: 'Electric 240V infrared+fan, 19,110 BTU / 5,600W, Woodworking shops and spot heating, $130-$180' },
     { '@type': 'PropertyValue', name: 'Mr. Heater Big Buddy MH18B - Best Portable Propane', value: 'Propane portable, 4,000-18,000 BTU, No electrical work or power outages, $150-$200' },
-    { '@type': 'PropertyValue', name: 'Modine HD45AS0111 Hot Dawg - Best Natural Gas', value: 'Natural gas ceiling-mount, 45,000 BTU, Regular use and lowest operating cost, $500-$700' },
+    { '@type': 'PropertyValue', name: 'Modine HD45AS0111 Hot Dawg - Best Natural Gas', value: 'Natural gas ceiling-mount, 45,000 BTU, Regular use and low operating cost, $500-$700' },
     { '@type': 'PropertyValue', name: 'Dr. Infrared DR-968 - Best 120V Budget', value: 'Electric 120V infrared, 5,100 BTU / 1,500W, Workbench warmth and small garages, $90-$130' },
     { '@type': 'PropertyValue', name: 'MrCool DIY 18K 3rd Gen - Best Mini-Split', value: 'Ductless heat pump, 18,000 BTU heating+cooling, Year-round heating and cooling, $1,400-$1,800' },
   ],
@@ -44,9 +103,24 @@ const articleSchema = {
   description: 'The best garage heater for most homeowners is a 240V electric forced-air unit in the $200 to $500 range. We reviewed electric, infrared, propane, natural gas, and mini-split heaters.',
   image: 'https://thegarage.guide/images/garageheaters.jpg',
   datePublished: '2026-03-08',
-  dateModified: '2026-03-08',
-  author: { '@type': 'Organization', name: 'The Garage Guide', url: 'https://thegarage.guide' },
+  dateModified: '2026-10-30',
+  author: { '@type': 'Organization', name: 'The Garage Guide Editorial Team', url: 'https://thegarage.guide' },
   publisher: { '@type': 'Organization', name: 'The Garage Guide', url: 'https://thegarage.guide' },
+}
+
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Fahrenheat FUH54' },
+    { '@type': 'ListItem', position: 2, name: 'King KB2410-1-B2-ECO' },
+    { '@type': 'ListItem', position: 3, name: 'VEVOR 10,000W Electric Garage Heater' },
+    { '@type': 'ListItem', position: 4, name: 'Dr. Infrared DR-988' },
+    { '@type': 'ListItem', position: 5, name: 'Mr. Heater Big Buddy MH18B' },
+    { '@type': 'ListItem', position: 6, name: 'Modine Hot Dawg HD45AS0111' },
+    { '@type': 'ListItem', position: 7, name: 'Dr. Infrared DR-968' },
+    { '@type': 'ListItem', position: 8, name: 'MrCool DIY 18K 3rd Gen' },
+  ],
 }
 
 export default function BestGarageHeaters() {
@@ -63,8 +137,8 @@ export default function BestGarageHeaters() {
               <span className='text-white font-bold text-sm'>GG</span>
             </div>
             <div>
-              <p className='text-white font-semibold text-sm'>The Garage Guide</p>
-              <p className='text-gray-300 text-xs'>Updated Mar 2026 &middot; 22 min read</p>
+              <p className='text-white font-semibold text-sm'>By The Garage Guide Editorial Team</p>
+              <p className='text-gray-300 text-xs'>Updated October 2026 &middot; 22 min read</p>
             </div>
           </div>
           <div>
@@ -81,12 +155,14 @@ export default function BestGarageHeaters() {
                 <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mb-6'>
                             <p className='font-bold text-slate-900 text-sm mb-3'>TL;DR</p>
         <p className='text-slate-700 text-sm leading-relaxed mb-4'>The best garage heater for most homeowners is a 240V electric forced-air unit in the $200 to $500 range. It provides enough heat for a well-insulated two-car garage, requires no gas line or venting, and can be installed in an afternoon with a dedicated circuit.</p>
-                          <p className='text-slate-700 text-sm leading-relaxed mb-4'>For larger garages or colder climates where electric cannot keep up, a ceiling-mounted natural gas heater like the Modine Hot Dawg ($400 to $700) is the long-term winner on operating costs. And for homeowners who want both heating and cooling year-round, a ductless mini-split heat pump is the premium play.</p>
+                          <p className='text-slate-700 text-sm leading-relaxed mb-4'>For larger garages or colder climates where electric cannot keep up, a ceiling-mounted natural gas heater like the Modine Hot Dawg ($400 to $700) is the long-term pick for low operating costs. And for homeowners who want both heating and cooling year-round, a ductless mini-split heat pump is the premium play. If you need 10,000 watts on a budget, the VEVOR 10,000W ($200 to $250) matches the King's output for about half the price.</p>
                 </div>
         <p className='text-slate-700 text-sm leading-relaxed mb-8'>We evaluated garage heaters across five categories: electric forced-air, electric infrared, propane portable, natural gas permanent, and mini-split heat pump. Below are our top picks for each use case, with honest notes on what each model does well, where it falls short, and who should buy it.</p>
 
         {/* Quick Comparison Table */}
         <section className='mb-8'>
+          <h3 className='font-semibold text-slate-800 text-sm mb-2'>How We Chose</h3>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>We compared heaters on heat output, how much garage each one can realistically heat, fuel and installation requirements, safety features, owner reports, and current price. Picks are based on manufacturer specs and owner reviews, and we update prices and picks as products change. Some links on this page are affiliate links, which means we may earn a commission at no extra cost to you. That never decides which heaters make the list.</p>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Quick Comparison Table</h2>
           <div className='overflow-x-auto mb-4'>
             <table className='w-full text-sm border-collapse'>
@@ -118,6 +194,14 @@ export default function BestGarageHeaters() {
                   <td className='p-3 text-slate-700'>$350 - $500</td>
                 </tr>
                 <tr className='border-b border-slate-200'>
+                  <td className='p-3 text-slate-700'>Best Budget Heavy Duty</td>
+                  <td className='p-3 text-slate-700 font-medium'><a href='https://www.anrdoezrs.net/click-101694643-15465605?sid=Garage&url=https%3A%2F%2Fwww.vevor.com%2Felectric-garage-heater-c_12114%2Fvevor-electric-garage-heater-10000w-with-remote-control-ceiling-for-workshop-p_010480979149' target='_blank' rel='sponsored nofollow' className='text-amber-700 underline'>VEVOR 10,000W Electric Garage Heater</a></td>
+                  <td className='p-3 text-slate-700'>Electric 240V forced-air</td>
+                  <td className='p-3 text-slate-700'>34,120 BTU / 10,000W</td>
+                  <td className='p-3 text-slate-700'>Big or uninsulated garages on a budget</td>
+                  <td className='p-3 text-slate-700'>$200 - $250</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
                   <td className='p-3 text-slate-700'>Best Infrared</td>
                   <td className='p-3 text-slate-700 font-medium'>Dr. Infrared DR-988</td>
                   <td className='p-3 text-slate-700'>Electric 240V infrared+fan</td>
@@ -138,7 +222,7 @@ export default function BestGarageHeaters() {
                   <td className='p-3 text-slate-700 font-medium'>Modine Hot Dawg HD45AS0111</td>
                   <td className='p-3 text-slate-700'>Natural gas ceiling-mount</td>
                   <td className='p-3 text-slate-700'>45,000 BTU</td>
-                  <td className='p-3 text-slate-700'>Regular use, lowest operating cost</td>
+                  <td className='p-3 text-slate-700'>Regular use, low operating cost</td>
                   <td className='p-3 text-slate-700'>$500 - $700</td>
                 </tr>
                 <tr className='border-b border-slate-200 bg-slate-50'>
@@ -166,7 +250,7 @@ export default function BestGarageHeaters() {
         <section className='mb-8'>
           <div className='bg-slate-50 border border-slate-200 rounded-lg p-5'>
             <span className='text-amber-700 font-bold text-xs uppercase tracking-wider'>Best Overall</span>
-            <h2 className='text-xl font-bold text-slate-900 mt-1 mb-4'>Fahrenheat FUH54</h2>
+            <h2 id='fahrenheat-fuh54' className='text-xl font-bold text-slate-900 mt-1 mb-4'>Fahrenheat FUH54</h2>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-3 mb-4'>
               <div><p className='text-slate-500 text-xs'>Price:</p><p className='text-slate-800 text-sm font-semibold'>$180 - $250</p></div>
               <div><p className='text-slate-500 text-xs'>Type:</p><p className='text-slate-800 text-sm font-semibold'>Electric 240V ceiling-mount forced-air</p></div>
@@ -186,7 +270,7 @@ export default function BestGarageHeaters() {
         <section className='mb-8'>
           <div className='bg-slate-50 border border-slate-200 rounded-lg p-5'>
             <span className='text-amber-700 font-bold text-xs uppercase tracking-wider'>Best Heavy Duty</span>
-            <h2 className='text-xl font-bold text-slate-900 mt-1 mb-4'>King KB2410-1-B2-ECO</h2>
+            <h2 id='king-kb2410' className='text-xl font-bold text-slate-900 mt-1 mb-4'>King KB2410-1-B2-ECO</h2>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-3 mb-4'>
               <div><p className='text-slate-500 text-xs'>Price:</p><p className='text-slate-800 text-sm font-semibold'>$350 - $500</p></div>
               <div><p className='text-slate-500 text-xs'>Type:</p><p className='text-slate-800 text-sm font-semibold'>Electric 240V wall/ceiling-mount forced-air</p></div>
@@ -202,11 +286,30 @@ export default function BestGarageHeaters() {
           </div>
         </section>
 
+        <section className='mb-8'>
+          <div className='bg-slate-50 border border-slate-200 rounded-lg p-5'>
+            <span className='text-amber-700 font-bold text-xs uppercase tracking-wider'>Best Budget Heavy Duty</span>
+            <h2 id='vevor-10000w' className='text-xl font-bold text-slate-900 mt-1 mb-4'>VEVOR 10,000W Electric Garage Heater</h2>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-3 mb-4'>
+              <div><p className='text-slate-500 text-xs'>Price:</p><p className='text-slate-800 text-sm font-semibold'>$200 - $250</p></div>
+              <div><p className='text-slate-500 text-xs'>Type:</p><p className='text-slate-800 text-sm font-semibold'>Electric 240V wall/ceiling-mount forced-air</p></div>
+              <div><p className='text-slate-500 text-xs'>Heat output:</p><p className='text-slate-800 text-sm font-semibold'>10,000W (up to 34,120 BTU)</p></div>
+              <div><p className='text-slate-500 text-xs'>Coverage:</p><p className='text-slate-800 text-sm font-semibold'>Up to 1,000 sq ft insulated</p></div>
+              <div><p className='text-slate-500 text-xs'>Voltage:</p><p className='text-slate-800 text-sm font-semibold'>240V hardwired</p></div>
+              <div><p className='text-slate-500 text-xs'>Controls:</p><p className='text-slate-800 text-sm font-semibold'>Remote with 10-hour timer</p></div>
+            </div>
+            <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> The VEVOR puts out the same 10,000 watts as the King for roughly half the price. That's enough heat for a three-car garage, a 1,000 sq ft insulated shop, or a two-car garage that isn't insulated. It mounts on the wall or ceiling to keep the floor clear, and the remote and timer let you warm the garage up before you walk out.</p>
+            <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> It has the same electrical requirements as the King: a dedicated 240V circuit sized for a 10,000W heater, installed by an electrician. Verify your panel has capacity before you buy. King has a longer track record in garage heaters, so check the warranty terms on the listing. VEVOR's prices change often, so check the current price too.</p>
+            <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Big or uninsulated garages, and anyone who wants King-level output without paying King prices.</p>
+            <a href='https://www.anrdoezrs.net/click-101694643-15465605?sid=Garage&url=https%3A%2F%2Fwww.vevor.com%2Felectric-garage-heater-c_12114%2Fvevor-electric-garage-heater-10000w-with-remote-control-ceiling-for-workshop-p_010480979149' target='_blank' rel='sponsored nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price at VEVOR</a>
+          </div>
+        </section>
+
         {/* Dr. Infrared DR-988 */}
         <section className='mb-8'>
           <div className='bg-slate-50 border border-slate-200 rounded-lg p-5'>
             <span className='text-amber-700 font-bold text-xs uppercase tracking-wider'>Best Infrared</span>
-            <h2 className='text-xl font-bold text-slate-900 mt-1 mb-4'>Dr. Infrared Heater DR-988</h2>
+            <h2 id='dr-infrared-dr988' className='text-xl font-bold text-slate-900 mt-1 mb-4'>Dr. Infrared Heater DR-988</h2>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-3 mb-4'>
               <div><p className='text-slate-500 text-xs'>Price:</p><p className='text-slate-800 text-sm font-semibold'>$130 - $180</p></div>
               <div><p className='text-slate-500 text-xs'>Type:</p><p className='text-slate-800 text-sm font-semibold'>Electric 240V portable infrared+fan hybrid</p></div>
@@ -226,7 +329,7 @@ export default function BestGarageHeaters() {
         <section className='mb-8'>
           <div className='bg-slate-50 border border-slate-200 rounded-lg p-5'>
             <span className='text-amber-700 font-bold text-xs uppercase tracking-wider'>Best Portable Propane</span>
-            <h2 className='text-xl font-bold text-slate-900 mt-1 mb-4'>Mr. Heater Big Buddy MH18B</h2>
+            <h2 id='mr-heater-big-buddy' className='text-xl font-bold text-slate-900 mt-1 mb-4'>Mr. Heater Big Buddy MH18B</h2>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-3 mb-4'>
               <div><p className='text-slate-500 text-xs'>Price:</p><p className='text-slate-800 text-sm font-semibold'>$150 - $200</p></div>
               <div><p className='text-slate-500 text-xs'>Type:</p><p className='text-slate-800 text-sm font-semibold'>Propane radiant portable</p></div>
@@ -246,7 +349,7 @@ export default function BestGarageHeaters() {
         <section className='mb-8'>
           <div className='bg-slate-50 border border-slate-200 rounded-lg p-5'>
             <span className='text-amber-700 font-bold text-xs uppercase tracking-wider'>Best Natural Gas</span>
-            <h2 className='text-xl font-bold text-slate-900 mt-1 mb-4'>Modine HD45AS0111 Hot Dawg</h2>
+            <h2 id='modine-hot-dawg' className='text-xl font-bold text-slate-900 mt-1 mb-4'>Modine HD45AS0111 Hot Dawg</h2>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-3 mb-4'>
               <div><p className='text-slate-500 text-xs'>Price:</p><p className='text-slate-800 text-sm font-semibold'>$500 - $700 (unit only)</p></div>
               <div><p className='text-slate-500 text-xs'>Type:</p><p className='text-slate-800 text-sm font-semibold'>Natural gas ceiling-mount forced-air</p></div>
@@ -255,7 +358,7 @@ export default function BestGarageHeaters() {
               <div><p className='text-slate-500 text-xs'>Fuel:</p><p className='text-slate-800 text-sm font-semibold'>Natural gas (LP conversion available)</p></div>
               <div><p className='text-slate-500 text-xs'>Venting:</p><p className='text-slate-800 text-sm font-semibold'>Through-wall or roof (kit sold separately)</p></div>
             </div>
-            <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> The Hot Dawg is the industry standard for permanent garage heating. At 45,000 BTU, it heats even large, moderately insulated three-car garages. Operating cost is the lowest of any heater type at approximately $0.49 per hour on natural gas. Build quality is commercial-grade with an expected lifespan of 15 to 25 years.</p>
+            <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>Why it wins:</strong> The Hot Dawg is the industry standard for permanent garage heating. At 45,000 BTU, it heats even large, moderately insulated three-car garages. Per unit of heat, natural gas costs about half as much as electric resistance or propane at typical prices. Build quality is commercial-grade with an expected lifespan of 15 to 25 years.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-3'><strong>What to know:</strong> This is not a DIY installation. You need a licensed HVAC technician or plumber. Total installation cost runs $500 to $1,500 if your garage already has a gas line, or $1,500 to $4,000 if a new gas line needs to be run.</p>
             <p className='text-slate-700 text-sm leading-relaxed mb-4'><strong>Best for:</strong> Homeowners who use their garage regularly and have natural gas available. This is the buy-it-once heater that runs for decades at the lowest per-hour cost.</p>
             <a href='https://link.amazon/B02FlNduy' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold text-sm py-2.5 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
@@ -266,7 +369,7 @@ export default function BestGarageHeaters() {
         <section className='mb-8'>
           <div className='bg-slate-50 border border-slate-200 rounded-lg p-5'>
             <span className='text-amber-700 font-bold text-xs uppercase tracking-wider'>Best 120V Budget</span>
-            <h2 className='text-xl font-bold text-slate-900 mt-1 mb-4'>Dr. Infrared DR-968</h2>
+            <h2 id='dr-infrared-dr968' className='text-xl font-bold text-slate-900 mt-1 mb-4'>Dr. Infrared DR-968</h2>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-3 mb-4'>
               <div><p className='text-slate-500 text-xs'>Price:</p><p className='text-slate-800 text-sm font-semibold'>$90 - $130</p></div>
               <div><p className='text-slate-500 text-xs'>Type:</p><p className='text-slate-800 text-sm font-semibold'>Electric 120V portable infrared</p></div>
@@ -286,7 +389,7 @@ export default function BestGarageHeaters() {
         <section className='mb-8'>
           <div className='bg-slate-50 border border-slate-200 rounded-lg p-5'>
             <span className='text-amber-700 font-bold text-xs uppercase tracking-wider'>Best Mini-Split</span>
-            <h2 className='text-xl font-bold text-slate-900 mt-1 mb-4'>MrCool DIY 18K 3rd Gen</h2>
+            <h2 id='mrcool-diy18k' className='text-xl font-bold text-slate-900 mt-1 mb-4'>MrCool DIY 18K 3rd Gen</h2>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-3 mb-4'>
               <div><p className='text-slate-500 text-xs'>Price:</p><p className='text-slate-800 text-sm font-semibold'>$1,400 - $1,800 (unit only)</p></div>
               <div><p className='text-slate-500 text-xs'>Type:</p><p className='text-slate-800 text-sm font-semibold'>Ductless mini-split heat pump</p></div>
@@ -302,17 +405,27 @@ export default function BestGarageHeaters() {
           </div>
         </section>
 
+        <section className='mb-8'>
+          <h2 className='text-xl font-bold text-slate-900 mb-4'>Best Garage Heater for Your Situation</h2>
+          <ul className='list-disc pl-5 mb-4 space-y-1 text-slate-700 text-sm'>
+            <li><strong>Insulated two-car garage:</strong> <a href='#fahrenheat-fuh54' className='text-amber-700 underline'>Fahrenheat FUH54</a>. 5,000 watts is the right size for most insulated two-car garages.</li>
+            <li><strong>Uninsulated garage:</strong> <a href='#king-kb2410' className='text-amber-700 underline'>King KB2410-1-B2-ECO</a> or <a href='#vevor-10000w' className='text-amber-700 underline'>VEVOR 10,000W</a>, or the <a href='#modine-hot-dawg' className='text-amber-700 underline'>Modine Hot Dawg</a> if you have natural gas. Insulating first cuts the heat you need roughly in half.</li>
+            <li><strong>120V plug-in only:</strong> <a href='#dr-infrared-dr968' className='text-amber-700 underline'>Dr. Infrared DR-968</a>. A standard outlet tops out at 1,500 watts (about 5,100 BTU), which warms the area around a workbench but not a full two-car garage. No 120V heater will.</li>
+            <li><strong>Extreme cold:</strong> <a href='#modine-hot-dawg' className='text-amber-700 underline'>Modine Hot Dawg</a> on natural gas. A 240V electric heater works if the garage is insulated and the heater is sized right. Mini-split heating capacity drops below about 0 F.</li>
+            <li><strong>Garage gym:</strong> <a href='#fahrenheat-fuh54' className='text-amber-700 underline'>Fahrenheat FUH54</a>, or the <a href='#mrcool-diy18k' className='text-amber-700 underline'>MrCool mini-split</a> if you also want air conditioning in summer. Skip unvented propane, which puts carbon monoxide and moisture into the air while you're breathing hard.</li>
+            <li><strong>Woodworking shop:</strong> <a href='#dr-infrared-dr988' className='text-amber-700 underline'>Dr. Infrared DR-988</a> for direct warmth at the bench, or a ceiling-mount electric heater to heat the whole space.</li>
+            <li><strong>No electrical work:</strong> <a href='#mr-heater-big-buddy' className='text-amber-700 underline'>Mr. Heater Big Buddy</a>. It runs on propane with no wiring, and it works during power outages.</li>
+            <li><strong>Heating and cooling:</strong> <a href='#mrcool-diy18k' className='text-amber-700 underline'>MrCool DIY 18K 3rd Gen</a>.</li>
+          </ul>
+        </section>
+
         {/* How to Size a Garage Heater */}
         <section className='mb-8'>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>How to Size a Garage Heater</h2>
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>Choosing the right size heater depends on your garage dimensions, insulation level, climate zone, and target temperature. An undersized heater will run constantly without reaching your desired temperature. An oversized heater cycles on and off too frequently, reducing efficiency.</p>
           <h3 className='font-semibold text-slate-800 text-sm mb-2'>Quick Sizing Formula</h3>
-          <p className='text-slate-700 text-sm leading-relaxed mb-3'>Calculate the cubic footage of your garage (length x width x height). Multiply by the desired temperature rise in degrees Fahrenheit. Divide by a factor based on insulation quality:</p>
-          <ul className='list-disc pl-5 mb-4 space-y-1'>
-            <li className='text-slate-700 text-sm'><strong>Well insulated (R-13+ walls, R-30+ ceiling):</strong> Divide by 4.0</li>
-            <li className='text-slate-700 text-sm'><strong>Moderately insulated (R-8 walls, R-19 ceiling):</strong> Divide by 3.0</li>
-            <li className='text-slate-700 text-sm'><strong>Poorly insulated or uninsulated:</strong> Divide by 2.0</li>
-          </ul>
+          <p className='text-slate-700 text-sm leading-relaxed mb-3'>For an insulated garage with 8 to 10-foot ceilings, plan on about 10 watts of heat per square foot. That's the rule behind most electric heater coverage ratings: a 5,000W heater covers about 500 sq ft, and a 10,000W heater about 1,000 sq ft. For an uninsulated garage, plan on roughly double. To convert watts to BTU, multiply by 3.412.</p>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Size up if you live somewhere with long, hard winters, if your ceilings are over 10 feet, or if you want the garage well above 50 F. Gas heaters are rated by fuel input, and most garage unit heaters turn about 80 percent of that into heat, so a 45,000 BTU gas heater delivers about 36,000 BTU.</p>
           <h3 className='font-semibold text-slate-800 text-sm mb-2'>Sizing by Garage Type</h3>
           <div className='overflow-x-auto mb-4'>
             <table className='w-full text-sm border-collapse'>
@@ -320,8 +433,8 @@ export default function BestGarageHeaters() {
                 <tr className='bg-slate-100'>
                   <th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Garage Size</th>
                   <th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Sq Ft</th>
-                  <th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Insulated BTU Need</th>
-                  <th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Uninsulated BTU Need</th>
+                  <th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Insulated Need</th>
+                  <th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Uninsulated Need</th>
                   <th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Recommended Heater</th>
                 </tr>
               </thead>
@@ -329,27 +442,51 @@ export default function BestGarageHeaters() {
                 <tr className='border-b border-slate-200'>
                   <td className='p-3 text-slate-700'>1-car</td>
                   <td className='p-3 text-slate-700'>200-300</td>
-                  <td className='p-3 text-slate-700'>10,000-15,000</td>
-                  <td className='p-3 text-slate-700'>20,000-30,000</td>
-                  <td className='p-3 text-slate-700'>Dr. Infrared DR-988</td>
+                  <td className='p-3 text-slate-700'>2,000-3,000W (6,800-10,200 BTU)</td>
+                  <td className='p-3 text-slate-700'>4,000-6,000W (13,600-20,500 BTU)</td>
+                  <td className='p-3 text-slate-700'>Fahrenheat FUH54 or Dr. Infrared DR-988</td>
                 </tr>
                 <tr className='border-b border-slate-200 bg-slate-50'>
                   <td className='p-3 text-slate-700'>2-car</td>
                   <td className='p-3 text-slate-700'>400-576</td>
-                  <td className='p-3 text-slate-700'>20,000-35,000</td>
-                  <td className='p-3 text-slate-700'>40,000-70,000</td>
-                  <td className='p-3 text-slate-700'>King ECO2S or Modine Hot Dawg</td>
+                  <td className='p-3 text-slate-700'>4,000-5,800W (13,600-19,800 BTU)</td>
+                  <td className='p-3 text-slate-700'>8,000-11,500W (27,300-39,200 BTU)</td>
+                  <td className='p-3 text-slate-700'>Insulated: Fahrenheat FUH54. Uninsulated: King, VEVOR 10,000W, or Modine Hot Dawg</td>
                 </tr>
                 <tr className='border-b border-slate-200'>
                   <td className='p-3 text-slate-700'>3-car</td>
                   <td className='p-3 text-slate-700'>576-900</td>
-                  <td className='p-3 text-slate-700'>35,000-55,000</td>
-                  <td className='p-3 text-slate-700'>70,000-110,000</td>
-                  <td className='p-3 text-slate-700'>Modine Hot Dawg or MrCool DIY</td>
+                  <td className='p-3 text-slate-700'>5,800-9,000W (19,800-30,700 BTU)</td>
+                  <td className='p-3 text-slate-700'>11,500-18,000W (39,200-61,400 BTU)</td>
+                  <td className='p-3 text-slate-700'>Insulated: King, VEVOR 10,000W, or Modine Hot Dawg. Uninsulated: insulate first, or a larger gas unit heater</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-3 text-slate-700'>1,000 sq ft shop</td>
+                  <td className='p-3 text-slate-700'>1,000</td>
+                  <td className='p-3 text-slate-700'>10,000W (34,100 BTU)</td>
+                  <td className='p-3 text-slate-700'>20,000W (68,200 BTU)</td>
+                  <td className='p-3 text-slate-700'>Insulated: King, VEVOR 10,000W, or Modine Hot Dawg. Uninsulated: a larger gas unit heater sized by a contractor</td>
                 </tr>
               </tbody>
             </table>
           </div>
+        </section>
+
+        <section className='mb-8'>
+          <h2 className='text-xl font-bold text-slate-900 mb-4'>Which Garage Heater Is Cheapest to Run?</h2>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Every electric resistance heater (forced-air, infrared, or 120V plug-in) turns electricity into heat at the same rate, so no electric heater is "more efficient" than another. What changes the cost is the fuel. Here is what 10,000 BTU of heat costs by heater type at typical prices:</p>
+          <div className='overflow-x-auto mb-4'>
+            <table className='w-full text-sm border-collapse'>
+              <thead><tr className='bg-slate-100'><th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Heater Type</th><th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Cost per 10,000 BTU of Heat</th><th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Prices Used</th></tr></thead>
+              <tbody>
+                <tr className='border-b border-slate-200'><td className='p-3 text-slate-700'>Electric (forced-air, infrared, 120V)</td><td className='p-3 text-slate-700'>About $0.44</td><td className='p-3 text-slate-700'>$0.15 per kWh</td></tr>
+                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-3 text-slate-700'>Portable propane (unvented)</td><td className='p-3 text-slate-700'>About $0.38</td><td className='p-3 text-slate-700'>$3.50 per gallon</td></tr>
+                <tr className='border-b border-slate-200'><td className='p-3 text-slate-700'>Natural gas (vented unit heater)</td><td className='p-3 text-slate-700'>About $0.19</td><td className='p-3 text-slate-700'>$1.50 per therm, 80% efficient</td></tr>
+                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-3 text-slate-700'>Mini-split heat pump</td><td className='p-3 text-slate-700'>About $0.13 to $0.18</td><td className='p-3 text-slate-700'>$0.15 per kWh</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>A mini-split heat pump and natural gas are the cheapest to run. Electric resistance and propane cost about twice as much per unit of heat, but they cost far less to buy and install. Your local electricity, gas, and propane prices can change the order, so plug in your own rates.</p>
         </section>
 
         {/* Safety */}
@@ -371,7 +508,7 @@ export default function BestGarageHeaters() {
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Garage Insulation Tips for Better Heating</h2>
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>The single most impactful thing you can do to improve garage heating is to insulate. A well-insulated garage can maintain temperature with half the BTU output of an uninsulated one.</p>
           <h3 className='font-semibold text-slate-800 text-sm mb-2'>Insulate the Garage Door</h3>
-          <p className='text-slate-700 text-sm leading-relaxed mb-4'>The garage door is the largest uninsulated surface. Foam board insulation kits ($50 to $100) can add R-8 to your existing door. For serious heating, consider replacing with an insulated door (R-12 to R-18) for $800 to $2,000 installed.</p>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>The garage door is the largest uninsulated surface. A foam panel insulation kit ($50 to $300, depending on door size and kit type) adds R-4 to R-13 to your existing door. For serious heating, consider replacing it with a factory-insulated door for $750 to $4,200 installed. See our <Link href='/cost-guides/garage-insulation-cost' className='text-amber-700 underline'>garage insulation cost guide</Link> for full pricing.</p>
           <h3 className='font-semibold text-slate-800 text-sm mb-2'>Seal Air Gaps</h3>
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>Replace worn garage door weatherstripping along the bottom and sides. Caulk gaps around windows, electrical outlets, and where the wall meets the foundation.</p>
           <h3 className='font-semibold text-slate-800 text-sm mb-2'>Walls and Ceiling</h3>
@@ -384,15 +521,15 @@ export default function BestGarageHeaters() {
           <div className='space-y-4'>
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm'>What is the best electric garage heater for a two-car garage?</h3>
-              <p className='text-slate-700 text-sm mt-2'>The Fahrenheat FUH54 (5,000W, 240V) is the best option for a well-insulated two-car garage up to 500 sq ft. For poorly insulated or larger two-car garages, step up to the King KB2410-1-B2-ECO (10,000W, 240V).</p>
+              <p className='text-slate-700 text-sm mt-2'>The Fahrenheat FUH54 (5,000W, 240V) is the best option for a well-insulated two-car garage up to 500 sq ft. For poorly insulated or larger two-car garages, step up to the King KB2410-1-B2-ECO or the VEVOR 10,000W (both 10,000W, 240V).</p>
             </div>
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm'>Is propane or electric cheaper for garage heating?</h3>
-              <p className='text-slate-700 text-sm mt-2'>Electric is cheaper per hour at lower BTU outputs (under 20,000 BTU). Propane becomes more cost-effective at higher BTU outputs in very cold conditions. Natural gas is the cheapest fuel source overall. Mini-split heat pumps are the cheapest electric option.</p>
+              <p className='text-slate-700 text-sm mt-2'>Propane is usually a little cheaper than electric per unit of heat. At $3.50 per gallon, the Mr. Heater Big Buddy costs about $0.69 an hour to produce 18,000 BTU, and at $0.15 per kWh a 5,000W electric heater costs about $0.75 an hour to produce about 17,000 BTU. Natural gas costs about half as much as either, and a mini-split heat pump is the cheapest electric option. Local prices can flip the result, so check your own rates.</p>
             </div>
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm'>Can I install a garage heater myself?</h3>
-              <p className='text-slate-700 text-sm mt-2'>120V plug-in heaters require no installation. 240V hardwired heaters require a dedicated electrical circuit - hire an electrician unless you are licensed. Natural gas heaters require professional installation. MrCool DIY mini-splits are designed for homeowner installation but still require 240V electrical work.</p>
+              <p className='text-slate-700 text-sm mt-2'>120V plug-in heaters require no installation. 240V hardwired heaters require a dedicated electrical circuit. Hire an electrician unless you are licensed. Natural gas heaters require professional installation. MrCool DIY mini-splits are designed for homeowner installation but still require 240V electrical work.</p>
             </div>
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm'>Are garage heaters safe to leave on overnight?</h3>
@@ -400,11 +537,19 @@ export default function BestGarageHeaters() {
             </div>
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm'>How much does it cost to run a garage heater all winter?</h3>
-              <p className='text-slate-700 text-sm mt-2'>A 5,000W electric heater used 4 hours/day, 5 days/week, for 20 weeks costs approximately $300 to $450 per winter at $0.15/kWh. A natural gas heater on the same schedule costs approximately $100 to $200. A mini-split costs approximately $75 to $150.</p>
+              <p className='text-slate-700 text-sm mt-2'>For a two-car garage that needs about 17,000 BTU (5,000 watts) of heat, run 4 hours a day, 5 days a week, for 20 weeks, expect about $300 a winter with an electric heater at $0.15 per kWh, about $260 with propane at $3.50 per gallon, about $130 with natural gas at $1.50 per therm, and about $90 to $120 with a mini-split. Those figures assume the heater runs the whole time. A thermostat that cycles the heater off, or a well-insulated garage, brings them down.</p>
             </div>
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm'>Do I need to vent my garage heater?</h3>
               <p className='text-slate-700 text-sm mt-2'>Electric heaters and mini-splits do not require venting. Natural gas heaters must be vented to the outside. Portable propane heaters require ventilation (an open window or cracked garage door) and a carbon monoxide detector.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-semibold text-slate-800 text-sm'>What size heater do I need for a 2-car garage?</h3>
+              <p className='text-slate-700 text-sm mt-2'>Most insulated two-car garages need about 4,000 to 5,800 watts (13,600 to 19,800 BTU), so a 5,000W heater like the Fahrenheat FUH54 is the right size. An uninsulated two-car garage needs roughly double: a 10,000W electric heater or a 45,000 BTU natural gas heater. Size up in very cold climates or if your ceilings are over 10 feet.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-semibold text-slate-800 text-sm'>What is the safest garage heater?</h3>
+              <p className='text-slate-700 text-sm mt-2'>Heaters that don't burn fuel are the safest: hardwired electric heaters and mini-splits produce no carbon monoxide. Put them on a dedicated circuit and keep the clearances listed in the manual. A vented natural gas heater installed by a pro is also safe. Portable propane heaters carry the most risk in a closed garage because they release carbon monoxide and moisture into the space. If you use one, crack the door, run a carbon monoxide detector, and never leave it on unattended. On any portable heater, look for tip-over and overheat shutoff.</p>
             </div>
           </div>
         </section>
@@ -507,6 +652,7 @@ export default function BestGarageHeaters() {
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(comparisonTableSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
     </>
   )
 }

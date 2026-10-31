@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const articleDates: Record<string, string> = {
+  "reviews/best-garage-heaters": "2026-10-30",
   "cost-guides/garage-insulation-cost": "2026-10-29",
   "cost-guides/garage-addition-cost": "2026-10-29",
   "reviews/best-garage-workbenches": "2026-10-29",
