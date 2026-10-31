@@ -25,7 +25,7 @@ const faqSchema = {
       "name": "Is propane or electric cheaper for garage heating?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Propane is usually a little cheaper than electric per unit of heat. At $3.50 per gallon, the Mr. Heater Big Buddy costs about $0.69 an hour to produce 18,000 BTU, and at $0.15 per kWh a 5,000W electric heater costs about $0.75 an hour to produce about 17,000 BTU. Natural gas costs about half as much as either, and a mini-split heat pump is the cheapest electric option. Local prices can flip the result, so check your own rates."
+        "text": "Propane is usually a little cheaper than electric per unit of heat. The Mr. Heater Big Buddy costs about $0.69 an hour to produce 18,000 BTU, and at $0.16 per kWh a 5,000W electric heater costs about $0.80 an hour to produce about 17,000 BTU. Natural gas costs about half as much as either, and a mini-split heat pump is the cheapest electric option. Local prices can flip the result, so check your own rates."
       }
     },
     {
@@ -49,7 +49,7 @@ const faqSchema = {
       "name": "How much does it cost to run a garage heater all winter?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "For a two-car garage that needs about 17,000 BTU (5,000 watts) of heat, run 4 hours a day, 5 days a week, for 20 weeks, expect about $300 a winter with an electric heater at $0.15 per kWh, about $260 with propane at $3.50 per gallon, about $130 with natural gas at $1.50 per therm, and about $90 to $120 with a mini-split. Those figures assume the heater runs the whole time. A thermostat that cycles the heater off, or a well-insulated garage, brings them down."
+        "text": "Run 4 hours a day, 5 days a week, for 20 weeks, a 5,000W electric heater costs about $320 a winter at $0.16 per kWh. A portable propane heater at 18,000 BTU costs about $276, a 45,000 BTU natural gas heater about $196, and a mini-split about $107. Those figures assume the heater runs the whole time. A thermostat that cycles it off, or a well-insulated garage, brings them down."
       }
     },
     {
@@ -425,7 +425,7 @@ export default function BestGarageHeaters() {
           <p className='text-slate-700 text-sm leading-relaxed mb-4'>Choosing the right size heater depends on your garage dimensions, insulation level, climate zone, and target temperature. An undersized heater will run constantly without reaching your desired temperature. An oversized heater cycles on and off too frequently, reducing efficiency.</p>
           <h3 className='font-semibold text-slate-800 text-sm mb-2'>Quick Sizing Formula</h3>
           <p className='text-slate-700 text-sm leading-relaxed mb-3'>For an insulated garage with 8 to 10-foot ceilings, plan on about 10 watts of heat per square foot. That's the rule behind most electric heater coverage ratings: a 5,000W heater covers about 500 sq ft, and a 10,000W heater about 1,000 sq ft. For an uninsulated garage, plan on roughly double. To convert watts to BTU, multiply by 3.412.</p>
-          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Size up if you live somewhere with long, hard winters, if your ceilings are over 10 feet, or if you want the garage well above 50 F. Gas heaters are rated by fuel input, and most garage unit heaters turn about 80 percent of that into heat, so a 45,000 BTU gas heater delivers about 36,000 BTU.</p>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Size up if you live somewhere with long, hard winters, if your ceilings are over 10 feet, or if you want the garage well above 50 F. Gas heaters are rated by fuel input, and most garage unit heaters turn about 80 percent of that into heat, so a 45,000 BTU gas heater delivers about 36,000 BTU. For a more detailed formula based on your climate, see our <Link href='/guides/garage-heater-guide' className='text-amber-700 underline'>garage heater guide</Link>.</p>
           <h3 className='font-semibold text-slate-800 text-sm mb-2'>Sizing by Garage Type</h3>
           <div className='overflow-x-auto mb-4'>
             <table className='w-full text-sm border-collapse'>
@@ -474,19 +474,7 @@ export default function BestGarageHeaters() {
 
         <section className='mb-8'>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Which Garage Heater Is Cheapest to Run?</h2>
-          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Every electric resistance heater (forced-air, infrared, or 120V plug-in) turns electricity into heat at the same rate, so no electric heater is "more efficient" than another. What changes the cost is the fuel. Here is what 10,000 BTU of heat costs by heater type at typical prices:</p>
-          <div className='overflow-x-auto mb-4'>
-            <table className='w-full text-sm border-collapse'>
-              <thead><tr className='bg-slate-100'><th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Heater Type</th><th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Cost per 10,000 BTU of Heat</th><th className='text-left p-3 font-semibold text-slate-800 border-b border-slate-200'>Prices Used</th></tr></thead>
-              <tbody>
-                <tr className='border-b border-slate-200'><td className='p-3 text-slate-700'>Electric (forced-air, infrared, 120V)</td><td className='p-3 text-slate-700'>About $0.44</td><td className='p-3 text-slate-700'>$0.15 per kWh</td></tr>
-                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-3 text-slate-700'>Portable propane (unvented)</td><td className='p-3 text-slate-700'>About $0.38</td><td className='p-3 text-slate-700'>$3.50 per gallon</td></tr>
-                <tr className='border-b border-slate-200'><td className='p-3 text-slate-700'>Natural gas (vented unit heater)</td><td className='p-3 text-slate-700'>About $0.19</td><td className='p-3 text-slate-700'>$1.50 per therm, 80% efficient</td></tr>
-                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-3 text-slate-700'>Mini-split heat pump</td><td className='p-3 text-slate-700'>About $0.13 to $0.18</td><td className='p-3 text-slate-700'>$0.15 per kWh</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p className='text-slate-700 text-sm leading-relaxed mb-4'>A mini-split heat pump and natural gas are the cheapest to run. Electric resistance and propane cost about twice as much per unit of heat, but they cost far less to buy and install. Your local electricity, gas, and propane prices can change the order, so plug in your own rates.</p>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Every electric resistance heater (forced-air, infrared, or 120V plug-in) turns electricity into heat at the same rate, so no electric heater is more efficient than another. The fuel decides the cost. Per unit of heat, a mini-split heat pump and natural gas are the cheapest to run. Electric resistance heaters and portable propane cost the most to run, but they cost far less to buy and install. For cost per hour and per season by heater type, see the operating cost table in our <Link href='/guides/garage-heater-guide' className='text-amber-700 underline'>garage heater guide</Link>.</p>
         </section>
 
         {/* Safety */}
@@ -525,7 +513,7 @@ export default function BestGarageHeaters() {
             </div>
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm'>Is propane or electric cheaper for garage heating?</h3>
-              <p className='text-slate-700 text-sm mt-2'>Propane is usually a little cheaper than electric per unit of heat. At $3.50 per gallon, the Mr. Heater Big Buddy costs about $0.69 an hour to produce 18,000 BTU, and at $0.15 per kWh a 5,000W electric heater costs about $0.75 an hour to produce about 17,000 BTU. Natural gas costs about half as much as either, and a mini-split heat pump is the cheapest electric option. Local prices can flip the result, so check your own rates.</p>
+              <p className='text-slate-700 text-sm mt-2'>Propane is usually a little cheaper than electric per unit of heat. The Mr. Heater Big Buddy costs about $0.69 an hour to produce 18,000 BTU, and at $0.16 per kWh a 5,000W electric heater costs about $0.80 an hour to produce about 17,000 BTU. Natural gas costs about half as much as either, and a mini-split heat pump is the cheapest electric option. Local prices can flip the result, so check your own rates.</p>
             </div>
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm'>Can I install a garage heater myself?</h3>
@@ -537,7 +525,7 @@ export default function BestGarageHeaters() {
             </div>
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm'>How much does it cost to run a garage heater all winter?</h3>
-              <p className='text-slate-700 text-sm mt-2'>For a two-car garage that needs about 17,000 BTU (5,000 watts) of heat, run 4 hours a day, 5 days a week, for 20 weeks, expect about $300 a winter with an electric heater at $0.15 per kWh, about $260 with propane at $3.50 per gallon, about $130 with natural gas at $1.50 per therm, and about $90 to $120 with a mini-split. Those figures assume the heater runs the whole time. A thermostat that cycles the heater off, or a well-insulated garage, brings them down.</p>
+              <p className='text-slate-700 text-sm mt-2'>Run 4 hours a day, 5 days a week, for 20 weeks, a 5,000W electric heater costs about $320 a winter at $0.16 per kWh. A portable propane heater at 18,000 BTU costs about $276, a 45,000 BTU natural gas heater about $196, and a mini-split about $107. Those figures assume the heater runs the whole time. A thermostat that cycles it off, or a well-insulated garage, brings them down.</p>
             </div>
             <div className='border border-slate-200 rounded-lg p-4'>
               <h3 className='font-semibold text-slate-800 text-sm'>Do I need to vent my garage heater?</h3>
